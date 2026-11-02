@@ -33,20 +33,21 @@
   .lang button[aria-pressed="true"] { background: var(--green); color: var(--ink); }
   @media (max-width: 760px) { nav a { display: none; } }
 
-  .hero { position: relative; overflow: hidden; padding: 128px 0 112px; }
-  #rain { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .35; }
-  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 40%, rgba(0,0,0,.2), rgba(0,0,0,.85) 70%); pointer-events: none; }
+  .hero { position: relative; overflow: hidden; padding: 104px 0 0; }
+  #rain { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .45; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #000 0%, rgba(0,0,0,.94) 45%, rgba(0,0,0,.55) 75%, rgba(0,0,0,.25) 100%), linear-gradient(0deg, #000 0%, transparent 30%); pointer-events: none; }
   .hero .wrap { position: relative; z-index: 1; }
-  .prompt { font: 14px/1 var(--mono); color: var(--green); margin-bottom: 22px; }
+  .prompt { font: 13px/1 var(--mono); color: var(--green); margin-bottom: 28px; letter-spacing: .02em; }
   .prompt::after { content: "_"; animation: blink 1s steps(1) infinite; }
   @keyframes blink { 50% { opacity: 0; } }
-  .hero h1 { font-size: clamp(34px, 5vw, 58px); line-height: 1.08; margin: 0 0 24px; max-width: 900px; letter-spacing: -0.025em; }
-  .hero p { font-size: 19px; line-height: 1.6; color: var(--muted); max-width: 640px; margin: 0 0 36px; }
+  .hero h1 { font-size: clamp(34px, 4.4vw, 52px); line-height: 1.1; margin: 0 0 24px; max-width: 860px; letter-spacing: -0.025em; text-wrap: balance; }
+  h2, h3 { text-wrap: balance; }
+  .hero p { font-size: 18px; line-height: 1.65; color: var(--muted); max-width: 600px; margin: 0 0 40px; }
   .btn { display: inline-flex; align-items: center; gap: 6px; background: var(--green); color: var(--ink); padding: 13px 22px; border: 1px solid var(--green); border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 16px; line-height: 1.2; box-shadow: 0 0 18px rgba(44,249,122,.25); }
   .actions { display: flex; flex-wrap: wrap; gap: 12px; }
   .btn:hover { box-shadow: 0 0 26px rgba(44,249,122,.5); }
   .btn.ghost { background: transparent; color: var(--green); border: 1px solid var(--green-dim); box-shadow: none; }
-  .facts { display: flex; flex-wrap: wrap; gap: 12px 32px; margin-top: 48px; color: var(--muted); font: 13px var(--mono); }
+  .facts { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 88px; padding: 22px 0 26px; border-top: 1px solid var(--line); color: var(--muted); font: 13px var(--mono); }
   .facts > span::before { content: "> "; color: var(--green); }
 
   section { padding: 104px 0; border-top: 1px solid var(--line); }
@@ -124,12 +125,13 @@
   .member p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
   .member .tag { margin-bottom: 8px; }
   .upd { display: inline-block; margin-left: 4px; }
-  @media (max-width: 600px) { section { padding: 72px 0; } .hero { padding: 88px 0 80px; } .cta-box { padding: 36px 24px; } .feature { gap: 40px; } }
+  @media (max-width: 600px) { section { padding: 72px 0; } .hero { padding: 72px 0 0; } .facts { margin-top: 56px; gap: 10px; flex-direction: column; } .cta-box { padding: 36px 24px; } .feature { gap: 40px; } }
   .soc { display: grid; place-items: center; width: 50px; height: 50px; border: 1px solid var(--green-dim); border-radius: 10px; color: var(--green); transition: background .2s, color .2s, box-shadow .2s; }
   .soc svg { width: 22px; height: 22px; }
   .soc:hover, .soc:focus-visible { background: var(--green); color: var(--ink); box-shadow: 0 0 22px rgba(44,249,122,.5); }
   .btn.ghost:hover, .btn.ghost:focus-visible { background: rgba(44,249,122,.1); box-shadow: 0 0 22px rgba(44,249,122,.35); }
   @media (max-width: 600px) { .clips { padding: 24px; } .clip-links { gap: 10px; } .soc { width: 44px; height: 44px; } }
+  @media (max-width: 760px) { .hero::after { background: rgba(0,0,0,.86); } }
   [data-lang="en"] .de, [data-lang="de"] .en { display: none; }
   @media (prefers-reduced-motion: reduce) { #rain { display: none; } .prompt::after { animation: none; } }
 </style>
@@ -164,7 +166,7 @@
       <div class="prompt">&gt; hidemarkov --init</div>
       <h1>
         <span class="de">Wir machen KMU stark genug, um mit den <span class="g">Grossen mitzuhalten.</span></span>
-        <span class="en">We lift small and mid-sized companies to <span class="g">keep up with the big players.</span></span>
+        <span class="en">We lift small and mid&#8209;sized companies to <span class="g">keep up with the big players.</span></span>
       </h1>
       <p>
         <span class="de">Konzerne haben eigene IT-Abteilungen. Sie haben HideMarkov: Process Mining, Automatisierung und Anwendungsentwicklung auf Konzern-Niveau – gemeinsam mit Ihnen, für KMU in der Schweiz und in Deutschland.</span>
