@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>HideMarkov - Process mining, automation & application development for SMEs</title>
+<meta name="description" content="We lift small and mid-sized companies to keep up with the big players: process mining, automation and application development for SMEs in Switzerland and Germany. Data stays in the EU.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://hidemarkov.com/en/">
+<link rel="alternate" hreflang="de" href="https://hidemarkov.com/">
+<link rel="alternate" hreflang="en" href="https://hidemarkov.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://hidemarkov.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='421 204 694 384'%3E%3Cg fill='%232CF97A'%3E%3Cpath d='M441 224H515V355H699.5L760 401V568H685V420H515V568H441Z'/%3E%3Cpath d='M685 224L890 380L1095 224V568H1020V377L890 476L685 320Z'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HideMarkov">
+<meta property="og:url" content="https://hidemarkov.com/en/">
+<meta property="og:title" content="HideMarkov - Process mining, automation & application development for SMEs">
+<meta property="og:description" content="We lift small and mid-sized companies to keep up with the big players: process mining, automation and application development for SMEs in Switzerland and Germany. Data stays in the EU.">
+<meta property="og:image" content="https://hidemarkov.com/og-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HideMarkov - Process mining, automation & application development for SMEs">
+<meta name="twitter:description" content="We lift small and mid-sized companies to keep up with the big players: process mining, automation and application development for SMEs in Switzerland and Germany. Data stays in the EU.">
+<meta name="twitter:image" content="https://hidemarkov.com/og-en.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "HideMarkov", "url": "https://hidemarkov.com/", "logo": "https://hidemarkov.com/icon-512.png", "image": "https://hidemarkov.com/og-en.png", "description": "We lift small and mid-sized companies to keep up with the big players: process mining, automation and application development for SMEs in Switzerland and Germany. Data stays in the EU.", "email": "info@hidemarkov.com", "address": {"@type": "PostalAddress", "streetAddress": "Charlottenweg 3a", "postalCode": "8212", "addressLocality": "Neuhausen am Rheinfall", "addressCountry": "CH"}, "areaServed": ["CH", "DE"], "knowsAbout": ["Process Mining", "Automation", "Application development"], "sameAs": ["https://www.youtube.com/@HideMarkov", "https://www.tiktok.com/@markovclips", "https://www.instagram.com/markovclips", "https://www.facebook.com/profile.php?id=61595314524714", "https://x.com/MarkovClips"]}</script>
+<style>
+  :root {
+    --bg: #000000; --card: #06120a; --line: #0f3a1d;
+    --green: #2CF97A; --green-dim: #1fb85a; --green-deep: #031a0b;
+    --text: #f2fff6; --muted: #9cc7a8; --ink: #000000;
+    --mono: "Cascadia Code", Consolas, "SFMono-Regular", Menlo, "Courier New", monospace;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--green); }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+  .g { color: var(--green); }
+
+  header { position: sticky; top: 0; z-index: 10; background: rgba(0,0,0,.85); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; font-size: 19px; }
+  .logo .mark { height: 26px; width: auto; filter: drop-shadow(0 0 6px rgba(44,249,122,.45)); }
+  nav { display: flex; align-items: center; gap: 16px; }
+  nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
+  nav a:hover { color: var(--green); }
+  .lang { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; font: 600 13px/1 var(--mono); }
+  .lang button { background: none; border: 0; color: var(--muted); padding: 8px 11px; cursor: pointer; font: inherit; }
+  .lang button[aria-pressed="true"] { background: var(--green); color: var(--ink); }
+
+  .hero { position: relative; overflow: hidden; padding: 72px 0 0; }
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 56px; align-items: center; }
+  .hero-grid .facts { grid-column: 1 / -1; }
+  .term { background: rgba(3, 14, 7, .92); border: 1px solid var(--green-dim); border-radius: 12px; box-shadow: 0 0 40px rgba(44,249,122,.12); overflow: hidden; font: 13.5px/1.75 var(--mono); }
+  .term-bar { display: flex; align-items: center; gap: 7px; padding: 11px 14px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+  .term-bar i { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+  .term-bar span { margin-left: 8px; }
+  .term-body { padding: 18px 20px 20px; }
+  .term-body p { margin: 0; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; opacity: 0; animation: termIn .35s forwards; }
+  .term-body b { color: var(--green); font-weight: 600; }
+  .term-body .o { color: var(--muted); padding-left: 16px; margin-bottom: 6px; }
+  .term-body .o::before { content: "› "; color: var(--green-dim); }
+  .term-body .w::before { content: "! "; color: #f5c451; }
+  .term-body .ok::before { content: "✓ "; color: var(--green); }
+  .term-body .l1 { animation-delay: .2s; } .term-body .l2 { animation-delay: .7s; } .term-body .l3 { animation-delay: 1.2s; }
+  .term-body .l4 { animation-delay: 1.8s; } .term-body .l5 { animation-delay: 2.3s; } .term-body .l6 { animation-delay: 2.9s; }
+  .term-body .l7 { animation-delay: 3.4s; } .term-body .l8 { animation-delay: 3.9s; }
+  .cur { display: inline-block; width: 8px; height: 15px; background: var(--green); vertical-align: -2px; animation: blink 1s steps(1) infinite; }
+  @keyframes termIn { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+  @media (max-width: 960px) { .hero-grid { grid-template-columns: 1fr; } .term { display: none; } }
+  #rain { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .45; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #000 0%, rgba(0,0,0,.95) 50%, rgba(0,0,0,.6) 80%, rgba(0,0,0,.35) 100%), linear-gradient(0deg, #000 0%, transparent 30%); pointer-events: none; }
+  .hero .wrap { position: relative; z-index: 1; }
+  .prompt { font: 13px/1 var(--mono); color: var(--green); margin-bottom: 24px; letter-spacing: .02em; }
+  .prompt::after { content: "_"; animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .hero h1 { font-size: clamp(34px, 4vw, 50px); line-height: 1.1; margin: 0 0 22px; letter-spacing: -0.025em; text-wrap: balance; }
+  h2, h3 { text-wrap: balance; }
+  .hero-text > p { font-size: 18px; line-height: 1.65; color: var(--muted); max-width: 580px; margin: 0 0 34px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; background: var(--green); color: var(--ink); padding: 13px 22px; border: 1px solid var(--green); border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 16px; line-height: 1.2; box-shadow: 0 0 18px rgba(44,249,122,.25); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn:hover { box-shadow: 0 0 26px rgba(44,249,122,.5); }
+  .btn.ghost { background: transparent; color: var(--green); border: 1px solid var(--green-dim); box-shadow: none; }
+  .facts { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 16px; padding: 22px 0 24px; border-top: 1px solid var(--line); color: var(--muted); font: 13px var(--mono); }
+  .facts > span::before { content: "> "; color: var(--green); }
+
+  section { padding: 104px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.015em; }
+  h3 { line-height: 1.3; }
+  .kicker { font: 600 12px var(--mono); color: var(--green); text-transform: uppercase; letter-spacing: .12em; margin-bottom: 14px; }
+  .lead { color: var(--muted); font-size: 18px; line-height: 1.6; max-width: 640px; margin: 0 0 48px; }
+  .sub { font: 600 12px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .12em; margin: 56px 0 20px; }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 28px; transition: border-color .2s, box-shadow .2s; }
+  .card:hover { border-color: var(--green-dim); box-shadow: 0 0 22px rgba(44,249,122,.12); }
+  .card h3 { margin: 0 0 12px; font-size: 19px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15.5px; line-height: 1.6; }
+  .tag { display: block; font: 600 12px var(--mono); color: var(--green); letter-spacing: .06em; margin-bottom: 16px; }
+  .stack { margin-top: 16px; font: 13px var(--mono); color: var(--green-dim); border-top: 1px solid var(--line); padding-top: 12px; }
+
+  .feature { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+  .feature .lead { margin-bottom: 32px; }
+  @media (max-width: 860px) { .feature { grid-template-columns: 1fr; } }
+  ul.check { list-style: none; padding: 0; margin: 0; }
+  ul.check li { padding: 14px 0 14px 32px; position: relative; border-bottom: 1px solid var(--line); color: var(--text); font-size: 16px; }
+  ul.check li:first-child { border-top: 1px solid var(--line); }
+  ul.check li::before { content: "✓"; position: absolute; left: 4px; top: 14px; color: var(--green); font-weight: 700; }
+
+
+  .cta-box { border: 1px solid var(--green-dim); border-radius: 12px; background: var(--green-deep); padding: 56px 48px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 32px; }
+  .cta-box h2 { margin-bottom: 10px; }
+  .cta-box .lead { margin: 0; }
+
+  .legal { border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  .legal summary { display: flex; justify-content: space-between; gap: 16px; padding-top: 28px; padding-bottom: 28px; cursor: pointer; font: 12px var(--mono); color: var(--muted); list-style: none; }
+  .legal-link { text-decoration: underline; text-underline-offset: 3px; }
+  .legal summary::-webkit-details-marker { display: none; }
+  .legal summary:hover .legal-link { color: var(--green); }
+  .legal[open] { padding-bottom: 28px; }
+  .legal h2 { font-size: 15px; color: var(--text); margin: 18px 0 6px; }
+  .legal p { margin: 0; }
+
+  .acc { border: 1px solid var(--line); border-radius: 10px; background: var(--card); margin-bottom: 12px; }
+  .acc summary { cursor: pointer; padding: 20px 28px; font-weight: 700; list-style: none; }
+  .acc summary::-webkit-details-marker { display: none; }
+  .acc summary::before { content: "+ "; color: var(--green); font-family: var(--mono); }
+  .acc[open] summary::before { content: "− "; }
+  .acc > div { padding: 0 28px 24px; }
+  .tbl { overflow-x: auto; }
+  .tbl table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .tbl td { padding: 8px 10px; border-top: 1px solid var(--line); vertical-align: top; color: var(--muted); }
+  .tbl td:first-child { white-space: nowrap; width: 1%; }
+  code { font-family: var(--mono); color: var(--green); font-size: .92em; }
+  .tools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 40px; }
+  @media (max-width: 900px) { .tools { grid-template-columns: 1fr; } }
+  .toolgroup h4 { margin: 16px 0 8px; font: 600 12px var(--mono); color: var(--green); text-transform: uppercase; letter-spacing: .1em; }
+  .toolgroup ul { list-style: none; padding: 0; margin: 0; }
+  .toolgroup li { padding: 6px 0; color: var(--muted); font-size: 14.5px; line-height: 1.5; }
+  .toolgroup a { font-weight: 600; text-decoration: none; }
+  .news { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  @media (max-width: 900px) { .news { grid-template-columns: 1fr; } }
+  .news a.item { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 24px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s; }
+  .news a.item:hover { border-color: var(--green-dim); box-shadow: 0 0 22px rgba(44,249,122,.12); }
+  .news .meta { font: 12px var(--mono); color: var(--green); margin-bottom: 12px; }
+  .news .t { font-weight: 700; font-size: 17px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .news .s { color: var(--muted); font-size: 14.5px; line-height: 1.55; margin-top: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .upd, .muted { color: var(--muted); font: 12px var(--mono); }
+  .clips { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; margin-top: 40px; padding: 28px 32px; border: 1px solid var(--green-dim); border-radius: 10px; background: var(--green-deep); }
+  .clips h3 { margin: 0 0 4px; }
+  .clips p { margin: 0; color: var(--muted); }
+  .clip-links { display: flex; flex-wrap: wrap; gap: 12px; }
+  @media (max-width: 600px) { .tools, .news { grid-template-columns: 1fr; } }
+  .team { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  @media (max-width: 900px) { .team { grid-template-columns: 1fr; } }
+  .member { border-top: 2px solid var(--green); padding-top: 18px; }
+  .member h3 { margin: 0 0 8px; font-size: 17px; }
+  .member p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
+  .member .tag { margin-bottom: 8px; }
+  .upd { display: inline-block; margin-left: 4px; }
+  @media (max-width: 600px) { section { padding: 72px 0; } .hero { padding: 56px 0 0; } .hero-grid { gap: 40px; } .facts { margin-top: 0; gap: 10px; flex-direction: column; } .cta-box { padding: 36px 24px; } .feature { gap: 40px; } }
+  .soc { display: grid; place-items: center; width: 50px; height: 50px; border: 1px solid var(--green-dim); border-radius: 10px; color: var(--green); transition: background .2s, color .2s, box-shadow .2s; }
+  .soc svg { width: 22px; height: 22px; }
+  .soc:hover, .soc:focus-visible { background: var(--green); color: var(--ink); box-shadow: 0 0 22px rgba(44,249,122,.5); }
+  .btn.ghost:hover, .btn.ghost:focus-visible { background: rgba(44,249,122,.1); box-shadow: 0 0 22px rgba(44,249,122,.35); }
+  @media (max-width: 600px) { .clips { padding: 24px; } .clip-links { gap: 10px; } .soc { width: 44px; height: 44px; } }
+  @media (max-width: 760px) { .hero::after { background: rgba(0,0,0,.86); } }
+  .head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px 72px; align-items: end; margin-bottom: 48px; }
+  .head h2 { margin-bottom: 0; }
+  .head .lead { margin: 0; max-width: none; }
+  @media (max-width: 900px) { .head { grid-template-columns: 1fr; } }
+  .grid > .card, .team > .member { display: grid; grid-template-rows: subgrid; grid-row: span 3; row-gap: 0; }
+  .grid > .card > p, .team > .member > p { align-self: start; }
+  .news > a.item { display: grid; grid-template-rows: subgrid; grid-row: span 3; row-gap: 0; align-content: start; }
+  .news .s { align-self: start; }
+  /* menu */
+  .menu { display: none; background: none; border: 1px solid var(--line); border-radius: 6px; color: var(--green); width: 40px; height: 36px; cursor: pointer; font: 18px/1 var(--mono); }
+  .navlinks { display: flex; align-items: center; gap: 26px; }
+  @media (max-width: 900px) {
+    .menu { display: inline-grid; place-items: center; }
+    .navlinks { display: none; position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0; background: #000; z-index: 20; box-shadow: 0 24px 40px rgba(0,0,0,.8); border-bottom: 1px solid var(--line); padding: 8px 24px 16px; }
+    .navlinks a { display: block; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 16px; }
+    .navlinks a:last-child { border-bottom: 0; }
+    header.open .navlinks { display: flex; }
+  }
+  @media (min-width: 1700px) {
+    html { font-size: 17.5px; }
+    .wrap { max-width: 1360px; }
+    body { font-size: 18px; }
+    .hero h1 { font-size: 60px; }
+    .hero-text > p, .lead { font-size: 19px; }
+    h2 { font-size: 46px; }
+    .card h3 { font-size: 21px; }
+    .card p, .member p { font-size: 16.5px; }
+    .term { font-size: 15px; }
+    section { padding: 128px 0; }
+  }
+  @media (min-width: 2300px) {
+    .wrap { max-width: 1560px; }
+    body { font-size: 19px; }
+    .hero h1 { font-size: 68px; }
+    h2 { font-size: 52px; }
+    .term { font-size: 16px; }
+  }
+  [data-lang="en"] .de, [data-lang="de"] .en { display: none; }
+  @media (prefers-reduced-motion: reduce) { #rain { display: none; } .prompt::after, .cur { animation: none; } .term-body p { animation: none; opacity: 1; } }
+</style>
+</head>
+<body data-lang="en">
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="HideMarkov">
+      <svg class="mark" viewBox="421 204 694 384" aria-hidden="true"><g fill="#2CF97A"><path d="M441 224H515V355H699.5L760 401V568H685V420H515V568H441Z"/><path d="M685 224L890 380L1095 224V568H1020V377L890 476L685 320Z"/></g></svg>
+      <span>Hide<span class="g">Markov</span></span>
+    </a>
+    <nav>
+      <div class="navlinks" id="navlinks">
+        <a href="#leistungen">Services</a>
+        <a href="#kaliber">Kaliber</a>
+        <a href="#warum">Why us</a>
+        <a href="#werkzeuge">Free tools</a>
+        <a href="#informatik">News</a>
+        <a href="#kontakt">Contact</a>
+      </div>
+      <div class="lang" role="group" aria-label="Sprache / Language">
+        <button type="button" data-set="de" aria-pressed="true">DE</button>
+        <button type="button" data-set="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="menu" type="button" aria-label="Menü / Menu" aria-expanded="false" aria-controls="navlinks">☰</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <canvas id="rain" aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+      <div class="prompt">&gt; hidemarkov --init</div>
+      <h1>
+        
+        We lift small and mid&#8209;sized companies to <span class="g">keep up with the big players.</span>
+      </h1>
+      <p>
+        
+        Big corporations have their own IT departments. You have HideMarkov: process mining, automation and application development at enterprise level - together with you, for SMEs in Switzerland and Germany.
+      </p>
+      <div class="actions">
+        <a class="btn" href="#kontakt">Book an intro call</a>
+        <a class="btn ghost" href="#kaliber">See Kaliber</a>
+      </div>
+      </div>
+      <div class="term" aria-hidden="true">
+        <div class="term-bar"><i></i><i></i><i></i><span>hidemarkov - zsh</span></div>
+        <div class="term-body">
+          <p class="l1"><b>$</b> hidemarkov mine --process quoting</p>
+          <p class="l2 o">Event logs read from ERP and Excel</p>
+          <p class="l3 o w">Bottleneck: approval waits for queries</p>
+          <p class="l4"><b>$</b> hidemarkov automate --reconcile</p>
+          <p class="l5 o ok">Reconciliation now runs automatically</p>
+          <p class="l6"><b>$</b> hidemarkov build --app</p>
+          <p class="l7 o ok">Ready to test - with your team</p>
+          <p class="l8"><b>$</b> <span class="cur"></span></p>
+        </div>
+      </div>
+      <div class="facts">
+        <span>Data stays in the EU</span>
+        <span>Isolated instance per client</span>
+        <span>Handed over with manuals</span>
+      </div>
+    </div>
+  </div>
+
+  <section id="leistungen">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Services</div>
+          <h2>Understand. Automate. Build.</h2>
+        </div>
+        <p class="lead">
+        
+        Together with your team - not over your head. You know your business, we bring the technology.
+      </p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="tag">01</div>
+          <h3>Process Mining</h3>
+          <p>We show how your processes really run - from the data in your systems, not from the org chart. You see where time is lost and where errors happen.</p>
+        </div>
+        <div class="card">
+          <div class="tag">02</div>
+          <h3>Automation</h3>
+          <p>Retyping, reconciling lists, compiling reports: software takes over repetitive work. Your people do what needs experience.</p>
+        </div>
+        <div class="card">
+          <div class="tag">03</div>
+          <h3>Application development</h3>
+          <p>Where standard software doesn't fit, we build your own application - web, database, integrations. Just like Kaliber for scaffolding.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kaliber">
+    <div class="wrap feature">
+      <div>
+        <div class="kicker">Our first product</div>
+        <h2>Kaliber - calculation for scaffolding</h2>
+        <p class="lead">
+          
+          HideMarkov began with a real problem: a scaffolding company spent days pricing tenders by hand. The answer was Kaliber - now mature enough for other scaffolding companies.
+        </p>
+        <a class="btn" href="https://scheibler-beratung.de/kaliber" target="_blank" rel="noopener">Visit Kaliber →</a>
+      </div>
+      <ul class="check">
+        <li>Import tender specs from GAEB (x83, x84, d83), PDF and Excel</li>
+        <li>Cost calculation per item, hourly rate derived from master data</li>
+        <li>Export: priced offer, VHB forms 221 and 223, priced GAEB x84</li>
+        <li>End to end: draft → offer → order &amp; change orders → close</li>
+        <li>Own isolated instance per client, data in the EU</li>
+        <li>Complete audit trail, nothing is hard-deleted</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="warum">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Why HideMarkov</div>
+          <h2>Enterprise experience. <span class="g">SME speed.</span></h2>
+        </div>
+        <p class="lead">We come from the IT landscapes of banks, insurers and aviation. That is where we learned how the big players analyse their processes, automate them and build their systems. We do exactly that for SMEs - without the enterprise budget and without the enterprise pace.</p>
+      </div>
+      <div class="grid">
+        <div class="card"><div class="tag">SOFTWARE</div><h3>Your own software, not Excel chaos</h3><p>Your process as an application that calculates exactly the way you do. No licence bundle you only half use.</p></div>
+        <div class="card"><div class="tag">DATA</div><h3>Your data stays yours</h3><p>Your own isolated instance, data in the EU, full export any time. No lock-in to a big vendor.</p></div>
+        <div class="card"><div class="tag">SPEED</div><h3>Running fast, handed over cleanly</h3><p>An early version you test yourself, then weekly improvements. With manuals so you stay independent.</p></div>
+      </div>
+      <div class="sub">Who is behind it</div>
+      <div class="team">
+        <div class="member"><div class="tag">IT CONSULTING</div><h3>Experience from the enterprise world</h3><p>Implementing and reviewing complex systems: ERP such as SAP, databases, cloud platforms such as Microsoft Azure.</p></div>
+        <div class="member"><div class="tag">ENGINEERING</div><h3>AI-assisted engineering team</h3><p>AI agents write, test and document code - a person reviews every change. That is why we are fast.</p></div>
+        <div class="member"><div class="tag">INDUSTRY PARTNERS</div><h3>Experts from your industry</h3><p>We work with experts from your industry. They make sure the software works the way your business does.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="werkzeuge">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Free toolbox</div>
+          <h2>Free for your team</h2>
+        </div>
+        <p class="lead">Cheat sheets and free tools we use every day ourselves. No sign-up, no catch.</p>
+      </div>
+      <details class="acc" open>
+        <summary>Free tools for process mining, automation and data</summary>
+        <div class="tools"><div class="toolgroup"><h4>Process mining</h4><ul><li><a href="https://processintelligence.solutions/pm4py" target="_blank" rel="noopener">PM4Py</a> - Python library to analyse processes from event logs</li><li><a href="https://promtools.org/" target="_blank" rel="noopener">ProM</a> - research classic with hundreds of algorithms</li><li><a href="https://github.com/bupaverse/bupaR" target="_blank" rel="noopener">bupaR</a> - process mining in R</li><li><a href="https://github.com/apromore/ApromoreCore" target="_blank" rel="noopener">Apromore Community</a> - open-source platform with a graphical interface</li></ul></div><div class="toolgroup"><h4>Automation</h4><ul><li><a href="https://learn.microsoft.com/power-automate/desktop-flows/introduction" target="_blank" rel="noopener">Power Automate Desktop</a> - included in Windows, automate clicks and Excel</li><li><a href="https://n8n.io" target="_blank" rel="noopener">n8n</a> - workflows between apps, self-hostable</li><li><a href="https://www.autohotkey.com" target="_blank" rel="noopener">AutoHotkey</a> - shortcuts and text snippets for Windows</li></ul></div><div class="toolgroup"><h4>Process modelling</h4><ul><li><a href="https://drawio.com" target="_blank" rel="noopener">draw.io</a> - diagrams and flowcharts in the browser</li><li><a href="https://bpmn.io" target="_blank" rel="noopener">bpmn.io</a> - BPMN models right in the browser</li><li><a href="https://camunda.com/download/modeler" target="_blank" rel="noopener">Camunda Modeler</a> - BPMN desktop tool</li></ul></div><div class="toolgroup"><h4>Data</h4><ul><li><a href="https://www.openrefine.org" target="_blank" rel="noopener">OpenRefine</a> - clean up messy spreadsheets</li><li><a href="https://www.metabase.com" target="_blank" rel="noopener">Metabase</a> - dashboards on your database</li><li><a href="https://dbeaver.io" target="_blank" rel="noopener">DBeaver</a> - one tool for almost any database</li><li><a href="https://www.libreoffice.org" target="_blank" rel="noopener">LibreOffice</a> - office suite without licence fees</li></ul></div><div class="toolgroup"><h4>Development</h4><ul><li><a href="https://code.visualstudio.com" target="_blank" rel="noopener">VS Code</a> - editor for code and scripts</li><li><a href="https://git-scm.com" target="_blank" rel="noopener">Git</a> - version control - no more <code>final_v3.xlsx</code></li><li><a href="https://www.python.org" target="_blank" rel="noopener">Python</a> - the language for automation and data</li><li><a href="https://www.postgresql.org" target="_blank" rel="noopener">PostgreSQL</a> - enterprise-grade database, free</li><li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a> - apps in containers (check the licence for companies)</li></ul></div><div class="toolgroup"><h4>Security &amp; reference</h4><ul><li><a href="https://keepassxc.org" target="_blank" rel="noopener">KeePassXC</a> - password manager, offline</li><li><a href="https://explainshell.com" target="_blank" rel="noopener">explainshell</a> - explains any Linux command piece by piece</li><li><a href="https://tldr.sh" target="_blank" rel="noopener">tldr</a> - short examples for thousands of commands</li><li><a href="https://ss64.com" target="_blank" rel="noopener">SS64</a> - reference for PowerShell, CMD, Bash</li></ul></div></div>
+      </details>
+      <details class="acc">
+        <summary>Linux: the 25 most important commands</summary>
+        <div><div class="tbl"><table><tr><td><code>pwd</code></td><td>Shows which folder you are in</td></tr><tr><td><code>ls -la</code></td><td>Lists all files, including hidden, with details</td></tr><tr><td><code>cd /pfad</code></td><td>Changes folder (<code>cd ..</code> = one level up)</td></tr><tr><td><code>mkdir -p a/b</code></td><td>Creates folders, nested too</td></tr><tr><td><code>cp -r quelle ziel</code></td><td>Copies files or whole folders</td></tr><tr><td><code>mv alt neu</code></td><td>Moves or renames</td></tr><tr><td><code>rm datei</code></td><td>Deletes a file - no recycle bin!</td></tr><tr><td><code>cat datei</code></td><td>Prints a file's content</td></tr><tr><td><code>less datei</code></td><td>Pages through large files (q = quit)</td></tr><tr><td><code>tail -f log.txt</code></td><td>Shows new lines of a log file live</td></tr><tr><td><code>grep -ri &quot;text&quot; .</code></td><td>Searches text in all files below</td></tr><tr><td><code>find . -name &quot;*.pdf&quot;</code></td><td>Finds files by name</td></tr><tr><td><code>df -h</code></td><td>Free disk space per drive</td></tr><tr><td><code>du -sh *</code></td><td>How big is each folder?</td></tr><tr><td><code>top / htop</code></td><td>What is eating CPU and RAM right now?</td></tr><tr><td><code>ps aux | grep name</code></td><td>Finds a running process</td></tr><tr><td><code>kill PID</code></td><td>Stops a process</td></tr><tr><td><code>chmod +x script.sh</code></td><td>Makes a script executable</td></tr><tr><td><code>sudo befehl</code></td><td>Runs a command as administrator</td></tr><tr><td><code>sudo apt update &amp;&amp; sudo apt upgrade</code></td><td>Updates all programs (Debian/Ubuntu)</td></tr><tr><td><code>ssh user@server</code></td><td>Connects securely to another machine</td></tr><tr><td><code>scp datei user@server:/ziel</code></td><td>Copies a file to a server</td></tr><tr><td><code>curl -I https://seite.ch</code></td><td>Checks whether a website responds</td></tr><tr><td><code>tar -czf backup.tgz ordner</code></td><td>Packs a folder into an archive</td></tr><tr><td><code>crontab -e</code></td><td>Schedules tasks automatically (e.g. every night)</td></tr></table></div></div>
+      </details>
+      <details class="acc">
+        <summary>Windows PowerShell: 13 everyday commands</summary>
+        <div><div class="tbl"><table><tr><td><code>Get-ChildItem</code></td><td>List files (like <code>ls</code>)</td></tr><tr><td><code>Get-Process | Sort CPU -Desc | Select -First 10</code></td><td>The 10 processes using most CPU</td></tr><tr><td><code>Stop-Process -Name programm</code></td><td>Stops a program</td></tr><tr><td><code>Get-Service | Where Status -eq Running</code></td><td>All running services</td></tr><tr><td><code>Get-Volume</code></td><td>Free space per drive</td></tr><tr><td><code>Test-NetConnection seite.ch -Port 443</code></td><td>Is a server/port reachable?</td></tr><tr><td><code>Get-NetIPAddress</code></td><td>Your own IP addresses</td></tr><tr><td><code>Resolve-DnsName seite.ch</code></td><td>Check a domain's DNS record</td></tr><tr><td><code>Get-FileHash datei.zip</code></td><td>Checksum - is the file unchanged?</td></tr><tr><td><code>Compress-Archive ordner backup.zip</code></td><td>Back up a folder as ZIP</td></tr><tr><td><code>Import-Csv daten.csv | Export-Excel</code></td><td>Read a CSV and save it as Excel (ImportExcel module)</td></tr><tr><td><code>winget upgrade --all</code></td><td>Update all installed programs</td></tr><tr><td><code>Get-Help befehl -Examples</code></td><td>Examples for any command</td></tr></table></div></div>
+      </details>
+    </div>
+  </section>
+
+  <section id="informatik">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Computer science</div>
+          <h2>What's new in computer science</h2>
+        </div>
+        <p class="lead">AI, software, security and algorithms - refreshed automatically every few hours. <span class="upd" data-upd></span></p>
+      </div>
+      <div class="news" id="news-cs"><p class="muted">Loading news …</p></div>
+    </div>
+  </section>
+
+  <section id="wissenschaft">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Science</div>
+          <h2>What's new in science</h2>
+        </div>
+        <p class="lead">Physics, mathematics, biology and space - refreshed automatically every few hours. <span class="upd" data-upd></span></p>
+      </div>
+      <div class="news" id="news-science"><p class="muted">Loading news …</p></div>
+      <div class="clips">
+        <div>
+          <h3>MarkovClips</h3>
+          <p>Science and computer science in under a minute.</p>
+        </div>
+        <div class="clip-links">
+          <a class="soc" href="https://www.youtube.com/@HideMarkov" target="_blank" rel="noopener" aria-label="MarkovClips auf YouTube" title="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M6.5 5h11A4.5 4.5 0 0 1 22 9.5v5a4.5 4.5 0 0 1-4.5 4.5h-11A4.5 4.5 0 0 1 2 14.5v-5A4.5 4.5 0 0 1 6.5 5zM10 8.8v6.4l5.6-3.2z"/></svg></a>
+          <a class="soc" href="https://www.tiktok.com/@markovclips" target="_blank" rel="noopener" aria-label="MarkovClips auf TikTok" title="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 2.5h3.2a4.6 4.6 0 0 0 4.3 4.2v3.3a7.8 7.8 0 0 1-4.3-1.4v6.6a6.3 6.3 0 1 1-6.3-6.3h.6v3.4a3 3 0 1 0 2.5 2.9z"/></svg></a>
+          <a class="soc" href="https://www.instagram.com/markovclips" target="_blank" rel="noopener" aria-label="MarkovClips auf Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.3" fill="currentColor"/></svg></a>
+          <a class="soc" href="https://www.facebook.com/profile.php?id=61595314524714" target="_blank" rel="noopener" aria-label="MarkovClips auf Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.6 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9a23 23 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3v2.4H7.4v3.3h2.8V22z"/></svg></a>
+          <a class="soc" href="https://x.com/MarkovClips" target="_blank" rel="noopener" aria-label="MarkovClips auf X" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.5 3.5h5l12 17h-5z"/><path d="M20 3.5l-6.6 7.4M4 20.5l6.7-7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <div class="wrap">
+      <div class="cta-box">
+        <div>
+          <div class="kicker">Contact</div>
+          <h2>Let's talk</h2>
+          <p class="lead">Show us the process that costs you the most time. We'll tell you whether software can fix it and roughly what it would cost.</p>
+        </div>
+        <a class="btn" href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<details class="legal" id="impressum">
+  <summary class="wrap"><span>© <span id="y">2026</span> HideMarkov</span><span class="legal-link">Impressum · Privacy</span></summary>
+  <div class="wrap">
+    <h2>Impressum</h2>
+    <p>
+      HideMarkov<br>
+      Owner: Sebastian Kustosz<br>
+      Charlottenweg 3a<br>
+      8212 Neuhausen am Rheinfall<br>
+      Switzerland<br>
+      E-Mail: <a href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
+    </p>
+    <h2 id="datenschutz">Privacy</h2>
+    <p>
+      
+      This website sets no cookies, loads no external fonts or scripts and uses no analytics or tracking. When you visit, the hosting provider processes technically necessary data (e.g. IP address, time, page requested) in server logs to deliver and secure the site. If you email us, we use your details only to handle your request. The controller is named in the imprint above; you can request access, correction or deletion there.
+      
+      Hosting: GitHub Pages (GitHub, Inc., USA; EU-US Data Privacy Framework).
+    </p>
+  </div>
+</details>
+
+
+<script>
+  (function () {
+    var body = document.body, btns = document.querySelectorAll('.lang button');
+    // German lives at /, English at /en/ (separate URLs so search engines index both languages)
+    var lang = body.getAttribute('data-lang');
+    btns.forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.set === lang));
+      b.addEventListener('click', function () {
+        if (b.dataset.set !== lang) location.href = (b.dataset.set === 'en' ? '/en/' : '/') + location.hash;
+      });
+    });
+    document.getElementById('y').textContent = new Date().getFullYear();
+    function openLegal() { if (/^#(impressum|datenschutz)$/.test(location.hash)) document.getElementById('impressum').open = true; }
+    openLegal(); window.addEventListener('hashchange', openLegal);
+    document.querySelectorAll('a[href="#impressum"], a[href="#datenschutz"]').forEach(function (a) {
+      a.addEventListener('click', function () { document.getElementById('impressum').open = true; });
+    });
+
+    // Menu on tablets and phones
+    var header = document.querySelector('header'), menu = document.querySelector('.menu');
+    menu.addEventListener('click', function () {
+      var open = header.classList.toggle('open');
+      menu.setAttribute('aria-expanded', String(open)); menu.textContent = open ? '✕' : '☰';
+    });
+    document.querySelectorAll('.navlinks a').forEach(function (a) {
+      a.addEventListener('click', function () { header.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.textContent = '☰'; });
+    });
+
+    // News feeds from news.json (refreshed by a GitHub job; same origin, no third-party requests)
+    function render(id, items) {
+      var box = document.getElementById(id); box.textContent = '';
+      (items || []).forEach(function (it) {
+        var a = document.createElement('a'); a.className = 'item'; a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+        var m = document.createElement('div'); m.className = 'meta'; m.textContent = it.date + ' · ' + it.source;
+        var t = document.createElement('div'); t.className = 't'; t.textContent = it.title;
+        a.appendChild(m); a.appendChild(t);
+        if (it.summary) { var x = document.createElement('div'); x.className = 's'; x.textContent = it.summary; a.appendChild(x); }
+        box.appendChild(a);
+      });
+    }
+    fetch('/news.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
+      render('news-cs', d.cs || d.items);
+      render('news-science', d.science);
+      document.querySelectorAll('[data-upd]').forEach(function (e) { e.textContent = '· ' + d.updated.replace('T', ' ').slice(0, 16) + ' UTC'; });
+    }).catch(function () {
+      ['news-cs', 'news-science'].forEach(function (id) { document.getElementById(id).innerHTML = '<p class="muted">News gerade nicht verfügbar / news unavailable.</p>'; });
+    });
+
+    // Digital rain behind the hero
+    var c = document.getElementById('rain');
+    if (!c || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var ctx = c.getContext('2d'), chars = '01アカサタナハマヤラワ0123456789HMΣλπ∂', size = 16, drops = [];
+    function resize() {
+      c.width = c.offsetWidth; c.height = c.offsetHeight;
+      drops = Array.from({ length: Math.ceil(c.width / size) }, function () { return Math.random() * -50; });
+    }
+    resize(); window.addEventListener('resize', resize);
+    setInterval(function () {
+      ctx.fillStyle = 'rgba(0,0,0,0.08)'; ctx.fillRect(0, 0, c.width, c.height);
+      ctx.font = size + 'px Consolas, monospace';
+      for (var i = 0; i < drops.length; i++) {
+        var y = drops[i] * size;
+        ctx.fillStyle = Math.random() > 0.97 ? '#d8ffe4' : '#2CF97A';
+        ctx.fillText(chars[(Math.random() * chars.length) | 0], i * size, y);
+        if (y > c.height && Math.random() > 0.975) drops[i] = 0;
+        drops[i]++;
+      }
+    }, 55);
+  })();
+</script>
+</body>
+</html>
