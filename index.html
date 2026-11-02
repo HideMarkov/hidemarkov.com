@@ -81,8 +81,13 @@
   .cta { text-align: center; }
   .cta .lead { margin-left: auto; margin-right: auto; }
 
-  .legal { padding: 60px 0; border-top: 1px solid var(--line); font-size: 15px; color: var(--muted); }
-  .legal h2 { font-size: 20px; color: var(--text); }
+  .legal { border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  .legal summary { display: block; padding: 14px 20px; cursor: pointer; font: 12px var(--mono); color: var(--muted); list-style: none; }
+  .legal summary::-webkit-details-marker { display: none; }
+  .legal summary:hover { color: var(--green); }
+  .legal[open] { padding-bottom: 28px; }
+  .legal h2 { font-size: 15px; color: var(--text); margin: 18px 0 6px; }
+  .legal p { margin: 0; }
   footer { border-top: 1px solid var(--line); padding: 36px 0; color: var(--muted); font: 13px var(--mono); }
   footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
   footer a { color: var(--muted); }
@@ -262,7 +267,8 @@
   </section>
 </main>
 
-<section class="legal" id="impressum">
+<details class="legal" id="impressum">
+  <summary class="wrap">Impressum · <span class="de">Datenschutz</span><span class="en">Privacy</span></summary>
   <div class="wrap">
     <h2>Impressum</h2>
     <p>
@@ -280,7 +286,7 @@
       <span class="en">Hosting: GitHub Pages (GitHub, Inc., USA; EU-US Data Privacy Framework).</span>
     </p>
   </div>
-</section>
+</details>
 
 <footer>
   <div class="wrap">
@@ -303,6 +309,11 @@
     set(saved || ((navigator.language || 'de').slice(0, 2) === 'de' ? 'de' : 'en'));
     btns.forEach(function (b) { b.addEventListener('click', function () { set(b.dataset.set); }); });
     document.getElementById('y').textContent = new Date().getFullYear();
+    function openLegal() { if (/^#(impressum|datenschutz)$/.test(location.hash)) document.getElementById('impressum').open = true; }
+    openLegal(); window.addEventListener('hashchange', openLegal);
+    document.querySelectorAll('a[href="#impressum"], a[href="#datenschutz"]').forEach(function (a) {
+      a.addEventListener('click', function () { document.getElementById('impressum').open = true; });
+    });
 
     // Digital rain behind the hero
     var c = document.getElementById('rain');
