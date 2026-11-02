@@ -9,7 +9,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='421 204 694 384'%3E%3Cg fill='%232CF97A'%3E%3Cpath d='M441 224H515V355H699.5L760 401V568H685V420H515V568H441Z'/%3E%3Cpath d='M685 224L890 380L1095 224V568H1020V377L890 476L685 320Z'/%3E%3C/g%3E%3C/svg%3E">
 <style>
   :root {
-    --bg: #000000; --bg-alt: #040b06; --card: #06120a; --line: #0f3a1d;
+    --bg: #000000; --card: #06120a; --line: #0f3a1d;
     --green: #2CF97A; --green-dim: #1fb85a; --green-deep: #031a0b;
     --text: #f2fff6; --muted: #9cc7a8; --ink: #000000;
     --mono: "Cascadia Code", Consolas, "SFMono-Regular", Menlo, "Courier New", monospace;
@@ -18,14 +18,14 @@
   html { scroll-behavior: smooth; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   a { color: var(--green); }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
   .g { color: var(--green); }
 
   header { position: sticky; top: 0; z-index: 10; background: rgba(0,0,0,.85); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
   header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
   .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; font-size: 19px; }
   .logo .mark { height: 26px; width: auto; filter: drop-shadow(0 0 6px rgba(44,249,122,.45)); }
-  nav { display: flex; align-items: center; gap: 22px; }
+  nav { display: flex; align-items: center; gap: 26px; }
   nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
   nav a:hover { color: var(--green); }
   .lang { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; font: 600 13px/1 var(--mono); }
@@ -33,98 +33,103 @@
   .lang button[aria-pressed="true"] { background: var(--green); color: var(--ink); }
   @media (max-width: 760px) { nav a { display: none; } }
 
-  .hero { position: relative; overflow: hidden; padding: 110px 0 96px; border-bottom: 1px solid var(--line); }
+  .hero { position: relative; overflow: hidden; padding: 128px 0 112px; }
   #rain { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .35; }
   .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 40%, rgba(0,0,0,.2), rgba(0,0,0,.85) 70%); pointer-events: none; }
   .hero .wrap { position: relative; z-index: 1; }
   .prompt { font: 14px/1 var(--mono); color: var(--green); margin-bottom: 22px; }
   .prompt::after { content: "_"; animation: blink 1s steps(1) infinite; }
   @keyframes blink { 50% { opacity: 0; } }
-  .hero h1 { font-size: clamp(32px, 5vw, 56px); line-height: 1.1; margin: 0 0 22px; max-width: 860px; letter-spacing: -0.02em; }
-  .hero p { font-size: 19px; color: var(--muted); max-width: 680px; margin: 0 0 34px; }
-  .btn { display: inline-block; background: var(--green); color: var(--ink); padding: 13px 24px; border-radius: 6px; text-decoration: none; font-weight: 700; margin: 0 10px 10px 0; box-shadow: 0 0 18px rgba(44,249,122,.25); }
+  .hero h1 { font-size: clamp(34px, 5vw, 58px); line-height: 1.08; margin: 0 0 24px; max-width: 900px; letter-spacing: -0.025em; }
+  .hero p { font-size: 19px; line-height: 1.6; color: var(--muted); max-width: 640px; margin: 0 0 36px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; background: var(--green); color: var(--ink); padding: 13px 22px; border: 1px solid var(--green); border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 16px; line-height: 1.2; box-shadow: 0 0 18px rgba(44,249,122,.25); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; }
   .btn:hover { box-shadow: 0 0 26px rgba(44,249,122,.5); }
   .btn.ghost { background: transparent; color: var(--green); border: 1px solid var(--green-dim); box-shadow: none; }
-  .facts { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 44px; color: var(--muted); font: 14px var(--mono); }
+  .facts { display: flex; flex-wrap: wrap; gap: 12px 32px; margin-top: 48px; color: var(--muted); font: 13px var(--mono); }
   .facts > span::before { content: "> "; color: var(--green); }
 
-  section { padding: 84px 0; }
-  section.alt { background: var(--bg-alt); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-  h2 { font-size: clamp(26px, 3.4vw, 38px); margin: 0 0 14px; letter-spacing: -0.01em; }
-  .kicker { font: 600 13px var(--mono); color: var(--green); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 10px; }
-  .lead { color: var(--muted); max-width: 700px; margin: 0 0 40px; }
+  section { padding: 104px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.015em; }
+  h3 { line-height: 1.3; }
+  .kicker { font: 600 12px var(--mono); color: var(--green); text-transform: uppercase; letter-spacing: .12em; margin-bottom: 14px; }
+  .lead { color: var(--muted); font-size: 18px; line-height: 1.6; max-width: 640px; margin: 0 0 48px; }
+  .sub { font: 600 12px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .12em; margin: 56px 0 20px; }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 18px; }
-  .grid.four { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 26px; transition: border-color .2s, box-shadow .2s; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 28px; transition: border-color .2s, box-shadow .2s; }
   .card:hover { border-color: var(--green-dim); box-shadow: 0 0 22px rgba(44,249,122,.12); }
-  .card h3 { margin: 0 0 8px; font-size: 19px; }
-  .card p { margin: 0; color: var(--muted); font-size: 16px; }
-  .tag { display: inline-block; font: 600 12px var(--mono); color: var(--green); margin-bottom: 10px; }
+  .card h3 { margin: 0 0 10px; font-size: 19px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15.5px; line-height: 1.6; }
+  .tag { display: block; font: 600 12px var(--mono); color: var(--green); letter-spacing: .06em; margin-bottom: 16px; }
   .stack { margin-top: 16px; font: 13px var(--mono); color: var(--green-dim); border-top: 1px solid var(--line); padding-top: 12px; }
 
-  .feature { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; }
+  .feature { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+  .feature .lead { margin-bottom: 32px; }
   @media (max-width: 860px) { .feature { grid-template-columns: 1fr; } }
-  .flow { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 28px; }
-  .flow > span { border: 1px solid var(--line); background: var(--card); border-radius: 4px; padding: 6px 12px; font: 13px var(--mono); color: var(--text); }
-  .flow > span:not(:last-child)::after { content: " →"; color: var(--green); }
   ul.check { list-style: none; padding: 0; margin: 0; }
-  ul.check li { padding: 10px 0 10px 30px; position: relative; border-bottom: 1px solid var(--line); }
-  ul.check li::before { content: "✓"; position: absolute; left: 4px; color: var(--green); font-weight: 700; }
+  ul.check li { padding: 14px 0 14px 32px; position: relative; border-bottom: 1px solid var(--line); color: var(--text); font-size: 16px; }
+  ul.check li:first-child { border-top: 1px solid var(--line); }
+  ul.check li::before { content: "✓"; position: absolute; left: 4px; top: 14px; color: var(--green); font-weight: 700; }
 
-  ol.steps { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 20px; }
-  ol.steps li { counter-increment: s; }
-  ol.steps li::before { content: "0" counter(s); display: block; font: 700 26px var(--mono); color: var(--green); margin-bottom: 8px; text-shadow: 0 0 10px rgba(44,249,122,.4); }
-  ol.steps strong { display: block; margin-bottom: 4px; }
-  ol.steps span { color: var(--muted); font-size: 15px; }
 
-  .cta { text-align: center; }
-  .cta .lead { margin-left: auto; margin-right: auto; }
+  .cta-box { border: 1px solid var(--green-dim); border-radius: 12px; background: var(--green-deep); padding: 56px 48px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 32px; }
+  .cta-box h2 { margin-bottom: 10px; }
+  .cta-box .lead { margin: 0; }
 
   .legal { border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
-  .legal summary { display: block; padding: 14px 20px; cursor: pointer; font: 12px var(--mono); color: var(--muted); list-style: none; }
+  .legal summary { display: flex; justify-content: space-between; gap: 16px; padding-top: 28px; padding-bottom: 28px; cursor: pointer; font: 12px var(--mono); color: var(--muted); list-style: none; }
+  .legal-link { text-decoration: underline; text-underline-offset: 3px; }
   .legal summary::-webkit-details-marker { display: none; }
-  .legal summary:hover { color: var(--green); }
+  .legal summary:hover .legal-link { color: var(--green); }
   .legal[open] { padding-bottom: 28px; }
   .legal h2 { font-size: 15px; color: var(--text); margin: 18px 0 6px; }
   .legal p { margin: 0; }
-  footer { border-top: 1px solid var(--line); padding: 36px 0; color: var(--muted); font: 13px var(--mono); }
-  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
-  footer a { color: var(--muted); }
 
-  .acc { border: 1px solid var(--line); border-radius: 8px; background: var(--card); margin-bottom: 12px; }
-  .acc summary { cursor: pointer; padding: 16px 20px; font-weight: 700; list-style: none; }
+  .acc { border: 1px solid var(--line); border-radius: 10px; background: var(--card); margin-bottom: 12px; }
+  .acc summary { cursor: pointer; padding: 20px 28px; font-weight: 700; list-style: none; }
   .acc summary::-webkit-details-marker { display: none; }
   .acc summary::before { content: "+ "; color: var(--green); font-family: var(--mono); }
   .acc[open] summary::before { content: "− "; }
-  .acc > div { padding: 0 20px 20px; }
+  .acc > div { padding: 0 28px 24px; }
   .tbl { overflow-x: auto; }
   .tbl table { width: 100%; border-collapse: collapse; font-size: 15px; }
   .tbl td { padding: 8px 10px; border-top: 1px solid var(--line); vertical-align: top; color: var(--muted); }
   .tbl td:first-child { white-space: nowrap; width: 1%; }
   code { font-family: var(--mono); color: var(--green); font-size: .92em; }
-  .tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 8px 28px; }
-  .toolgroup h4 { margin: 12px 0 6px; font: 600 13px var(--mono); color: var(--green); text-transform: uppercase; letter-spacing: .06em; }
+  .tools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 40px; }
+  @media (max-width: 900px) { .tools { grid-template-columns: 1fr; } }
+  .toolgroup h4 { margin: 16px 0 8px; font: 600 12px var(--mono); color: var(--green); text-transform: uppercase; letter-spacing: .1em; }
   .toolgroup ul { list-style: none; padding: 0; margin: 0; }
-  .toolgroup li { padding: 5px 0; color: var(--muted); font-size: 15px; }
+  .toolgroup li { padding: 6px 0; color: var(--muted); font-size: 14.5px; line-height: 1.5; }
   .toolgroup a { font-weight: 600; text-decoration: none; }
-  .news { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
-  .news a.item { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s; }
+  .news { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  @media (max-width: 900px) { .news { grid-template-columns: 1fr; } }
+  .news a.item { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 24px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s; }
   .news a.item:hover { border-color: var(--green-dim); box-shadow: 0 0 22px rgba(44,249,122,.12); }
-  .news .meta { font: 12px var(--mono); color: var(--green); margin-bottom: 6px; }
-  .news .t { font-weight: 700; line-height: 1.35; }
-  .news .s { color: var(--muted); font-size: 14px; margin-top: 6px; }
+  .news .meta { font: 12px var(--mono); color: var(--green); margin-bottom: 12px; }
+  .news .t { font-weight: 700; font-size: 17px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .news .s { color: var(--muted); font-size: 14.5px; line-height: 1.55; margin-top: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .upd, .muted { color: var(--muted); font: 12px var(--mono); }
-  .clips { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-top: 36px; padding: 24px; border: 1px solid var(--green-dim); border-radius: 8px; background: var(--green-deep); }
+  .clips { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; margin-top: 40px; padding: 28px 32px; border: 1px solid var(--green-dim); border-radius: 10px; background: var(--green-deep); }
   .clips h3 { margin: 0 0 4px; }
   .clips p { margin: 0; color: var(--muted); }
-  .clip-links .btn { margin-bottom: 0; }
+  .clip-links { display: flex; flex-wrap: wrap; gap: 12px; }
   @media (max-width: 600px) { .tools, .news { grid-template-columns: 1fr; } }
-  .team { display: grid; gap: 12px; }
-  .member { border-left: 2px solid var(--green); padding: 4px 0 4px 16px; }
-  .member h3 { margin: 0 0 4px; font-size: 17px; }
-  .member p { margin: 0; color: var(--muted); font-size: 15px; }
-  .member .tag { margin-bottom: 4px; }
+  .team { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  @media (max-width: 900px) { .team { grid-template-columns: 1fr; } }
+  .member { border-top: 2px solid var(--green); padding-top: 18px; }
+  .member h3 { margin: 0 0 8px; font-size: 17px; }
+  .member p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
+  .member .tag { margin-bottom: 8px; }
+  .upd { display: inline-block; margin-left: 4px; }
+  @media (max-width: 600px) { section { padding: 72px 0; } .hero { padding: 88px 0 80px; } .cta-box { padding: 36px 24px; } .feature { gap: 40px; } }
+  .soc { display: grid; place-items: center; width: 50px; height: 50px; border: 1px solid var(--green-dim); border-radius: 10px; color: var(--green); transition: background .2s, color .2s, box-shadow .2s; }
+  .soc svg { width: 22px; height: 22px; }
+  .soc:hover, .soc:focus-visible { background: var(--green); color: var(--ink); box-shadow: 0 0 22px rgba(44,249,122,.5); }
+  .btn.ghost:hover, .btn.ghost:focus-visible { background: rgba(44,249,122,.1); box-shadow: 0 0 22px rgba(44,249,122,.35); }
+  @media (max-width: 600px) { .clips { padding: 24px; } .clip-links { gap: 10px; } .soc { width: 44px; height: 44px; } }
   [data-lang="en"] .de, [data-lang="de"] .en { display: none; }
   @media (prefers-reduced-motion: reduce) { #rain { display: none; } .prompt::after { animation: none; } }
 </style>
@@ -142,9 +147,7 @@
       <a href="#kaliber">Kaliber</a>
       <a href="#warum"><span class="de">Warum wir</span><span class="en">Why us</span></a>
       <a href="#werkzeuge"><span class="de">Gratis-Tools</span><span class="en">Free tools</span></a>
-      <a href="#informatik"><span class="de">Informatik</span><span class="en">Tech</span></a>
-      <a href="#wissenschaft"><span class="de">Wissenschaft</span><span class="en">Science</span></a>
-      <a href="#ueber"><span class="de">Über uns</span><span class="en">About us</span></a>
+      <a href="#informatik">News</a>
       <a href="#kontakt"><span class="de">Kontakt</span><span class="en">Contact</span></a>
       <div class="lang" role="group" aria-label="Sprache / Language">
         <button type="button" data-set="de" aria-pressed="true">DE</button>
@@ -167,8 +170,10 @@
         <span class="de">Konzerne haben eigene IT-Abteilungen. Sie haben HideMarkov: Process Mining, Automatisierung und Anwendungsentwicklung auf Konzern-Niveau – gemeinsam mit Ihnen, für KMU in der Schweiz und in Deutschland.</span>
         <span class="en">Big corporations have their own IT departments. You have HideMarkov: process mining, automation and application development at enterprise level – together with you, for SMEs in Switzerland and Germany.</span>
       </p>
-      <a class="btn" href="#kontakt"><span class="de">Erstgespräch vereinbaren</span><span class="en">Book an intro call</span></a>
-      <a class="btn ghost" href="#kaliber"><span class="de">Kaliber ansehen</span><span class="en">See Kaliber</span></a>
+      <div class="actions">
+        <a class="btn" href="#kontakt"><span class="de">Erstgespräch vereinbaren</span><span class="en">Book an intro call</span></a>
+        <a class="btn ghost" href="#kaliber"><span class="de">Kaliber ansehen</span><span class="en">See Kaliber</span></a>
+      </div>
       <div class="facts">
         <span><span class="de">Daten bleiben in der EU</span><span class="en">Data stays in the EU</span></span>
         <span><span class="de">Eigene Instanz pro Kunde</span><span class="en">Isolated instance per client</span></span>
@@ -205,63 +210,48 @@
     </div>
   </section>
 
-  <section id="kaliber" class="alt">
+  <section id="kaliber">
     <div class="wrap feature">
       <div>
         <div class="kicker"><span class="de">Unser erstes Produkt</span><span class="en">Our first product</span></div>
         <h2><span class="de">Kaliber – Kalkulation für den Gerüstbau</span><span class="en">Kaliber – calculation for scaffolding</span></h2>
-        <p class="lead" style="margin-bottom:0">
+        <p class="lead">
           <span class="de">HideMarkov begann mit einem echten Problem: Ein Gerüstbaubetrieb kalkulierte Ausschreibungen tagelang von Hand. Daraus wurde Kaliber – heute reif genug für weitere Gerüstbaufirmen.</span>
           <span class="en">HideMarkov began with a real problem: a scaffolding company spent days pricing tenders by hand. The answer was Kaliber – now mature enough for other scaffolding companies.</span>
         </p>
-        <div class="flow">
-          <span><span class="de">Entwurf</span><span class="en">Draft</span></span>
-          <span><span class="de">Angebot</span><span class="en">Offer</span></span>
-          <span><span class="de">Auftrag &amp; Nachträge</span><span class="en">Order &amp; change orders</span></span>
-          <span><span class="de">Abgeschlossen</span><span class="en">Closed</span></span>
-        </div>
         <a class="btn" href="https://scheibler-beratung.de/kaliber" target="_blank" rel="noopener"><span class="de">Zu Kaliber</span><span class="en">Visit Kaliber</span> →</a>
       </div>
       <ul class="check">
         <li><span class="de">LV-Import aus GAEB (x83, x84, d83), PDF und Excel</span><span class="en">Import tender specs from GAEB (x83, x84, d83), PDF and Excel</span></li>
         <li><span class="de">Urkalkulation je Position, Stundenverrechnungssatz aus den Stammdaten</span><span class="en">Cost calculation per item, hourly rate derived from master data</span></li>
         <li><span class="de">Export: Angebots-LV, VHB-Formblätter 221 und 223, bepreistes GAEB x84</span><span class="en">Export: priced offer, VHB forms 221 and 223, priced GAEB x84</span></li>
+        <li><span class="de">Durchgängig: Entwurf → Angebot → Auftrag &amp; Nachträge → Abschluss</span><span class="en">End to end: draft → offer → order &amp; change orders → close</span></li>
         <li><span class="de">Eigene, isolierte Instanz je Kunde, Daten in der EU</span><span class="en">Own isolated instance per client, data in the EU</span></li>
         <li><span class="de">Lückenloser Audit-Trail, nichts wird hart gelöscht</span><span class="en">Complete audit trail, nothing is hard-deleted</span></li>
       </ul>
     </div>
   </section>
 
-  <section class="alt">
-    <div class="wrap">
-      <div class="kicker"><span class="de">Vorgehen</span><span class="en">Process</span></div>
-      <h2><span class="de">So arbeiten wir</span><span class="en">How we work</span></h2>
-      <p class="lead"><span class="de">KI-gestützt, von Menschen verantwortet.</span><span class="en">AI-assisted, human-owned.</span></p>
-      <ol class="steps">
-        <li><strong><span class="de">Ein echter Prozess</span><span class="en">One real process</span></strong><span><span class="de">Wir bilden Ihre Kalkulation oder Planung exakt ab, inklusive Sonderfälle.</span><span class="en">We model your calculation or plan exactly, edge cases included.</span></span></li>
-        <li><strong><span class="de">Kurze Zyklen</span><span class="en">Short loops</span></strong><span><span class="de">Früh eine lauffähige Version, danach wöchentliche Verbesserungen.</span><span class="en">A working version early, then weekly improvements.</span></span></li>
-        <li><strong><span class="de">Geprüfte Qualität</span><span class="en">Reviewed quality</span></strong><span><span class="de">KI-Agenten schreiben und testen Code; jede Änderung prüft ein Mensch.</span><span class="en">AI agents write and test code; a person reviews every change.</span></span></li>
-        <li><strong><span class="de">Datenschutz</span><span class="en">Data protection</span></strong><span><span class="de">EU-Hosting, isolierte Instanzen, Audit-Log.</span><span class="en">EU hosting, isolated instances, audit log.</span></span></li>
-        <li><strong><span class="de">Saubere Übergabe</span><span class="en">Lasting handover</span></strong><span><span class="de">Benutzer-, Technik- und Betriebshandbuch.</span><span class="en">User, technical and operations manual.</span></span></li>
-      </ol>
-    </div>
-  </section>
-
   <section id="warum">
     <div class="wrap">
       <div class="kicker"><span class="de">Warum HideMarkov</span><span class="en">Why HideMarkov</span></div>
-      <h2><span class="de">Was Konzerne haben – für Ihr Unternehmen</span><span class="en">What big players have – for your company</span></h2>
-      <p class="lead"><span class="de">Grosse Firmen gewinnen nicht, weil sie besser arbeiten, sondern weil sie bessere Werkzeuge haben. Das ändern wir.</span><span class="en">Big companies don't win because they work better, but because they have better tools. We change that.</span></p>
+      <h2><span class="de">Konzern-Erfahrung. <span class="g">KMU-Tempo.</span></span><span class="en">Enterprise experience. <span class="g">SME speed.</span></span></h2>
+      <p class="lead"><span class="de">Wir kommen aus den IT-Landschaften von Banken, Versicherungen und der Luftfahrt. Dort haben wir gelernt, wie die Grossen ihre Prozesse durchleuchten, automatisieren und ihre Systeme bauen. Genau das setzen wir für KMU um – ohne Konzern-Budget und ohne Konzern-Tempo.</span><span class="en">We come from the IT landscapes of banks, insurers and aviation. That is where we learned how the big players analyse their processes, automate them and build their systems. We do exactly that for SMEs – without the enterprise budget and without the enterprise pace.</span></p>
       <div class="grid">
-        <div class="card"><div class="tag"><span class="de">Software</span><span class="en">Software</span></div><h3><span class="de">Eigene Software statt Excel-Chaos</span><span class="en">Your own software instead of Excel chaos</span></h3><p><span class="de">Ihr Ablauf als Anwendung, die genau so rechnet wie Sie – nicht umgekehrt. Ohne Lizenzpaket, das Sie zur Hälfte nie nutzen.</span><span class="en">Your process as an application that calculates exactly the way you do – not the other way round. No licence bundle you only half use.</span></p></div>
-        <div class="card"><div class="tag"><span class="de">Daten</span><span class="en">Data</span></div><h3><span class="de">Ihre Daten bleiben Ihre</span><span class="en">Your data stays yours</span></h3><p><span class="de">Eigene, abgeschottete Instanz pro Kunde, Daten in der EU, vollständiger Export jederzeit. Keine Abhängigkeit von einem Grosskonzern.</span><span class="en">Your own isolated instance, data in the EU, full export any time. No lock-in to a big vendor.</span></p></div>
-        <div class="card"><div class="tag"><span class="de">Partner</span><span class="en">Partner</span></div><h3><span class="de">Ein Ansprechpartner, schnelle Ergebnisse</span><span class="en">One contact, fast results</span></h3><p><span class="de">Kein Berater-Team, das wochenlang Folien baut. Früh eine lauffähige Version, die Sie selbst testen – und Handbücher, damit Sie unabhängig bleiben.</span><span class="en">No consulting team building slides for weeks. A working version early that you test yourself – and manuals so you stay independent.</span></p></div>
+        <div class="card"><div class="tag"><span class="de">SOFTWARE</span><span class="en">SOFTWARE</span></div><h3><span class="de">Eigene Software statt Excel-Chaos</span><span class="en">Your own software, not Excel chaos</span></h3><p><span class="de">Ihr Ablauf als Anwendung, die genau so rechnet wie Sie. Ohne Lizenzpaket, das Sie zur Hälfte nie nutzen.</span><span class="en">Your process as an application that calculates exactly the way you do. No licence bundle you only half use.</span></p></div>
+        <div class="card"><div class="tag"><span class="de">DATEN</span><span class="en">DATA</span></div><h3><span class="de">Ihre Daten bleiben Ihre</span><span class="en">Your data stays yours</span></h3><p><span class="de">Eigene, abgeschottete Instanz, Daten in der EU, vollständiger Export jederzeit. Keine Abhängigkeit von einem Grosskonzern.</span><span class="en">Your own isolated instance, data in the EU, full export any time. No lock-in to a big vendor.</span></p></div>
+        <div class="card"><div class="tag"><span class="de">TEMPO</span><span class="en">SPEED</span></div><h3><span class="de">Schnell lauffähig, sauber übergeben</span><span class="en">Running fast, handed over cleanly</span></h3><p><span class="de">Früh eine Version, die Sie selbst testen, danach wöchentliche Verbesserungen. Mit Handbüchern, damit Sie unabhängig bleiben.</span><span class="en">An early version you test yourself, then weekly improvements. With manuals so you stay independent.</span></p></div>
       </div>
-      <p style="margin-top:34px"><a class="btn" href="#kontakt"><span class="de">Ihr Problem schildern</span><span class="en">Tell us your problem</span> →</a></p>
+      <div class="sub"><span class="de">Wer dahinter steht</span><span class="en">Who is behind it</span></div>
+      <div class="team">
+        <div class="member"><div class="tag"><span class="de">IT-BERATUNG</span><span class="en">IT CONSULTING</span></div><h3><span class="de">Erfahrung aus dem Konzernumfeld</span><span class="en">Experience from the enterprise world</span></h3><p><span class="de">Umsetzung und Prüfung komplexer Systeme: ERP wie SAP, Datenbanken, Cloud-Plattformen wie Microsoft Azure.</span><span class="en">Implementing and reviewing complex systems: ERP such as SAP, databases, cloud platforms such as Microsoft Azure.</span></p></div>
+        <div class="member"><div class="tag">ENGINEERING</div><h3><span class="de">KI-gestütztes Entwicklerteam</span><span class="en">AI-assisted engineering team</span></h3><p><span class="de">KI-Agenten schreiben, testen und dokumentieren Code – jede Änderung prüft ein Mensch. Darum sind wir schnell.</span><span class="en">AI agents write, test and document code – a person reviews every change. That is why we are fast.</span></p></div>
+        <div class="member"><div class="tag"><span class="de">BRANCHENPARTNER</span><span class="en">INDUSTRY PARTNERS</span></div><h3><span class="de">Fachleute aus Ihrer Branche</span><span class="en">Experts from your industry</span></h3><p><span class="de">Bei Kaliber zum Beispiel ein Gerüstbau-Berater mit 13 Jahren Branchenerfahrung für die Fachinhalte.</span><span class="en">For Kaliber, for example, a scaffolding consultant with 13 years of industry experience owns the domain content.</span></p></div>
+      </div>
     </div>
   </section>
 
-  <section id="werkzeuge" class="alt">
+  <section id="werkzeuge">
     <div class="wrap">
       <div class="kicker"><span class="de">Gratis-Werkzeugkasten</span><span class="en">Free toolbox</span></div>
       <h2><span class="de">Kostenlos für Ihr Team</span><span class="en">Free for your team</span></h2>
@@ -290,7 +280,7 @@
     </div>
   </section>
 
-  <section id="wissenschaft" class="alt">
+  <section id="wissenschaft">
     <div class="wrap">
       <div class="kicker"><span class="de">Wissenschaft</span><span class="en">Science</span></div>
       <h2><span class="de">Neu in der Wissenschaft</span><span class="en">What's new in science</span></h2>
@@ -302,49 +292,32 @@
           <p><span class="de">Wissenschaft und Informatik in unter einer Minute – unser Kanal.</span><span class="en">Science and computer science in under a minute – our channel.</span></p>
         </div>
         <div class="clip-links">
-          <a class="btn" href="https://www.youtube.com/@HideMarkov" target="_blank" rel="noopener">YouTube</a>
-          <a class="btn ghost" href="https://www.tiktok.com/@markovclips" target="_blank" rel="noopener">TikTok</a>
-          <a class="btn ghost" href="https://www.instagram.com/markovclips" target="_blank" rel="noopener">Instagram</a>
+          <a class="soc" href="https://www.youtube.com/@HideMarkov" target="_blank" rel="noopener" aria-label="MarkovClips auf YouTube" title="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M6.5 5h11A4.5 4.5 0 0 1 22 9.5v5a4.5 4.5 0 0 1-4.5 4.5h-11A4.5 4.5 0 0 1 2 14.5v-5A4.5 4.5 0 0 1 6.5 5zM10 8.8v6.4l5.6-3.2z"/></svg></a>
+          <a class="soc" href="https://www.tiktok.com/@markovclips" target="_blank" rel="noopener" aria-label="MarkovClips auf TikTok" title="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 2.5h3.2a4.6 4.6 0 0 0 4.3 4.2v3.3a7.8 7.8 0 0 1-4.3-1.4v6.6a6.3 6.3 0 1 1-6.3-6.3h.6v3.4a3 3 0 1 0 2.5 2.9z"/></svg></a>
+          <a class="soc" href="https://www.instagram.com/markovclips" target="_blank" rel="noopener" aria-label="MarkovClips auf Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.3" fill="currentColor"/></svg></a>
+          <a class="soc" href="https://www.facebook.com/profile.php?id=61595314524714" target="_blank" rel="noopener" aria-label="MarkovClips auf Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.6 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9a23 23 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3v2.4H7.4v3.3h2.8V22z"/></svg></a>
+          <a class="soc" href="https://x.com/MarkovClips" target="_blank" rel="noopener" aria-label="MarkovClips auf X" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.5 3.5h5l12 17h-5z"/><path d="M20 3.5l-6.6 7.4M4 20.5l6.7-7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="ueber">
+  <section id="kontakt">
     <div class="wrap">
-      <div class="kicker"><span class="de">Warum wir das können</span><span class="en">Why we can do this</span></div>
-      <h2><span class="de">Konzern-Erfahrung. <span class="g">KMU-Tempo.</span></span><span class="en">Enterprise experience. <span class="g">SME speed.</span></span></h2>
-      <p class="lead"><span class="de">Wir kommen aus den IT-Landschaften von Banken, Versicherungen und der Luftfahrt. Dort haben wir gelernt, wie die Grossen ihre Prozesse durchleuchten, automatisieren und ihre Systeme bauen. Genau das setzen wir jetzt für KMU um – ohne Konzern-Budget und ohne Konzern-Tempo.</span><span class="en">We come from the IT landscapes of banks, insurers and aviation. That is where we learned how the big players analyse their processes, automate them and build their systems. Now we do exactly that for SMEs – without the enterprise budget and without the enterprise pace.</span></p>
-      <div class="feature" style="align-items:start">
-        <ul class="check">
-          <li><strong>Process Mining</strong> – <span class="de">Die Prüfung komplexer Systeme ist unser Alltag. Wir sehen, wo Abläufe und Daten brechen.</span><span class="en">Reviewing complex systems is our daily work. We see where processes and data break.</span></li>
-          <li><strong><span class="de">Automatisierung</span><span class="en">Automation</span></strong> – <span class="de">ERP-Systeme wie SAP, Datenbanken und Cloud-Plattformen wie Microsoft Azure kennen wir von innen.</span><span class="en">We know ERP systems such as SAP, databases and cloud platforms such as Microsoft Azure from the inside.</span></li>
-          <li><strong><span class="de">Anwendungsentwicklung</span><span class="en">Application development</span></strong> – <span class="de">Kaliber haben wir selbst gebaut und betreiben es: Technik, Datenmodell, Sicherheit.</span><span class="en">We built Kaliber ourselves and run it: technology, data model, security.</span></li>
-        </ul>
-        <div class="team">
-          <div class="member"><div class="tag"><span class="de">Gründer</span><span class="en">Founder</span></div><h3><span class="de">IT-Beratung aus dem Konzernumfeld</span><span class="en">IT consulting from the enterprise world</span></h3><p><span class="de">Umsetzung und Prüfung komplexer Systeme – verantwortet Technik, Datenmodell und Sicherheit.</span><span class="en">Implementing and reviewing complex systems – owns technology, data model and security.</span></p></div>
-          <div class="member"><div class="tag"><span class="de">Engineering</span><span class="en">Engineering</span></div><h3><span class="de">KI-gestütztes Entwicklerteam</span><span class="en">AI-assisted engineering team</span></h3><p><span class="de">KI-Agenten schreiben, testen und dokumentieren Code – jede Änderung prüft ein Mensch. Darum sind wir schnell.</span><span class="en">AI agents write, test and document code – a person reviews every change. That is why we are fast.</span></p></div>
-          <div class="member"><div class="tag"><span class="de">Branchenpartner</span><span class="en">Industry partners</span></div><h3><span class="de">Fachleute aus Ihrer Branche</span><span class="en">Experts from your industry</span></h3><p><span class="de">Bei Kaliber zum Beispiel ein Gerüstbau-Berater mit 13 Jahren Branchenerfahrung für die Fachinhalte.</span><span class="en">For Kaliber, for example, a scaffolding consultant with 13 years of industry experience owns the domain content.</span></p></div>
+      <div class="cta-box">
+        <div>
+          <div class="kicker"><span class="de">Kontakt</span><span class="en">Contact</span></div>
+          <h2><span class="de">Lassen Sie uns sprechen</span><span class="en">Let's talk</span></h2>
+          <p class="lead"><span class="de">Zeigen Sie uns den Prozess, der Sie am meisten Zeit kostet. Wir sagen Ihnen, ob Software ihn lösen kann und was das ungefähr kostet.</span><span class="en">Show us the process that costs you the most time. We'll tell you whether software can fix it and roughly what it would cost.</span></p>
         </div>
+        <a class="btn" href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
       </div>
-    </div>
-  </section>
-
-  <section id="kontakt" class="alt cta">
-    <div class="wrap">
-      <div class="kicker"><span class="de">Kontakt</span><span class="en">Contact</span></div>
-      <h2><span class="de">Lassen Sie uns sprechen</span><span class="en">Let's talk</span></h2>
-      <p class="lead">
-        <span class="de">Zeigen Sie uns den Prozess, der Sie am meisten Zeit kostet. Wir sagen Ihnen, ob Software ihn lösen kann und was das ungefähr kostet.</span>
-        <span class="en">Show us the process that costs you the most time. We'll tell you whether software can fix it and roughly what it would cost.</span>
-      </p>
-      <a class="btn" href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
     </div>
   </section>
 </main>
 
 <details class="legal" id="impressum">
-  <summary class="wrap">Impressum · <span class="de">Datenschutz</span><span class="en">Privacy</span></summary>
+  <summary class="wrap"><span>© <span id="y">2026</span> HideMarkov</span><span class="legal-link">Impressum · <span class="de">Datenschutz</span><span class="en">Privacy</span></span></summary>
   <div class="wrap">
     <h2>Impressum</h2>
     <p>
@@ -365,12 +338,6 @@
   </div>
 </details>
 
-<footer>
-  <div class="wrap">
-    <span>© <span id="y">2026</span> HideMarkov</span>
-    <span><a href="#impressum">Impressum</a> · <a href="#datenschutz"><span class="de">Datenschutz</span><span class="en">Privacy</span></a></span>
-  </div>
-</footer>
 
 <script>
   (function () {
