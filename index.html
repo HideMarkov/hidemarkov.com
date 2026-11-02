@@ -120,6 +120,11 @@
   .clips p { margin: 0; color: var(--muted); }
   .clip-links .btn { margin-bottom: 0; }
   @media (max-width: 600px) { .tools, .news { grid-template-columns: 1fr; } }
+  .team { display: grid; gap: 12px; }
+  .member { border-left: 2px solid var(--green); padding: 4px 0 4px 16px; }
+  .member h3 { margin: 0 0 4px; font-size: 17px; }
+  .member p { margin: 0; color: var(--muted); font-size: 15px; }
+  .member .tag { margin-bottom: 4px; }
   [data-lang="en"] .de, [data-lang="de"] .en { display: none; }
   @media (prefers-reduced-motion: reduce) { #rain { display: none; } .prompt::after { animation: none; } }
 </style>
@@ -137,8 +142,9 @@
       <a href="#kaliber">Kaliber</a>
       <a href="#warum"><span class="de">Warum wir</span><span class="en">Why us</span></a>
       <a href="#werkzeuge"><span class="de">Gratis-Tools</span><span class="en">Free tools</span></a>
-      <a href="#wissenschaft">News</a>
-      <a href="#ueber"><span class="de">Über mich</span><span class="en">About</span></a>
+      <a href="#informatik"><span class="de">Informatik</span><span class="en">Tech</span></a>
+      <a href="#wissenschaft"><span class="de">Wissenschaft</span><span class="en">Science</span></a>
+      <a href="#ueber"><span class="de">Über uns</span><span class="en">About us</span></a>
       <a href="#kontakt"><span class="de">Kontakt</span><span class="en">Contact</span></a>
       <div class="lang" role="group" aria-label="Sprache / Language">
         <button type="button" data-set="de" aria-pressed="true">DE</button>
@@ -275,16 +281,25 @@
     </div>
   </section>
 
-  <section id="wissenschaft">
+  <section id="informatik">
     <div class="wrap">
-      <div class="kicker"><span class="de">Wissenschaft &amp; Informatik</span><span class="en">Science &amp; computer science</span></div>
+      <div class="kicker"><span class="de">Informatik</span><span class="en">Computer science</span></div>
       <h2><span class="de">Neu in der Informatik</span><span class="en">What's new in computer science</span></h2>
-      <p class="lead"><span class="de">Aktuelle Durchbrüche aus Forschung und Technik, alle paar Stunden automatisch aktualisiert (Artikel auf Englisch).</span><span class="en">Recent breakthroughs from research and technology, refreshed automatically every few hours.</span> <span class="upd" id="news-upd"></span></p>
-      <div class="news" id="news"><p class="muted"><span class="de">News werden geladen …</span><span class="en">Loading news …</span></p></div>
+      <p class="lead"><span class="de">KI, Software, Sicherheit und Algorithmen – alle paar Stunden automatisch aktualisiert (Artikel auf Englisch).</span><span class="en">AI, software, security and algorithms – refreshed automatically every few hours.</span> <span class="upd" data-upd></span></p>
+      <div class="news" id="news-cs"><p class="muted"><span class="de">News werden geladen …</span><span class="en">Loading news …</span></p></div>
+    </div>
+  </section>
+
+  <section id="wissenschaft" class="alt">
+    <div class="wrap">
+      <div class="kicker"><span class="de">Wissenschaft</span><span class="en">Science</span></div>
+      <h2><span class="de">Neu in der Wissenschaft</span><span class="en">What's new in science</span></h2>
+      <p class="lead"><span class="de">Physik, Mathematik, Biologie und Weltraum – alle paar Stunden automatisch aktualisiert (Artikel auf Englisch).</span><span class="en">Physics, mathematics, biology and space – refreshed automatically every few hours.</span> <span class="upd" data-upd></span></p>
+      <div class="news" id="news-science"><p class="muted"><span class="de">News werden geladen …</span><span class="en">Loading news …</span></p></div>
       <div class="clips">
         <div>
           <h3>MarkovClips</h3>
-          <p><span class="de">Informatik und Wissenschaft in unter einer Minute – unser Kanal.</span><span class="en">Computer science and science in under a minute – our channel.</span></p>
+          <p><span class="de">Wissenschaft und Informatik in unter einer Minute – unser Kanal.</span><span class="en">Science and computer science in under a minute – our channel.</span></p>
         </div>
         <div class="clip-links">
           <a class="btn" href="https://www.youtube.com/@HideMarkov" target="_blank" rel="noopener">YouTube</a>
@@ -296,20 +311,22 @@
   </section>
 
   <section id="ueber">
-    <div class="wrap feature">
-      <div>
-        <div class="kicker"><span class="de">Warum ich das kann</span><span class="en">Why I can do this</span></div>
-        <h2>Sebastian Kustosz</h2>
-        <p class="lead" style="margin-bottom:0">
-          <span class="de">Ich setze komplexe Systeme bei Banken, Versicherungen und in der Luftfahrt um und prüfe sie. Die Methoden, mit denen die Grossen ihre Prozesse durchleuchten und ihre Systeme bauen, bringe ich zu KMU.</span>
-          <span class="en">I implement and review complex systems for banks, insurers and aviation. I bring the methods the big players use to analyse their processes and build their systems to SMEs.</span>
-        </p>
+    <div class="wrap">
+      <div class="kicker"><span class="de">Warum wir das können</span><span class="en">Why we can do this</span></div>
+      <h2><span class="de">Konzern-Erfahrung. <span class="g">KMU-Tempo.</span></span><span class="en">Enterprise experience. <span class="g">SME speed.</span></span></h2>
+      <p class="lead"><span class="de">Wir kommen aus den IT-Landschaften von Banken, Versicherungen und der Luftfahrt. Dort haben wir gelernt, wie die Grossen ihre Prozesse durchleuchten, automatisieren und ihre Systeme bauen. Genau das setzen wir jetzt für KMU um – ohne Konzern-Budget und ohne Konzern-Tempo.</span><span class="en">We come from the IT landscapes of banks, insurers and aviation. That is where we learned how the big players analyse their processes, automate them and build their systems. Now we do exactly that for SMEs – without the enterprise budget and without the enterprise pace.</span></p>
+      <div class="feature" style="align-items:start">
+        <ul class="check">
+          <li><strong>Process Mining</strong> – <span class="de">Die Prüfung komplexer Systeme ist unser Alltag. Wir sehen, wo Abläufe und Daten brechen.</span><span class="en">Reviewing complex systems is our daily work. We see where processes and data break.</span></li>
+          <li><strong><span class="de">Automatisierung</span><span class="en">Automation</span></strong> – <span class="de">ERP-Systeme wie SAP, Datenbanken und Cloud-Plattformen wie Microsoft Azure kennen wir von innen.</span><span class="en">We know ERP systems such as SAP, databases and cloud platforms such as Microsoft Azure from the inside.</span></li>
+          <li><strong><span class="de">Anwendungsentwicklung</span><span class="en">Application development</span></strong> – <span class="de">Kaliber haben wir selbst gebaut und betreiben es: Technik, Datenmodell, Sicherheit.</span><span class="en">We built Kaliber ourselves and run it: technology, data model, security.</span></li>
+        </ul>
+        <div class="team">
+          <div class="member"><div class="tag"><span class="de">Gründer</span><span class="en">Founder</span></div><h3><span class="de">IT-Beratung aus dem Konzernumfeld</span><span class="en">IT consulting from the enterprise world</span></h3><p><span class="de">Umsetzung und Prüfung komplexer Systeme – verantwortet Technik, Datenmodell und Sicherheit.</span><span class="en">Implementing and reviewing complex systems – owns technology, data model and security.</span></p></div>
+          <div class="member"><div class="tag"><span class="de">Engineering</span><span class="en">Engineering</span></div><h3><span class="de">KI-gestütztes Entwicklerteam</span><span class="en">AI-assisted engineering team</span></h3><p><span class="de">KI-Agenten schreiben, testen und dokumentieren Code – jede Änderung prüft ein Mensch. Darum sind wir schnell.</span><span class="en">AI agents write, test and document code – a person reviews every change. That is why we are fast.</span></p></div>
+          <div class="member"><div class="tag"><span class="de">Branchenpartner</span><span class="en">Industry partners</span></div><h3><span class="de">Fachleute aus Ihrer Branche</span><span class="en">Experts from your industry</span></h3><p><span class="de">Bei Kaliber zum Beispiel ein Gerüstbau-Berater mit 13 Jahren Branchenerfahrung für die Fachinhalte.</span><span class="en">For Kaliber, for example, a scaffolding consultant with 13 years of industry experience owns the domain content.</span></p></div>
+        </div>
       </div>
-      <ul class="check">
-        <li><strong>Process Mining</strong> – <span class="de">die Prüfung komplexer Systeme ist mein Alltag: Ich sehe, wo Abläufe und Daten brechen.</span><span class="en">reviewing complex systems is my daily work: I see where processes and data break.</span></li>
-        <li><strong><span class="de">Automatisierung</span><span class="en">Automation</span></strong> – <span class="de">ERP-Systeme wie SAP, Datenbanken und Cloud-Plattformen wie Microsoft Azure kenne ich von innen.</span><span class="en">I know ERP systems such as SAP, databases and cloud platforms such as Microsoft Azure from the inside.</span></li>
-        <li><strong><span class="de">Anwendungsentwicklung</span><span class="en">Application development</span></strong> – <span class="de">Kaliber habe ich gebaut und verantworte Technik, Datenmodell und Sicherheit.</span><span class="en">I built Kaliber and am responsible for its technology, data model and security.</span></li>
-      </ul>
     </div>
   </section>
 
@@ -375,10 +392,10 @@
       a.addEventListener('click', function () { document.getElementById('impressum').open = true; });
     });
 
-    // News feed from news.json (refreshed by a GitHub job; same origin, no third-party requests)
-    fetch('news.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
-      var box = document.getElementById('news'); box.textContent = '';
-      d.items.slice(0, 9).forEach(function (it) {
+    // News feeds from news.json (refreshed by a GitHub job; same origin, no third-party requests)
+    function render(id, items) {
+      var box = document.getElementById(id); box.textContent = '';
+      (items || []).forEach(function (it) {
         var a = document.createElement('a'); a.className = 'item'; a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
         var m = document.createElement('div'); m.className = 'meta'; m.textContent = it.date + ' · ' + it.source;
         var t = document.createElement('div'); t.className = 't'; t.textContent = it.title;
@@ -386,9 +403,13 @@
         if (it.summary) { var x = document.createElement('div'); x.className = 's'; x.textContent = it.summary; a.appendChild(x); }
         box.appendChild(a);
       });
-      document.getElementById('news-upd').textContent = '· ' + d.updated.replace('T', ' ').slice(0, 16) + ' UTC';
+    }
+    fetch('news.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
+      render('news-cs', d.cs || d.items);
+      render('news-science', d.science);
+      document.querySelectorAll('[data-upd]').forEach(function (e) { e.textContent = '· ' + d.updated.replace('T', ' ').slice(0, 16) + ' UTC'; });
     }).catch(function () {
-      document.getElementById('news').innerHTML = '<p class="muted">News gerade nicht verfügbar / news unavailable.</p>';
+      ['news-cs', 'news-science'].forEach(function (id) { document.getElementById(id).innerHTML = '<p class="muted">News gerade nicht verfügbar / news unavailable.</p>'; });
     });
 
     // Digital rain behind the hero

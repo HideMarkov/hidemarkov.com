@@ -1,4 +1,4 @@
-"""Fetch recent computer-science news from public RSS/Atom feeds into news.json.
+"""Fetch recent computer-science and science news from public RSS/Atom feeds into news.json.
 
 Runs in GitHub Actions every few hours (see .github/workflows/news.yml), standard library only.
 The website reads news.json from its own domain, so visitors never contact the news sites.
@@ -11,15 +11,24 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
 
-FEEDS = [
-    ("Quanta Magazine", "https://www.quantamagazine.org/computer-science/feed/"),
-    ("MIT News", "https://news.mit.edu/topic/mitcomputers-rss.xml"),
-    ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/topic/computing.rss"),
-    ("MIT Technology Review", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
-    ("ScienceDaily", "https://www.sciencedaily.com/rss/computers_math.xml"),
-]
-PER_FEED = 4
-TOTAL = 12
+FEEDS = {
+    "cs": [
+        ("Quanta Magazine", "https://www.quantamagazine.org/computer-science/feed/"),
+        ("MIT News", "https://news.mit.edu/topic/mitcomputers-rss.xml"),
+        ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/topic/computing.rss"),
+        ("MIT Technology Review", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
+        ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab"),
+    ],
+    "science": [
+        ("Quanta Magazine", "https://www.quantamagazine.org/physics/feed/"),
+        ("Quanta Magazine", "https://www.quantamagazine.org/biology/feed/"),
+        ("ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml"),
+        ("Quanta Magazine", "https://www.quantamagazine.org/mathematics/feed/"),
+        ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/science"),
+    ],
+}
+PER_FEED = 2
+TOTAL = 6
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
@@ -72,21 +81,24 @@ def fetch(source, url):
     return items[:PER_FEED]
 
 
-def main():
+def collect(feeds):
     collected = []
-    for source, url in FEEDS:
+    for source, url in feeds:
         try:
             collected += fetch(source, url)
         except Exception as exc:  # one broken feed must not empty the list
             print(f"skip {source}: {exc}")
     collected.sort(key=lambda i: i["date"], reverse=True)
-    out = {
-        "updated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
-        "items": [dict(i, date=i["date"].date().isoformat()) for i in collected[:TOTAL]],
-    }
+    return [dict(i, date=i["date"].date().isoformat()) for i in collected[:TOTAL]]
+
+
+def main():
+    out = {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes")}
+    for key, feeds in FEEDS.items():
+        out[key] = collect(feeds)
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print(f"{len(out['items'])} items")
+    print({k: len(v) for k, v in out.items() if k != "updated"})
 
 
 if __name__ == "__main__":

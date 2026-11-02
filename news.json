@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02T13:27+00:00",
- "items": [
+ "updated": "2026-11-02T13:31+00:00",
+ "cs": [
   {
    "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
@@ -16,11 +16,11 @@
    "source": "MIT Technology Review"
   },
   {
-   "title": "A computer scientist breaks through a limit that stood since 1996",
-   "link": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm",
-   "summary": "A computer scientist has achieved a breakthrough in a nearly 25-year-old problem involving how computers calculate distances across enormous networks. The new algorithm delivers …",
+   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+   "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
    "date": "2026-10-30",
-   "source": "ScienceDaily"
+   "source": "Ars Technica"
   },
   {
    "title": "We urgently need to monitor AI agents’ actions in real time",
@@ -37,53 +37,55 @@
    "source": "MIT News"
   },
   {
-   "title": "Creating AI value with enterprise context",
-   "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-   "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow …",
-   "date": "2026-10-28",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "Pairing industrial AI autonomy and human control",
-   "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
-   "summary": "",
-   "date": "2026-10-28",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "Smithsonian scientists just recreated the first 2 billion years of the Universe",
-   "link": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
-   "summary": "Scientists have created one of the largest and most detailed simulations of the early universe ever made, offering an extraordinary new glimpse into the cosmos shortly after the …",
+   "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+   "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+   "summary": "Critical flaw in EDK2 allows attackers to execute code early in the boot process.",
    "date": "2026-10-27",
+   "source": "Ars Technica"
+  }
+ ],
+ "science": [
+  {
+   "title": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
+   "link": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
+   "summary": "A UCLA study found that long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease. Scientists also uncovered how the chemical …",
+   "date": "2026-11-01",
    "source": "ScienceDaily"
   },
   {
-   "title": "A tiny laser beam could make computer memory 1,000 times faster",
-   "link": "https://www.sciencedaily.com/releases/2026/10/261025073046.htm",
-   "summary": "Scientists at UC San Diego have developed a surprising new way to store digital information using light instead of magnets, potentially paving the way for smaller, faster, and …",
-   "date": "2026-10-27",
+   "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+   "link": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+   "summary": "Scientists have built a groundbreaking molecular motor that spins in either direction using electricity, inspired by a machine invented more than 2,000 years ago. Even more …",
+   "date": "2026-11-01",
    "source": "ScienceDaily"
   },
   {
-   "title": "Tiny magnetic vortices could help computers work more like your brain",
-   "link": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
-   "summary": "Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these unusual structures. …",
-   "date": "2026-10-26",
-   "source": "ScienceDaily"
+   "title": "Seabirds racing home over the ocean can get jet-lagged",
+   "link": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
+   "summary": "A long flight home from feeding grounds messes with birds' internal clocks.",
+   "date": "2026-10-31",
+   "source": "Ars Technica"
   },
   {
-   "title": "Poetry for Engineers: Of Code and Shortleaf Pine",
-   "link": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
-   "summary": "I step into the warm moist air among the columns of the pines, their net of twigs and roots complex as any lines of code. The trees purify and anchor. Their branches balance my …",
-   "date": "2026-10-25",
-   "source": "IEEE Spectrum"
+   "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
+   "link": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
+   "summary": "The regulator says Tavneos was approved on the basis of manipulated study data. Should patients still have access to it?",
+   "date": "2026-10-31",
+   "source": "Ars Technica"
   },
   {
-   "title": "What Biometric Technology Does and Doesn’t Add to Voting",
-   "link": "https://spectrum.ieee.org/biometric-voting-technology",
-   "summary": "Whether voters are alive or dead is of vital interest to democracies. Yet unscrupulous political operators have long voted on behalf of the dead or absent and otherwise committed …",
-   "date": "2026-10-24",
-   "source": "IEEE Spectrum"
+   "title": "A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy",
+   "link": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
+   "summary": "For decades, astronomers treated the interstellar medium as a static backdrop to the goings-on of the universe. Now, a wave of 3D mapping is bringing the interstellar medium’s …",
+   "date": "2026-10-30",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "How Do You Take a Picture of a Black Hole?",
+   "link": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
+   "summary": "Astrophysicist Shep Doeleman explains how capturing the first image of a black hole required a telescope the size of the world, and why the next goal is to create a movie. The …",
+   "date": "2026-10-29",
+   "source": "Quanta Magazine"
   }
  ]
 }
