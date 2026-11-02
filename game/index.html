@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#000000">
+<title>Process Mining Mini Game - HideMarkov</title>
+<meta name="description" content="Finden Sie den versteckten Prozess in einem Event Log. Ein Process-Mining-Minispiel von HideMarkov.">
+<link rel="icon" href="../favicon-32.png">
+<link rel="stylesheet" href="game.css">
+<script>if (window.self !== window.top) document.documentElement.classList.add('embedded');</script>
+</head>
+<body>
+<canvas id="rain" aria-hidden="true"></canvas>
+<div class="app">
+  <header class="top">
+    <div class="brand mono" aria-label="hidemarkov"><span class="g">&gt;</span> hidemarkov --mine<span class="cursor">_</span></div>
+    <div class="lang mono" role="group" aria-label="Sprache / Language">
+      <button type="button" class="btn-lang" data-lang="de" aria-pressed="true">DE</button>
+      <span class="sep" aria-hidden="true">|</span>
+      <button type="button" class="btn-lang" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1 Intro -->
+    <section class="screen" id="s-intro" aria-labelledby="intro-h">
+      <p class="label mono" data-t="introLabel"></p>
+      <h1 id="intro-h" tabindex="-1"><span data-t="intro1"></span><br><span class="g" data-t="intro2"></span></h1>
+      <p class="sub" data-t="introSub"></p>
+      <div class="row intro-row">
+        <button type="button" class="btn btn-main mono" id="btn-start" data-t="start"></button>
+        <button type="button" class="btn mono btn-levels" data-t="levelsBtn"></button>
+      </div>
+      <p class="best mono" id="best-intro" hidden></p>
+    </section>
+
+    <!-- Level select -->
+    <section class="screen" id="s-levels" aria-labelledby="levels-h" hidden>
+      <p class="label mono">&gt; hidemarkov --levels</p>
+      <h2 id="levels-h" tabindex="-1" data-t="levelsTitle"></h2>
+      <p class="sub" data-t="levelsSub"></p>
+      <ol class="levels" id="level-list"></ol>
+      <div class="row">
+        <button type="button" class="btn mono" id="btn-levels-back" data-t="levelsBack"></button>
+      </div>
+    </section>
+
+    <!-- 2 Play -->
+    <section class="screen" id="s-play" aria-labelledby="play-h" hidden>
+      <div class="hud mono" aria-live="off">
+        <span><span data-t="level"></span> <b id="hud-level">1</b></span>
+        <span><span data-t="round"></span> <b id="hud-round">0/4</b></span>
+        <span><span data-t="score"></span> <b id="hud-score">0</b></span>
+        <span class="combo" id="hud-combo" hidden></span>
+      </div>
+      <div class="play-grid">
+        <div class="term">
+          <div class="term-bar mono"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span id="term-title">&gt; tail -f orders.log</span></div>
+          <p class="term-cap mono" id="term-cap"></p>
+          <div class="term-body mono" id="term-body" role="log" aria-label="Event Log" aria-live="off"></div>
+        </div>
+        <div class="ask" id="ask">
+          <p class="label mono" id="ask-label"></p>
+          <h2 id="play-h" tabindex="-1"></h2>
+          <div class="timer" aria-hidden="true"><div class="timer-fill" id="timer-fill"></div></div>
+          <div class="opts" id="opts" role="group"></div>
+          <p class="feedback" id="feedback" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 Reveal -->
+    <section class="screen" id="s-reveal" aria-labelledby="reveal-h" hidden>
+      <p class="label mono">&gt; hidemarkov --discover dfg</p>
+      <h2 id="reveal-h" tabindex="-1"></h2>
+      <div class="result mono" id="result"></div>
+      <div class="graph-wrap"><svg id="graph" role="img" aria-labelledby="graph-desc"><desc id="graph-desc"></desc></svg></div>
+      <p class="sub" data-t="revealText"></p>
+      <p class="sub" data-t="revealText2"></p>
+      <ol class="steps mono">
+        <li><b>1</b> <span data-t="step1"></span></li>
+        <li><b>2</b> <span data-t="step2"></span></li>
+        <li><b>3</b> <span data-t="step3"></span></li>
+      </ol>
+      <p class="note" data-t="revealNote"></p>
+      <div class="row">
+        <button type="button" class="btn btn-main mono" id="btn-next"></button>
+        <button type="button" class="btn mono" id="btn-code" data-t="toCode"></button>
+        <button type="button" class="btn mono btn-levels" data-t="levelsBtn"></button>
+      </div>
+    </section>
+
+    <!-- 4 + 5 PM4Py and CTA -->
+    <section class="screen" id="s-code" aria-labelledby="code-h" hidden>
+      <p class="label mono">&gt; python mine.py</p>
+      <h2 id="code-h" tabindex="-1" data-t="codeTitle"></h2>
+      <p class="sub" data-t="codeText"></p>
+      <pre class="code mono" id="code" tabindex="0" aria-label="Python"></pre>
+      <p class="note" data-t="codeNote"></p>
+      <div class="cta">
+        <h3 data-t="cta"></h3>
+        <div class="row">
+          <a class="btn btn-main mono" id="cta-link" href="https://hidemarkov.com/#kontakt" target="_top" data-t="ctaBtn"></a>
+          <button type="button" class="btn mono btn-again" data-t="again"></button>
+          <button type="button" class="btn mono btn-levels" data-t="levelsBtn"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="foot mono" data-t="foot"></footer>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
