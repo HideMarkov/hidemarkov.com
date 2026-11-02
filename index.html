@@ -6,11 +6,11 @@
 <meta name="color-scheme" content="dark">
 <title>HideMarkov – Wir machen KMU stark genug, um mit den Grossen mitzuhalten</title>
 <meta name="description" content="HideMarkov: Process Mining, Automatisierung und Anwendungsentwicklung für KMU in der Schweiz und in Deutschland. Daten bleiben in der EU.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23031a0b'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Consolas,monospace' font-weight='700' font-size='16' fill='%2300ff66'%3EHM%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='421 204 694 384'%3E%3Cg fill='%232CF97A'%3E%3Cpath d='M441 224H515V355H699.5L760 401V568H685V420H515V568H441Z'/%3E%3Cpath d='M685 224L890 380L1095 224V568H1020V377L890 476L685 320Z'/%3E%3C/g%3E%3C/svg%3E">
 <style>
   :root {
     --bg: #000000; --bg-alt: #040b06; --card: #06120a; --line: #0f3a1d;
-    --green: #00ff66; --green-dim: #00b347; --green-deep: #031a0b;
+    --green: #2CF97A; --green-dim: #1fb85a; --green-deep: #031a0b;
     --text: #f2fff6; --muted: #9cc7a8; --ink: #000000;
     --mono: "Cascadia Code", Consolas, "SFMono-Regular", Menlo, "Courier New", monospace;
   }
@@ -24,7 +24,7 @@
   header { position: sticky; top: 0; z-index: 10; background: rgba(0,0,0,.85); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
   header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
   .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; font-size: 19px; }
-  .logo .mark { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 6px; background: var(--green-deep); border: 1px solid var(--line); color: var(--green); font: 700 18px/1 var(--mono); letter-spacing: -1px; text-shadow: 0 0 8px rgba(0,255,102,.6); }
+  .logo .mark { height: 26px; width: auto; filter: drop-shadow(0 0 6px rgba(44,249,122,.45)); }
   nav { display: flex; align-items: center; gap: 22px; }
   nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
   nav a:hover { color: var(--green); }
@@ -42,8 +42,8 @@
   @keyframes blink { 50% { opacity: 0; } }
   .hero h1 { font-size: clamp(32px, 5vw, 56px); line-height: 1.1; margin: 0 0 22px; max-width: 860px; letter-spacing: -0.02em; }
   .hero p { font-size: 19px; color: var(--muted); max-width: 680px; margin: 0 0 34px; }
-  .btn { display: inline-block; background: var(--green); color: var(--ink); padding: 13px 24px; border-radius: 6px; text-decoration: none; font-weight: 700; margin: 0 10px 10px 0; box-shadow: 0 0 18px rgba(0,255,102,.25); }
-  .btn:hover { box-shadow: 0 0 26px rgba(0,255,102,.5); }
+  .btn { display: inline-block; background: var(--green); color: var(--ink); padding: 13px 24px; border-radius: 6px; text-decoration: none; font-weight: 700; margin: 0 10px 10px 0; box-shadow: 0 0 18px rgba(44,249,122,.25); }
+  .btn:hover { box-shadow: 0 0 26px rgba(44,249,122,.5); }
   .btn.ghost { background: transparent; color: var(--green); border: 1px solid var(--green-dim); box-shadow: none; }
   .facts { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 44px; color: var(--muted); font: 14px var(--mono); }
   .facts > span::before { content: "> "; color: var(--green); }
@@ -57,7 +57,7 @@
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 18px; }
   .grid.four { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 26px; transition: border-color .2s, box-shadow .2s; }
-  .card:hover { border-color: var(--green-dim); box-shadow: 0 0 22px rgba(0,255,102,.12); }
+  .card:hover { border-color: var(--green-dim); box-shadow: 0 0 22px rgba(44,249,122,.12); }
   .card h3 { margin: 0 0 8px; font-size: 19px; }
   .card p { margin: 0; color: var(--muted); font-size: 16px; }
   .tag { display: inline-block; font: 600 12px var(--mono); color: var(--green); margin-bottom: 10px; }
@@ -74,7 +74,7 @@
 
   ol.steps { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 20px; }
   ol.steps li { counter-increment: s; }
-  ol.steps li::before { content: "0" counter(s); display: block; font: 700 26px var(--mono); color: var(--green); margin-bottom: 8px; text-shadow: 0 0 10px rgba(0,255,102,.4); }
+  ol.steps li::before { content: "0" counter(s); display: block; font: 700 26px var(--mono); color: var(--green); margin-bottom: 8px; text-shadow: 0 0 10px rgba(44,249,122,.4); }
   ol.steps strong { display: block; margin-bottom: 4px; }
   ol.steps span { color: var(--muted); font-size: 15px; }
 
@@ -101,7 +101,7 @@
 <header>
   <div class="wrap">
     <a class="logo" href="#top" aria-label="HideMarkov">
-      <span class="mark">HM</span>
+      <svg class="mark" viewBox="421 204 694 384" aria-hidden="true"><g fill="#2CF97A"><path d="M441 224H515V355H699.5L760 401V568H685V420H515V568H441Z"/><path d="M685 224L890 380L1095 224V568H1020V377L890 476L685 320Z"/></g></svg>
       <span>Hide<span class="g">Markov</span></span>
     </a>
     <nav>
@@ -272,7 +272,7 @@
         <span class="de">Zeigen Sie uns den Prozess, der Sie am meisten Zeit kostet. Wir sagen Ihnen, ob Software ihn lösen kann und was das ungefähr kostet.</span>
         <span class="en">Show us the process that costs you the most time. We'll tell you whether software can fix it and roughly what it would cost.</span>
       </p>
-      <a class="btn" href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
+      <a class="btn" href="mailto:sebastian.kustosz@hidemarkov.com">sebastian.kustosz@hidemarkov.com</a>
     </div>
   </section>
 </main>
@@ -287,7 +287,7 @@
       Charlottenweg 3a<br>
       8212 Neuhausen am Rheinfall<br>
       <span class="de">Schweiz</span><span class="en">Switzerland</span><br>
-      E-Mail: <a href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
+      E-Mail: <a href="mailto:sebastian.kustosz@hidemarkov.com">sebastian.kustosz@hidemarkov.com</a>
     </p>
     <h2 id="datenschutz"><span class="de">Datenschutz</span><span class="en">Privacy</span></h2>
     <p>
@@ -340,7 +340,7 @@
       ctx.font = size + 'px Consolas, monospace';
       for (var i = 0; i < drops.length; i++) {
         var y = drops[i] * size;
-        ctx.fillStyle = Math.random() > 0.97 ? '#d8ffe4' : '#00ff66';
+        ctx.fillStyle = Math.random() > 0.97 ? '#d8ffe4' : '#2CF97A';
         ctx.fillText(chars[(Math.random() * chars.length) | 0], i * size, y);
         if (y > c.height && Math.random() > 0.975) drops[i] = 0;
         drops[i]++;
