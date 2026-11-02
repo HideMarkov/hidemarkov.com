@@ -92,6 +92,34 @@
   footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
   footer a { color: var(--muted); }
 
+  .acc { border: 1px solid var(--line); border-radius: 8px; background: var(--card); margin-bottom: 12px; }
+  .acc summary { cursor: pointer; padding: 16px 20px; font-weight: 700; list-style: none; }
+  .acc summary::-webkit-details-marker { display: none; }
+  .acc summary::before { content: "+ "; color: var(--green); font-family: var(--mono); }
+  .acc[open] summary::before { content: "− "; }
+  .acc > div { padding: 0 20px 20px; }
+  .tbl { overflow-x: auto; }
+  .tbl table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .tbl td { padding: 8px 10px; border-top: 1px solid var(--line); vertical-align: top; color: var(--muted); }
+  .tbl td:first-child { white-space: nowrap; width: 1%; }
+  code { font-family: var(--mono); color: var(--green); font-size: .92em; }
+  .tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 8px 28px; }
+  .toolgroup h4 { margin: 12px 0 6px; font: 600 13px var(--mono); color: var(--green); text-transform: uppercase; letter-spacing: .06em; }
+  .toolgroup ul { list-style: none; padding: 0; margin: 0; }
+  .toolgroup li { padding: 5px 0; color: var(--muted); font-size: 15px; }
+  .toolgroup a { font-weight: 600; text-decoration: none; }
+  .news { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .news a.item { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s; }
+  .news a.item:hover { border-color: var(--green-dim); box-shadow: 0 0 22px rgba(44,249,122,.12); }
+  .news .meta { font: 12px var(--mono); color: var(--green); margin-bottom: 6px; }
+  .news .t { font-weight: 700; line-height: 1.35; }
+  .news .s { color: var(--muted); font-size: 14px; margin-top: 6px; }
+  .upd, .muted { color: var(--muted); font: 12px var(--mono); }
+  .clips { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-top: 36px; padding: 24px; border: 1px solid var(--green-dim); border-radius: 8px; background: var(--green-deep); }
+  .clips h3 { margin: 0 0 4px; }
+  .clips p { margin: 0; color: var(--muted); }
+  .clip-links .btn { margin-bottom: 0; }
+  @media (max-width: 600px) { .tools, .news { grid-template-columns: 1fr; } }
   [data-lang="en"] .de, [data-lang="de"] .en { display: none; }
   @media (prefers-reduced-motion: reduce) { #rain { display: none; } .prompt::after { animation: none; } }
 </style>
@@ -107,8 +135,9 @@
     <nav>
       <a href="#leistungen"><span class="de">Leistungen</span><span class="en">Services</span></a>
       <a href="#kaliber">Kaliber</a>
-      <a href="#projekte"><span class="de">Projekte</span><span class="en">Work</span></a>
       <a href="#warum"><span class="de">Warum wir</span><span class="en">Why us</span></a>
+      <a href="#werkzeuge"><span class="de">Gratis-Tools</span><span class="en">Free tools</span></a>
+      <a href="#wissenschaft">News</a>
       <a href="#ueber"><span class="de">Über mich</span><span class="en">About</span></a>
       <a href="#kontakt"><span class="de">Kontakt</span><span class="en">Contact</span></a>
       <div class="lang" role="group" aria-label="Sprache / Language">
@@ -197,26 +226,6 @@
     </div>
   </section>
 
-  <section id="projekte">
-    <div class="wrap">
-      <div class="kicker"><span class="de">Projekte</span><span class="en">Work</span></div>
-      <h2><span class="de">Ausgewählte Projekte</span><span class="en">Selected work</span></h2>
-      <p class="lead"><span class="de">Was wir gebaut haben und womit.</span><span class="en">What we have built, and with what.</span></p>
-      <div class="grid">
-        <div class="card">
-          <h3>Grailbid</h3>
-          <p><span class="de">Multi-Vendor-Marktplatz für Sammelkarten und seltene Sammlerstücke – Festpreis und Auktion, CHF/EUR, Deutsch, Französisch, Englisch.</span><span class="en">Multi-vendor marketplace for trading cards and rare collectibles – fixed price and auction, CHF/EUR, German, French, English.</span></p>
-          <div class="stack">Next.js · TypeScript · Prisma · PostgreSQL</div>
-        </div>
-        <div class="card">
-          <h3>HideMarkov Game Studio</h3>
-          <p><span class="de">Browser-Spiele als eigenständige Dateien, automatisch auf Desktop und Mobil getestet, mit generierten Store-Assets.</span><span class="en">Browser games as self-contained files, automatically tested on desktop and mobile, with generated store assets.</span></p>
-          <div class="stack">three.js · Python</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="alt">
     <div class="wrap">
       <div class="kicker"><span class="de">Vorgehen</span><span class="en">Process</span></div>
@@ -246,6 +255,46 @@
     </div>
   </section>
 
+  <section id="werkzeuge" class="alt">
+    <div class="wrap">
+      <div class="kicker"><span class="de">Gratis-Werkzeugkasten</span><span class="en">Free toolbox</span></div>
+      <h2><span class="de">Kostenlos für Ihr Team</span><span class="en">Free for your team</span></h2>
+      <p class="lead"><span class="de">Spickzettel und gratis Werkzeuge, die wir selbst täglich nutzen. Ohne Anmeldung, ohne Haken.</span><span class="en">Cheat sheets and free tools we use every day ourselves. No sign-up, no catch.</span></p>
+      <details class="acc" open>
+        <summary><span class="de">Gratis-Tools für Process Mining, Automatisierung und Daten</span><span class="en">Free tools for process mining, automation and data</span></summary>
+        <div class="tools"><div class="toolgroup"><h4><span class="de">Process Mining</span><span class="en">Process mining</span></h4><ul><li><a href="https://processintelligence.solutions/pm4py" target="_blank" rel="noopener">PM4Py</a> – <span class="de">Python-Bibliothek, Prozesse aus Event-Logs analysieren</span><span class="en">Python library to analyse processes from event logs</span></li><li><a href="https://promtools.org/" target="_blank" rel="noopener">ProM</a> – <span class="de">Klassiker aus der Forschung, hunderte Algorithmen</span><span class="en">research classic with hundreds of algorithms</span></li><li><a href="https://github.com/bupaverse/bupaR" target="_blank" rel="noopener">bupaR</a> – <span class="de">Process Mining in R</span><span class="en">process mining in R</span></li><li><a href="https://github.com/apromore/ApromoreCore" target="_blank" rel="noopener">Apromore Community</a> – <span class="de">Open-Source-Plattform mit grafischer Oberfläche</span><span class="en">open-source platform with a graphical interface</span></li></ul></div><div class="toolgroup"><h4><span class="de">Automatisierung</span><span class="en">Automation</span></h4><ul><li><a href="https://learn.microsoft.com/power-automate/desktop-flows/introduction" target="_blank" rel="noopener">Power Automate Desktop</a> – <span class="de">in Windows enthalten, Klicks und Excel automatisieren</span><span class="en">included in Windows, automate clicks and Excel</span></li><li><a href="https://n8n.io" target="_blank" rel="noopener">n8n</a> – <span class="de">Workflows zwischen Apps, selbst hostbar</span><span class="en">workflows between apps, self-hostable</span></li><li><a href="https://www.autohotkey.com" target="_blank" rel="noopener">AutoHotkey</a> – <span class="de">Tastenkürzel und Textbausteine für Windows</span><span class="en">shortcuts and text snippets for Windows</span></li></ul></div><div class="toolgroup"><h4><span class="de">Prozesse zeichnen</span><span class="en">Process modelling</span></h4><ul><li><a href="https://drawio.com" target="_blank" rel="noopener">draw.io</a> – <span class="de">Diagramme und Ablaufpläne im Browser</span><span class="en">diagrams and flowcharts in the browser</span></li><li><a href="https://bpmn.io" target="_blank" rel="noopener">bpmn.io</a> – <span class="de">BPMN-Modelle direkt im Browser</span><span class="en">BPMN models right in the browser</span></li><li><a href="https://camunda.com/download/modeler" target="_blank" rel="noopener">Camunda Modeler</a> – <span class="de">BPMN-Desktop-Werkzeug</span><span class="en">BPMN desktop tool</span></li></ul></div><div class="toolgroup"><h4><span class="de">Daten</span><span class="en">Data</span></h4><ul><li><a href="https://www.openrefine.org" target="_blank" rel="noopener">OpenRefine</a> – <span class="de">unordentliche Tabellen bereinigen</span><span class="en">clean up messy spreadsheets</span></li><li><a href="https://www.metabase.com" target="_blank" rel="noopener">Metabase</a> – <span class="de">Dashboards auf Ihrer Datenbank</span><span class="en">dashboards on your database</span></li><li><a href="https://dbeaver.io" target="_blank" rel="noopener">DBeaver</a> – <span class="de">ein Werkzeug für fast jede Datenbank</span><span class="en">one tool for almost any database</span></li><li><a href="https://www.libreoffice.org" target="_blank" rel="noopener">LibreOffice</a> – <span class="de">Office-Paket ohne Lizenzkosten</span><span class="en">office suite without licence fees</span></li></ul></div><div class="toolgroup"><h4><span class="de">Entwicklung</span><span class="en">Development</span></h4><ul><li><a href="https://code.visualstudio.com" target="_blank" rel="noopener">VS Code</a> – <span class="de">Editor für Code und Skripte</span><span class="en">editor for code and scripts</span></li><li><a href="https://git-scm.com" target="_blank" rel="noopener">Git</a> – <span class="de">Versionsverwaltung – nie wieder <code>final_v3.xlsx</code></span><span class="en">version control – no more <code>final_v3.xlsx</code></span></li><li><a href="https://www.python.org" target="_blank" rel="noopener">Python</a> – <span class="de">die Sprache für Automatisierung und Daten</span><span class="en">the language for automation and data</span></li><li><a href="https://www.postgresql.org" target="_blank" rel="noopener">PostgreSQL</a> – <span class="de">Datenbank auf Konzern-Niveau, gratis</span><span class="en">enterprise-grade database, free</span></li><li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a> – <span class="de">Anwendungen in Containern (Lizenz für Firmen prüfen)</span><span class="en">apps in containers (check the licence for companies)</span></li></ul></div><div class="toolgroup"><h4><span class="de">Sicherheit &amp; Nachschlagen</span><span class="en">Security &amp; reference</span></h4><ul><li><a href="https://keepassxc.org" target="_blank" rel="noopener">KeePassXC</a> – <span class="de">Passwort-Manager, offline</span><span class="en">password manager, offline</span></li><li><a href="https://explainshell.com" target="_blank" rel="noopener">explainshell</a> – <span class="de">erklärt jeden Linux-Befehl Stück für Stück</span><span class="en">explains any Linux command piece by piece</span></li><li><a href="https://tldr.sh" target="_blank" rel="noopener">tldr</a> – <span class="de">Kurzbeispiele zu tausenden Befehlen</span><span class="en">short examples for thousands of commands</span></li><li><a href="https://ss64.com" target="_blank" rel="noopener">SS64</a> – <span class="de">Referenz für PowerShell, CMD, Bash</span><span class="en">reference for PowerShell, CMD, Bash</span></li></ul></div></div>
+      </details>
+      <details class="acc">
+        <summary><span class="de">Linux: die 25 wichtigsten Befehle</span><span class="en">Linux: the 25 most important commands</span></summary>
+        <div><div class="tbl"><table><tr><td><code>pwd</code></td><td><span class="de">Zeigt, in welchem Ordner Sie sind</span><span class="en">Shows which folder you are in</span></td></tr><tr><td><code>ls -la</code></td><td><span class="de">Listet alle Dateien, auch versteckte, mit Details</span><span class="en">Lists all files, including hidden, with details</span></td></tr><tr><td><code>cd /pfad</code></td><td><span class="de">Wechselt in einen Ordner (<code>cd ..</code> = eine Ebene hoch)</span><span class="en">Changes folder (<code>cd ..</code> = one level up)</span></td></tr><tr><td><code>mkdir -p a/b</code></td><td><span class="de">Legt Ordner an, auch verschachtelt</span><span class="en">Creates folders, nested too</span></td></tr><tr><td><code>cp -r quelle ziel</code></td><td><span class="de">Kopiert Dateien oder ganze Ordner</span><span class="en">Copies files or whole folders</span></td></tr><tr><td><code>mv alt neu</code></td><td><span class="de">Verschiebt oder benennt um</span><span class="en">Moves or renames</span></td></tr><tr><td><code>rm datei</code></td><td><span class="de">Löscht eine Datei – ohne Papierkorb!</span><span class="en">Deletes a file – no recycle bin!</span></td></tr><tr><td><code>cat datei</code></td><td><span class="de">Gibt den Inhalt einer Datei aus</span><span class="en">Prints a file's content</span></td></tr><tr><td><code>less datei</code></td><td><span class="de">Blättert durch grosse Dateien (q = beenden)</span><span class="en">Pages through large files (q = quit)</span></td></tr><tr><td><code>tail -f log.txt</code></td><td><span class="de">Zeigt neue Zeilen einer Log-Datei live</span><span class="en">Shows new lines of a log file live</span></td></tr><tr><td><code>grep -ri &quot;text&quot; .</code></td><td><span class="de">Sucht Text in allen Dateien darunter</span><span class="en">Searches text in all files below</span></td></tr><tr><td><code>find . -name &quot;*.pdf&quot;</code></td><td><span class="de">Findet Dateien nach Namen</span><span class="en">Finds files by name</span></td></tr><tr><td><code>df -h</code></td><td><span class="de">Freier Speicherplatz pro Laufwerk</span><span class="en">Free disk space per drive</span></td></tr><tr><td><code>du -sh *</code></td><td><span class="de">Wie gross ist jeder Ordner?</span><span class="en">How big is each folder?</span></td></tr><tr><td><code>top / htop</code></td><td><span class="de">Was frisst gerade CPU und RAM?</span><span class="en">What is eating CPU and RAM right now?</span></td></tr><tr><td><code>ps aux | grep name</code></td><td><span class="de">Findet einen laufenden Prozess</span><span class="en">Finds a running process</span></td></tr><tr><td><code>kill PID</code></td><td><span class="de">Beendet einen Prozess</span><span class="en">Stops a process</span></td></tr><tr><td><code>chmod +x script.sh</code></td><td><span class="de">Macht ein Skript ausführbar</span><span class="en">Makes a script executable</span></td></tr><tr><td><code>sudo befehl</code></td><td><span class="de">Führt einen Befehl als Administrator aus</span><span class="en">Runs a command as administrator</span></td></tr><tr><td><code>sudo apt update &amp;&amp; sudo apt upgrade</code></td><td><span class="de">Aktualisiert alle Programme (Debian/Ubuntu)</span><span class="en">Updates all programs (Debian/Ubuntu)</span></td></tr><tr><td><code>ssh user@server</code></td><td><span class="de">Verbindet sicher mit einem anderen Rechner</span><span class="en">Connects securely to another machine</span></td></tr><tr><td><code>scp datei user@server:/ziel</code></td><td><span class="de">Kopiert eine Datei auf einen Server</span><span class="en">Copies a file to a server</span></td></tr><tr><td><code>curl -I https://seite.ch</code></td><td><span class="de">Prüft, ob eine Website antwortet</span><span class="en">Checks whether a website responds</span></td></tr><tr><td><code>tar -czf backup.tgz ordner</code></td><td><span class="de">Packt einen Ordner in ein Archiv</span><span class="en">Packs a folder into an archive</span></td></tr><tr><td><code>crontab -e</code></td><td><span class="de">Plant Aufgaben automatisch (z. B. jede Nacht)</span><span class="en">Schedules tasks automatically (e.g. every night)</span></td></tr></table></div></div>
+      </details>
+      <details class="acc">
+        <summary><span class="de">Windows PowerShell: 13 Befehle für den Alltag</span><span class="en">Windows PowerShell: 13 everyday commands</span></summary>
+        <div><div class="tbl"><table><tr><td><code>Get-ChildItem</code></td><td><span class="de">Dateien auflisten (wie <code>ls</code>)</span><span class="en">List files (like <code>ls</code>)</span></td></tr><tr><td><code>Get-Process | Sort CPU -Desc | Select -First 10</code></td><td><span class="de">Die 10 Prozesse mit der meisten CPU</span><span class="en">The 10 processes using most CPU</span></td></tr><tr><td><code>Stop-Process -Name programm</code></td><td><span class="de">Beendet ein Programm</span><span class="en">Stops a program</span></td></tr><tr><td><code>Get-Service | Where Status -eq Running</code></td><td><span class="de">Alle laufenden Dienste</span><span class="en">All running services</span></td></tr><tr><td><code>Get-Volume</code></td><td><span class="de">Freier Speicher pro Laufwerk</span><span class="en">Free space per drive</span></td></tr><tr><td><code>Test-NetConnection seite.ch -Port 443</code></td><td><span class="de">Ist ein Server/Port erreichbar?</span><span class="en">Is a server/port reachable?</span></td></tr><tr><td><code>Get-NetIPAddress</code></td><td><span class="de">Eigene IP-Adressen</span><span class="en">Your own IP addresses</span></td></tr><tr><td><code>Resolve-DnsName seite.ch</code></td><td><span class="de">DNS-Eintrag einer Domain prüfen</span><span class="en">Check a domain's DNS record</span></td></tr><tr><td><code>Get-FileHash datei.zip</code></td><td><span class="de">Prüfsumme – ist die Datei unverändert?</span><span class="en">Checksum – is the file unchanged?</span></td></tr><tr><td><code>Compress-Archive ordner backup.zip</code></td><td><span class="de">Ordner als ZIP sichern</span><span class="en">Back up a folder as ZIP</span></td></tr><tr><td><code>Import-Csv daten.csv | Export-Excel</code></td><td><span class="de">CSV einlesen und als Excel speichern (Modul ImportExcel)</span><span class="en">Read a CSV and save it as Excel (ImportExcel module)</span></td></tr><tr><td><code>winget upgrade --all</code></td><td><span class="de">Alle installierten Programme aktualisieren</span><span class="en">Update all installed programs</span></td></tr><tr><td><code>Get-Help befehl -Examples</code></td><td><span class="de">Beispiele zu jedem Befehl</span><span class="en">Examples for any command</span></td></tr></table></div></div>
+      </details>
+    </div>
+  </section>
+
+  <section id="wissenschaft">
+    <div class="wrap">
+      <div class="kicker"><span class="de">Wissenschaft &amp; Informatik</span><span class="en">Science &amp; computer science</span></div>
+      <h2><span class="de">Neu in der Informatik</span><span class="en">What's new in computer science</span></h2>
+      <p class="lead"><span class="de">Aktuelle Durchbrüche aus Forschung und Technik, alle paar Stunden automatisch aktualisiert (Artikel auf Englisch).</span><span class="en">Recent breakthroughs from research and technology, refreshed automatically every few hours.</span> <span class="upd" id="news-upd"></span></p>
+      <div class="news" id="news"><p class="muted"><span class="de">News werden geladen …</span><span class="en">Loading news …</span></p></div>
+      <div class="clips">
+        <div>
+          <h3>MarkovClips</h3>
+          <p><span class="de">Informatik und Wissenschaft in unter einer Minute – unser Kanal.</span><span class="en">Computer science and science in under a minute – our channel.</span></p>
+        </div>
+        <div class="clip-links">
+          <a class="btn" href="https://www.youtube.com/@HideMarkov" target="_blank" rel="noopener">YouTube</a>
+          <a class="btn ghost" href="https://www.tiktok.com/@markovclips" target="_blank" rel="noopener">TikTok</a>
+          <a class="btn ghost" href="https://www.instagram.com/markovclips" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="ueber">
     <div class="wrap feature">
       <div>
@@ -272,7 +321,7 @@
         <span class="de">Zeigen Sie uns den Prozess, der Sie am meisten Zeit kostet. Wir sagen Ihnen, ob Software ihn lösen kann und was das ungefähr kostet.</span>
         <span class="en">Show us the process that costs you the most time. We'll tell you whether software can fix it and roughly what it would cost.</span>
       </p>
-      <a class="btn" href="mailto:sebastian.kustosz@hidemarkov.com">sebastian.kustosz@hidemarkov.com</a>
+      <a class="btn" href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
     </div>
   </section>
 </main>
@@ -287,7 +336,7 @@
       Charlottenweg 3a<br>
       8212 Neuhausen am Rheinfall<br>
       <span class="de">Schweiz</span><span class="en">Switzerland</span><br>
-      E-Mail: <a href="mailto:sebastian.kustosz@hidemarkov.com">sebastian.kustosz@hidemarkov.com</a>
+      E-Mail: <a href="mailto:info@hidemarkov.com">info@hidemarkov.com</a>
     </p>
     <h2 id="datenschutz"><span class="de">Datenschutz</span><span class="en">Privacy</span></h2>
     <p>
@@ -324,6 +373,22 @@
     openLegal(); window.addEventListener('hashchange', openLegal);
     document.querySelectorAll('a[href="#impressum"], a[href="#datenschutz"]').forEach(function (a) {
       a.addEventListener('click', function () { document.getElementById('impressum').open = true; });
+    });
+
+    // News feed from news.json (refreshed by a GitHub job; same origin, no third-party requests)
+    fetch('news.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
+      var box = document.getElementById('news'); box.textContent = '';
+      d.items.slice(0, 9).forEach(function (it) {
+        var a = document.createElement('a'); a.className = 'item'; a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+        var m = document.createElement('div'); m.className = 'meta'; m.textContent = it.date + ' · ' + it.source;
+        var t = document.createElement('div'); t.className = 't'; t.textContent = it.title;
+        a.appendChild(m); a.appendChild(t);
+        if (it.summary) { var x = document.createElement('div'); x.className = 's'; x.textContent = it.summary; a.appendChild(x); }
+        box.appendChild(a);
+      });
+      document.getElementById('news-upd').textContent = '· ' + d.updated.replace('T', ' ').slice(0, 16) + ' UTC';
+    }).catch(function () {
+      document.getElementById('news').innerHTML = '<p class="muted">News gerade nicht verfügbar / news unavailable.</p>';
     });
 
     // Digital rain behind the hero
