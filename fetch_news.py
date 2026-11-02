@@ -48,6 +48,7 @@ def parse_date(text):
 
 def clean(text, limit=None):
     text = unescape(re.sub(r"<[^>]+>", " ", text or ""))
+    text = re.sub(r"[–—]", "-", text)  # site style: no long dashes
     text = re.sub(r"\s+", " ", text).strip()
     if limit and len(text) > limit:
         text = text[:limit].rsplit(" ", 1)[0] + " …"

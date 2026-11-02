@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-02T13:31+00:00",
+ "updated": "2026-11-02T14:20+00:00",
  "cs": [
+  {
+   "title": "Stop counting tokens, start counting what ships",
+   "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+   "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single …",
+   "date": "2026-11-02",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
@@ -23,13 +30,6 @@
    "source": "Ars Technica"
   },
   {
-   "title": "We urgently need to monitor AI agents’ actions in real time",
-   "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-   "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they …",
-   "date": "2026-10-29",
-   "source": "MIT Technology Review"
-  },
-  {
    "title": "New system gives users more control over their online experience",
    "link": "https://news.mit.edu/2026/new-system-gives-users-more-control-over-online-experience-1029",
    "summary": "The Social.Wiki framework enables anyone to easily edit social websites within the system, while allowing them to choose the content they see.",
@@ -46,17 +46,17 @@
  ],
  "science": [
   {
-   "title": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
-   "link": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
-   "summary": "A UCLA study found that long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease. Scientists also uncovered how the chemical …",
-   "date": "2026-11-01",
+   "title": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+   "summary": "Mysterious particles called neutrinos constantly stream through our bodies, and scientists are now detecting incredibly powerful versions arriving from distant cosmic sources …",
+   "date": "2026-11-02",
    "source": "ScienceDaily"
   },
   {
-   "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
-   "link": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
-   "summary": "Scientists have built a groundbreaking molecular motor that spins in either direction using electricity, inspired by a machine invented more than 2,000 years ago. Even more …",
-   "date": "2026-11-01",
+   "title": "Scientists discover that some “unhealthy” diets can boost cancer immunotherapy in mice",
+   "link": "https://www.sciencedaily.com/releases/2026/10/261029072132.htm",
+   "summary": "In a surprising discovery, scientists found that certain diets associated with obesity can make cancer immunotherapy more effective in mice, challenging traditional assumptions …",
+   "date": "2026-11-02",
    "source": "ScienceDaily"
   },
   {
