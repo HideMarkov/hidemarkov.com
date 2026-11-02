@@ -38,7 +38,7 @@ h3{font-size:clamp(19px,2.4vw,26px)}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;font-size:16px;text-decoration:none}
 .btn-main{background:var(--green);color:#001a08;border-color:var(--green);font-weight:700}
 .btn-main:hover,.btn-main:focus-visible{background:#5dffa0}
-.btn-lang{font-size:13px;padding:6px 10px;min-height:34px;background:transparent;border-color:transparent;color:var(--muted)}
+.btn-lang{font-size:13px;padding:6px 10px;min-height:44px;min-width:44px;background:transparent;border-color:transparent;color:var(--muted)}
 .btn-lang[aria-pressed="true"]{color:var(--green);border-color:var(--line)}
 #btn-start{font-size:18px;padding:14px 30px}
 .intro-row{margin-top:20px}
@@ -137,11 +137,14 @@ h3{font-size:clamp(19px,2.4vw,26px)}
 .foot{color:#4f8a62;font-size:12px;text-align:center;padding-top:10px;border-top:1px solid var(--line)}
 
 @media (max-width:480px){
+  .term-bar{font-size:12px;overflow-wrap:anywhere}
+  .snip .c{display:none}
+  .snip{white-space:normal}
+  .code{white-space:pre-wrap;overflow-wrap:anywhere;overflow-x:visible}
   .brand{font-size:13px}
   .term-body{font-size:12px;height:190px}
   .term-cap{font-size:11.5px}
   .snip .p{display:none}
-  .snip{white-space:nowrap}
   main{padding:12px 0}
   .hud{margin-bottom:8px}
   .opt{font-size:15px;min-height:52px}
@@ -163,6 +166,14 @@ h3{font-size:clamp(19px,2.4vw,26px)}
   #play-h{font-size:20px}
 }
 /* Wide and very wide screens */
+@media (max-width:420px){
+  .ln .dt,.ln .sec{display:none}
+  .term-body,.term-cap{padding-left:10px;padding-right:10px}
+  .opts.n4 .opt .k{display:none}
+  .opts.n4 .opt{font-size:13px;padding:8px 10px;hyphens:auto;overflow-wrap:break-word}
+  .hud{gap:6px 14px}
+  .result{gap:6px 16px}
+}
 @media (min-width:1800px){
   .app{max-width:1500px}
   .term-body{font-size:14px}
@@ -191,7 +202,7 @@ h3{font-size:clamp(19px,2.4vw,26px)}
 .embedded .lang{display:none}
 .embedded .term-body{height:300px}
 .embedded #graph{max-height:none}
-@media (max-width:640px){.embedded .term-body{height:190px}}
+@media (max-width:640px){.embedded .term-body{height:230px}}
 .embedded h1{font-size:clamp(24px,3.2vw,38px)}
 .embedded h2{font-size:clamp(20px,2.4vw,28px)}
 .embedded .app{max-width:none;padding-left:clamp(16px,2.4vw,32px);padding-right:clamp(16px,2.4vw,32px)}

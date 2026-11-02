@@ -27,7 +27,7 @@
         wide: { w: 1100, h: 470, pos: { rec: [100, 250], chk: [310, 250], app: [520, 140], rej: [520, 380], shp: [730, 140], inv: [950, 140], pay: [950, 360] },
           loops: { chk: 'top', inv: 'top' }, bend: { 'app>inv': -95, 'pay>shp': -30 } },
         tall: { w: 500, h: 920, pos: { rec: [250, 50], chk: [250, 190], app: [170, 350], rej: [390, 350], shp: [170, 520], inv: [170, 690], pay: [170, 860] },
-          loops: { chk: 'right', inv: 'right' }, bend: { 'app>inv': 250, 'pay>shp': 440 } }
+          loops: { chk: 'right', inv: 'right' }, bend: { 'app>inv': 215, 'pay>shp': 440 } }
       }
     },
     { // Level 2: loan approval at a bank
@@ -58,7 +58,7 @@
         wide: { w: 1100, h: 470, pos: { req: [100, 140], cnc: [100, 370], rcv: [310, 140], chk: [520, 250], ref: [750, 80], exc: [750, 250], rep: [750, 410], cls: [980, 80], snd: [980, 330] },
           loops: { chk: 'bottom' }, bend: {} },
         tall: { w: 580, h: 820, pos: { req: [150, 50], cnc: [430, 50], rcv: [150, 190], chk: [290, 340], ref: [100, 520], exc: [290, 600], rep: [480, 520], cls: [100, 760], snd: [400, 760] },
-          loops: { chk: 'right' }, bend: { 'exc>ref': 30 } }
+          loops: { chk: 'right' }, bend: { 'exc>ref': 30, 'chk>exc': 30 } }
       }
     },
     { // Level 4: an insurer calculates a premium quote
@@ -73,8 +73,8 @@
       layout: {
         wide: { w: 1100, h: 480, pos: { req: [100, 240], dat: [310, 240], miss: [310, 420], dis: [645, 75], tar: [530, 240], man: [530, 420], off: [760, 240], acc: [990, 130], rej: [990, 360] },
           loops: {}, bend: { 'off>dat': 110 } },
-        tall: { w: 560, h: 840, pos: { req: [190, 50], dat: [190, 180], miss: [430, 180], tar: [190, 350], man: [430, 350], dis: [430, 490], off: [190, 580], acc: [110, 780], rej: [400, 780] },
-          loops: {}, bend: { 'off>dat': -230 } }
+        tall: { w: 560, h: 840, pos: { req: [190, 50], dat: [190, 180], miss: [430, 180], tar: [190, 350], man: [430, 350], dis: [430, 520], off: [190, 600], acc: [110, 780], rej: [400, 780] },
+          loops: {}, bend: { 'off>dat': -230, 'man>off': 30 } }
       }
     },
     { // Level 5: support tickets with ping pong loops
@@ -89,9 +89,9 @@
       },
       layout: {
         wide: { w: 1120, h: 490, pos: { opn: [100, 245], tri: [300, 120], esc: [520, 45], ans: [520, 245], wai: [770, 150], sol: [770, 380], reo: [520, 440], cls: [1010, 380] },
-          loops: {}, bend: { 'esc>sol': -40 } },
-        tall: { w: 580, h: 900, pos: { opn: [290, 50], tri: [110, 180], esc: [470, 180], ans: [290, 340], wai: [470, 500], sol: [290, 660], reo: [100, 500], cls: [290, 850] },
-          loops: {}, bend: { 'esc>sol': 60, 'tri>esc': -60 } }
+          loops: {}, bend: { 'esc>sol': -40, 'reo>tri': -40 } },
+        tall: { w: 580, h: 930, pos: { opn: [290, 50], tri: [110, 205], esc: [470, 205], ans: [290, 370], wai: [470, 535], sol: [290, 705], reo: [100, 535], cls: [290, 880] },
+          loops: {}, bend: { 'esc>sol': -110, 'tri>esc': -60 } }
       }
     },
     { // Level 6: warehouse with steps in varying order
@@ -175,11 +175,11 @@
       foot: 'Fiktive Daten. Keine Cookies, kein Tracking.',
       proc: [
         { name: 'Bestellung', act: { rec: 'Auftrag erhalten', chk: 'Bonität prüfen', app: 'Freigeben', rej: 'Ablehnen', shp: 'Versenden', inv: 'Rechnung stellen', pay: 'Zahlung erhalten' } },
-        { name: 'Kreditvergabe', act: { app: 'Antrag eingegangen', doc: 'Unterlagen prüfen', req: 'Unterlagen anfordern', sco: 'Bonität bewerten', off: 'Angebot erstellen', dec: 'Ablehnen', wd: 'Zurückgezogen', sig: 'Vertrag signiert', pay: 'Auszahlen' } },
-        { name: 'Retoure', act: { req: 'Retoure angemeldet', cnc: 'Storniert', rcv: 'Ware eingegangen', chk: 'Ware prüfen', ref: 'Erstatten', exc: 'Umtauschen', rep: 'Reparieren', snd: 'Zurücksenden', cls: 'Abschließen' } },
+        { name: 'Kreditvergabe', act: { app: 'Antrag eingegangen', doc: 'Unterlagen prüfen', req: 'Unterlagen anfordern', sco: 'Bonität bewerten', off: 'Angebot erstellen', dec: 'Ablehnen', wd: 'Zurück\u00ADgezogen', sig: 'Vertrag signiert', pay: 'Auszahlen' } },
+        { name: 'Retoure', act: { req: 'Retoure angemeldet', cnc: 'Storniert', rcv: 'Ware eingegangen', chk: 'Ware prüfen', ref: 'Erstatten', exc: 'Umtauschen', rep: 'Reparieren', snd: 'Zurück\u00ADsenden', cls: 'Abschließen' } },
         { name: 'Versicherungsprämie', act: { req: 'Anfrage erhalten', dat: 'Daten erfassen', miss: 'Rückfrage Kunde', tar: 'Prämie berechnen', man: 'Manuell prüfen', dis: 'Rabatt anwenden', off: 'Angebot senden', acc: 'Police ausgestellt', rej: 'Abgelehnt' } },
-        { name: 'Support-Ticket', act: { opn: 'Ticket eröffnet', tri: 'Einordnen', ans: 'Antworten', wai: 'Kunde antwortet', esc: 'Eskalieren', sol: 'Lösen', reo: 'Wiedereröffnen', cls: 'Schließen' } },
-        { name: 'Lager', act: { rcv: 'Ware angenommen', qc: 'Qualität prüfen', sto: 'Einlagern', pck: 'Kommissionieren', cnt: 'Nachzählen', lab: 'Etikett drucken', pak: 'Verpacken', shp: 'Versenden' } }
+        { name: 'Support-Ticket', act: { opn: 'Ticket eröffnet', tri: 'Einordnen', ans: 'Antworten', wai: 'Kunde antwortet', esc: 'Eskalieren', sol: 'Lösen', reo: 'Wieder\u00ADeröffnen', cls: 'Schließen' } },
+        { name: 'Lager', act: { rcv: 'Ware angenommen', qc: 'Qualität prüfen', sto: 'Einlagern', pck: 'Kommis\u00ADsionieren', cnt: 'Nachzählen', lab: 'Etikett drucken', pak: 'Verpacken', shp: 'Versenden' } }
       ]
     },
     en: {
@@ -259,6 +259,7 @@
     ((navigator.language || 'de').toLowerCase().indexOf('de') === 0 ? 'de' : 'en');
   function T() { return STR[lang]; }
   function A(id) { return STR[lang].proc[S.lv].act[id]; }
+  function AP(id) { return A(id).replace(/\u00AD/g, ''); }
   function PN(lv) { return STR[lang].proc[lv].name; }
   function rng(seed) {
     return function () {
@@ -458,8 +459,8 @@
   }
   function evLine(e) {
     var d = new Date(e.t);
-    return '<span class="t">' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + ' ' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds()) +
-      '</span>  <span class="c">' + e.c + '</span>  <span class="a" data-a="' + e.a + '">' + esc(A(e.a)) + '</span>';
+    return '<span class="t"><span class="dt">' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + ' </span>' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + '<span class="sec">:' + pad(d.getUTCSeconds()) +
+      '</span></span>  <span class="c">' + e.c + '</span>  <span class="a" data-a="' + e.a + '">' + esc(A(e.a)) + '</span>';
   }
   function startPlay(lv) {
     clearTimers(); newGame(lv === undefined ? S.lv : lv); show('play'); S.phase = 'raw';
@@ -493,7 +494,7 @@
     runTimer();
   }
   function snipHtml(s, x) {
-    var h = '<span class="c">' + s.c + '</span>&nbsp; ';
+    var h = '<span class="c">' + s.c + '&nbsp; </span>';
     if (s.j > 0) h += '<span class="p">' + esc(A(s.tr[s.j - 1])) + ' &gt;</span> ';
     h += '<span class="x">' + esc(A(x)) + '</span> &gt; <span class="n">' + esc(A(s.tr[s.j + 1])) + '</span>';
     return h;
@@ -575,7 +576,29 @@
   }
 
   /* ---------- Reveal: directly-follows graph ---------- */
-  var NW = 176, NH = 46;
+  var NW = 176, NH = 46, LFS = 14, PLACED = [];
+  // percent labels must not touch a box, another label or the edge of the picture
+  function labelBox(x, y, n) { var w = LFS * 0.6 * n + 6, h = LFS * 1.15; return { x: x - w / 2, y: y - h / 2, w: w, h: h }; }
+  function hits(L, b) {
+    for (var k in L.pos) {
+      var q = L.pos[k];
+      if (b.x < q[0] + NW / 2 + 2 && q[0] - NW / 2 - 2 < b.x + b.w && b.y < q[1] + NH / 2 + 2 && q[1] - NH / 2 - 2 < b.y + b.h) return true;
+    }
+    for (var i = 0; i < PLACED.length; i++) {
+      var o = PLACED[i];
+      if (b.x < o.x + o.w && o.x < b.x + b.w && b.y < o.y + o.h && o.y < b.y + b.h) return true;
+    }
+    return b.x < 0 || b.y < 0 || b.x + b.w > L.w || b.y + b.h > L.h;
+  }
+  function freeSpot(L, x, y, n, ux, uy) { // slide sideways in growing steps until the label is clear
+    var steps = [0, 1, -1, 2, -2, 3, -3, 4, -4, 5, -5], d = LFS * 0.7;
+    for (var i = 0; i < steps.length; i++) {
+      var cx = x + ux * steps[i] * d, cy = y + uy * steps[i] * d, b = labelBox(cx, cy, n);
+      if (!hits(L, b)) { PLACED.push(b); return [cx, cy]; }
+    }
+    PLACED.push(labelBox(x, y, n));
+    return [x, y];
+  }
   function clip(cx, cy, tx, ty) {
     var dx = tx - cx, dy = ty - cy;
     var t = Math.min(dx ? (NW / 2 + 4) / Math.abs(dx) : 1e9, dy ? (NH / 2 + 4) / Math.abs(dy) : 1e9);
@@ -613,6 +636,10 @@
   function drawGraph(animate) {
     var t = T(), p = PROCS[S.lv], svg = $('graph');
     var L = svg.getBoundingClientRect().width < 640 || window.innerWidth < 640 ? p.layout.tall : p.layout.wide;
+    var tall = L === p.layout.tall, scale = (svg.getBoundingClientRect().width || L.w) / L.w;
+    var fs = Math.max(tall ? 18 : 15, 12.5 / scale), perLine = Math.floor((NW - 16) / (fs * 0.56));
+    var two = acts(p).some(function (a) { return AP(a).length > perLine; });
+    NH = two ? Math.max(62, Math.ceil(fs * 2.6 + 6)) : 46; LFS = Math.max(tall ? 18 : 14, 12 / scale);
     var desc = $('graph-desc');
     svg.innerHTML = ''; svg.appendChild(desc);
     svg.setAttribute('viewBox', '0 0 ' + L.w + ' ' + L.h);
@@ -622,27 +649,43 @@
     mk.appendChild(svgEl('path', { d: 'M0,0 L10,5 L0,10 z', fill: '#2CF97A' }));
     defs.appendChild(mk); svg.appendChild(defs);
     var gE = svgEl('g', {}), gN = svgEl('g', {}), gL = svgEl('g', {});
+    PLACED = [];
     svg.appendChild(gE); svg.appendChild(gN); svg.appendChild(gL);
     var order = acts(p), items = [], descs = [], maxN = 1;
     order.forEach(function (a) { successors(S.log, a).forEach(function (s) { if (s.n > maxN) maxN = s.n; }); });
     order.forEach(function (a, idx) {
       var q = L.pos[a], g = svgEl('g', { 'class': 'node' + (a === p.start ? ' start' : '') });
       g.appendChild(svgEl('rect', { x: q[0] - NW / 2, y: q[1] - NH / 2, width: NW, height: NH, rx: 9 }));
-      var tx = svgEl('text', { x: q[0], y: q[1] }); tx.textContent = A(a); g.appendChild(tx);
-      gN.appendChild(g);
-      var len = tx.getComputedTextLength(); // long names shrink to fit their box
-      if (len > NW - 14) tx.style.fontSize = (parseFloat(getComputedStyle(tx).fontSize) * (NW - 14) / len).toFixed(1) + 'px'; items.push({ el: g, at: idx * 200 });
+      var tx = svgEl('text', { x: q[0], y: q[1] }), name = A(a), lines = [AP(a)];
+      tx.style.fontSize = fs.toFixed(1) + 'px';
+      if (AP(a).length > perLine) { // break at a space or soft hyphen so the longer line is as short as possible
+        var best = null;
+        for (var c = 0; c < name.length; c++) {
+          if (name[c] !== ' ' && name[c] !== '\u00AD') continue;
+          var l1 = name.slice(0, c).replace(/\u00AD/g, '') + (name[c] === ' ' ? '' : '-'), l2 = name.slice(c + 1).replace(/\u00AD/g, '');
+          if (!best || Math.max(l1.length, l2.length) < Math.max(best[0].length, best[1].length)) best = [l1, l2];
+        }
+        if (best) lines = best;
+      }
+      lines.forEach(function (ln, k) {
+        var ts = svgEl('tspan', { x: q[0], dy: lines.length < 2 ? '0' : (k ? '1.15em' : '-0.55em') });
+        ts.textContent = ln; tx.appendChild(ts);
+      });
+      g.appendChild(tx); gN.appendChild(g);
+      var len = Math.max.apply(null, Array.prototype.map.call(tx.childNodes, function (n) { return n.getComputedTextLength(); }));
+      if (len > NW - 14) tx.style.fontSize = (fs * (NW - 14) / len).toFixed(1) + 'px'; // still too long: shrink to fit
+      items.push({ el: g, at: idx * 200 });
       successors(S.log, a).forEach(function (s) {
         var e = edge(L, a, s, maxN); gE.appendChild(e.g); gL.appendChild(e.label);
         items.push({ el: e.g, at: idx * 200 + 150 }); items.push({ el: e.label, at: idx * 200 + 300 });
-        descs.push(A(a) + ' > ' + A(s.b) + ' ' + pct(s.p) + '%');
+        descs.push(AP(a) + ' > ' + AP(s.b) + ' ' + pct(s.p) + '%');
       });
     });
     desc.textContent = t.graphDesc(descs.join(', '));
     if (animate && !reduced) items.forEach(function (it) { later(function () { it.el.classList.add('show'); }, 150 + it.at); });
   }
   function edge(L, a, s, maxN) {
-    var A0 = L.pos[a], B0 = L.pos[s.b], d, lx, ly, minor = s.p < 0.2 ? ' minor' : '';
+    var A0 = L.pos[a], B0 = L.pos[s.b], d, lx, ly, ux = 1, uy = 0, minor = s.p < 0.2 ? ' minor' : '';
     var g = svgEl('g', { 'class': 'edge' + minor });
     if (a === s.b) {
       var side = L.loops[a] || 'top', x = A0[0], y = A0[1], v = side === 'top' ? -1 : 1;
@@ -653,21 +696,25 @@
       } else {
         var sx = side === 'right' ? 1 : -1, ex = x + sx * NW / 2;
         d = 'M' + (ex + sx * 2) + ',' + (y - 12) + ' C' + (ex + sx * 64) + ',' + (y - 44) + ' ' + (ex + sx * 64) + ',' + (y + 44) + ' ' + (ex + sx * 4) + ',' + (y + 12);
-        lx = ex + sx * 52; ly = y - 44;
+        lx = ex + sx * 52; ly = y - 44; ux = 0; uy = -1;
       }
     } else {
       var mx = (A0[0] + B0[0]) / 2, my = (A0[1] + B0[1]) / 2, dx = B0[0] - A0[0], dy = B0[1] - A0[1], len = Math.sqrt(dx * dx + dy * dy);
       var bend = L.bend[a + '>' + s.b];
       if (bend === undefined) bend = S.log.dfg[s.b] && S.log.dfg[s.b][a] ? 44 : 0; // two way pairs get separate arcs
       var cx = mx - dy / len * bend, cy = my + dx / len * bend;
+      ux = -dy / len; uy = dx / len;
       var p0 = clip(A0[0], A0[1], cx, cy), p2 = clip(B0[0], B0[1], cx, cy);
       d = 'M' + p0[0].toFixed(1) + ',' + p0[1].toFixed(1) + ' Q' + cx.toFixed(1) + ',' + cy.toFixed(1) + ' ' + p2[0].toFixed(1) + ',' + p2[1].toFixed(1);
       lx = 0.25 * p0[0] + 0.5 * cx + 0.25 * p2[0]; ly = 0.25 * p0[1] + 0.5 * cy + 0.25 * p2[1];
-      if (!bend) { if (Math.abs(dx) > Math.abs(dy)) ly -= 13; else lx += 20; }
+      if (!bend && !dy && Math.abs(dx) - NW < LFS * 2.6) ly = A0[1] - NH / 2 - LFS * 0.75; // close neighbours in a row: label sits above the gap
+      else if (!bend) { if (Math.abs(dx) > Math.abs(dy)) ly -= 13; else lx += 20; }
     }
     g.appendChild(svgEl('path', { d: d, pathLength: '1', 'stroke-width': (1.6 + 5 * s.n / maxN).toFixed(1), 'marker-end': 'url(#arr)' }));
+    var spot = freeSpot(L, lx, ly, (pct(s.p) + '%').length, ux, uy); lx = spot[0]; ly = spot[1];
     // labels live in their own layer above the boxes so no arrow or box hides them
     var label = svgEl('text', { x: lx.toFixed(1), y: ly.toFixed(1), 'class': 'elabel' + minor, 'data-e': a + '>' + s.b }); label.textContent = pct(s.p) + '%';
+    label.style.fontSize = LFS.toFixed(1) + 'px';
     return { g: g, label: label };
   }
 
@@ -676,7 +723,7 @@
     var t = T(), top = [];
     Object.keys(S.log.dfg).forEach(function (a) { Object.keys(S.log.dfg[a]).forEach(function (b) { top.push([a, b, S.log.dfg[a][b]]); }); });
     top.sort(function (u, v) { return v[2] - u[2]; });
-    var ex = top.slice(0, 2).map(function (e) { return "('" + A(e[0]) + "', '" + A(e[1]) + "'): " + e[2]; }).join(', ');
+    var ex = top.slice(0, 2).map(function (e) { return "('" + AP(e[0]) + "', '" + AP(e[1]) + "'): " + e[2]; }).join(', ');
     var cm = function (s) { return '<span class="cm">' + esc(s) + '</span>'; };
     var fn = function (s) { return 'pm4py.<span class="fn">' + s + '</span>'; };
     $('code').innerHTML =
