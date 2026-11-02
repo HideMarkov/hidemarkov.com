@@ -106,6 +106,9 @@
   .tag { display: block; font: 600 12px var(--mono); color: var(--green); letter-spacing: .06em; margin-bottom: 16px; }
   .stack { margin-top: 16px; font: 13px var(--mono); color: var(--green-dim); border-top: 1px solid var(--line); padding-top: 12px; }
 
+  .game-frame { background: #000; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; transition: border-color .2s, box-shadow .2s; }
+  .game-frame:hover, .game-frame:focus-within { border-color: var(--green-dim); box-shadow: 0 0 24px rgba(44, 249, 122, .12); }
+  .game-frame iframe { display: block; width: 100%; height: 640px; border: 0; background: #000; }
   .feature { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
   .feature .lead { margin-bottom: 32px; }
   @media (max-width: 860px) { .feature { grid-template-columns: 1fr; } }
@@ -311,14 +314,33 @@
     </div>
   </section>
 
+  <section id="spiel">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Mini game</div>
+          <h2>Find the hidden process.</h2>
+        </div>
+        <p class="lead">
+        
+        One minute of process mining to try out: you read an event log, guess the flow, and at the end you see how PM4Py discovers it automatically.
+      </p>
+      </div>
+      <div class="game-frame">
+        <iframe id="hm-game" title="Process Mining Mini-Spiel / mini game" loading="lazy"></iframe>
+        <noscript><p class="lead"><a href="/game/">Process Mining Mini-Spiel / mini game</a></p></noscript>
+      </div>
+    </div>
+  </section>
+
   <section id="kaliber">
     <div class="wrap feature">
       <div>
         <div class="kicker">Our first product</div>
-        <h2>Kaliber - calculation for scaffolding</h2>
+        <h2>Kaliber - calculation for scaffolding in Germany</h2>
         <p class="lead">
           
-          HideMarkov began with a real problem: a scaffolding company spent days pricing tenders by hand. The answer was Kaliber - now mature enough for other scaffolding companies.
+          HideMarkov began with a real problem: a German scaffolding company spent days pricing tenders by hand. The answer was Kaliber - built for the German GAEB and VHB standards and now mature enough for other scaffolding companies in Germany.
         </p>
         <a class="btn" href="https://scheibler-beratung.de/kaliber" target="_blank" rel="noopener">Visit Kaliber →</a>
       </div>
@@ -525,6 +547,23 @@
       }
     }, 55);
   })();
+</script>
+<script>
+// Process mining mini game: same-origin iframe in the page language; the frame grows with the game's content
+(function () {
+  var f = document.getElementById('hm-game');
+  if (!f) return;
+  f.src = '/game/?lang=' + (document.body.getAttribute('data-lang') === 'en' ? 'en' : 'de');
+  f.addEventListener('load', function () {
+    try {
+      var app = f.contentDocument.querySelector('.app');
+      var fit = function () { f.style.height = Math.ceil(app.getBoundingClientRect().height) + 'px'; };
+      fit();
+      if (window.ResizeObserver) new ResizeObserver(fit).observe(app);
+      setInterval(fit, 500);   // fallback: some browsers skip resize events while the tab is in the background
+    } catch (e) { /* keep the default height */ }
+  });
+})();
 </script>
 <!-- Cloudflare Web Analytics (cookieless) --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e50d455db20b4df996ce2063ca2f16a4"}'></script>
 </body>
