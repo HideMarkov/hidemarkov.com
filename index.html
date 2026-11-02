@@ -554,15 +554,25 @@
   var f = document.getElementById('hm-game');
   if (!f) return;
   f.src = '/game/?lang=' + (document.body.getAttribute('data-lang') === 'en' ? 'en' : 'de');
+  // Always measure the game document that is in the frame right now (the frame can reload, e.g. when a phone
+  // browser restores the tab); never shrink the frame to 0
+  var fit = function () {
+    try {
+      var app = f.contentDocument && f.contentDocument.querySelector('.app');
+      var h = app ? Math.ceil(app.getBoundingClientRect().height) : 0;
+      if (h > 0 && f.style.height !== h + 'px') f.style.height = h + 'px';
+    } catch (e) { /* keep the current height */ }
+  };
+  var ro = null;
   f.addEventListener('load', function () {
+    if (ro) ro.disconnect();
     try {
       var app = f.contentDocument.querySelector('.app');
-      var fit = function () { f.style.height = Math.ceil(app.getBoundingClientRect().height) + 'px'; };
-      fit();
-      if (window.ResizeObserver) new ResizeObserver(fit).observe(app);
-      setInterval(fit, 500);   // fallback: some browsers skip resize events while the tab is in the background
-    } catch (e) { /* keep the default height */ }
+      if (app && window.ResizeObserver) { ro = new ResizeObserver(fit); ro.observe(app); }
+    } catch (e) { /* polling below still works */ }
+    fit();
   });
+  setInterval(fit, 400);   // fallback for browsers that skip resize events (background tabs, some phone browsers)
 })();
 </script>
 <!-- Cloudflare Web Analytics (cookieless) --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e50d455db20b4df996ce2063ca2f16a4"}'></script>
