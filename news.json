@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:38+00:00",
+ "updated": "2026-11-03T19:40+00:00",
  "news": [
   {
    "title": "Marktbericht: DAX fällt leicht zurück",
@@ -23,6 +23,13 @@
    "source": "NZZ"
   },
   {
+   "title": "Google Will Turn Off Search for Schools That Reject A.I. (Gift Article)",
+   "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html?unlocked_article_code=1.NlE.VMKr.Cr-g-C6phyfH",
+   "summary": "",
+   "date": "2026-11-03",
+   "source": "nytimes.com via Reddit r/technology"
+  },
+  {
    "title": "UBS-Lohnumfrage - Schweizer Löhne steigen 2027 nur leicht",
    "link": "https://www.srf.ch/news/schweiz/ubs-lohnumfrage-schweizer-loehne-steigen-2027-nur-leicht",
    "summary": "Die Wirtschaft erholt sich zwar, doch am Arbeitsmarkt und bei den Löhnen kommt der Aufschwung kaum an.",
@@ -30,18 +37,11 @@
    "source": "SRF"
   },
   {
-   "title": "Could the AI boom make borrowing more expensive in Europe?",
-   "link": "https://www.dw.com/en/could-the-ai-boom-make-borrowing-more-expensive-in-europe/a-79511985?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "France, Germany and Italy face a volatile bond market as war inflation bites. With US tech giants now issuing billions in AI bonds, they are competing with cash-strapped European …",
+   "title": "Disney Plans Thousands of Layoffs, Targeting 20% Cost Savings",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-03/disney-eyes-thousands-of-layoffs-with-managers-asked-to-cut-20",
+   "summary": "",
    "date": "2026-11-03",
-   "source": "DW"
-  },
-  {
-   "title": "Apples neuer CEO kann feiern - doch wie lange noch?",
-   "link": "https://www.nzz.ch/technologie/apples-neuer-ceo-kann-feiern-doch-wie-lange-noch-ld.10052352",
-   "summary": "Der iPhone-Konzern feiert das erfolgreichste Jahr seiner Geschichte. Doch Probleme bei Speicherchips und KI dürften ihm bald zusetzen.",
-   "date": "2026-11-03",
-   "source": "NZZ"
+   "source": "bloomberg.com via Reddit r/technology"
   }
  ],
  "cs": [
