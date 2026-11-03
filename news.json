@@ -1,5 +1,49 @@
 {
- "updated": "2026-11-03T17:08+00:00",
+ "updated": "2026-11-03T19:38+00:00",
+ "news": [
+  {
+   "title": "Marktbericht: DAX fällt leicht zurück",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-apple-midterms-100.html",
+   "summary": "Inmitten der Zahlenflut zum dritten Quartal und angesichts des Wahltages in den USA hielten sich die Anleger bedeckt. Der DAX konnte seine anfänglichen Verluste aber eingrenzen.",
+   "date": "2026-11-03",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Keeping mortgage interest relief approved",
+   "link": "https://www.bbc.co.uk/news/articles/c6vgj0ljx01jo?at_medium=RSS&at_campaign=rss",
+   "summary": "Homeowners can get tax relief of £3,500 on the money spent on the interstate of a mortgage.",
+   "date": "2026-11-03",
+   "source": "BBC"
+  },
+  {
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Signa-Insolvenz: René Benko steht erneut vor Gericht",
+   "link": "https://www.nzz.ch/wirtschaft/signa-krise-die-wichtigsten-meldungen-ld.1767273",
+   "summary": "Das Immobilien- und Detailhandelsreich des österreichischen Investors René Benko ist zusammengebrochen. Die Signa-Holding und mehrere Tochtergesellschaften stecken in einem …",
+   "date": "2026-11-03",
+   "source": "NZZ"
+  },
+  {
+   "title": "UBS-Lohnumfrage - Schweizer Löhne steigen 2027 nur leicht",
+   "link": "https://www.srf.ch/news/schweiz/ubs-lohnumfrage-schweizer-loehne-steigen-2027-nur-leicht",
+   "summary": "Die Wirtschaft erholt sich zwar, doch am Arbeitsmarkt und bei den Löhnen kommt der Aufschwung kaum an.",
+   "date": "2026-11-03",
+   "source": "SRF"
+  },
+  {
+   "title": "Could the AI boom make borrowing more expensive in Europe?",
+   "link": "https://www.dw.com/en/could-the-ai-boom-make-borrowing-more-expensive-in-europe/a-79511985?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "France, Germany and Italy face a volatile bond market as war inflation bites. With US tech giants now issuing billions in AI bonds, they are competing with cash-strapped European …",
+   "date": "2026-11-03",
+   "source": "DW"
+  },
+  {
+   "title": "Apples neuer CEO kann feiern - doch wie lange noch?",
+   "link": "https://www.nzz.ch/technologie/apples-neuer-ceo-kann-feiern-doch-wie-lange-noch-ld.10052352",
+   "summary": "Der iPhone-Konzern feiert das erfolgreichste Jahr seiner Geschichte. Doch Probleme bei Speicherchips und KI dürften ihm bald zusetzen.",
+   "date": "2026-11-03",
+   "source": "NZZ"
+  }
+ ],
  "cs": [
   {
    "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
