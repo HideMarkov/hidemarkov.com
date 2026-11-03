@@ -230,7 +230,7 @@
         <a href="#kaliber">Kaliber</a>
         <a href="#warum">Why us</a>
         <a href="#werkzeuge">Free tools</a>
-        <a href="#informatik">News</a>
+        <a href="#nachrichten">News</a>
         <a href="#kontakt">Contact</a>
       </div>
       <div class="lang" role="group" aria-label="Sprache / Language">
@@ -424,6 +424,19 @@
     </div>
   </section>
 
+  <section id="nachrichten">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">News</div>
+          <h2>Business and technology today</h2>
+        </div>
+        <p class="lead">Headlines from SRF, NZZ, tagesschau, BBC and DW, plus the most-read links to reputable outlets on Reddit - refreshed automatically every few hours (articles in their original language). <span class="upd" data-upd></span></p>
+      </div>
+      <div class="news" id="news-news"><p class="muted">Loading news …</p></div>
+    </div>
+  </section>
+
   <section id="informatik">
     <div class="wrap">
       <div class="head">
@@ -541,11 +554,12 @@
       });
     }
     fetch('/news.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
+      render('news-news', d.news);
       render('news-cs', d.cs || d.items);
       render('news-science', d.science);
       document.querySelectorAll('[data-upd]').forEach(function (e) { e.textContent = '· ' + d.updated.replace('T', ' ').slice(0, 16) + ' UTC'; });
     }).catch(function () {
-      ['news-cs', 'news-science'].forEach(function (id) { document.getElementById(id).innerHTML = '<p class="muted">News gerade nicht verfügbar / news unavailable.</p>'; });
+      ['news-news', 'news-cs', 'news-science'].forEach(function (id) { document.getElementById(id).innerHTML = '<p class="muted">News gerade nicht verfügbar / news unavailable.</p>'; });
     });
 
     // Digital rain behind the hero
