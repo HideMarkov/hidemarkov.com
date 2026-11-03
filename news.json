@@ -1,18 +1,25 @@
 {
- "updated": "2026-11-03T06:57+00:00",
+ "updated": "2026-11-03T17:08+00:00",
  "cs": [
+  {
+   "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+   "link": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
+   "summary": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
+   "date": "2026-11-03",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "How “reverse game theory” could keep AI agents in check",
+   "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+   "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more …",
+   "date": "2026-11-03",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
    "link": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump …",
    "date": "2026-11-03",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "Raising the quality of insights in agentic analytics",
-   "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-   "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do …",
-   "date": "2026-11-02",
    "source": "MIT Technology Review"
   },
   {
@@ -35,27 +42,20 @@
    "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
    "date": "2026-10-30",
    "source": "Ars Technica"
-  },
-  {
-   "title": "New system gives users more control over their online experience",
-   "link": "https://news.mit.edu/2026/new-system-gives-users-more-control-over-online-experience-1029",
-   "summary": "The Social.Wiki framework enables anyone to easily edit social websites within the system, while allowing them to choose the content they see.",
-   "date": "2026-10-29",
-   "source": "MIT News"
   }
  ],
  "science": [
   {
-   "title": "Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
-   "summary": "Scientists have discovered that a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease, including DNA damage and inflammation. …",
+   "title": "The brain’s hidden fear mechanism may explain anxiety and PTSD",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261102202833.htm",
+   "summary": "A surprising new discovery suggests that fear may cause the brain to blur the line between danger and safety rather than distinguish them more clearly. By observing brain activity …",
    "date": "2026-11-03",
    "source": "ScienceDaily"
   },
   {
-   "title": "Large Hadron Collider reveals evidence of Big Bang matter in surprisingly small collisions",
-   "link": "https://www.sciencedaily.com/releases/2026/10/261031221211.htm",
-   "summary": "Scientists at CERN's Large Hadron Collider have uncovered compelling new evidence that even relatively small atomic collisions can recreate the extraordinary state of matter that …",
+   "title": "A 50-year-old mystery of vanishing frogs reveals a hidden killer",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm",
+   "summary": "A nearly 50-year-old mystery involving disappearing frogs in Brazil may finally be solved, with scientists uncovering evidence that a deadly fungus swept through the region and …",
    "date": "2026-11-03",
    "source": "ScienceDaily"
   },
