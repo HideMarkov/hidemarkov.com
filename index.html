@@ -521,7 +521,9 @@
     btns.forEach(function (b) {
       b.setAttribute('aria-pressed', String(b.dataset.set === lang));
       b.addEventListener('click', function () {
-        if (b.dataset.set !== lang) location.href = (b.dataset.set === 'en' ? '/en/' : '/') + location.hash;
+        // open the other language at the top; only the legal anchors are kept
+        var keep = /^#(impressum|datenschutz)$/.test(location.hash) ? location.hash : '';
+        if (b.dataset.set !== lang) location.href = (b.dataset.set === 'en' ? '/en/' : '/') + keep;
       });
     });
     document.getElementById('y').textContent = new Date().getFullYear();
