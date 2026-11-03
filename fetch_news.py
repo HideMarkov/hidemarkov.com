@@ -42,6 +42,7 @@ TOTAL = 6
 # Reddit: top posts of the day from a few subreddits (one request), only links to known news outlets.
 REDDIT_URL = "https://www.reddit.com/r/Economics+technology+Switzerland/top/.rss?t=day&limit=50"
 REDDIT_SLOTS = 2
+REDDIT_TAG = re.compile(r"\s*[(\[](gift (article|link)|paywall[^)\]]*)[)\]]", re.I)  # "(Gift Article)" etc.
 NEWS_DOMAINS = {
     "reuters.com", "apnews.com", "bbc.com", "bbc.co.uk", "ft.com", "bloomberg.com", "economist.com",
     "wsj.com", "nytimes.com", "washingtonpost.com", "theguardian.com", "cnbc.com", "npr.org", "axios.com",
@@ -131,7 +132,7 @@ def fetch_reddit():
             continue
         sub = cat.get("label") if cat is not None else "Reddit"
         items.append({
-            "title": clean(it.findtext(ATOM + "title")),
+            "title": REDDIT_TAG.sub("", clean(it.findtext(ATOM + "title"))),
             "link": link,
             "summary": "",
             "date": date,
