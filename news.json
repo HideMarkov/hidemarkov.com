@@ -1,12 +1,19 @@
 {
- "updated": "2026-11-04T17:21+00:00",
+ "updated": "2026-11-04T23:45+00:00",
  "news": [
   {
-   "title": "Poundland owner in crunch talks as retailer's collapse looms",
-   "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
-   "summary": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
+   "title": "Pound rises to its highest level since the Brexit referendum",
+   "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+   "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
    "date": "2026-11-04",
    "source": "BBC"
+  },
+  {
+   "title": "Marktbericht: DAX-Anleger in Kauflaune",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-boerse-118.html",
+   "summary": "Der DAX steigt zeitweise auf den höchsten Stand seit zwei Monaten. Neben positiven Unternehmenszahlen sorgt auch die Hoffnung auf mehr politische Berechenbarkeit in den USA für …",
+   "date": "2026-11-04",
+   "source": "tagesschau"
   },
   {
    "title": "Sieg der Demokraten in den USA - Wie die Finanzmärkte auf die Midterms reagieren",
@@ -14,13 +21,6 @@
    "summary": "Die Gewinne der Demokraten schaden gewissen Tech-Aktien - doch es gibt auch unerwartete Reaktionen.",
    "date": "2026-11-04",
    "source": "SRF"
-  },
-  {
-   "title": "Deutsche verbrauchen 2026 weniger Energie - das hat einen Grund",
-   "link": "https://www.tagesschau.de/wirtschaft/energie/energiebilanz-heizoel-100.html",
-   "summary": "Deutschlands Energieverbrauch sinkt laut Experten in diesem Jahr. Besonders beim Heizöl halten sich die Haushalte zurück, zugleich wächst der Anteil Erneuerbarer Energien.",
-   "date": "2026-11-04",
-   "source": "tagesschau"
   },
   {
    "title": "What the Democrats' midterms win means for the US economy and Trump",
@@ -46,11 +46,25 @@
  ],
  "cs": [
   {
-   "title": "Binance says hackers who stole billions in crypto spent months planning heist",
-   "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
-   "summary": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
+   "title": "Hackers exploited iOS and Android flaws to infect phones",
+   "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+   "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
    "date": "2026-11-04",
    "source": "Ars Technica"
+  },
+  {
+   "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
+   "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+   "summary": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
+   "date": "2026-11-04",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+   "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+   "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that …",
+   "date": "2026-11-04",
+   "source": "MIT Technology Review"
   },
   {
    "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
@@ -67,20 +81,6 @@
    "source": "MIT Technology Review"
   },
   {
-   "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
-   "link": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
-   "summary": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
-   "date": "2026-11-03",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "How “reverse game theory” could keep AI agents in check",
-   "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-   "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more …",
-   "date": "2026-11-03",
-   "source": "MIT Technology Review"
-  },
-  {
    "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
    "summary": "In late October, a slew of major cybersecurity issues came to light. But none were bigger than the so-called PHP2Shell vulnerability , which put a plethora of websites, including …",
@@ -89,6 +89,13 @@
   }
  ],
  "science": [
+  {
+   "title": "Uranium cubes reveal why the German nuclear project failed",
+   "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+   "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
+   "date": "2026-11-04",
+   "source": "Ars Technica"
+  },
   {
    "title": "Scientists may have finally explained why our brains and bodies are cross-wired",
    "link": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm",
@@ -107,13 +114,6 @@
    "title": "Why large dogs age faster than small ones, and other October research highlights",
    "link": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/",
    "summary": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more.",
-   "date": "2026-11-02",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Most of our measures of a key cognitive process don't agree",
-   "link": "https://arstechnica.com/science/2026/11/most-of-our-measures-of-a-key-cognitive-process-dont-agree/",
-   "summary": "A big study with very little beyond negative results still gets published.",
    "date": "2026-11-02",
    "source": "Ars Technica"
   },
