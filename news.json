@@ -1,26 +1,40 @@
 {
- "updated": "2026-11-04T06:38+00:00",
+ "updated": "2026-11-04T17:21+00:00",
  "news": [
   {
-   "title": "Leisure centre price hikes on the way",
-   "link": "https://www.bbc.co.uk/news/articles/c6pvgw8gz1k4o?at_medium=RSS&at_campaign=rss",
-   "summary": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
+   "title": "Poundland owner in crunch talks as retailer's collapse looms",
+   "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
+   "summary": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
    "date": "2026-11-04",
    "source": "BBC"
   },
   {
-   "title": "Airlines streichen Flüge: Verliert Deutschland den Anschluss?",
-   "link": "https://www.tagesschau.de/wirtschaft/luftfahrt-lufthansa-wirtschaftsstandort-100.html",
-   "summary": "Fluggesellschaften klagen über zu hohe Steuern und Abgaben in Deutschland. Die Airlines haben zuletzt etliche Verbindungen gestrichen. Verliert die deutsche Luftfahrt den …",
+   "title": "Sieg der Demokraten in den USA - Wie die Finanzmärkte auf die Midterms reagieren",
+   "link": "https://www.srf.ch/news/wirtschaft/sieg-der-demokraten-in-den-usa-wie-die-finanzmaerkte-auf-die-midterms-reagieren",
+   "summary": "Die Gewinne der Demokraten schaden gewissen Tech-Aktien - doch es gibt auch unerwartete Reaktionen.",
+   "date": "2026-11-04",
+   "source": "SRF"
+  },
+  {
+   "title": "Deutsche verbrauchen 2026 weniger Energie - das hat einen Grund",
+   "link": "https://www.tagesschau.de/wirtschaft/energie/energiebilanz-heizoel-100.html",
+   "summary": "Deutschlands Energieverbrauch sinkt laut Experten in diesem Jahr. Besonders beim Heizöl halten sich die Haushalte zurück, zugleich wächst der Anteil Erneuerbarer Energien.",
    "date": "2026-11-04",
    "source": "tagesschau"
   },
   {
-   "title": "Von furioso bis decrescendo: Weshalb Donald Trump weiterhin für Unruhe sorgen wird",
-   "link": "https://www.nzz.ch/pro/furioso-oder-decrescendowie-donald-trump-jetzt-durchregieren-koennte-ld.10052013",
-   "summary": "Drei Szenarien, was der überragende Sieg der Demokraten bei den Zwischenwahlen für die Geopolitik bedeutet.",
+   "title": "What the Democrats' midterms win means for the US economy and Trump",
+   "link": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "From high oil prices and data centers to tariffs and mounting debt, economic concerns played a key role in the crushing defeat of President Donald Trump's Republicans. So can the …",
    "date": "2026-11-04",
-   "source": "NZZ"
+   "source": "DW"
+  },
+  {
+   "title": "Midterm Takeaways: Tech billionaires suffer horrible night as Democrats drub Republicans",
+   "link": "https://www.cnbc.com/2026/11/04/midterm-election-blue-wave-trump-billionaires.html",
+   "summary": "",
+   "date": "2026-11-04",
+   "source": "cnbc.com via Reddit r/technology"
   },
   {
    "title": "Stock futures fall on speculation Democrats to win big in midterms, slow data center buildout",
@@ -28,23 +42,30 @@
    "summary": "",
    "date": "2026-11-04",
    "source": "cnbc.com via Reddit r/technology"
-  },
-  {
-   "title": "Google Will Turn Off Search for Schools That Reject A.I.",
-   "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html?unlocked_article_code=1.NlE.VMKr.Cr-g-C6phyfH",
-   "summary": "",
-   "date": "2026-11-03",
-   "source": "nytimes.com via Reddit r/technology"
-  },
-  {
-   "title": "UBS-Lohnumfrage - Schweizer Löhne steigen 2027 nur leicht",
-   "link": "https://www.srf.ch/news/schweiz/ubs-lohnumfrage-schweizer-loehne-steigen-2027-nur-leicht",
-   "summary": "Die Wirtschaft erholt sich zwar, doch am Arbeitsmarkt und bei den Löhnen kommt der Aufschwung kaum an.",
-   "date": "2026-11-03",
-   "source": "SRF"
   }
  ],
  "cs": [
+  {
+   "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+   "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+   "summary": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
+   "date": "2026-11-04",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
+   "link": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+   "summary": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection. The post New Research Tests Whether AI Models Know …",
+   "date": "2026-11-04",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "Securing the agentic enterprise with data lineage",
+   "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+   "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived …",
+   "date": "2026-11-04",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
    "link": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
@@ -60,46 +81,25 @@
    "source": "MIT Technology Review"
   },
   {
-   "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-   "link": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump …",
-   "date": "2026-11-03",
-   "source": "MIT Technology Review"
-  },
-  {
    "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
    "summary": "In late October, a slew of major cybersecurity issues came to light. But none were bigger than the so-called PHP2Shell vulnerability , which put a plethora of websites, including …",
    "date": "2026-11-02",
    "source": "IEEE Spectrum"
-  },
-  {
-   "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
-   "link": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
-   "summary": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
-   "date": "2026-11-02",
-   "source": "MIT News"
-  },
-  {
-   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-   "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
-   "date": "2026-10-30",
-   "source": "Ars Technica"
   }
  ],
  "science": [
   {
-   "title": "Gene editing could replace a lifetime of medication, but there's a catch",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261102202829.htm",
-   "summary": "A single gene-editing treatment could someday protect against heart disease, high cholesterol, and other common conditions for decades, potentially replacing lifelong medications. …",
+   "title": "Scientists may have finally explained why our brains and bodies are cross-wired",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm",
+   "summary": "Scientists propose that the brain’s mysterious cross-wiring, which connects each hemisphere to the opposite side of the body, may have originated more than 500 million years ago …",
    "date": "2026-11-04",
    "source": "ScienceDaily"
   },
   {
-   "title": "Scientists trick cancer cells into making the drugs that kill them",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261101010552.htm",
-   "summary": "Scientists have developed a promising new cancer-fighting strategy that uses carbon monoxide naturally produced by tumor cells to manufacture powerful drugs inside the cancer …",
+   "title": "Permanent daylight saving time has a dark side, scientists warn",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261103003157.htm",
+   "summary": "A new study warns that permanent daylight saving time could force American children to make at least 2 billion additional school commutes in darkness, potentially increasing …",
    "date": "2026-11-04",
    "source": "ScienceDaily"
   },
