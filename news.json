@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-05T06:58+00:00",
+ "updated": "2026-11-05T17:28+00:00",
  "news": [
   {
-   "title": "Marktbericht: DAX nähert sich dem Rekordhoch",
+   "title": "Marktbericht: DAX springt auf Rekordhoch",
    "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-zwischenwahlen-100.html",
-   "summary": "Nach den US-Zwischenwahlen ist die Euphorie an den Börsen groß: Der DAX robbt sich immer näher an sein Rekordhoch heran. Hilfreich ist auch der sinkende Ölpreis, der den …",
+   "summary": "Die Märkte bleiben im Aufwind: Nach den US-Zwischenwahlen erreicht der DAX im frühen Handel einen neuen Höchststand. Rückenwind erhält er von günstigeren Ölpreisen und positiven …",
    "date": "2026-11-05",
    "source": "tagesschau"
   },
   {
-   "title": "MELDUNGEN WIRTSCHAFT - Commerzbank verzeichnet Rekordergebnis nach neun Monaten",
-   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
-   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
-   "date": "2026-11-05",
-   "source": "NZZ"
-  },
-  {
-   "title": "Democrats won on affordability. Can they deliver it?",
-   "link": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss",
-   "summary": "Democrats will hold Congress but President Donald Trump still has the power to block their plans.",
+   "title": "Interest rates hiked to 4% in first increase in over three years",
+   "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+   "summary": "Most analysts expected the increase from 3.75% to 4%.",
    "date": "2026-11-05",
    "source": "BBC"
   },
   {
-   "title": "KOMMENTAR - Open AI contra Mathematiker: Nach dem Drama um KI-generierte Beweise ist nun die Zeit für Kooperation gekommen",
-   "link": "https://www.nzz.ch/meinung/open-ai-contra-mathematiker-nach-dem-drama-um-ki-generierte-beweise-ist-nun-die-zeit-fuer-kooperation-gekommen-ld.10050341",
-   "summary": "Die Tech-Branche hat die Mathematiker brüskiert. Die Forscher reagieren emotional. Nun sollten die beiden Seiten aufeinander zugehen. Die Wissenschaft gewinnt nur, wenn Mensch und …",
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Signa-Insolvenz: René Benko ist wegen Millionenbetrugs verurteilt worden",
+   "link": "https://www.nzz.ch/wirtschaft/signa-krise-die-wichtigsten-meldungen-ld.1767273",
+   "summary": "Das Immobilien- und Detailhandelsreich des österreichischen Investors René Benko ist zusammengebrochen. Die Signa-Holding und mehrere Tochtergesellschaften stecken in einem …",
+   "date": "2026-11-05",
+   "source": "NZZ"
+  },
+  {
+   "title": "Russische Aktivistengruppen bekennen sich zum Cyberangriff auf Kühlregale in Europa. Doch stimmt das?",
+   "link": "https://www.nzz.ch/pro/russische-aktivistengruppen-bekennen-sich-zum-cyberangriff-auf-kuehlregale-in-europa-doch-stimmt-das-vieles-bleibt-raetselhaft-ld.10054961",
+   "summary": "In Hunderten Supermärkten sind Lebensmittel verdorben, weil Hacker die Kühlsysteme manipuliert haben. Jetzt gibt es Hinweise auf russische Täter. Das Vorgehen würde zur langsamen …",
    "date": "2026-11-05",
    "source": "NZZ"
   },
@@ -37,14 +37,21 @@
    "source": "arstechnica.com via Reddit r/technology"
   },
   {
-   "title": "Midterm Takeaways: Tech billionaires suffer horrible night as Democrats drub Republicans",
-   "link": "https://www.cnbc.com/2026/11/04/midterm-election-blue-wave-trump-billionaires.html",
+   "title": "The Results Are In: Voters Hate Data Centers",
+   "link": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
    "summary": "",
    "date": "2026-11-04",
-   "source": "cnbc.com via Reddit r/technology"
+   "source": "wired.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
+   "link": "https://spectrum.ieee.org/2026-solar-eclipse",
+   "summary": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza , it appears that a few puffy white …",
+   "date": "2026-11-05",
+   "source": "IEEE Spectrum"
+  },
   {
    "title": "Hackers exploited iOS and Android flaws to infect phones",
    "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
@@ -79,36 +86,29 @@
    "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived …",
    "date": "2026-11-04",
    "source": "MIT Technology Review"
-  },
-  {
-   "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
-   "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-   "summary": "In late October, a slew of major cybersecurity issues came to light. But none were bigger than the so-called PHP2Shell vulnerability , which put a plethora of websites, including …",
-   "date": "2026-11-02",
-   "source": "IEEE Spectrum"
   }
  ],
  "science": [
+  {
+   "title": "Scientists discover that a clogged filter could revolutionize oil refining",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm",
+   "summary": "Scientists have developed a remarkable new membrane that separates crude oil at room temperature, using the oil itself to create microscopic filtration channels. The breakthrough …",
+   "date": "2026-11-05",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "400,000-year-old teeth reveal a stunning twist in human evolution",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261102202836.htm",
+   "summary": "A groundbreaking discovery is rewriting the story of human evolution, revealing that an ancient human species once thought to be an evolutionary dead end may have left genetic …",
+   "date": "2026-11-05",
+   "source": "ScienceDaily"
+  },
   {
    "title": "Uranium cubes reveal why the German nuclear project failed",
    "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
    "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
    "date": "2026-11-04",
    "source": "Ars Technica"
-  },
-  {
-   "title": "Scientists may have finally explained why our brains and bodies are cross-wired",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm",
-   "summary": "Scientists propose that the brain’s mysterious cross-wiring, which connects each hemisphere to the opposite side of the body, may have originated more than 500 million years ago …",
-   "date": "2026-11-04",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Permanent daylight saving time has a dark side, scientists warn",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261103003157.htm",
-   "summary": "A new study warns that permanent daylight saving time could force American children to make at least 2 billion additional school commutes in darkness, potentially increasing …",
-   "date": "2026-11-04",
-   "source": "ScienceDaily"
   },
   {
    "title": "Why large dogs age faster than small ones, and other October research highlights",
