@@ -1,47 +1,47 @@
 {
- "updated": "2026-11-05T17:28+00:00",
+ "updated": "2026-11-05T23:41+00:00",
  "news": [
   {
-   "title": "Marktbericht: DAX springt auf Rekordhoch",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-zwischenwahlen-100.html",
-   "summary": "Die Märkte bleiben im Aufwind: Nach den US-Zwischenwahlen erreicht der DAX im frühen Handel einen neuen Höchststand. Rückenwind erhält er von günstigeren Ölpreisen und positiven …",
-   "date": "2026-11-05",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Interest rates hiked to 4% in first increase in over three years",
-   "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-   "summary": "Most analysts expected the increase from 3.75% to 4%.",
+   "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+   "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+   "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
    "date": "2026-11-05",
    "source": "BBC"
   },
   {
-   "title": "DIE NEUESTEN ENTWICKLUNGEN - Signa-Insolvenz: René Benko ist wegen Millionenbetrugs verurteilt worden",
-   "link": "https://www.nzz.ch/wirtschaft/signa-krise-die-wichtigsten-meldungen-ld.1767273",
-   "summary": "Das Immobilien- und Detailhandelsreich des österreichischen Investors René Benko ist zusammengebrochen. Die Signa-Holding und mehrere Tochtergesellschaften stecken in einem …",
+   "title": "Stellenmeldepflicht - Mehr arbeitslose Verkäuferinnen und Verkäufer im Detailhandel",
+   "link": "https://www.srf.ch/news/wirtschaft/stellenmeldepflicht-mehr-arbeitslose-verkaeuferinnen-und-verkaeufer-im-detailhandel",
+   "summary": "Offene Stellen beim Detailhandel-Verkaufspersonal müssen neu den regionalen Arbeitsvermittlungszentren gemeldet werden.",
+   "date": "2026-11-05",
+   "source": "SRF"
+  },
+  {
+   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+   "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/?utm_medium=organic_social&utm_source=TWITTER",
+   "summary": "",
+   "date": "2026-11-05",
+   "source": "techcrunch.com via Reddit r/technology"
+  },
+  {
+   "title": "Supermärkte: Warum Kühlregale leicht zu hacken sind",
+   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/hacker-kuehlsysteme-supermaerkte-100.html",
+   "summary": "Angefangen hat es mit Angriffen auf Kühlsysteme in französischen Supermärkten. Inzwischen sind auch deutsche Einzelhändler betroffen. Experten rechnen mit weiteren Attacken auf …",
+   "date": "2026-11-05",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Das Gericht glaubt René Benko auch beim vierten Mal nicht. Sein einstiger Förderer rechnet mit ihm ab",
+   "link": "https://www.nzz.ch/wirtschaft/zwei-jahre-haft-zusaetzlich-auch-beim-vierten-mal-glaubt-das-gericht-rene-benko-nicht-ld.10055551",
+   "summary": "Das Landesgericht Innsbruck spricht den Signa-Gründer schuldig und verurteilt ihn zu zwei weiteren Jahren Haft. Vor Gericht ging es um fünf Millionen Euro, ein gebrochenes …",
    "date": "2026-11-05",
    "source": "NZZ"
   },
   {
-   "title": "Russische Aktivistengruppen bekennen sich zum Cyberangriff auf Kühlregale in Europa. Doch stimmt das?",
-   "link": "https://www.nzz.ch/pro/russische-aktivistengruppen-bekennen-sich-zum-cyberangriff-auf-kuehlregale-in-europa-doch-stimmt-das-vieles-bleibt-raetselhaft-ld.10054961",
-   "summary": "In Hunderten Supermärkten sind Lebensmittel verdorben, weil Hacker die Kühlsysteme manipuliert haben. Jetzt gibt es Hinweise auf russische Täter. Das Vorgehen würde zur langsamen …",
+   "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
+   "link": "https://www.theverge.com/policy/1027430/democratic-control-congress-tech-policy",
+   "summary": "",
    "date": "2026-11-05",
-   "source": "NZZ"
-  },
-  {
-   "title": "Ted Cruz aims to stack FCC with Republicans before Democrats take Senate control",
-   "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/",
-   "summary": "",
-   "date": "2026-11-04",
-   "source": "arstechnica.com via Reddit r/technology"
-  },
-  {
-   "title": "The Results Are In: Voters Hate Data Centers",
-   "link": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
-   "summary": "",
-   "date": "2026-11-04",
-   "source": "wired.com via Reddit r/technology"
+   "source": "theverge.com via Reddit r/technology"
   }
  ],
  "cs": [
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
+   "link": "https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/",
+   "summary": "Software optimizes a physical model of the telescope to reduce noise.",
+   "date": "2026-11-05",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Statehouse wins give Democrats new power to push clean energy",
+   "link": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/",
+   "summary": "Democrats erased the GOP’s trifecta edge and gained new power over energy policy.",
+   "date": "2026-11-05",
+   "source": "Ars Technica"
+  },
+  {
    "title": "Scientists discover that a clogged filter could revolutionize oil refining",
    "link": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm",
    "summary": "Scientists have developed a remarkable new membrane that separates crude oil at room temperature, using the oil itself to create microscopic filtration channels. The breakthrough …",
@@ -102,20 +116,6 @@
    "summary": "A groundbreaking discovery is rewriting the story of human evolution, revealing that an ancient human species once thought to be an evolutionary dead end may have left genetic …",
    "date": "2026-11-05",
    "source": "ScienceDaily"
-  },
-  {
-   "title": "Uranium cubes reveal why the German nuclear project failed",
-   "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
-   "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
-   "date": "2026-11-04",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Why large dogs age faster than small ones, and other October research highlights",
-   "link": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/",
-   "summary": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more.",
-   "date": "2026-11-02",
-   "source": "Ars Technica"
   },
   {
    "title": "Is There Anything Left in the Dream of Cold Fusion?",
