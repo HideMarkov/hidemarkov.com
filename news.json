@@ -1,12 +1,19 @@
 {
- "updated": "2026-11-06T16:49+00:00",
+ "updated": "2026-11-06T23:15+00:00",
  "news": [
   {
-   "title": "Foodbank to close after 16 years amid rising costs",
-   "link": "https://www.bbc.co.uk/news/articles/cqrkyyj6rx7ro?at_medium=RSS&at_campaign=rss",
-   "summary": "A foodbank in Goole annouces it will close in January as costs rise and donations drop.",
+   "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+   "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+   "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
    "date": "2026-11-06",
    "source": "BBC"
+  },
+  {
+   "title": "MELDUNGEN WIRTSCHAFT - Elon Musk kündigt das Ende der Cybertruck-Produktion in Texas an +++ Commerzbank verzeichnet Rekordergebnis nach neun Monaten",
+   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
+   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
+   "date": "2026-11-06",
+   "source": "NZZ"
   },
   {
    "title": "Nach den Midterms - Warum sind die Börsen rund um den Globus eingebrochen?",
@@ -16,35 +23,35 @@
    "source": "SRF"
   },
   {
-   "title": "Die Aktienmärkte tauchen, Sorgen über einen Crash nehmen zu: Platzt nun die KI-Blase - oder gibt es gar keine?",
-   "link": "https://www.nzz.ch/wirtschaft/kuenstliche-intelligenz-an-der-boerse-boom-oder-blase-aktienmaerkte-unter-druck-ld.10056132",
-   "summary": "Anleger haben jüngst Aktien verkauft, die mit dem KI-Boom zu tun haben. Eine Korrektur war überfällig. Aber wie geht es weiter? Die wichtigsten Fragen und Antworten.",
+   "title": "Weltweiter KI-Ausverkauf: DAX rutscht nach Rekordhoch ab",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-ki-nasdaq-wall-street-100.html",
+   "summary": "Sorgen um KI- und Halbleiterwerte lösen weltweit Verkäufe aus - und setzen auch den deutschen Aktienmarkt unter Druck. Die US-Börsen konnten sich inzwischen wieder berappeln.",
    "date": "2026-11-06",
-   "source": "NZZ"
+   "source": "tagesschau"
   },
   {
-   "title": "Protests and reforms: France's rising debt costs threaten stability",
-   "link": "https://www.dw.com/en/protests-and-reforms-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the …",
+   "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
+   "link": "https://www.ft.com/content/20119746-a285-482e-a0ae-336ce13b26bc?syn-25a6b1a6=1",
+   "summary": "",
    "date": "2026-11-06",
-   "source": "DW"
+   "source": "ft.com via Reddit r/technology"
   },
   {
-   "title": "Tesla and SpaceX lose over $420 billion in combined market cap in the two days after midterms",
-   "link": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+   "title": "RIP Cybertruck. You Were Unloved, Unwanted, and Utterly Absurd",
+   "link": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
    "summary": "",
-   "date": "2026-11-05",
-   "source": "cnbc.com via Reddit r/technology"
-  },
-  {
-   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-   "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/?utm_medium=organic_social&utm_source=TWITTER",
-   "summary": "",
-   "date": "2026-11-05",
-   "source": "techcrunch.com via Reddit r/technology"
+   "date": "2026-11-06",
+   "source": "wired.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+   "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+   "summary": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+   "date": "2026-11-06",
+   "source": "Ars Technica"
+  },
   {
    "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
    "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
@@ -67,13 +74,6 @@
    "source": "IEEE Spectrum"
   },
   {
-   "title": "Hackers exploited iOS and Android flaws to infect phones",
-   "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
-   "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
-   "date": "2026-11-04",
-   "source": "Ars Technica"
-  },
-  {
    "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
    "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
    "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that …",
@@ -90,18 +90,18 @@
  ],
  "science": [
   {
+   "title": "Earth's churning mantle may have created the Great Unconformity",
+   "link": "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/",
+   "summary": "Explaining the Great Unconformity, where Cambrian deposits sit on top of older rocks.",
+   "date": "2026-11-06",
+   "source": "Ars Technica"
+  },
+  {
    "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
    "link": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
    "summary": "Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument. The …",
    "date": "2026-11-06",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
-   "link": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/",
-   "summary": "Interstellar Technologies announces more government funding for the Japanese Zero rocket.",
-   "date": "2026-11-06",
-   "source": "Ars Technica"
   },
   {
    "title": "Scientists just found dinosaur blood that survived 115 million years",
