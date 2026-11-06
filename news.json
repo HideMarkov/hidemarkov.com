@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-06T06:58+00:00",
+ "updated": "2026-11-06T16:49+00:00",
  "news": [
   {
-   "title": "Marktbericht: Aus Wahleuphorie wird Wahlkater",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-ki-nasdaq-wall-street-100.html",
-   "summary": "Die Furcht vor einer schärferen KI-Regulierung hat die Wall Street auf Talfahrt geschickt, vor allem Tech-Werte brechen ein. Der DAX wird sich dem Abwärtstrend nicht entziehen …",
+   "title": "Foodbank to close after 16 years amid rising costs",
+   "link": "https://www.bbc.co.uk/news/articles/cqrkyyj6rx7ro?at_medium=RSS&at_campaign=rss",
+   "summary": "A foodbank in Goole annouces it will close in January as costs rise and donations drop.",
    "date": "2026-11-06",
-   "source": "tagesschau"
+   "source": "BBC"
   },
   {
-   "title": "Korrektur an den Börsen - Warum sind die Börsen rund um den Globus eingebrochen?",
-   "link": "https://www.srf.ch/news/wirtschaft/korrektur-an-den-boersen-warum-sind-die-boersen-rund-um-den-globus-eingebrochen",
+   "title": "Nach den Midterms - Warum sind die Börsen rund um den Globus eingebrochen?",
+   "link": "https://www.srf.ch/news/wirtschaft/nach-den-midterms-warum-sind-die-boersen-rund-um-den-globus-eingebrochen",
    "summary": "Tech-Aktien geraten nach den US-Zwischenwahlen unter Druck. Antworten auf die wichtigsten Fragen zum Börseneinbruch.",
    "date": "2026-11-06",
    "source": "SRF"
   },
   {
-   "title": "'I've taken an extra job to pay for heating oil'",
-   "link": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss",
-   "summary": "People in Sussex say they are taking on extra work and not heating their homes due to oil prices.",
-   "date": "2026-11-06",
-   "source": "BBC"
-  },
-  {
-   "title": "INTERVIEW - «Trumps Zölle sind toxisch geworden»",
-   "link": "https://www.nzz.ch/wirtschaft/trumps-zoelle-sind-toxisch-geworden-ld.10055292",
-   "summary": "Der Wirtschaftsprofessor Richard Baldwin erklärt im Interview, warum die Republikaner die Midterm-Wahlen so deutlich verloren haben. Er sagt, die amerikanischen Wähler hassten die …",
+   "title": "Die Aktienmärkte tauchen, Sorgen über einen Crash nehmen zu: Platzt nun die KI-Blase - oder gibt es gar keine?",
+   "link": "https://www.nzz.ch/wirtschaft/kuenstliche-intelligenz-an-der-boerse-boom-oder-blase-aktienmaerkte-unter-druck-ld.10056132",
+   "summary": "Anleger haben jüngst Aktien verkauft, die mit dem KI-Boom zu tun haben. Eine Korrektur war überfällig. Aber wie geht es weiter? Die wichtigsten Fragen und Antworten.",
    "date": "2026-11-06",
    "source": "NZZ"
+  },
+  {
+   "title": "Protests and reforms: France's rising debt costs threaten stability",
+   "link": "https://www.dw.com/en/protests-and-reforms-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the …",
+   "date": "2026-11-06",
+   "source": "DW"
   },
   {
    "title": "Tesla and SpaceX lose over $420 billion in combined market cap in the two days after midterms",
@@ -37,14 +37,21 @@
    "source": "cnbc.com via Reddit r/technology"
   },
   {
-   "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
-   "link": "https://www.theverge.com/policy/1027430/democratic-control-congress-tech-policy",
+   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+   "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/?utm_medium=organic_social&utm_source=TWITTER",
    "summary": "",
    "date": "2026-11-05",
-   "source": "theverge.com via Reddit r/technology"
+   "source": "techcrunch.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+   "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+   "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But …",
+   "date": "2026-11-06",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
    "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
@@ -79,16 +86,37 @@
    "summary": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection. The post New Research Tests Whether AI Models Know …",
    "date": "2026-11-04",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "Securing the agentic enterprise with data lineage",
-   "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-   "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived …",
-   "date": "2026-11-04",
-   "source": "MIT Technology Review"
   }
  ],
  "science": [
+  {
+   "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+   "link": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+   "summary": "Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument. The …",
+   "date": "2026-11-06",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
+   "link": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/",
+   "summary": "Interstellar Technologies announces more government funding for the Japanese Zero rocket.",
+   "date": "2026-11-06",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Scientists just found dinosaur blood that survived 115 million years",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+   "summary": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can …",
+   "date": "2026-11-06",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Five-inch-long beetle larvae are quietly destroying blueberry roots",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261103003200.htm",
+   "summary": "Scientists have solved a mystery surrounding destructive beetles attacking blueberry bushes in North Carolina, identifying a species whose massive larvae can grow up to five …",
+   "date": "2026-11-06",
+   "source": "ScienceDaily"
+  },
   {
    "title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
    "link": "https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/",
@@ -97,38 +125,10 @@
    "source": "Ars Technica"
   },
   {
-   "title": "Statehouse wins give Democrats new power to push clean energy",
-   "link": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/",
-   "summary": "Democrats erased the GOP’s trifecta edge and gained new power over energy policy.",
-   "date": "2026-11-05",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Scientists discover that a clogged filter could revolutionize oil refining",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm",
-   "summary": "Scientists have developed a remarkable new membrane that separates crude oil at room temperature, using the oil itself to create microscopic filtration channels. The breakthrough …",
-   "date": "2026-11-05",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "400,000-year-old teeth reveal a stunning twist in human evolution",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261102202836.htm",
-   "summary": "A groundbreaking discovery is rewriting the story of human evolution, revealing that an ancient human species once thought to be an evolutionary dead end may have left genetic …",
-   "date": "2026-11-05",
-   "source": "ScienceDaily"
-  },
-  {
    "title": "Is There Anything Left in the Dream of Cold Fusion?",
    "link": "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/",
    "summary": "Dig a little deeper and you’ll find a thriving research program with exotic atoms that won’t solve the energy crisis but stretches the boundaries of physics. The post Is There …",
    "date": "2026-11-02",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy",
-   "link": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
-   "summary": "For decades, astronomers treated the interstellar medium as a static backdrop to the goings-on of the universe. Now, a wave of 3D mapping is bringing the interstellar medium’s …",
-   "date": "2026-10-30",
    "source": "Quanta Magazine"
   }
  ]
