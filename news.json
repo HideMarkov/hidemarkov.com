@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-05T23:41+00:00",
+ "updated": "2026-11-06T06:58+00:00",
  "news": [
   {
-   "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-   "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-   "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
-   "date": "2026-11-05",
-   "source": "BBC"
-  },
-  {
-   "title": "Stellenmeldepflicht - Mehr arbeitslose Verkäuferinnen und Verkäufer im Detailhandel",
-   "link": "https://www.srf.ch/news/wirtschaft/stellenmeldepflicht-mehr-arbeitslose-verkaeuferinnen-und-verkaeufer-im-detailhandel",
-   "summary": "Offene Stellen beim Detailhandel-Verkaufspersonal müssen neu den regionalen Arbeitsvermittlungszentren gemeldet werden.",
-   "date": "2026-11-05",
-   "source": "SRF"
-  },
-  {
-   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-   "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/?utm_medium=organic_social&utm_source=TWITTER",
-   "summary": "",
-   "date": "2026-11-05",
-   "source": "techcrunch.com via Reddit r/technology"
-  },
-  {
-   "title": "Supermärkte: Warum Kühlregale leicht zu hacken sind",
-   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/hacker-kuehlsysteme-supermaerkte-100.html",
-   "summary": "Angefangen hat es mit Angriffen auf Kühlsysteme in französischen Supermärkten. Inzwischen sind auch deutsche Einzelhändler betroffen. Experten rechnen mit weiteren Attacken auf …",
-   "date": "2026-11-05",
+   "title": "Marktbericht: Aus Wahleuphorie wird Wahlkater",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-ki-nasdaq-wall-street-100.html",
+   "summary": "Die Furcht vor einer schärferen KI-Regulierung hat die Wall Street auf Talfahrt geschickt, vor allem Tech-Werte brechen ein. Der DAX wird sich dem Abwärtstrend nicht entziehen …",
+   "date": "2026-11-06",
    "source": "tagesschau"
   },
   {
-   "title": "Das Gericht glaubt René Benko auch beim vierten Mal nicht. Sein einstiger Förderer rechnet mit ihm ab",
-   "link": "https://www.nzz.ch/wirtschaft/zwei-jahre-haft-zusaetzlich-auch-beim-vierten-mal-glaubt-das-gericht-rene-benko-nicht-ld.10055551",
-   "summary": "Das Landesgericht Innsbruck spricht den Signa-Gründer schuldig und verurteilt ihn zu zwei weiteren Jahren Haft. Vor Gericht ging es um fünf Millionen Euro, ein gebrochenes …",
-   "date": "2026-11-05",
+   "title": "Korrektur an den Börsen - Warum sind die Börsen rund um den Globus eingebrochen?",
+   "link": "https://www.srf.ch/news/wirtschaft/korrektur-an-den-boersen-warum-sind-die-boersen-rund-um-den-globus-eingebrochen",
+   "summary": "Tech-Aktien geraten nach den US-Zwischenwahlen unter Druck. Antworten auf die wichtigsten Fragen zum Börseneinbruch.",
+   "date": "2026-11-06",
+   "source": "SRF"
+  },
+  {
+   "title": "'I've taken an extra job to pay for heating oil'",
+   "link": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss",
+   "summary": "People in Sussex say they are taking on extra work and not heating their homes due to oil prices.",
+   "date": "2026-11-06",
+   "source": "BBC"
+  },
+  {
+   "title": "INTERVIEW - «Trumps Zölle sind toxisch geworden»",
+   "link": "https://www.nzz.ch/wirtschaft/trumps-zoelle-sind-toxisch-geworden-ld.10055292",
+   "summary": "Der Wirtschaftsprofessor Richard Baldwin erklärt im Interview, warum die Republikaner die Midterm-Wahlen so deutlich verloren haben. Er sagt, die amerikanischen Wähler hassten die …",
+   "date": "2026-11-06",
    "source": "NZZ"
+  },
+  {
+   "title": "Tesla and SpaceX lose over $420 billion in combined market cap in the two days after midterms",
+   "link": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+   "summary": "",
+   "date": "2026-11-05",
+   "source": "cnbc.com via Reddit r/technology"
   },
   {
    "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
@@ -46,6 +46,13 @@
  ],
  "cs": [
   {
+   "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+   "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+   "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
+   "date": "2026-11-05",
+   "source": "Ars Technica"
+  },
+  {
    "title": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
    "link": "https://spectrum.ieee.org/2026-solar-eclipse",
    "summary": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza , it appears that a few puffy white …",
@@ -56,13 +63,6 @@
    "title": "Hackers exploited iOS and Android flaws to infect phones",
    "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
    "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
-   "date": "2026-11-04",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
-   "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
-   "summary": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
    "date": "2026-11-04",
    "source": "Ars Technica"
   },
