@@ -1,12 +1,26 @@
 {
- "updated": "2026-11-07T13:14+00:00",
+ "updated": "2026-11-07T19:28+00:00",
  "news": [
   {
-   "title": "Economiesuisse-Präsident - «Es tut weh, wenn sehr gut ausgebildete Junge keinen Job finden»",
-   "link": "https://www.srf.ch/news/schweiz/economiesuisse-praesident-es-tut-weh-wenn-sehr-gut-ausgebildete-junge-keinen-job-finden",
-   "summary": "Die Wirtschaft müsse Uni-Abgängern ein Angebot machen, findet der neue Economiesuisse-Präsident Silvan Wildhaber.",
+   "title": "Klinische Studien - Pharma: Streit um Ethikkommissionen bremst Forschung",
+   "link": "https://www.srf.ch/news/wirtschaft/klinische-studien-pharma-streit-um-ethikkommissionen-bremst-forschung",
+   "summary": "Die Pharmaverbände lobbyieren für mehr Tempo bei klinischen Studien. Darum geht es.",
    "date": "2026-11-07",
    "source": "SRF"
+  },
+  {
+   "title": "Millionen junge Menschen ohne Berufsausbildung in Deutschland",
+   "link": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/junge-menschen-keine-berufsausbildung-100.html",
+   "summary": "Die Zahl junger Erwachsener ohne Berufsabschluss ist alarmierend. Sie haben schlechtere Chancen am Jobmarkt und verdienen weniger. Zugleich suchen viele Unternehmen Fachkräfte. …",
+   "date": "2026-11-07",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Texas Governor-Elect Requests Pause on Land Talks With SpaceX",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-05/texas-governor-elect-requests-pause-on-land-talks-with-spacex",
+   "summary": "",
+   "date": "2026-11-07",
+   "source": "bloomberg.com via Reddit r/technology"
   },
   {
    "title": "Amid protests, France's rising debt costs threaten stability",
@@ -23,25 +37,11 @@
    "source": "NZZ"
   },
   {
-   "title": "Sanierung der Bahnstrecke Berlin-Hannover: Massive Probleme für Pendler",
-   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/bahn-berlin-hannover-bauarbeiten-pendler-100.html",
-   "summary": "Dass die Generalsanierung der Bahnstrecke Berlin-Hannover massive Verspätungen bedeutet, war klar. Doch nun zeigt sich: Die Pünktlichkeit auf der Ausweichstrecke ist selbst für …",
-   "date": "2026-11-07",
-   "source": "tagesschau"
-  },
-  {
    "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
    "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
    "summary": "",
    "date": "2026-11-07",
    "source": "ft.com via Reddit r/technology"
-  },
-  {
-   "title": "RIP Cybertruck. You Were Unloved, Unwanted, and Utterly Absurd",
-   "link": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
-   "summary": "",
-   "date": "2026-11-06",
-   "source": "wired.com via Reddit r/technology"
   }
  ],
  "cs": [
@@ -90,7 +90,7 @@
  ],
  "science": [
   {
-   "title": "The migration that transformed Africa's languages, genes, and cultures",
+   "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
    "link": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
    "summary": "Genes and archaeology are revealing how Bantu speakers spread across much of Africa.",
    "date": "2026-11-07",
