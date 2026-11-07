@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-07T06:10+00:00",
+ "updated": "2026-11-07T13:14+00:00",
  "news": [
+  {
+   "title": "Economiesuisse-Präsident - «Es tut weh, wenn sehr gut ausgebildete Junge keinen Job finden»",
+   "link": "https://www.srf.ch/news/schweiz/economiesuisse-praesident-es-tut-weh-wenn-sehr-gut-ausgebildete-junge-keinen-job-finden",
+   "summary": "Die Wirtschaft müsse Uni-Abgängern ein Angebot machen, findet der neue Economiesuisse-Präsident Silvan Wildhaber.",
+   "date": "2026-11-07",
+   "source": "SRF"
+  },
+  {
+   "title": "Amid protests, France's rising debt costs threaten stability",
+   "link": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the …",
+   "date": "2026-11-07",
+   "source": "DW"
+  },
   {
    "title": "Tesla, SpaceX oder die Krypto-Industrie: Diese Firmen dürften sich die Demokraten jetzt vornehmen",
    "link": "https://www.nzz.ch/wirtschaft/tesla-spacex-oder-die-krypto-industrie-diese-firmen-duerften-sich-die-demokraten-jetzt-vornehmen-ld.10054664",
@@ -16,24 +30,10 @@
    "source": "tagesschau"
   },
   {
-   "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets",
-   "link": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
-   "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
-   "date": "2026-11-07",
-   "source": "BBC"
-  },
-  {
-   "title": "Nach den Midterms - Warum sind die Börsen rund um den Globus eingebrochen?",
-   "link": "https://www.srf.ch/news/wirtschaft/nach-den-midterms-warum-sind-die-boersen-rund-um-den-globus-eingebrochen",
-   "summary": "Tech-Aktien geraten nach den US-Zwischenwahlen unter Druck. Antworten auf die wichtigsten Fragen zum Börseneinbruch.",
-   "date": "2026-11-06",
-   "source": "SRF"
-  },
-  {
-   "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
-   "link": "https://www.ft.com/content/20119746-a285-482e-a0ae-336ce13b26bc?syn-25a6b1a6=1",
+   "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+   "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
    "summary": "",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "source": "ft.com via Reddit r/technology"
   },
   {
@@ -90,6 +90,27 @@
  ],
  "science": [
   {
+   "title": "The migration that transformed Africa's languages, genes, and cultures",
+   "link": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
+   "summary": "Genes and archaeology are revealing how Bantu speakers spread across much of Africa.",
+   "date": "2026-11-07",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm",
+   "summary": "Humans collectively produce more than 2 billion tonnes of carbon dioxide annually just by turning food into energy, a 74% increase over three decades largely driven by population …",
+   "date": "2026-11-07",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+   "summary": "Scientists have uncovered evidence that Europe was dominated for more than 20 million years by open woodlands, colorful meadows, and large grazing animals, not the dense forests …",
+   "date": "2026-11-07",
+   "source": "ScienceDaily"
+  },
+  {
    "title": "Earth's churning mantle may have created the Great Unconformity",
    "link": "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/",
    "summary": "Explaining the Great Unconformity, where Cambrian deposits sit on top of older rocks.",
@@ -102,27 +123,6 @@
    "summary": "Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument. The …",
    "date": "2026-11-06",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "Scientists just found dinosaur blood that survived 115 million years",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
-   "summary": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can …",
-   "date": "2026-11-06",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Five-inch-long beetle larvae are quietly destroying blueberry roots",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261103003200.htm",
-   "summary": "Scientists have solved a mystery surrounding destructive beetles attacking blueberry bushes in North Carolina, identifying a species whose massive larvae can grow up to five …",
-   "date": "2026-11-06",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
-   "link": "https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/",
-   "summary": "Software optimizes a physical model of the telescope to reduce noise.",
-   "date": "2026-11-05",
-   "source": "Ars Technica"
   },
   {
    "title": "Is There Anything Left in the Dream of Cold Fusion?",
