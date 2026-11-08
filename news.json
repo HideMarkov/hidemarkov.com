@@ -1,19 +1,33 @@
 {
- "updated": "2026-11-08T10:31+00:00",
+ "updated": "2026-11-08T17:58+00:00",
  "news": [
   {
-   "title": "Wie der Aktienkauf rund um die Uhr funktionieren soll",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/aktien-kauf-nachts-100.html",
-   "summary": "Die Deutsche Börse in Frankfurt ermöglicht ab sofort den Handel mit DAX-Werten auch nachts oder am Wochenende. Noch gibt es allerdings eine wichtige Hürde. Was Anleger wissen …",
+   "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+   "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+   "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
+   "date": "2026-11-08",
+   "source": "BBC"
+  },
+  {
+   "title": "Viele Gebäude weiterhin ohne Elementarschadenversicherung",
+   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/klimaschaeden-versicherungen-100.html",
+   "summary": "Immer häufiger führen Starkregen und Überschwemmungen zu teuren Schäden an Häusern. Nur gut die Hälfte der Gebäude in Deutschland sind gegen solche Folgen abgesichert. Experten …",
    "date": "2026-11-08",
    "source": "tagesschau"
   },
   {
-   "title": "Traders 'priced out' of £12,000 Christmas market pitches",
-   "link": "https://www.bbc.co.uk/news/articles/ckn8wew92xw1o?at_medium=RSS&at_campaign=rss",
-   "summary": "Stall holders said they'd met the council leader to express their concerns at high costs since a new operator took over.",
+   "title": "The Fridge-Hacking Spree Is an Internet-of-Things Wake-Up Call",
+   "link": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/",
+   "summary": "",
    "date": "2026-11-08",
-   "source": "BBC"
+   "source": "wired.com via Reddit r/technology"
+  },
+  {
+   "title": "31-year-old dumpster diver brought in $140,000 in 12 months: I ‘did much more than I thought was possible’",
+   "link": "https://www.cnbc.com/make-it/2026/11/07/dumpster-diver-resale-business.html",
+   "summary": "",
+   "date": "2026-11-08",
+   "source": "cnbc.com via Reddit r/Economics"
   },
   {
    "title": "Kündigung vor dem ersten Arbeitstag: Der Mann, der beim Traditionskonzern Rieter beinahe CEO wurde",
@@ -28,20 +42,6 @@
    "summary": "Die Smartwatch analysiert den Herzschlag, der Staubsaugroboter fotografiert spielende Kinder, die Suchmaschine registriert jeden Klick. Privatsphäre war einmal. Auf Besuch bei …",
    "date": "2026-11-08",
    "source": "NZZ"
-  },
-  {
-   "title": "The tech billionaires who fled California are facing a new blue Texas",
-   "link": "https://www.washingtonpost.com/technology/2026/11/07/musk-fled-california-texas-now-his-red-state-refuge-is-revolt/",
-   "summary": "",
-   "date": "2026-11-07",
-   "source": "washingtonpost.com via Reddit r/technology"
-  },
-  {
-   "title": "Texas Governor-Elect Requests Pause on Land Talks With SpaceX",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-05/texas-governor-elect-requests-pause-on-land-talks-with-spacex",
-   "summary": "",
-   "date": "2026-11-07",
-   "source": "bloomberg.com via Reddit r/technology"
   }
  ],
  "cs": [
@@ -90,31 +90,31 @@
  ],
  "science": [
   {
+   "title": "Physicists listened to electrical noise to crack a superconductor mystery",
+   "link": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+   "summary": "Tuning in to electronic noise can tell us whether electrons have paired up or not.",
+   "date": "2026-11-08",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+   "summary": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster. …",
+   "date": "2026-11-08",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
+   "summary": "Scientists investigating a 2,800-year-old Siberian tomb discovered roughly 1,000 cannabis seeds and chemical evidence suggesting ancient Scythians used the plant for its …",
+   "date": "2026-11-08",
+   "source": "ScienceDaily"
+  },
+  {
    "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
    "link": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
    "summary": "Genes and archaeology are revealing how Bantu speakers spread across much of Africa.",
    "date": "2026-11-07",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm",
-   "summary": "Humans collectively produce more than 2 billion tonnes of carbon dioxide annually just by turning food into energy, a 74% increase over three decades largely driven by population …",
-   "date": "2026-11-07",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
-   "summary": "Scientists have uncovered evidence that Europe was dominated for more than 20 million years by open woodlands, colorful meadows, and large grazing animals, not the dense forests …",
-   "date": "2026-11-07",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Earth's churning mantle may have created the Great Unconformity",
-   "link": "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/",
-   "summary": "Explaining the Great Unconformity, where Cambrian deposits sit on top of older rocks.",
-   "date": "2026-11-06",
    "source": "Ars Technica"
   },
   {
