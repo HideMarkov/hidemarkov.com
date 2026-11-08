@@ -161,6 +161,11 @@
   .toolgroup ul { list-style: none; padding: 0; margin: 0; }
   .toolgroup li { padding: 6px 0; color: var(--muted); font-size: 14.5px; line-height: 1.5; }
   .toolgroup a { font-weight: 600; text-decoration: none; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 24px; }
+  .tabs button { background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 10px 18px; font: 600 13px var(--mono); cursor: pointer; transition: border-color .2s, box-shadow .2s, color .2s; }
+  .tabs button:hover, .tabs button:focus-visible { border-color: var(--green-dim); color: var(--text); box-shadow: 0 0 18px rgba(44,249,122,.15); }
+  .tabs button[aria-selected="true"] { border-color: var(--green); color: var(--green); }
+  .news[hidden] { display: none; }
   .news { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
   @media (max-width: 900px) { .news { grid-template-columns: 1fr; } }
   .news a.item { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 24px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s; }
@@ -247,10 +252,10 @@
     <nav>
       <div class="navlinks" id="navlinks">
         <a href="#leistungen">Leistungen</a>
+        <a href="#einstieg">Process-Mining-Check</a>
         <a href="#kaliber">Kaliber</a>
-        <a href="#warum">Warum wir</a>
-        <a href="#werkzeuge">Gratis-Tools</a>
-        <a href="#nachrichten">News</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#werkzeuge">Tools &amp; News</a>
         <a href="#kontakt">Kontakt</a>
       </div>
       <div class="lang" role="group" aria-label="Sprache / Language">
@@ -331,24 +336,11 @@
           <p>Wo Standardsoftware nicht passt, bauen wir Ihre eigene Anwendung - Web, Datenbank, Schnittstellen. So wie Kaliber für den Gerüstbau.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="spiel">
-    <div class="wrap">
-      <div class="head">
-        <div>
-          <div class="kicker">Mini-Spiel</div>
-          <h2>Finden Sie den versteckten Prozess.</h2>
-        </div>
-        <p class="lead">
-        Eine Minute Process Mining zum Ausprobieren: Sie lesen ein Event Log, erraten den Ablauf, und am Ende sehen Sie, wie PM4Py ihn automatisch entdeckt.
-        
-      </p>
-      </div>
-      <div class="game-frame">
-        <iframe id="hm-game" title="Process Mining Mini-Spiel / mini game" loading="lazy"></iframe>
-        <noscript><p class="lead"><a href="/game/">Process Mining Mini-Spiel / mini game</a></p></noscript>
+      <div class="sub">So arbeiten wir</div>
+      <div class="grid">
+        <div class="card"><div class="tag">SOFTWARE</div><h3>Eigene Software statt Excel-Chaos</h3><p>Ihr Ablauf als Anwendung, die genau so rechnet wie Sie. Ohne Lizenzpaket, das Sie zur Hälfte nie nutzen.</p></div>
+        <div class="card"><div class="tag">DATEN</div><h3>Ihre Daten bleiben Ihre</h3><p>Eigene, abgeschottete Instanz. Process-Mining-Checks bearbeiten wir auf unserem eigenen Rechner in der Schweiz, Kaliber läuft auf Servern in Deutschland. Vollständiger Export jederzeit. Keine Abhängigkeit von einem Grosskonzern.</p></div>
+        <div class="card"><div class="tag">TEMPO</div><h3>Schnell lauffähig, sauber übergeben</h3><p>Früh eine Version, die Sie selbst testen, danach wöchentliche Verbesserungen. Mit Handbüchern, damit Sie unabhängig bleiben.</p></div>
       </div>
     </div>
   </section>
@@ -375,6 +367,25 @@
     </div>
   </section>
 
+  <section id="spiel">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Mini-Spiel</div>
+          <h2>Finden Sie den versteckten Prozess.</h2>
+        </div>
+        <p class="lead">
+        Eine Minute Process Mining zum Ausprobieren: Sie lesen ein Event Log, erraten den Ablauf, und am Ende sehen Sie, wie PM4Py ihn automatisch entdeckt.
+        
+      </p>
+      </div>
+      <div class="game-frame">
+        <iframe id="hm-game" title="Process Mining Mini-Spiel / mini game" loading="lazy"></iframe>
+        <noscript><p class="lead"><a href="/game/">Process Mining Mini-Spiel / mini game</a></p></noscript>
+      </div>
+    </div>
+  </section>
+
   <section id="kaliber">
     <div class="wrap feature">
       <div>
@@ -397,21 +408,14 @@
     </div>
   </section>
 
-  <section id="warum">
+  <section id="ueber-uns">
     <div class="wrap">
       <div class="head">
         <div>
-          <div class="kicker">Warum HideMarkov</div>
+          <div class="kicker">Über uns</div>
           <h2>Konzern-Erfahrung. <span class="g">KMU-Tempo.</span></h2>
         </div>
-        <p class="lead">Wir kommen aus den IT-Landschaften von Banken, Versicherungen und der Luftfahrt. Dort haben wir gelernt, wie die Grossen ihre Prozesse durchleuchten, automatisieren und ihre Systeme bauen. Genau das setzen wir für KMU um - ohne Konzern-Budget und ohne Konzern-Tempo.</p>
       </div>
-      <div class="grid">
-        <div class="card"><div class="tag">SOFTWARE</div><h3>Eigene Software statt Excel-Chaos</h3><p>Ihr Ablauf als Anwendung, die genau so rechnet wie Sie. Ohne Lizenzpaket, das Sie zur Hälfte nie nutzen.</p></div>
-        <div class="card"><div class="tag">DATEN</div><h3>Ihre Daten bleiben Ihre</h3><p>Eigene, abgeschottete Instanz. Process-Mining-Checks bearbeiten wir auf unserem eigenen Rechner in der Schweiz, Kaliber läuft auf Servern in Deutschland. Vollständiger Export jederzeit. Keine Abhängigkeit von einem Grosskonzern.</p></div>
-        <div class="card"><div class="tag">TEMPO</div><h3>Schnell lauffähig, sauber übergeben</h3><p>Früh eine Version, die Sie selbst testen, danach wöchentliche Verbesserungen. Mit Handbüchern, damit Sie unabhängig bleiben.</p></div>
-      </div>
-      <div class="sub">Wer dahinter steht</div>
       <div class="founder">
         <img src="/sebastian-kustosz.jpg" width="600" height="750" loading="lazy" alt="Sebastian Kustosz, HideMarkov">
         <div>
@@ -424,6 +428,7 @@
           <p>Ein Ansprechpartner von der Analyse bis zur fertigen Lösung, ein Festpreis vor Arbeitsbeginn. Ich spreche Deutsch, Englisch und Polnisch.</p>
         </div>
       </div>
+      <div class="sub">Mit wem ich arbeite</div>
       <div class="team">
         <div class="member"><div class="tag">IT-BERATUNG</div><h3>Erfahrung aus dem Konzernumfeld</h3><p>Arbeit mit komplexen Systemen: ERP wie SAP, Datenbanken, Cloud-Plattformen wie Microsoft Azure.</p></div>
         <div class="member"><div class="tag">ENGINEERING</div><h3>KI-gestütztes Entwicklerteam</h3><p>KI-Agenten schreiben, testen und dokumentieren Code - jede Änderung prüft ein Mensch. Darum sind wir schnell.</p></div>
@@ -502,37 +507,18 @@
       <div class="head">
         <div>
           <div class="kicker">Nachrichten</div>
-          <h2>Wirtschaft und Technologie heute</h2>
+          <h2>Was heute passiert</h2>
         </div>
-        <p class="lead">Meldungen von SRF, NZZ, tagesschau, BBC und DW, dazu meistgelesene Links seriöser Medien aus Reddit - alle paar Stunden automatisch aktualisiert (Artikel in Originalsprache). <span class="upd" data-upd></span></p>
+        <p class="lead">Wirtschaft, Informatik und Wissenschaft aus seriösen Quellen wie SRF, NZZ, tagesschau, BBC, Quanta Magazine und MIT, alle paar Stunden automatisch aktualisiert (Artikel in Originalsprache). <span class="upd" data-upd></span></p>
       </div>
-      <div class="news" id="news-news"><p class="muted">News werden geladen …</p></div>
-    </div>
-  </section>
-
-  <section id="informatik">
-    <div class="wrap">
-      <div class="head">
-        <div>
-          <div class="kicker">Informatik</div>
-          <h2>Neu in der Informatik</h2>
-        </div>
-        <p class="lead">KI, Software, Sicherheit und Algorithmen - alle paar Stunden automatisch aktualisiert (Artikel auf Englisch). <span class="upd" data-upd></span></p>
+      <div class="tabs" role="tablist" aria-label="Nachrichten / News">
+        <button type="button" role="tab" id="tab-news-news" aria-controls="news-news" aria-selected="true">Wirtschaft</button>
+        <button type="button" role="tab" id="tab-news-cs" aria-controls="news-cs" aria-selected="false">Informatik</button>
+        <button type="button" role="tab" id="tab-news-science" aria-controls="news-science" aria-selected="false">Wissenschaft</button>
       </div>
-      <div class="news" id="news-cs"><p class="muted">News werden geladen …</p></div>
-    </div>
-  </section>
-
-  <section id="wissenschaft">
-    <div class="wrap">
-      <div class="head">
-        <div>
-          <div class="kicker">Wissenschaft</div>
-          <h2>Neu in der Wissenschaft</h2>
-        </div>
-        <p class="lead">Physik, Mathematik, Biologie und Weltraum - alle paar Stunden automatisch aktualisiert (Artikel auf Englisch). <span class="upd" data-upd></span></p>
-      </div>
-      <div class="news" id="news-science"><p class="muted">News werden geladen …</p></div>
+      <div class="news" id="news-news" role="tabpanel" aria-labelledby="tab-news-news"><p class="muted">News werden geladen …</p></div>
+      <div class="news" id="news-cs" role="tabpanel" aria-labelledby="tab-news-cs" hidden><p class="muted">News werden geladen …</p></div>
+      <div class="news" id="news-science" role="tabpanel" aria-labelledby="tab-news-science" hidden><p class="muted">News werden geladen …</p></div>
       <div class="clips">
         <div>
           <h3>MarkovClips</h3>
@@ -603,6 +589,14 @@
     });
     document.querySelectorAll('.navlinks a').forEach(function (a) {
       a.addEventListener('click', function () { header.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.textContent = '☰'; });
+    });
+
+    // News tabs: one list visible at a time
+    var tabs = document.querySelectorAll('.tabs [role="tab"]');
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        tabs.forEach(function (o) { var on = o === t; o.setAttribute('aria-selected', String(on)); document.getElementById(o.getAttribute('aria-controls')).hidden = !on; });
+      });
     });
 
     // News feeds from news.json (refreshed by a GitHub job; same origin, no third-party requests)
