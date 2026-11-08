@@ -161,6 +161,11 @@
   .toolgroup ul { list-style: none; padding: 0; margin: 0; }
   .toolgroup li { padding: 6px 0; color: var(--muted); font-size: 14.5px; line-height: 1.5; }
   .toolgroup a { font-weight: 600; text-decoration: none; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 24px; }
+  .tabs button { background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 10px 18px; font: 600 13px var(--mono); cursor: pointer; transition: border-color .2s, box-shadow .2s, color .2s; }
+  .tabs button:hover, .tabs button:focus-visible { border-color: var(--green-dim); color: var(--text); box-shadow: 0 0 18px rgba(44,249,122,.15); }
+  .tabs button[aria-selected="true"] { border-color: var(--green); color: var(--green); }
+  .news[hidden] { display: none; }
   .news { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
   @media (max-width: 900px) { .news { grid-template-columns: 1fr; } }
   .news a.item { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 24px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s; }
@@ -247,10 +252,10 @@
     <nav>
       <div class="navlinks" id="navlinks">
         <a href="#leistungen">Services</a>
+        <a href="#einstieg">Process Mining Check</a>
         <a href="#kaliber">Kaliber</a>
-        <a href="#warum">Why us</a>
-        <a href="#werkzeuge">Free tools</a>
-        <a href="#nachrichten">News</a>
+        <a href="#ueber-uns">About us</a>
+        <a href="#werkzeuge">Tools &amp; News</a>
         <a href="#kontakt">Contact</a>
       </div>
       <div class="lang" role="group" aria-label="Sprache / Language">
@@ -331,24 +336,11 @@
           <p>Where standard software doesn't fit, we build your own application - web, database, integrations. Just like Kaliber for scaffolding.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="spiel">
-    <div class="wrap">
-      <div class="head">
-        <div>
-          <div class="kicker">Mini game</div>
-          <h2>Find the hidden process.</h2>
-        </div>
-        <p class="lead">
-        
-        One minute of process mining to try out: you read an event log, guess the flow, and at the end you see how PM4Py discovers it automatically.
-      </p>
-      </div>
-      <div class="game-frame">
-        <iframe id="hm-game" title="Process Mining Mini-Spiel / mini game" loading="lazy"></iframe>
-        <noscript><p class="lead"><a href="/game/">Process Mining Mini-Spiel / mini game</a></p></noscript>
+      <div class="sub">How we work</div>
+      <div class="grid">
+        <div class="card"><div class="tag">SOFTWARE</div><h3>Your own software, not Excel chaos</h3><p>Your process as an application that calculates exactly the way you do. No licence bundle you only half use.</p></div>
+        <div class="card"><div class="tag">DATA</div><h3>Your data stays yours</h3><p>Your own isolated instance. We run Process Mining Checks on our own computer in Switzerland; Kaliber runs on servers in Germany. Full export any time. No lock-in to a big vendor.</p></div>
+        <div class="card"><div class="tag">SPEED</div><h3>Running fast, handed over cleanly</h3><p>An early version you test yourself, then weekly improvements. With manuals so you stay independent.</p></div>
       </div>
     </div>
   </section>
@@ -375,6 +367,25 @@
     </div>
   </section>
 
+  <section id="spiel">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker">Mini game</div>
+          <h2>Find the hidden process.</h2>
+        </div>
+        <p class="lead">
+        
+        One minute of process mining to try out: you read an event log, guess the flow, and at the end you see how PM4Py discovers it automatically.
+      </p>
+      </div>
+      <div class="game-frame">
+        <iframe id="hm-game" title="Process Mining Mini-Spiel / mini game" loading="lazy"></iframe>
+        <noscript><p class="lead"><a href="/game/">Process Mining Mini-Spiel / mini game</a></p></noscript>
+      </div>
+    </div>
+  </section>
+
   <section id="kaliber">
     <div class="wrap feature">
       <div>
@@ -397,21 +408,14 @@
     </div>
   </section>
 
-  <section id="warum">
+  <section id="ueber-uns">
     <div class="wrap">
       <div class="head">
         <div>
-          <div class="kicker">Why HideMarkov</div>
+          <div class="kicker">About us</div>
           <h2>Enterprise experience. <span class="g">SME speed.</span></h2>
         </div>
-        <p class="lead">We come from the IT landscapes of banks, insurers and aviation. That is where we learned how the big players analyse their processes, automate them and build their systems. We do exactly that for SMEs - without the enterprise budget and without the enterprise pace.</p>
       </div>
-      <div class="grid">
-        <div class="card"><div class="tag">SOFTWARE</div><h3>Your own software, not Excel chaos</h3><p>Your process as an application that calculates exactly the way you do. No licence bundle you only half use.</p></div>
-        <div class="card"><div class="tag">DATA</div><h3>Your data stays yours</h3><p>Your own isolated instance. We run Process Mining Checks on our own computer in Switzerland; Kaliber runs on servers in Germany. Full export any time. No lock-in to a big vendor.</p></div>
-        <div class="card"><div class="tag">SPEED</div><h3>Running fast, handed over cleanly</h3><p>An early version you test yourself, then weekly improvements. With manuals so you stay independent.</p></div>
-      </div>
-      <div class="sub">Who is behind it</div>
       <div class="founder">
         <img src="/sebastian-kustosz.jpg" width="600" height="750" loading="lazy" alt="Sebastian Kustosz, HideMarkov">
         <div>
@@ -424,6 +428,7 @@
           <p>One point of contact from analysis to finished solution, and a fixed price before work begins. I speak German, English and Polish.</p>
         </div>
       </div>
+      <div class="sub">Who I work with</div>
       <div class="team">
         <div class="member"><div class="tag">IT CONSULTING</div><h3>Experience from the enterprise world</h3><p>Working with complex systems: ERP such as SAP, databases, cloud platforms such as Microsoft Azure.</p></div>
         <div class="member"><div class="tag">ENGINEERING</div><h3>AI-assisted engineering team</h3><p>AI agents write, test and document code - a person reviews every change. That is why we are fast.</p></div>
@@ -502,37 +507,18 @@
       <div class="head">
         <div>
           <div class="kicker">News</div>
-          <h2>Business and technology today</h2>
+          <h2>What is happening today</h2>
         </div>
-        <p class="lead">Headlines from SRF, NZZ, tagesschau, BBC and DW, plus the most-read links to reputable outlets on Reddit - refreshed automatically every few hours (articles in their original language). <span class="upd" data-upd></span></p>
+        <p class="lead">Business, computer science and science from reputable sources such as SRF, NZZ, tagesschau, BBC, Quanta Magazine and MIT, refreshed automatically every few hours (articles in their original language). <span class="upd" data-upd></span></p>
       </div>
-      <div class="news" id="news-news"><p class="muted">Loading news …</p></div>
-    </div>
-  </section>
-
-  <section id="informatik">
-    <div class="wrap">
-      <div class="head">
-        <div>
-          <div class="kicker">Computer science</div>
-          <h2>What's new in computer science</h2>
-        </div>
-        <p class="lead">AI, software, security and algorithms - refreshed automatically every few hours. <span class="upd" data-upd></span></p>
+      <div class="tabs" role="tablist" aria-label="Nachrichten / News">
+        <button type="button" role="tab" id="tab-news-news" aria-controls="news-news" aria-selected="true">Business</button>
+        <button type="button" role="tab" id="tab-news-cs" aria-controls="news-cs" aria-selected="false">Computer science</button>
+        <button type="button" role="tab" id="tab-news-science" aria-controls="news-science" aria-selected="false">Science</button>
       </div>
-      <div class="news" id="news-cs"><p class="muted">Loading news …</p></div>
-    </div>
-  </section>
-
-  <section id="wissenschaft">
-    <div class="wrap">
-      <div class="head">
-        <div>
-          <div class="kicker">Science</div>
-          <h2>What's new in science</h2>
-        </div>
-        <p class="lead">Physics, mathematics, biology and space - refreshed automatically every few hours. <span class="upd" data-upd></span></p>
-      </div>
-      <div class="news" id="news-science"><p class="muted">Loading news …</p></div>
+      <div class="news" id="news-news" role="tabpanel" aria-labelledby="tab-news-news"><p class="muted">Loading news …</p></div>
+      <div class="news" id="news-cs" role="tabpanel" aria-labelledby="tab-news-cs" hidden><p class="muted">Loading news …</p></div>
+      <div class="news" id="news-science" role="tabpanel" aria-labelledby="tab-news-science" hidden><p class="muted">Loading news …</p></div>
       <div class="clips">
         <div>
           <h3>MarkovClips</h3>
@@ -603,6 +589,14 @@
     });
     document.querySelectorAll('.navlinks a').forEach(function (a) {
       a.addEventListener('click', function () { header.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.textContent = '☰'; });
+    });
+
+    // News tabs: one list visible at a time
+    var tabs = document.querySelectorAll('.tabs [role="tab"]');
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        tabs.forEach(function (o) { var on = o === t; o.setAttribute('aria-selected', String(on)); document.getElementById(o.getAttribute('aria-controls')).hidden = !on; });
+      });
     });
 
     // News feeds from news.json (refreshed by a GitHub job; same origin, no third-party requests)
