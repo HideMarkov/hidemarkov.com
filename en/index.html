@@ -180,6 +180,13 @@
   .member h3 { margin: 0 0 8px; font-size: 17px; }
   .member p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
   .member .tag { margin-bottom: 8px; }
+  .founder { display: grid; grid-template-columns: 260px 1fr; gap: 36px; align-items: start; margin-bottom: 48px; }
+  .founder img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-top: 2px solid var(--green); }
+  .founder h3 { margin: 0 0 14px; font-size: 22px; }
+  .founder p { margin: 0 0 14px; color: var(--muted); font-size: 16px; line-height: 1.65; max-width: 68ch; text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+  .founder p:last-child { margin-bottom: 0; color: var(--text); }
+  .founder a { color: var(--green); }
+  @media (max-width: 700px) { .founder { grid-template-columns: 1fr; gap: 22px; } .founder img { max-width: 260px; } }
   .upd { display: inline-block; margin-left: 4px; }
   @media (max-width: 600px) { section { padding: 72px 0; } .hero { padding: 56px 0 0; } .hero-grid { gap: 40px; } .facts { margin-top: 0; gap: 10px; flex-direction: column; } .cta-box { padding: 36px 24px; } .feature { gap: 40px; } }
   .soc { display: grid; place-items: center; width: 50px; height: 50px; border: 1px solid var(--green-dim); border-radius: 10px; color: var(--green); transition: background .2s, color .2s, box-shadow .2s; }
@@ -405,6 +412,18 @@
         <div class="card"><div class="tag">SPEED</div><h3>Running fast, handed over cleanly</h3><p>An early version you test yourself, then weekly improvements. With manuals so you stay independent.</p></div>
       </div>
       <div class="sub">Who is behind it</div>
+      <div class="founder">
+        <img src="/sebastian-kustosz.jpg" width="600" height="750" loading="lazy" alt="Sebastian Kustosz, HideMarkov">
+        <div>
+          <div class="tag">FOUNDER</div>
+          <h3>Sebastian Kustosz</h3>
+          <p>I founded HideMarkov because clarity about your own processes is an opportunity to grow. Even large corporations keep finding gaps there. An SME that knows its processes can seize that opportunity.</p>
+          <p>Since 2019, as an IT auditor, I have examined the processes of banks, insurers and airlines, with a focus on expected credit loss (ECL) calculations at banks, key controls at insurers and highly automated revenue processes at airlines. The questions were always the same: how do processes really run, where do errors arise, and how do automated controls mitigate the risks?</p>
+          <p>My foundation: an apprenticeship at Bayer Industry Services in Leverkusen, a degree in business chemistry from Heinrich Heine University Düsseldorf and two peer-reviewed papers in organic synthesis (<a href="https://doi.org/10.1002/cctc.202001607" target="_blank" rel="noopener">ChemCatChem</a>, as first author; <a href="https://doi.org/10.1002/ejoc.201900783" target="_blank" rel="noopener">European Journal of Organic Chemistry</a>). Hence my approach: measure first, then change.</p>
+          <p>What this means for your business: our software reconstructs one of your processes from your system data. You see where time is lost and what can be automated, and you decide what gets implemented. <a href="#kaliber">Kaliber</a>, our calculation software for scaffolding companies, shows what this looks like in practice.</p>
+          <p>One point of contact from analysis to finished solution, and a fixed price before work begins. I speak German, English and Polish.</p>
+        </div>
+      </div>
       <div class="team">
         <div class="member"><div class="tag">IT CONSULTING</div><h3>Experience from the enterprise world</h3><p>Working with complex systems: ERP such as SAP, databases, cloud platforms such as Microsoft Azure.</p></div>
         <div class="member"><div class="tag">ENGINEERING</div><h3>AI-assisted engineering team</h3><p>AI agents write, test and document code - a person reviews every change. That is why we are fast.</p></div>
