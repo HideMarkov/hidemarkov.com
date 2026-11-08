@@ -1,10 +1,24 @@
 {
- "updated": "2026-11-07T19:28+00:00",
+ "updated": "2026-11-08T00:44+00:00",
  "news": [
   {
-   "title": "Klinische Studien - Pharma: Streit um Ethikkommissionen bremst Forschung",
-   "link": "https://www.srf.ch/news/wirtschaft/klinische-studien-pharma-streit-um-ethikkommissionen-bremst-forschung",
-   "summary": "Die Pharmaverbände lobbyieren für mehr Tempo bei klinischen Studien. Darum geht es.",
+   "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+   "link": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
+   "summary": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
+   "date": "2026-11-07",
+   "source": "BBC"
+  },
+  {
+   "title": "Der Bund muss seine Pflichtlager für Kerosin öffnen. Nun drohen auch beim Heizöl Engpässe",
+   "link": "https://www.nzz.ch/wirtschaft/der-bund-muss-seine-pflichtlager-fuer-kerosin-oeffnen-nun-drohen-auch-beim-heizoel-engpaesse-ld.10055054",
+   "summary": "Viele Hauseigentümer haben ihre Tanks wegen der hohen Preise nicht ausreichend gefüllt. Doch wegen des Niedrigwassers auf dem Rhein können die Händler nur begrenzt Nachschub …",
+   "date": "2026-11-07",
+   "source": "NZZ"
+  },
+  {
+   "title": "Economiesuisse-Präsident - «Es tut weh, wenn sehr gut ausgebildete Junge keinen Job finden»",
+   "link": "https://www.srf.ch/news/schweiz/economiesuisse-praesident-es-tut-weh-wenn-sehr-gut-ausgebildete-junge-keinen-job-finden",
+   "summary": "Die Wirtschaft müsse Uni-Abgängern ein Angebot machen, findet der neue Economiesuisse-Präsident Silvan Wildhaber.",
    "date": "2026-11-07",
    "source": "SRF"
   },
@@ -21,20 +35,6 @@
    "summary": "",
    "date": "2026-11-07",
    "source": "bloomberg.com via Reddit r/technology"
-  },
-  {
-   "title": "Amid protests, France's rising debt costs threaten stability",
-   "link": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the …",
-   "date": "2026-11-07",
-   "source": "DW"
-  },
-  {
-   "title": "Tesla, SpaceX oder die Krypto-Industrie: Diese Firmen dürften sich die Demokraten jetzt vornehmen",
-   "link": "https://www.nzz.ch/wirtschaft/tesla-spacex-oder-die-krypto-industrie-diese-firmen-duerften-sich-die-demokraten-jetzt-vornehmen-ld.10054664",
-   "summary": "Mit ihrer Mehrheit im Kongress kann die Partei bald Untersuchungen gegen Donald Trumps Umfeld lancieren. Auch Trumps Familie könnte durchleutet werden.",
-   "date": "2026-11-07",
-   "source": "NZZ"
   },
   {
    "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
