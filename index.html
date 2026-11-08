@@ -180,6 +180,13 @@
   .member h3 { margin: 0 0 8px; font-size: 17px; }
   .member p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
   .member .tag { margin-bottom: 8px; }
+  .founder { display: grid; grid-template-columns: 260px 1fr; gap: 36px; align-items: start; margin-bottom: 48px; }
+  .founder img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-top: 2px solid var(--green); }
+  .founder h3 { margin: 0 0 14px; font-size: 22px; }
+  .founder p { margin: 0 0 14px; color: var(--muted); font-size: 16px; line-height: 1.65; max-width: 68ch; text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+  .founder p:last-child { margin-bottom: 0; color: var(--text); }
+  .founder a { color: var(--green); }
+  @media (max-width: 700px) { .founder { grid-template-columns: 1fr; gap: 22px; } .founder img { max-width: 260px; } }
   .upd { display: inline-block; margin-left: 4px; }
   @media (max-width: 600px) { section { padding: 72px 0; } .hero { padding: 56px 0 0; } .hero-grid { gap: 40px; } .facts { margin-top: 0; gap: 10px; flex-direction: column; } .cta-box { padding: 36px 24px; } .feature { gap: 40px; } }
   .soc { display: grid; place-items: center; width: 50px; height: 50px; border: 1px solid var(--green-dim); border-radius: 10px; color: var(--green); transition: background .2s, color .2s, box-shadow .2s; }
@@ -405,6 +412,18 @@
         <div class="card"><div class="tag">TEMPO</div><h3>Schnell lauffähig, sauber übergeben</h3><p>Früh eine Version, die Sie selbst testen, danach wöchentliche Verbesserungen. Mit Handbüchern, damit Sie unabhängig bleiben.</p></div>
       </div>
       <div class="sub">Wer dahinter steht</div>
+      <div class="founder">
+        <img src="/sebastian-kustosz.jpg" width="600" height="750" loading="lazy" alt="Sebastian Kustosz, HideMarkov">
+        <div>
+          <div class="tag">GRÜNDER</div>
+          <h3>Sebastian Kustosz</h3>
+          <p>Ich habe HideMarkov gegründet, weil Klarheit über die eigenen Abläufe eine Chance zum Wachsen ist. Selbst Konzerne haben dort immer wieder Lücken. Ein KMU, das seine Prozesse kennt, nutzt diese Chance.</p>
+          <p>Seit 2019 habe ich als IT-Prüfer die Prozesse von Banken, Versicherungen und Fluggesellschaften durchleuchtet, mit den Schwerpunkten Berechnung erwarteter Kreditausfälle (ECL) bei Banken, Schlüsselkontrollen bei Versicherungen und hochautomatisierte Umsatzprozesse bei Fluggesellschaften. Dabei ging es immer um dieselben Fragen: wie Prozesse wirklich laufen, wo Fehler entstehen und wie automatisierte Kontrollen die Risiken absichern.</p>
+          <p>Mein Fundament: eine Ausbildung bei Bayer Industry Services in Leverkusen, ein Studium der Wirtschaftschemie in Düsseldorf und zwei Fachpublikationen in der organischen Synthese (<a href="https://doi.org/10.1002/cctc.202001607" target="_blank" rel="noopener">ChemCatChem</a>, als Erstautor; <a href="https://doi.org/10.1002/ejoc.201900783" target="_blank" rel="noopener">European Journal of Organic Chemistry</a>). Daher meine Arbeitsweise: erst messen, dann verändern.</p>
+          <p>Für Ihren Betrieb heisst das: Unsere Software rekonstruiert einen Ihrer Abläufe aus Ihren Systemdaten. Sie sehen, wo Zeit verloren geht und was sich automatisieren lässt, und entscheiden selbst, was umgesetzt wird. Wie das in der Praxis aussieht, zeigt <a href="#kaliber">Kaliber</a>, unsere Kalkulationssoftware für Gerüstbaubetriebe.</p>
+          <p>Ein Ansprechpartner von der Analyse bis zur fertigen Lösung, ein Festpreis vor Arbeitsbeginn. Ich spreche Deutsch, Englisch und Polnisch.</p>
+        </div>
+      </div>
       <div class="team">
         <div class="member"><div class="tag">IT-BERATUNG</div><h3>Erfahrung aus dem Konzernumfeld</h3><p>Arbeit mit komplexen Systemen: ERP wie SAP, Datenbanken, Cloud-Plattformen wie Microsoft Azure.</p></div>
         <div class="member"><div class="tag">ENGINEERING</div><h3>KI-gestütztes Entwicklerteam</h3><p>KI-Agenten schreiben, testen und dokumentieren Code - jede Änderung prüft ein Mensch. Darum sind wir schnell.</p></div>
