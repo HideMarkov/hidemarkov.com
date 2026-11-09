@@ -1,11 +1,32 @@
 {
- "updated": "2026-11-08T22:14+00:00",
+ "updated": "2026-11-09T06:48+00:00",
  "news": [
   {
-   "title": "Nvidia-Chef Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Das Unternehmen leitet nun eine Untersuchung ein",
-   "link": "https://www.nzz.ch/wirtschaft/nvidia-chef-huang-hatte-mutmasslich-eine-affaere-mit-einer-chinesischen-spionin-das-unternehmen-leitet-nun-eine-untersuchung-ein-ld.10058205",
-   "summary": "Jensen Huang räumt eine Affäre ein. Laut Medienberichten vermuten die amerikanischen Behörden, dass die Frau vom chinesischen Geheimdienst angeworben wurde.",
-   "date": "2026-11-08",
+   "title": "Marktbericht: Kurserholung bleibt vorerst wohl aus",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-170.html",
+   "summary": "Nach dem Ausverkauf in der vergangenen Woche hoffen die Anleger jetzt auf eine Gegenbewegung. Bislang bleiben die Märkte aber risikoscheu, der DAX dürfte schwächer in die Woche …",
+   "date": "2026-11-09",
+   "source": "tagesschau"
+  },
+  {
+   "title": "How you can get council's £250 cost of living help",
+   "link": "https://www.bbc.co.uk/news/articles/cmd6dd3652zvo?at_medium=RSS&at_campaign=rss",
+   "summary": "Applications for household grants of up to £250 are opening to some Surrey residents.",
+   "date": "2026-11-09",
+   "source": "BBC"
+  },
+  {
+   "title": "Tückische Liebschaft - Nvidia-Chef hatte Affäre mit möglicher chinesischer Spionin",
+   "link": "https://www.srf.ch/news/international/tueckische-liebschaft-nvidia-chef-hatte-affaere-mit-moeglicher-chinesischer-spionin",
+   "summary": "Chef Jensen Huang hatte eine Affäre. US-Behörden vermuten, dass die Frau vom chinesischen Geheimdienst angeworben wurde.",
+   "date": "2026-11-09",
+   "source": "SRF"
+  },
+  {
+   "title": "KOMMENTAR - Europa braucht neue Prioritäten in der Klimapolitik",
+   "link": "https://www.nzz.ch/meinung/europa-braucht-mehr-sicherheit-und-wirtschaftlichkeit-in-der-energieversorgung-ld.10052897",
+   "summary": "Die hohen Ziele der internationalen Klimakonferenzen sind gescheitert. Dennoch halten die europäischen Staaten stur an ihrem grünen Kurs fest. Es braucht eine flexiblere …",
+   "date": "2026-11-09",
    "source": "NZZ"
   },
   {
@@ -16,35 +37,28 @@
    "source": "bloomberg.com via Reddit r/technology"
   },
   {
-   "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
-   "link": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+   "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
+   "link": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html?smid=nytcore-ios-share",
    "summary": "",
    "date": "2026-11-08",
-   "source": "cnbc.com via Reddit r/technology"
-  },
-  {
-   "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
-   "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
-   "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
-   "date": "2026-11-08",
-   "source": "BBC"
-  },
-  {
-   "title": "Viele Gebäude weiterhin ohne Elementarschadenversicherung",
-   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/klimaschaeden-versicherungen-100.html",
-   "summary": "Immer häufiger führen Starkregen und Überschwemmungen zu teuren Schäden an Häusern. Nur gut die Hälfte der Gebäude in Deutschland sind gegen solche Folgen abgesichert. Experten …",
-   "date": "2026-11-08",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Ein modernes Leben ohne ständige Überwachung? Doch, das geht",
-   "link": "https://www.nzz.ch/technologie/ein-modernes-leben-ohne-staendige-ueberwachung-doch-das-geht-ld.10024887",
-   "summary": "Die Smartwatch analysiert den Herzschlag, der Staubsaugroboter fotografiert spielende Kinder, die Suchmaschine registriert jeden Klick. Privatsphäre war einmal. Auf Besuch bei …",
-   "date": "2026-11-08",
-   "source": "NZZ"
+   "source": "nytimes.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+   "link": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+   "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
+   "date": "2026-11-09",
+   "source": "MIT News"
+  },
+  {
+   "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+   "link": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+   "summary": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+   "date": "2026-11-09",
+   "source": "MIT News"
+  },
   {
    "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
    "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
@@ -72,43 +86,29 @@
    "summary": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza , it appears that a few puffy white …",
    "date": "2026-11-05",
    "source": "IEEE Spectrum"
-  },
-  {
-   "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-   "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-   "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that …",
-   "date": "2026-11-04",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
-   "link": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
-   "summary": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection. The post New Research Tests Whether AI Models Know …",
-   "date": "2026-11-04",
-   "source": "Quanta Magazine"
   }
  ],
  "science": [
+  {
+   "title": "Hidden climate superpower: Why some ocean “snow” carries six times more carbon",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261105224558.htm",
+   "summary": "Scientists have discovered that the stickiness of underwater “marine snow” plays a surprisingly important role in how much carbon reaches the deep ocean. Gooier particles resist …",
+   "date": "2026-11-09",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Scientists discover stunning new Amazon fish that may already be endangered",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm",
+   "summary": "Researchers have discovered a stunning new species of tiny orange-patterned fish in the Brazilian Amazon, but its survival may already be at risk. Named Laimosemion laranja, the …",
+   "date": "2026-11-08",
+   "source": "ScienceDaily"
+  },
   {
    "title": "Physicists listened to electrical noise to crack a superconductor mystery",
    "link": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
    "summary": "Tuning in to electronic noise can tell us whether electrons have paired up or not.",
    "date": "2026-11-08",
    "source": "Ars Technica"
-  },
-  {
-   "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
-   "summary": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster. …",
-   "date": "2026-11-08",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
-   "summary": "Scientists investigating a 2,800-year-old Siberian tomb discovered roughly 1,000 cannabis seeds and chemical evidence suggesting ancient Scythians used the plant for its …",
-   "date": "2026-11-08",
-   "source": "ScienceDaily"
   },
   {
    "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
