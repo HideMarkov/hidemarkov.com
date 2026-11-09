@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-09T06:48+00:00",
+ "updated": "2026-11-09T19:53+00:00",
  "news": [
   {
-   "title": "Marktbericht: Kurserholung bleibt vorerst wohl aus",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-170.html",
-   "summary": "Nach dem Ausverkauf in der vergangenen Woche hoffen die Anleger jetzt auf eine Gegenbewegung. Bislang bleiben die Märkte aber risikoscheu, der DAX dürfte schwächer in die Woche …",
-   "date": "2026-11-09",
-   "source": "tagesschau"
-  },
-  {
-   "title": "How you can get council's £250 cost of living help",
-   "link": "https://www.bbc.co.uk/news/articles/cmd6dd3652zvo?at_medium=RSS&at_campaign=rss",
-   "summary": "Applications for household grants of up to £250 are opening to some Surrey residents.",
+   "title": "The facial recognition technology stopping shoplifters",
+   "link": "https://www.bbc.co.uk/news/videos/c5x2v2kpwzgvo?at_medium=RSS&at_campaign=rss",
+   "summary": "Business correspondent Emma Simpson tries out Sainsbury's facial recognition technology.",
    "date": "2026-11-09",
    "source": "BBC"
   },
   {
-   "title": "Tückische Liebschaft - Nvidia-Chef hatte Affäre mit möglicher chinesischer Spionin",
-   "link": "https://www.srf.ch/news/international/tueckische-liebschaft-nvidia-chef-hatte-affaere-mit-moeglicher-chinesischer-spionin",
-   "summary": "Chef Jensen Huang hatte eine Affäre. US-Behörden vermuten, dass die Frau vom chinesischen Geheimdienst angeworben wurde.",
+   "title": "Teure Regulierung - Warum Schweizer Betriebe unter der Bürokratielast stöhnen",
+   "link": "https://www.srf.ch/news/wirtschaft/teure-regulierung-warum-schweizer-betriebe-unter-der-buerokratielast-stoehnen",
+   "summary": "Gegen den internationalen Wettbewerbsdruck sei die Schweiz machtlos. Aber gegen die Bürokratie könne sie etwas machen.",
    "date": "2026-11-09",
    "source": "SRF"
   },
   {
-   "title": "KOMMENTAR - Europa braucht neue Prioritäten in der Klimapolitik",
-   "link": "https://www.nzz.ch/meinung/europa-braucht-mehr-sicherheit-und-wirtschaftlichkeit-in-der-energieversorgung-ld.10052897",
-   "summary": "Die hohen Ziele der internationalen Klimakonferenzen sind gescheitert. Dennoch halten die europäischen Staaten stur an ihrem grünen Kurs fest. Es braucht eine flexiblere …",
+   "title": "Marktbericht: DAX erholt sich kräftig",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-170.html",
+   "summary": "Der deutsche Aktienmarkt ist stark in die neue Woche gestartet. Während große Fragezeichen über der Technologiebranche bleiben, kam heute Entlastung von anderer Seite.",
+   "date": "2026-11-09",
+   "source": "tagesschau"
+  },
+  {
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Der Kurs des Chip-Unternehmens bricht ein",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Das Chip-Unternehmen leitet eine Untersuchung ein. Die neusten Entwicklungen",
    "date": "2026-11-09",
    "source": "NZZ"
   },
@@ -46,6 +46,34 @@
  ],
  "cs": [
   {
+   "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+   "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+   "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the …",
+   "date": "2026-11-09",
+   "source": "MIT Technology Review"
+  },
+  {
+   "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+   "link": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+   "summary": "This article is brought to you by Queen’s University Belfast . Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and …",
+   "date": "2026-11-09",
+   "source": "IEEE Spectrum"
+  },
+  {
+   "title": "The Race to Build a “Find My” for AI Chips",
+   "link": "https://spectrum.ieee.org/find-my-ai-chip",
+   "summary": "In a bid to limit China’s AI capabilities, the United States imposed restrictions in 2022 on the export of certain advanced chips to China. But throughout the AI boom those chips …",
+   "date": "2026-11-09",
+   "source": "IEEE Spectrum"
+  },
+  {
+   "title": "Innovating with AI in the special chemicals industry",
+   "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+   "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable …",
+   "date": "2026-11-09",
+   "source": "MIT Technology Review"
+  },
+  {
    "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
    "link": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
    "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
@@ -58,77 +86,49 @@
    "summary": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
    "date": "2026-11-09",
    "source": "MIT News"
-  },
-  {
-   "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-   "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
-   "summary": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
-   "date": "2026-11-06",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-   "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-   "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But …",
-   "date": "2026-11-06",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-   "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
-   "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
-   "date": "2026-11-05",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
-   "link": "https://spectrum.ieee.org/2026-solar-eclipse",
-   "summary": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza , it appears that a few puffy white …",
-   "date": "2026-11-05",
-   "source": "IEEE Spectrum"
   }
  ],
  "science": [
   {
-   "title": "Hidden climate superpower: Why some ocean “snow” carries six times more carbon",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261105224558.htm",
-   "summary": "Scientists have discovered that the stickiness of underwater “marine snow” plays a surprisingly important role in how much carbon reaches the deep ocean. Gooier particles resist …",
+   "title": "Pentagon mulls placing fleet of military satellites around the Moon",
+   "link": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+   "summary": "\"Please jump on my cislunar bandwagon because I need some more friends here.\"",
+   "date": "2026-11-09",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Did Life Begin in an RNA World?",
+   "link": "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/",
+   "summary": "Some believe the earliest life emerged from self-copying molecules that could mutate and even evolve. But that may not have been enough. The post Did Life Begin in an RNA World? …",
+   "date": "2026-11-09",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "New Democratic Congress will likely strip the gilding from Trump's Golden Dome",
+   "link": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+   "summary": "\"There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.\"",
+   "date": "2026-11-09",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "A quantum breakthrough makes light behave like both a solid and a liquid",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261105224536.htm",
+   "summary": "Scientists have observed a bizarre quantum state of matter that combines the structure of a crystal with the frictionless flow of a liquid, all at room temperature. The …",
    "date": "2026-11-09",
    "source": "ScienceDaily"
   },
   {
-   "title": "Scientists discover stunning new Amazon fish that may already be endangered",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm",
-   "summary": "Researchers have discovered a stunning new species of tiny orange-patterned fish in the Brazilian Amazon, but its survival may already be at risk. Named Laimosemion laranja, the …",
-   "date": "2026-11-08",
+   "title": "Scientists discover a surprising link between acorns and lyme disease",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm",
+   "summary": "After more than 35 years of research, scientists have uncovered surprising clues about what really drives Lyme disease risk. Contrary to longstanding assumptions, deer populations …",
+   "date": "2026-11-09",
    "source": "ScienceDaily"
-  },
-  {
-   "title": "Physicists listened to electrical noise to crack a superconductor mystery",
-   "link": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
-   "summary": "Tuning in to electronic noise can tell us whether electrons have paired up or not.",
-   "date": "2026-11-08",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
-   "link": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
-   "summary": "Genes and archaeology are revealing how Bantu speakers spread across much of Africa.",
-   "date": "2026-11-07",
-   "source": "Ars Technica"
   },
   {
    "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
    "link": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
    "summary": "Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument. The …",
    "date": "2026-11-06",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "Is There Anything Left in the Dream of Cold Fusion?",
-   "link": "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/",
-   "summary": "Dig a little deeper and you’ll find a thriving research program with exotic atoms that won’t solve the energy crisis but stretches the boundaries of physics. The post Is There …",
-   "date": "2026-11-02",
    "source": "Quanta Magazine"
   }
  ]
