@@ -1,12 +1,26 @@
 {
- "updated": "2026-11-09T19:53+00:00",
+ "updated": "2026-11-10T03:37+00:00",
  "news": [
   {
-   "title": "The facial recognition technology stopping shoplifters",
-   "link": "https://www.bbc.co.uk/news/videos/c5x2v2kpwzgvo?at_medium=RSS&at_campaign=rss",
-   "summary": "Business correspondent Emma Simpson tries out Sainsbury's facial recognition technology.",
-   "date": "2026-11-09",
+   "title": "Qantas to outsource 850 local jobs with most roles moving to India",
+   "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
+   "summary": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+   "date": "2026-11-10",
    "source": "BBC"
+  },
+  {
+   "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
+   "link": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
+   "summary": "",
+   "date": "2026-11-09",
+   "source": "arstechnica.com via Reddit r/technology"
+  },
+  {
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: FBI ermittelt laut Trump +++ Aktionäre verklagen das Unternehmen und Chef Huang",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Das Chip-Unternehmen leitet eine Untersuchung ein. Die neusten Entwicklungen",
+   "date": "2026-11-09",
+   "source": "NZZ"
   },
   {
    "title": "Teure Regulierung - Warum Schweizer Betriebe unter der Bürokratielast stöhnen",
@@ -23,28 +37,28 @@
    "source": "tagesschau"
   },
   {
-   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Der Kurs des Chip-Unternehmens bricht ein",
-   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
-   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Das Chip-Unternehmen leitet eine Untersuchung ein. Die neusten Entwicklungen",
+   "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+   "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
+   "summary": "",
    "date": "2026-11-09",
-   "source": "NZZ"
-  },
-  {
-   "title": "NVIDIA CEO Admits Infidelity With Suspected Chinese Spy",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
-   "summary": "",
-   "date": "2026-11-08",
-   "source": "bloomberg.com via Reddit r/technology"
-  },
-  {
-   "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
-   "link": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html?smid=nytcore-ios-share",
-   "summary": "",
-   "date": "2026-11-08",
-   "source": "nytimes.com via Reddit r/technology"
+   "source": "wired.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+   "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+   "summary": "\"*sshole\" poses a serious threat to Internet security.",
+   "date": "2026-11-09",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "The backlash about data centers might really just be about electricity",
+   "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US …",
+   "date": "2026-11-09",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
    "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
@@ -67,28 +81,28 @@
    "source": "IEEE Spectrum"
   },
   {
-   "title": "Innovating with AI in the special chemicals industry",
-   "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-   "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable …",
-   "date": "2026-11-09",
-   "source": "MIT Technology Review"
-  },
-  {
    "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
    "link": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
    "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
    "date": "2026-11-09",
    "source": "MIT News"
-  },
-  {
-   "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-   "link": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-   "summary": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
-   "date": "2026-11-09",
-   "source": "MIT News"
   }
  ],
  "science": [
+  {
+   "title": "Alzheimer’s may have early warning signs outside the brain",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
+   "summary": "A surprising discovery suggests that some early signs of Alzheimer’s disease may begin outside the brain. Using miniature laboratory systems made from human cells, scientists …",
+   "date": "2026-11-10",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
+   "summary": "CERN scientists have finally found evidence of a particle decay so rare that it happens only once in roughly 10 billion decays, ending a search spanning more than 40 years. The …",
+   "date": "2026-11-10",
+   "source": "ScienceDaily"
+  },
   {
    "title": "Pentagon mulls placing fleet of military satellites around the Moon",
    "link": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
@@ -109,20 +123,6 @@
    "summary": "\"There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.\"",
    "date": "2026-11-09",
    "source": "Ars Technica"
-  },
-  {
-   "title": "A quantum breakthrough makes light behave like both a solid and a liquid",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261105224536.htm",
-   "summary": "Scientists have observed a bizarre quantum state of matter that combines the structure of a crystal with the frictionless flow of a liquid, all at room temperature. The …",
-   "date": "2026-11-09",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Scientists discover a surprising link between acorns and lyme disease",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm",
-   "summary": "After more than 35 years of research, scientists have uncovered surprising clues about what really drives Lyme disease risk. Contrary to longstanding assumptions, deer populations …",
-   "date": "2026-11-09",
-   "source": "ScienceDaily"
   },
   {
    "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
