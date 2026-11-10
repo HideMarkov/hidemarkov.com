@@ -1,12 +1,40 @@
 {
- "updated": "2026-11-10T03:37+00:00",
+ "updated": "2026-11-10T15:00+00:00",
  "news": [
   {
-   "title": "Qantas to outsource 850 local jobs with most roles moving to India",
-   "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
-   "summary": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+   "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
+   "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+   "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
    "date": "2026-11-10",
    "source": "BBC"
+  },
+  {
+   "title": "Die deutschen Speicher sind so leer wie noch nie um diese Zeit. Im Winter könnte das Gas knapp werden.",
+   "link": "https://www.nzz.ch/wirtschaft/die-deutschen-speicher-sind-so-leer-wie-noch-nie-um-diese-zeit-im-winter-koennte-das-gas-knapp-werden-ld.10059510",
+   "summary": "Speicherbetreiber warnen: Sollte es sehr kalt werden, könnten die Vorräte womöglich nicht reichen. Wirtschaftsministerium und Bundesnetzagentur sehen noch keinen Grund für Unruhe.",
+   "date": "2026-11-10",
+   "source": "NZZ"
+  },
+  {
+   "title": "Megaspeed and the battle to go high-end Nvidia chips into China",
+   "link": "https://www.dw.com/en/megaspeed-and-the-battle-to-go-high-end-nvidia-chips-into-china/a-79909129?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "Jensen Huang's affair with a suspected Chinese spy has shone a light on Megaspeed, the company she worked for. It is under investigation in the US for smuggling Nvidia chips into …",
+   "date": "2026-11-10",
+   "source": "DW"
+  },
+  {
+   "title": "KI-Boom: Deutscher Chipkonzern Infineon will weiter zweistellig wachsen",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-infineon-ki-100.html",
+   "summary": "Der boomende Ausbau der KI-Infrastruktur, aber auch ein besseres Autogeschäft haben Infineon einen Rekordumsatz beschert. Der deutsche Chipkonzern sieht noch kein Ende des Booms.",
+   "date": "2026-11-10",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy",
+   "link": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
+   "summary": "",
+   "date": "2026-11-10",
+   "source": "theguardian.com via Reddit r/technology"
   },
   {
    "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
@@ -14,37 +42,16 @@
    "summary": "",
    "date": "2026-11-09",
    "source": "arstechnica.com via Reddit r/technology"
-  },
-  {
-   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: FBI ermittelt laut Trump +++ Aktionäre verklagen das Unternehmen und Chef Huang",
-   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
-   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Das Chip-Unternehmen leitet eine Untersuchung ein. Die neusten Entwicklungen",
-   "date": "2026-11-09",
-   "source": "NZZ"
-  },
-  {
-   "title": "Teure Regulierung - Warum Schweizer Betriebe unter der Bürokratielast stöhnen",
-   "link": "https://www.srf.ch/news/wirtschaft/teure-regulierung-warum-schweizer-betriebe-unter-der-buerokratielast-stoehnen",
-   "summary": "Gegen den internationalen Wettbewerbsdruck sei die Schweiz machtlos. Aber gegen die Bürokratie könne sie etwas machen.",
-   "date": "2026-11-09",
-   "source": "SRF"
-  },
-  {
-   "title": "Marktbericht: DAX erholt sich kräftig",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-170.html",
-   "summary": "Der deutsche Aktienmarkt ist stark in die neue Woche gestartet. Während große Fragezeichen über der Technologiebranche bleiben, kam heute Entlastung von anderer Seite.",
-   "date": "2026-11-09",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
-   "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
-   "summary": "",
-   "date": "2026-11-09",
-   "source": "wired.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "Catch Electronics Shock and Drop Failures Before Hardware Is Built",
+   "link": "https://content.knowledgehub.wiley.com/shifting-reliability-left-guided-virtual-validation-for-electronics-shock-and-drop-testing/",
+   "summary": "Learn how guided virtual shock and drop analysis helps engineering teams identify reliability risks before physical testing, reduce qualification iterations, optimize packaging …",
+   "date": "2026-11-10",
+   "source": "IEEE Spectrum"
+  },
   {
    "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
    "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
@@ -70,13 +77,6 @@
    "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
    "link": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
    "summary": "This article is brought to you by Queen’s University Belfast . Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and …",
-   "date": "2026-11-09",
-   "source": "IEEE Spectrum"
-  },
-  {
-   "title": "The Race to Build a “Find My” for AI Chips",
-   "link": "https://spectrum.ieee.org/find-my-ai-chip",
-   "summary": "In a bid to limit China’s AI capabilities, the United States imposed restrictions in 2022 on the export of certain advanced chips to China. But throughout the AI boom those chips …",
    "date": "2026-11-09",
    "source": "IEEE Spectrum"
   },
