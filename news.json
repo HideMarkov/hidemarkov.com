@@ -1,19 +1,26 @@
 {
- "updated": "2026-11-10T15:00+00:00",
+ "updated": "2026-11-10T21:20+00:00",
  "news": [
   {
-   "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
-   "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-   "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
+   "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
+   "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+   "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
    "date": "2026-11-10",
    "source": "BBC"
   },
   {
-   "title": "Die deutschen Speicher sind so leer wie noch nie um diese Zeit. Im Winter könnte das Gas knapp werden.",
-   "link": "https://www.nzz.ch/wirtschaft/die-deutschen-speicher-sind-so-leer-wie-noch-nie-um-diese-zeit-im-winter-koennte-das-gas-knapp-werden-ld.10059510",
-   "summary": "Speicherbetreiber warnen: Sollte es sehr kalt werden, könnten die Vorräte womöglich nicht reichen. Wirtschaftsministerium und Bundesnetzagentur sehen noch keinen Grund für Unruhe.",
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Aktie verzeichnet weitere Kursverluste +++ FBI ermittelt laut Trump",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Das Chip-Unternehmen leitet eine Untersuchung ein. Die neusten Entwicklungen",
    "date": "2026-11-10",
    "source": "NZZ"
+  },
+  {
+   "title": "Marktbericht: Der DAX wird zurückgepfiffen",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-104.html",
+   "summary": "Zeitweise hatte der DAX heute die Verluste wegen des KI-Crashs am Freitag vollständig aufgeholt. Unter anderem neue Details zur Nvidia-Affäre bremsten den Aufwärtsdrang dann aber …",
+   "date": "2026-11-10",
+   "source": "tagesschau"
   },
   {
    "title": "Megaspeed and the battle to go high-end Nvidia chips into China",
@@ -21,13 +28,6 @@
    "summary": "Jensen Huang's affair with a suspected Chinese spy has shone a light on Megaspeed, the company she worked for. It is under investigation in the US for smuggling Nvidia chips into …",
    "date": "2026-11-10",
    "source": "DW"
-  },
-  {
-   "title": "KI-Boom: Deutscher Chipkonzern Infineon will weiter zweistellig wachsen",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-infineon-ki-100.html",
-   "summary": "Der boomende Ausbau der KI-Infrastruktur, aber auch ein besseres Autogeschäft haben Infineon einen Rekordumsatz beschert. Der deutsche Chipkonzern sieht noch kein Ende des Booms.",
-   "date": "2026-11-10",
-   "source": "tagesschau"
   },
   {
    "title": "Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy",
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "High oil prices have led to a dip in global carbon emissions",
+   "link": "https://arstechnica.com/science/2026/11/carbon-emissions-are-down-this-year-but-that-probably-wont-last/",
+   "summary": "Bucking recent trends, fossil fuel emissions look to be down 0.4 percent.",
+   "date": "2026-11-10",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "The Case for a Bubble at Life’s Start",
+   "link": "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
+   "summary": "Is self-enclosure life’s greatest trick? According to the lipid-first theory, a cell membrane enabled life by giving chemistry a place to gather. The post The Case for a Bubble at …",
+   "date": "2026-11-10",
+   "source": "Quanta Magazine"
+  },
+  {
    "title": "Alzheimer’s may have early warning signs outside the brain",
    "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
    "summary": "A surprising discovery suggests that some early signs of Alzheimer’s disease may begin outside the brain. Using miniature laboratory systems made from human cells, scientists …",
@@ -115,20 +129,6 @@
    "link": "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/",
    "summary": "Some believe the earliest life emerged from self-copying molecules that could mutate and even evolve. But that may not have been enough. The post Did Life Begin in an RNA World? …",
    "date": "2026-11-09",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "New Democratic Congress will likely strip the gilding from Trump's Golden Dome",
-   "link": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
-   "summary": "\"There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.\"",
-   "date": "2026-11-09",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
-   "link": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
-   "summary": "Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument. The …",
-   "date": "2026-11-06",
    "source": "Quanta Magazine"
   }
  ]
