@@ -1,33 +1,40 @@
 {
- "updated": "2026-11-10T21:20+00:00",
+ "updated": "2026-11-11T06:40+00:00",
  "news": [
   {
-   "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
-   "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
-   "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
-   "date": "2026-11-10",
-   "source": "BBC"
-  },
-  {
-   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Aktie verzeichnet weitere Kursverluste +++ FBI ermittelt laut Trump",
-   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
-   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Das Chip-Unternehmen leitet eine Untersuchung ein. Die neusten Entwicklungen",
-   "date": "2026-11-10",
-   "source": "NZZ"
-  },
-  {
-   "title": "Marktbericht: Der DAX wird zurückgepfiffen",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-104.html",
-   "summary": "Zeitweise hatte der DAX heute die Verluste wegen des KI-Crashs am Freitag vollständig aufgeholt. Unter anderem neue Details zur Nvidia-Affäre bremsten den Aufwärtsdrang dann aber …",
-   "date": "2026-11-10",
+   "title": "Marktbericht: DAX-Rekord bleibt in Sichtweite",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nasdaq-eon-nvidia-100.html",
+   "summary": "Zur Wochenmitte könnte der DAX seine Rekordjagd wieder aufnehmen. Erste Indikationen deuten auf klare Kursgewinne hin. Daneben gibt es wichtige Unternehmensdaten zu verarbeiten.",
+   "date": "2026-11-11",
    "source": "tagesschau"
   },
   {
-   "title": "Megaspeed and the battle to go high-end Nvidia chips into China",
-   "link": "https://www.dw.com/en/megaspeed-and-the-battle-to-go-high-end-nvidia-chips-into-china/a-79909129?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "Jensen Huang's affair with a suspected Chinese spy has shone a light on Megaspeed, the company she worked for. It is under investigation in the US for smuggling Nvidia chips into …",
+   "title": "Electricity bills to rise by 2.5% from March",
+   "link": "https://www.bbc.co.uk/news/articles/c6x292elgnm5o?at_medium=RSS&at_campaign=rss",
+   "summary": "The increase will add just over £1 per week for a typical all-electric home, Jersey Electricity says.",
+   "date": "2026-11-11",
+   "source": "BBC"
+  },
+  {
+   "title": "Start-up Vvardis - Swiss-Smile-Schwestern wagen Milliarden-Börsengang an Wall Street",
+   "link": "https://www.srf.ch/news/wirtschaft/start-up-vvardis-swiss-smile-schwestern-wagen-milliarden-boersengang-an-wall-street",
+   "summary": "Schulden, Verluste und hohes Risiko: Die Abivardi-Schwestern planen mit Börsengang den Befreiungsschlag.",
+   "date": "2026-11-11",
+   "source": "SRF"
+  },
+  {
+   "title": "Warum in Japan der Staat die Leute zum Investieren auffordert. «Viele ältere Japaner haben ihr Geld physisch zuhause», sagt eine Aktien-Expertin",
+   "link": "https://www.nzz.ch/wirtschaft/warum-in-japan-der-staat-die-leute-zum-investieren-auffordert-viele-aeltere-japaner-haben-ihr-geld-physisch-zuhause-sagt-eine-aktien-expertin-ld.10048333",
+   "summary": "In Japan entsteht eine neue Anlegerkultur. Die Vorbehalte gegenüber dem Investieren sind gross. Die Börsenkorrektur dürfte da nicht helfen.",
+   "date": "2026-11-11",
+   "source": "NZZ"
+  },
+  {
+   "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+   "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+   "summary": "",
    "date": "2026-11-10",
-   "source": "DW"
+   "source": "techcrunch.com via Reddit r/technology"
   },
   {
    "title": "Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy",
@@ -35,16 +42,23 @@
    "summary": "",
    "date": "2026-11-10",
    "source": "theguardian.com via Reddit r/technology"
-  },
-  {
-   "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
-   "link": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
-   "summary": "",
-   "date": "2026-11-09",
-   "source": "arstechnica.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "MIT Schwarzman College of Computing welcomes seven new faculty for 2026",
+   "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-welcomes-new-faculty-1110",
+   "summary": "Faculty members serve in core computing and shared roles, bringing a wide range of experiences and areas of expertise to the MIT community.",
+   "date": "2026-11-10",
+   "source": "MIT News"
+  },
+  {
+   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+   "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+   "date": "2026-11-10",
+   "source": "Ars Technica"
+  },
   {
    "title": "Catch Electronics Shock and Drop Failures Before Hardware Is Built",
    "link": "https://content.knowledgehub.wiley.com/shifting-reliability-left-guided-virtual-validation-for-electronics-shock-and-drop-testing/",
@@ -72,23 +86,30 @@
    "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the …",
    "date": "2026-11-09",
    "source": "MIT Technology Review"
-  },
-  {
-   "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
-   "link": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
-   "summary": "This article is brought to you by Queen’s University Belfast . Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and …",
-   "date": "2026-11-09",
-   "source": "IEEE Spectrum"
-  },
-  {
-   "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
-   "link": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
-   "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
-   "date": "2026-11-09",
-   "source": "MIT News"
   }
  ],
  "science": [
+  {
+   "title": "Scientists discover why some mosquitoes love you and others don't",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm",
+   "summary": "A surprising new study reveals that mosquitoes have very different tastes in humans, with each species attracted to its own combination of skin odors, chemicals, and bacteria. The …",
+   "date": "2026-11-11",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Scientists discover a giant 66-pound rodent that lived 34 million years ago",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+   "summary": "Scientists have uncovered fossils of a giant rodent that lived in Thailand 34 million years ago, revealing that enormous rodents evolved much earlier than previously thought. …",
+   "date": "2026-11-11",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "What happens to mathematics when AI becomes an oracle?",
+   "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+   "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
+   "date": "2026-11-10",
+   "source": "Ars Technica"
+  },
   {
    "title": "High oil prices have led to a dip in global carbon emissions",
    "link": "https://arstechnica.com/science/2026/11/carbon-emissions-are-down-this-year-but-that-probably-wont-last/",
@@ -102,27 +123,6 @@
    "summary": "Is self-enclosure life’s greatest trick? According to the lipid-first theory, a cell membrane enabled life by giving chemistry a place to gather. The post The Case for a Bubble at …",
    "date": "2026-11-10",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "Alzheimer’s may have early warning signs outside the brain",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
-   "summary": "A surprising discovery suggests that some early signs of Alzheimer’s disease may begin outside the brain. Using miniature laboratory systems made from human cells, scientists …",
-   "date": "2026-11-10",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
-   "summary": "CERN scientists have finally found evidence of a particle decay so rare that it happens only once in roughly 10 billion decays, ending a search spanning more than 40 years. The …",
-   "date": "2026-11-10",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Pentagon mulls placing fleet of military satellites around the Moon",
-   "link": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
-   "summary": "\"Please jump on my cislunar bandwagon because I need some more friends here.\"",
-   "date": "2026-11-09",
-   "source": "Ars Technica"
   },
   {
    "title": "Did Life Begin in an RNA World?",
