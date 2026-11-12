@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-12T11:27+00:00",
+ "updated": "2026-11-12T20:04+00:00",
  "news": [
   {
-   "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
-   "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-   "summary": "As uncertainty swirls over the boss of the AI chip giant, some names have emerged as potential successors.",
-   "date": "2026-11-12",
-   "source": "BBC"
-  },
-  {
-   "title": "Nationaler Zukunftstag - Vom Zocken leben? Diese Jobs waren vor 20 Jahren kaum denkbar",
-   "link": "https://www.srf.ch/radio-srf-1/nationaler-zukunftstag-vom-zocken-leben-diese-jobs-waren-vor-20-jahren-kaum-denkbar",
-   "summary": "Prompts statt Schraubenzieher: Diese Berufe waren 2006 noch in den Kinderschuhen. Heute sind sie Realität.",
+   "title": "Affären am Arbeitsplatz - Wenn Liebe den Job kostet - diese Chefs räumten ihre Posten",
+   "link": "https://www.srf.ch/news/wirtschaft/affaeren-am-arbeitsplatz-wenn-liebe-den-job-kostet-diese-chefs-raeumten-ihre-posten",
+   "summary": "Immer wieder verlieren Topmanager ihre Posten wegen Affären. Eine Auswahl.",
    "date": "2026-11-12",
    "source": "SRF"
   },
   {
-   "title": "INTERAKTIV - Russland zündelt in Europa. Sind die Provokationen die Vorbereitung für einen grossen Angriff?",
-   "link": "https://www.nzz.ch/international/unsere-interaktive-karte-zeigt-wo-und-wie-russland-in-europa-zuendelt-ld.10022752",
-   "summary": "Fern vom Schlachtfeld in der Ukraine testet Moskau Europas Abwehrfähigkeit aus. Diese interaktive Karte zeigt, wo und wie Russland aktiv ist.",
-   "date": "2026-11-12",
-   "source": "NZZ"
-  },
-  {
-   "title": "Marktbericht: DAX knackt 27.000 Punkte-Marke",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-106.html",
-   "summary": "An der Börse kann sich die Stimmung schnell drehen: Nach dem KI-Crash von vergangener Woche springt der DAX heute gleich zum Handelsstart wieder auf ein Rekordhoch. Zeitweise …",
+   "title": "Mercedes stoppt Investitionen in Deutschland - und prüft Schließungen",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/mercedes-stopp-investitionen-100.html",
+   "summary": "In den Verhandlungen um Kostensenkungen bei Mercedes ist keine Lösung in Sicht. Jetzt erhöht der Konzern den Druck: Der Vorstand legt alle Investitionen in deutsche Standorte auf …",
    "date": "2026-11-12",
    "source": "tagesschau"
+  },
+  {
+   "title": "Some under-25s should get fewer benefits, Milburn review to say",
+   "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+   "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+   "date": "2026-11-12",
+   "source": "BBC"
+  },
+  {
+   "title": "Droht ein Schweizer Shutdown? Eine unheilige Allianz im Nationalrat stellt sich gegen das Budget 2027 des Bundesrates",
+   "link": "https://www.nzz.ch/wirtschaft/droht-ein-schweizer-shutdown-eine-unheilige-allianz-im-nationalrat-stellt-sich-gegen-das-budget-2027-des-bundesrates-ld.10060912",
+   "summary": "Die Finanzkommission beschliesst Mehrausgaben von 241 Millionen Franken. Trotzdem lehnt eine Mehrheit den Budgetvorschlag des Bundesrates ab. In der Wintersession steht eine …",
+   "date": "2026-11-12",
+   "source": "NZZ"
   },
   {
    "title": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "The amazing disappearing exoplanet",
+   "link": "https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/",
+   "summary": "An exoplanet seems to have stopped transiting in front of its host star.",
+   "date": "2026-11-12",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "The Evolving Story of How Chemistry Became Biology",
+   "link": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+   "summary": "After decades of bickering about which molecules came first, a new generation of scientists is rethinking what life was, is, and could be. The post The Evolving Story of How …",
+   "date": "2026-11-12",
+   "source": "Quanta Magazine"
+  },
+  {
    "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
    "link": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
    "summary": "Earth's water may have been born in the planet's fiery atmosphere rather than delivered by icy comets or asteroids. Scientists discovered that rocky pebbles reacting with hydrogen …",
@@ -111,24 +125,10 @@
    "source": "Ars Technica"
   },
   {
-   "title": "IBM to offer access to a dual-processor quantum system in 2027",
-   "link": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/",
-   "summary": "The company plans on linking two 520-qubit chips before next year is over.",
-   "date": "2026-11-11",
-   "source": "Ars Technica"
-  },
-  {
    "title": "How a Metabolic Spark Could Have Jump-Started Life",
    "link": "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
    "summary": "Energetic pathways that make and break complex molecules are critical to all life. It’s even possible that these self-sustaining cycles could have been key at life’s beginning. …",
    "date": "2026-11-11",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "The Case for a Bubble at Life’s Start",
-   "link": "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
-   "summary": "Is self-enclosure life’s greatest trick? According to the lipid-first theory, a cell membrane enabled life by giving chemistry a place to gather. The post The Case for a Bubble at …",
-   "date": "2026-11-10",
    "source": "Quanta Magazine"
   }
  ]
