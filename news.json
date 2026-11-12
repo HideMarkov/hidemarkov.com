@@ -1,19 +1,40 @@
 {
- "updated": "2026-11-12T00:49+00:00",
+ "updated": "2026-11-12T11:27+00:00",
  "news": [
   {
-   "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-   "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-   "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+   "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
+   "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+   "summary": "As uncertainty swirls over the boss of the AI chip giant, some names have emerged as potential successors.",
    "date": "2026-11-12",
    "source": "BBC"
   },
   {
-   "title": "Exclusive | Nvidia is Preparing to Oust CEO Jensen Huang",
-   "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=9fAvF1&reflink=article_imessage_share",
+   "title": "Nationaler Zukunftstag - Vom Zocken leben? Diese Jobs waren vor 20 Jahren kaum denkbar",
+   "link": "https://www.srf.ch/radio-srf-1/nationaler-zukunftstag-vom-zocken-leben-diese-jobs-waren-vor-20-jahren-kaum-denkbar",
+   "summary": "Prompts statt Schraubenzieher: Diese Berufe waren 2006 noch in den Kinderschuhen. Heute sind sie Realität.",
+   "date": "2026-11-12",
+   "source": "SRF"
+  },
+  {
+   "title": "INTERAKTIV - Russland zündelt in Europa. Sind die Provokationen die Vorbereitung für einen grossen Angriff?",
+   "link": "https://www.nzz.ch/international/unsere-interaktive-karte-zeigt-wo-und-wie-russland-in-europa-zuendelt-ld.10022752",
+   "summary": "Fern vom Schlachtfeld in der Ukraine testet Moskau Europas Abwehrfähigkeit aus. Diese interaktive Karte zeigt, wo und wie Russland aktiv ist.",
+   "date": "2026-11-12",
+   "source": "NZZ"
+  },
+  {
+   "title": "Marktbericht: DAX knackt 27.000 Punkte-Marke",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-106.html",
+   "summary": "An der Börse kann sich die Stimmung schnell drehen: Nach dem KI-Crash von vergangener Woche springt der DAX heute gleich zum Handelsstart wieder auf ein Rekordhoch. Zeitweise …",
+   "date": "2026-11-12",
+   "source": "tagesschau"
+  },
+  {
+   "title": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
+   "link": "https://www.washingtonpost.com/technology/2026/11/11/after-democrats-midterm-wins-palantir-ceo-alex-karp-now-says-hes-progressive/",
    "summary": "",
-   "date": "2026-11-11",
-   "source": "wsj.com via Reddit r/technology"
+   "date": "2026-11-12",
+   "source": "washingtonpost.com via Reddit r/technology"
   },
   {
    "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
@@ -21,27 +42,6 @@
    "summary": "",
    "date": "2026-11-11",
    "source": "nytimes.com via Reddit r/technology"
-  },
-  {
-   "title": "Urteil: BGH nimmt Rechtsschutzversicherungen in die Pflicht",
-   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/bgh-urteil-rechtsschutzversicherung-100.html",
-   "summary": "Klagen gegen Impfstoffhersteller sind seit der Corona-Pandemie keine Seltenheit. Häufig wollen Versicherungen diese nicht unterstützen - wegen vermeintlich geringer …",
-   "date": "2026-11-11",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Sachverständigenrat: Deutschland steuert auf eine Schuldenquote von 100 Prozent zu",
-   "link": "https://www.nzz.ch/wirtschaft/sachverstaendigenrat-deutschland-steuert-auf-schuldenquote-von-100-prozent-zu-ld.10060577",
-   "summary": "Die Wirtschaftsweisen fordern die Bundesregierung auf, Subventionen und Sozialausgaben zu kürzen. Die Verteidigungsausgaben müssen künftig aus dem regulären Haushalt statt über …",
-   "date": "2026-11-11",
-   "source": "NZZ"
-  },
-  {
-   "title": "Singles Day bis Black Friday - Warum die Schnäppchenjagd oft enttäuscht",
-   "link": "https://www.srf.ch/news/wirtschaft/singles-day-bis-black-friday-warum-die-schnaeppchenjagd-oft-enttaeuscht",
-   "summary": "Der November verlockt zu Impulskäufen, die später aber oft enttäuschen. Wie Sie dem Hype widerstehen können.",
-   "date": "2026-11-11",
-   "source": "SRF"
   }
  ],
  "cs": [
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+   "summary": "Earth's water may have been born in the planet's fiery atmosphere rather than delivered by icy comets or asteroids. Scientists discovered that rocky pebbles reacting with hydrogen …",
+   "date": "2026-11-12",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "A massive new simulation reveals how the universe emerged from darkness",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+   "summary": "A groundbreaking new supercomputer simulation is revealing how the universe escaped its cosmic dark age and transformed into a cosmos filled with stars and galaxies. Called …",
+   "date": "2026-11-12",
+   "source": "ScienceDaily"
+  },
+  {
    "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
    "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
    "summary": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
@@ -109,20 +123,6 @@
    "summary": "Energetic pathways that make and break complex molecules are critical to all life. It’s even possible that these self-sustaining cycles could have been key at life’s beginning. …",
    "date": "2026-11-11",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "The mystery of how hair knows where to grow may finally be solved",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm",
-   "summary": "Scientists have discovered that the intricate patterns of hair follicles on mammals may arise from a remarkably simple process involving cells following chemical signals. The …",
-   "date": "2026-11-11",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "NASA reveals Earth's ozone hole has grown to a size not seen in a decade",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261110042546.htm",
-   "summary": "The Antarctic ozone hole expanded to its seventh-largest size on record in 2026, driven by unusual weather conditions that pushed it close to its historic maximum. Scientists say …",
-   "date": "2026-11-11",
-   "source": "ScienceDaily"
   },
   {
    "title": "The Case for a Bubble at Life’s Start",
