@@ -1,19 +1,40 @@
 {
- "updated": "2026-11-11T17:15+00:00",
+ "updated": "2026-11-12T00:49+00:00",
  "news": [
   {
-   "title": "Marktbericht: DAX pirscht sich ans Rekordhoch heran",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nasdaq-eon-nvidia-100.html",
-   "summary": "Im Handelsverlauf hatte es ausgesehen, als würde dem DAX die Luft ausgehen. Doch dann endet der Handelstag mit einem Index nahe am Rekordhoch. Die Wirtschaftsweisen schüren …",
+   "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+   "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+   "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+   "date": "2026-11-12",
+   "source": "BBC"
+  },
+  {
+   "title": "Exclusive | Nvidia is Preparing to Oust CEO Jensen Huang",
+   "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=9fAvF1&reflink=article_imessage_share",
+   "summary": "",
+   "date": "2026-11-11",
+   "source": "wsj.com via Reddit r/technology"
+  },
+  {
+   "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+   "link": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+   "summary": "",
+   "date": "2026-11-11",
+   "source": "nytimes.com via Reddit r/technology"
+  },
+  {
+   "title": "Urteil: BGH nimmt Rechtsschutzversicherungen in die Pflicht",
+   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/bgh-urteil-rechtsschutzversicherung-100.html",
+   "summary": "Klagen gegen Impfstoffhersteller sind seit der Corona-Pandemie keine Seltenheit. Häufig wollen Versicherungen diese nicht unterstützen - wegen vermeintlich geringer …",
    "date": "2026-11-11",
    "source": "tagesschau"
   },
   {
-   "title": "Workers across Spain stage first general strike in 14 years",
-   "link": "https://www.bbc.co.uk/news/videos/c920xlpdl28eo?at_medium=RSS&at_campaign=rss",
-   "summary": "People across Spain are striking, primarily over housing costs.",
+   "title": "Sachverständigenrat: Deutschland steuert auf eine Schuldenquote von 100 Prozent zu",
+   "link": "https://www.nzz.ch/wirtschaft/sachverstaendigenrat-deutschland-steuert-auf-schuldenquote-von-100-prozent-zu-ld.10060577",
+   "summary": "Die Wirtschaftsweisen fordern die Bundesregierung auf, Subventionen und Sozialausgaben zu kürzen. Die Verteidigungsausgaben müssen künftig aus dem regulären Haushalt statt über …",
    "date": "2026-11-11",
-   "source": "BBC"
+   "source": "NZZ"
   },
   {
    "title": "Singles Day bis Black Friday - Warum die Schnäppchenjagd oft enttäuscht",
@@ -21,27 +42,6 @@
    "summary": "Der November verlockt zu Impulskäufen, die später aber oft enttäuschen. Wie Sie dem Hype widerstehen können.",
    "date": "2026-11-11",
    "source": "SRF"
-  },
-  {
-   "title": "Is AIIB's complaint mechanism failing affected communities?",
-   "link": "https://www.dw.com/en/is-aiib-s-complaint-mechanism-failing-affected-communities/a-79919917?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "The AIIB has a grievance redress mechanism for people affected by projects it finances. But those seeking to file a complaint face significant hurdles. Critics say reforms and …",
-   "date": "2026-11-11",
-   "source": "DW"
-  },
-  {
-   "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-   "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-   "summary": "",
-   "date": "2026-11-10",
-   "source": "techcrunch.com via Reddit r/technology"
-  },
-  {
-   "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
-   "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
-   "summary": "",
-   "date": "2026-11-10",
-   "source": "cnbc.com via Reddit r/Economics"
   }
  ],
  "cs": [
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
+   "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+   "summary": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
+   "date": "2026-11-11",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "IBM to offer access to a dual-processor quantum system in 2027",
+   "link": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/",
+   "summary": "The company plans on linking two 520-qubit chips before next year is over.",
+   "date": "2026-11-11",
+   "source": "Ars Technica"
+  },
+  {
    "title": "How a Metabolic Spark Could Have Jump-Started Life",
    "link": "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
    "summary": "Energetic pathways that make and break complex molecules are critical to all life. It’s even possible that these self-sustaining cycles could have been key at life’s beginning. …",
@@ -109,20 +123,6 @@
    "summary": "The Antarctic ozone hole expanded to its seventh-largest size on record in 2026, driven by unusual weather conditions that pushed it close to its historic maximum. Scientists say …",
    "date": "2026-11-11",
    "source": "ScienceDaily"
-  },
-  {
-   "title": "What happens to mathematics when AI becomes an oracle?",
-   "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-   "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
-   "date": "2026-11-10",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "High oil prices have led to a dip in global carbon emissions",
-   "link": "https://arstechnica.com/science/2026/11/carbon-emissions-are-down-this-year-but-that-probably-wont-last/",
-   "summary": "Bucking recent trends, fossil fuel emissions look to be down 0.4 percent.",
-   "date": "2026-11-10",
-   "source": "Ars Technica"
   },
   {
    "title": "The Case for a Bubble at Life’s Start",
