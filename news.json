@@ -1,50 +1,57 @@
 {
- "updated": "2026-11-13T01:54+00:00",
+ "updated": "2026-11-13T11:11+00:00",
  "news": [
   {
-   "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
-   "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
-   "summary": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
+   "title": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/faq-ausfall-microsoft-dienste-weltweit-100.html",
+   "summary": "Weltweit sind seit vielen Stunden Dienste des US-Softwarekonzerns Microsoft ausgefallen oder gestört, unter anderem das E-Mail-Programm Outlook. Wer davon betroffen ist und welche …",
+   "date": "2026-11-13",
+   "source": "tagesschau"
+  },
+  {
+   "title": "What we know about the global Microsoft outage",
+   "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+   "summary": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far been largely unsuccessful.",
    "date": "2026-11-13",
    "source": "BBC"
   },
   {
-   "title": "Software-Riese Microsoft - Stundenlanger Ausfall beeinträchtigt Outlook und Teams",
-   "link": "https://www.srf.ch/news/wirtschaft/software-riese-microsoft-stundenlanger-ausfall-beeintraechtigt-outlook-und-teams",
-   "summary": "Betroffen ist der Cloud-Dienst Microsoft 365 - dazu gehören unter anderem Outlook, Teams oder der KI-Assistent Co-Pilot.",
+   "title": "Störung bei Outlook und Teams - Das ist über den weltweiten Microsoft-Ausfall bekannt",
+   "link": "https://www.srf.ch/news/wirtschaft/stoerung-bei-outlook-und-teams-das-ist-ueber-den-weltweiten-microsoft-ausfall-bekannt",
+   "summary": "Störungsmeldungen kommen aus 74 Ländern. Was bisher zur Ursache bekannt ist und wie weit die Störung reicht.",
    "date": "2026-11-13",
    "source": "SRF"
   },
   {
-   "title": "Auch Outlook betroffen: Microsoft-Dienste weltweit mit Störungen",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-outlook-ausfall-100.html",
-   "summary": "Ein großflächiger Ausfall von Microsoft-Diensten, darunter Outlook: Innerhalb der Anwendungspalette des Technologiekonzerns kommt es weltweit zu Störungen. Das Unternehmen arbeite …",
-   "date": "2026-11-12",
-   "source": "tagesschau"
-  },
-  {
-   "title": "NEWS: Jensen Huang has agreed to testify before Congress by Thanksgiving",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-12/huang-agrees-to-testify-before-congress-soon-gop-lawmaker-says",
-   "summary": "",
-   "date": "2026-11-12",
-   "source": "bloomberg.com via Reddit r/technology"
-  },
-  {
-   "title": "Droht ein Schweizer Shutdown? Eine unheilige Allianz im Nationalrat stellt sich gegen das Budget 2027 des Bundesrates",
-   "link": "https://www.nzz.ch/wirtschaft/droht-ein-schweizer-shutdown-eine-unheilige-allianz-im-nationalrat-stellt-sich-gegen-das-budget-2027-des-bundesrates-ld.10060912",
-   "summary": "Die Finanzkommission beschliesst Mehrausgaben von 241 Millionen Franken. Trotzdem lehnt eine Mehrheit den Budgetvorschlag des Bundesrates ab. In der Wintersession steht eine …",
-   "date": "2026-11-12",
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Ausschuss des US-Senats lädt Huang zu Anhörung vor",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaison publik wurden, trat er von seinem Posten zurück. Die …",
+   "date": "2026-11-13",
    "source": "NZZ"
   },
   {
-   "title": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
-   "link": "https://www.washingtonpost.com/technology/2026/11/11/after-democrats-midterm-wins-palantir-ceo-alex-karp-now-says-hes-progressive/",
+   "title": "Microsoft says attempts to fix global outage not going 'as expected'",
+   "link": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
    "summary": "",
-   "date": "2026-11-12",
-   "source": "washingtonpost.com via Reddit r/technology"
+   "date": "2026-11-13",
+   "source": "bbc.com via Reddit r/technology"
+  },
+  {
+   "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
+   "link": "https://www.bbc.com/news/articles/c5gm3g9ldz8xo",
+   "summary": "",
+   "date": "2026-11-13",
+   "source": "bbc.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "Helping robots fit into the human workplace",
+   "link": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+   "summary": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+   "date": "2026-11-13",
+   "source": "MIT News"
+  },
   {
    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
    "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
@@ -79,13 +86,6 @@
    "summary": "Learn how guided virtual shock and drop analysis helps engineering teams identify reliability risks before physical testing, reduce qualification iterations, optimize packaging …",
    "date": "2026-11-10",
    "source": "IEEE Spectrum"
-  },
-  {
-   "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-   "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
-   "summary": "\"*sshole\" poses a serious threat to Internet security.",
-   "date": "2026-11-09",
-   "source": "Ars Technica"
   }
  ],
  "science": [
@@ -111,16 +111,16 @@
    "source": "Quanta Magazine"
   },
   {
-   "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
-   "summary": "Earth's water may have been born in the planet's fiery atmosphere rather than delivered by icy comets or asteroids. Scientists discovered that rocky pebbles reacting with hydrogen …",
+   "title": "Crows can make decisions twice as fast as humans, scientists discover",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+   "summary": "Crows may be even smarter than we thought, and their brains are astonishingly fast. Researchers at the University of Tübingen discovered that crows can make visual decisions twice …",
    "date": "2026-11-12",
    "source": "ScienceDaily"
   },
   {
-   "title": "A massive new simulation reveals how the universe emerged from darkness",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
-   "summary": "A groundbreaking new supercomputer simulation is revealing how the universe escaped its cosmic dark age and transformed into a cosmos filled with stars and galaxies. Called …",
+   "title": "AI-powered bionic eye breakthrough could help the blind see again",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+   "summary": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a …",
    "date": "2026-11-12",
    "source": "ScienceDaily"
   },
