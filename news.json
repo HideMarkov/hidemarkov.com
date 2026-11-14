@@ -1,12 +1,33 @@
 {
- "updated": "2026-11-14T10:37+00:00",
+ "updated": "2026-11-14T18:15+00:00",
  "news": [
   {
-   "title": "Microsoft: Systeme nach Störung komplett wiederhergestellt",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-behoben-100.html",
-   "summary": "Probleme bei Microsoft hatten zentrale Cloud-Dienste stundenlang lahmgelegt - Unternehmen und Verbraucher weltweit waren betroffen. Laut Microsoft laufen nun alle Systeme wieder. …",
+   "title": "Zugriff ohne Einwilligung - Meta muss in Italien 805 Millionen Euro Strafe zahlen",
+   "link": "https://www.srf.ch/news/wirtschaft/zugriff-ohne-einwilligung-meta-muss-in-italien-805-millionen-euro-strafe-zahlen",
+   "summary": "Der Konzern hat über eine Funktion der Facebook-App ohne gesonderte Zustimmung auf Nutzerfotos und -videos zugegriffen.",
+   "date": "2026-11-14",
+   "source": "SRF"
+  },
+  {
+   "title": "Er nannte Jensen Huang ein «nationales Heiligtum»: Der US-Handelsminister Howard Lutnick gerät in den Sog des Nvidia-Skandals",
+   "link": "https://www.nzz.ch/wirtschaft/er-nannte-jensen-huang-ein-nationales-heiligtum-der-us-handelsminister-howard-lutnick-geraet-in-den-sog-des-nvidia-skandals-ld.10063981",
+   "summary": "Finanzminister Scott Bessent wirft Handelsminister Howard Lutnick vor, Exporte der Hochleistungschips von Nvidia nach China nicht verhindert zu haben. Nun untersucht auch der …",
+   "date": "2026-11-14",
+   "source": "NZZ"
+  },
+  {
+   "title": "Die neue Gefahr durch Künstliche Intelligenz",
+   "link": "https://www.tagesschau.de/wirtschaft/digitales/ki-mehr-angriffe-banken-kunden-100.html",
+   "summary": "Cyberkriminelle nutzen KI, um Angriffe zu automatisieren. Banken setzen die Technologie zur Abwehr ein. Sicherheitsexperten sprechen von einem Wettlauf zwischen den KI-Systemen …",
    "date": "2026-11-14",
    "source": "tagesschau"
+  },
+  {
+   "title": "SpaceX not being honest about ‘political’ reasons for slowing Starshield, says Zelenskyy",
+   "link": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy",
+   "summary": "",
+   "date": "2026-11-14",
+   "source": "theguardian.com via Reddit r/technology"
   },
   {
    "title": "Football kit giveaway aims to boost participation",
@@ -16,35 +37,21 @@
    "source": "BBC"
   },
   {
-   "title": "Globale Panne - Microsoft: Alle Dienste wiederhergestellt",
-   "link": "https://www.srf.ch/news/wirtschaft/globale-panne-microsoft-alle-dienste-wiederhergestellt",
-   "summary": "Betroffen von der weltweiten Störung war der Dienst Microsoft 365 - also Outlook, Teams oder Copilot.",
-   "date": "2026-11-14",
-   "source": "SRF"
-  },
-  {
-   "title": "INTERVIEW - Nvidia und Anthropic machen die Börse nervös - ein 3600-Milliarden-Fonds-Chef gibt Entwarnung: «Die Umsätze sind sehr real»",
-   "link": "https://www.nzz.ch/wirtschaft/nvidia-und-anthropic-machen-die-boerse-nervoes-ein-3600-milliarden-fonds-chef-gibt-entwarnung-die-umsaetze-sind-sehr-real-ld.10063100",
-   "summary": "Die Krise bei Nvidia und die Furcht vor einer KI-Blase verunsichern die Anleger. Mike Gitlin, CEO des Fondsriesen Capital Group, hält Vergleiche mit der Finanzkrise 2008 jedoch …",
-   "date": "2026-11-14",
-   "source": "NZZ"
-  },
-  {
    "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
    "link": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
    "summary": "",
    "date": "2026-11-13",
    "source": "axios.com via Reddit r/technology"
-  },
-  {
-   "title": "Before His Ouster, Jensen Huang Belittled the Executive Replacing Him",
-   "link": "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097?st=qAuWt6&reflink=desktopwebshare_permalink",
-   "summary": "",
-   "date": "2026-11-13",
-   "source": "wsj.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "Europe’s Digital Wallets May Be More Traceable Than Intended",
+   "link": "https://spectrum.ieee.org/europe-digital-id-security-cryptography",
+   "summary": "Millions of European Union citizens should soon have access to digital wallets , as member states roll out their implementations of the European Digital Identity Regulation ahead …",
+   "date": "2026-11-14",
+   "source": "IEEE Spectrum"
+  },
   {
    "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
    "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
@@ -79,42 +86,35 @@
    "summary": "Faculty members serve in core computing and shared roles, bringing a wide range of experiences and areas of expertise to the MIT community.",
    "date": "2026-11-10",
    "source": "MIT News"
-  },
-  {
-   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-   "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-   "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-   "date": "2026-11-10",
-   "source": "Ars Technica"
   }
  ],
  "science": [
   {
-   "title": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
-   "summary": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially …",
+   "title": "Scientists find a simple daily routine linked to less pain and depression",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
+   "summary": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults …",
    "date": "2026-11-14",
    "source": "ScienceDaily"
   },
   {
-   "title": "Scientists capture electrons making seemingly impossible quantum jumps",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
-   "summary": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. …",
+   "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+   "summary": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier …",
    "date": "2026-11-14",
    "source": "ScienceDaily"
   },
   {
-   "title": "In elephants, the resilience of communities has its limits",
-   "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
-   "summary": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
-   "date": "2026-11-13",
+   "title": "James Webb telescope finds ice older than the star it orbits",
+   "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
+   "summary": "Radiation and collisions reshape the planetary building materials.",
+   "date": "2026-11-14",
    "source": "Ars Technica"
   },
   {
-   "title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
-   "link": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
-   "summary": "Heinz von Foerster thought population would grow exponentially and \"squeeze\" us all to death.",
-   "date": "2026-11-13",
+   "title": "Winemakers are learning that conservation can be good for business",
+   "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
+   "summary": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
+   "date": "2026-11-14",
    "source": "Ars Technica"
   },
   {
