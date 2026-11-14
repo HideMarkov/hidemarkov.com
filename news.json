@@ -1,24 +1,31 @@
 {
- "updated": "2026-11-13T19:50+00:00",
+ "updated": "2026-11-14T01:28+00:00",
  "news": [
   {
-   "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-   "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-   "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
+   "title": "Börsengang Vvardis - Swiss-Smile Schwestern mit harter Landung an der Wall Street",
+   "link": "https://www.srf.ch/news/wirtschaft/boersengang-vvardis-swiss-smile-schwestern-mit-harter-landung-an-der-wall-street",
+   "summary": "Schweizer Firma will den Dentalmarkt revolutionieren. Die Wall Street reagiert mit frostigem Empfang. Aktienkurs taucht.",
+   "date": "2026-11-14",
+   "source": "SRF"
+  },
+  {
+   "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+   "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+   "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
    "date": "2026-11-13",
    "source": "BBC"
   },
   {
-   "title": "Swissness-Label - Wer mit dem Schweizerkreuz wirbt, soll in der Schweiz produzieren",
-   "link": "https://www.srf.ch/news/schweiz/swissness-label-wer-mit-dem-schweizerkreuz-wirbt-soll-in-der-schweiz-produzieren",
-   "summary": "Künftig soll das Schweizerkreuz nur auf Waren prangen, die im Inland hergestellt wurden.",
+   "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
+   "link": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
+   "summary": "",
    "date": "2026-11-13",
-   "source": "SRF"
+   "source": "axios.com via Reddit r/technology"
   },
   {
-   "title": "Marktbericht: DAX schwächelt nach Allzeithoch",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-geldanlage-100.html",
-   "summary": "Nach seinem Allzeithoch vom Donnerstag ist der Deutsche Aktienindex heute auf der Stelle getreten - allerdings auf hohem Niveau. Im Wochenvergleich gewinnt das Börsenbarometer …",
+   "title": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/faq-ausfall-microsoft-dienste-weltweit-100.html",
+   "summary": "Eine stundenlange Großstörung hat weltweit Dienste des US-Softwarekonzerns Microsoft lahmgelegt, unter anderem das E-Mail-Programm Outlook. Wen es getroffen hat und welche …",
    "date": "2026-11-13",
    "source": "tagesschau"
   },
@@ -32,13 +39,6 @@
   {
    "title": "Microsoft says attempts to fix global outage not going 'as expected'",
    "link": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
-   "summary": "",
-   "date": "2026-11-13",
-   "source": "bbc.com via Reddit r/technology"
-  },
-  {
-   "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
-   "link": "https://www.bbc.com/news/articles/c5gm3g9ldz8xo",
    "summary": "",
    "date": "2026-11-13",
    "source": "bbc.com via Reddit r/technology"
@@ -90,16 +90,16 @@
  ],
  "science": [
   {
-   "title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
-   "link": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
-   "summary": "Heinz von Foerster thought population would grow exponentially and \"squeeze\" us all to death.",
+   "title": "In elephants, the resilience of communities has its limits",
+   "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
+   "summary": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
    "date": "2026-11-13",
    "source": "Ars Technica"
   },
   {
-   "title": "Scientists warn 1.5°C climate change threshold could arrive by 2029",
-   "link": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/",
-   "summary": "Climate action has stalled for five years as fossil fuel development keeps growing.",
+   "title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
+   "link": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
+   "summary": "Heinz von Foerster thought population would grow exponentially and \"squeeze\" us all to death.",
    "date": "2026-11-13",
    "source": "Ars Technica"
   },
