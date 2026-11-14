@@ -1,19 +1,33 @@
 {
- "updated": "2026-11-14T01:28+00:00",
+ "updated": "2026-11-14T10:37+00:00",
  "news": [
   {
-   "title": "Börsengang Vvardis - Swiss-Smile Schwestern mit harter Landung an der Wall Street",
-   "link": "https://www.srf.ch/news/wirtschaft/boersengang-vvardis-swiss-smile-schwestern-mit-harter-landung-an-der-wall-street",
-   "summary": "Schweizer Firma will den Dentalmarkt revolutionieren. Die Wall Street reagiert mit frostigem Empfang. Aktienkurs taucht.",
+   "title": "Microsoft: Systeme nach Störung komplett wiederhergestellt",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-behoben-100.html",
+   "summary": "Probleme bei Microsoft hatten zentrale Cloud-Dienste stundenlang lahmgelegt - Unternehmen und Verbraucher weltweit waren betroffen. Laut Microsoft laufen nun alle Systeme wieder. …",
+   "date": "2026-11-14",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Football kit giveaway aims to boost participation",
+   "link": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss",
+   "summary": "Millie Bright helps hand out free kit to young girls to help them keep playing in spite of costs.",
+   "date": "2026-11-14",
+   "source": "BBC"
+  },
+  {
+   "title": "Globale Panne - Microsoft: Alle Dienste wiederhergestellt",
+   "link": "https://www.srf.ch/news/wirtschaft/globale-panne-microsoft-alle-dienste-wiederhergestellt",
+   "summary": "Betroffen von der weltweiten Störung war der Dienst Microsoft 365 - also Outlook, Teams oder Copilot.",
    "date": "2026-11-14",
    "source": "SRF"
   },
   {
-   "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-   "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-   "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
-   "date": "2026-11-13",
-   "source": "BBC"
+   "title": "INTERVIEW - Nvidia und Anthropic machen die Börse nervös - ein 3600-Milliarden-Fonds-Chef gibt Entwarnung: «Die Umsätze sind sehr real»",
+   "link": "https://www.nzz.ch/wirtschaft/nvidia-und-anthropic-machen-die-boerse-nervoes-ein-3600-milliarden-fonds-chef-gibt-entwarnung-die-umsaetze-sind-sehr-real-ld.10063100",
+   "summary": "Die Krise bei Nvidia und die Furcht vor einer KI-Blase verunsichern die Anleger. Mike Gitlin, CEO des Fondsriesen Capital Group, hält Vergleiche mit der Finanzkrise 2008 jedoch …",
+   "date": "2026-11-14",
+   "source": "NZZ"
   },
   {
    "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
@@ -23,25 +37,11 @@
    "source": "axios.com via Reddit r/technology"
   },
   {
-   "title": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/faq-ausfall-microsoft-dienste-weltweit-100.html",
-   "summary": "Eine stundenlange Großstörung hat weltweit Dienste des US-Softwarekonzerns Microsoft lahmgelegt, unter anderem das E-Mail-Programm Outlook. Wen es getroffen hat und welche …",
-   "date": "2026-11-13",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Kann sich Mercedes Deutschland noch leisten? Darum eskaliert jetzt der Konflikt bei dem Autohersteller",
-   "link": "https://www.nzz.ch/wirtschaft/kann-sich-mercedes-deutschland-noch-leisten-darum-eskaliert-jetzt-der-konflikt-bei-dem-autohersteller-ld.10058665",
-   "summary": "Das Management des Stuttgarter Konzerns ringt mit der Gewerkschaft erbittert um Privilegien wie die 35-Stunden-Woche. Der Streit wird zum Testfall für die gesamte deutsche …",
-   "date": "2026-11-13",
-   "source": "NZZ"
-  },
-  {
-   "title": "Microsoft says attempts to fix global outage not going 'as expected'",
-   "link": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
+   "title": "Before His Ouster, Jensen Huang Belittled the Executive Replacing Him",
+   "link": "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097?st=qAuWt6&reflink=desktopwebshare_permalink",
    "summary": "",
    "date": "2026-11-13",
-   "source": "bbc.com via Reddit r/technology"
+   "source": "wsj.com via Reddit r/technology"
   }
  ],
  "cs": [
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+   "summary": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially …",
+   "date": "2026-11-14",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Scientists capture electrons making seemingly impossible quantum jumps",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+   "summary": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. …",
+   "date": "2026-11-14",
+   "source": "ScienceDaily"
+  },
+  {
    "title": "In elephants, the resilience of communities has its limits",
    "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
    "summary": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
@@ -102,20 +116,6 @@
    "summary": "Heinz von Foerster thought population would grow exponentially and \"squeeze\" us all to death.",
    "date": "2026-11-13",
    "source": "Ars Technica"
-  },
-  {
-   "title": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
-   "summary": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute …",
-   "date": "2026-11-13",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Superheated magma could fuel towering lava fountains",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261111221811.htm",
-   "summary": "Why do some volcanoes erupt with spectacular lava fountains while others release lava more quietly? Scientists have discovered that a hidden effect of extreme heat inside magma …",
-   "date": "2026-11-13",
-   "source": "ScienceDaily"
   },
   {
    "title": "Can Network Science Transform Health and Nutrition?",
