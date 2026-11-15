@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-15T16:26+00:00",
+ "updated": "2026-11-15T22:56+00:00",
  "news": [
+  {
+   "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
+   "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+   "summary": "The report being launched this week will suggest gradually reducing employment costs over five years.",
+   "date": "2026-11-15",
+   "source": "BBC"
+  },
+  {
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Jensen Huang arbeitet offenbar auf Rückkehr als CEO hin",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaisons publik wurden, trat er von seinem Posten zurück. Die …",
+   "date": "2026-11-15",
+   "source": "NZZ"
+  },
   {
    "title": "Quallenzucht: Ein Geschäftsmodell, das sich lohnt",
    "link": "https://www.tagesschau.de/wirtschaft/unternehmen/quallenzucht-100.html",
@@ -9,18 +23,11 @@
    "source": "tagesschau"
   },
   {
-   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-   "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+   "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+   "link": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+   "summary": "",
    "date": "2026-11-15",
-   "source": "BBC"
-  },
-  {
-   "title": "Milliarden mit Nvidia-Chips: Wie Singapur zum Drehkreuz für Schmuggler wurde",
-   "link": "https://www.nzz.ch/wirtschaft/milliarden-mit-nvidia-chips-wie-singapur-zum-drehkreuz-fuer-schmuggler-wurde-ld.10060850",
-   "summary": "Im Zentrum des Skandals, der den Nvidia-CEO Jensen Huang zu Fall brachte, steht die Firma Megaspeed in Singapur. Die Polizei ermittelt, Huangs chinesische Geliebte wurde bereits …",
-   "date": "2026-11-15",
-   "source": "NZZ"
+   "source": "wsj.com via Reddit r/technology"
   },
   {
    "title": "Export-banned Nvidia chips are behind China's most powerful AI models - uh-oh, Jensen!",
@@ -28,13 +35,6 @@
    "summary": "",
    "date": "2026-11-14",
    "source": "techcrunch.com via Reddit r/technology"
-  },
-  {
-   "title": "Work to replace old copper wire led to the FAA’s ground stop | Issues with a new router related to a fiber optic upgrade grounded thousands of flights on Friday",
-   "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
-   "summary": "",
-   "date": "2026-11-14",
-   "source": "theverge.com via Reddit r/technology"
   },
   {
    "title": "Zugriff ohne Einwilligung - Meta muss in Italien 805 Millionen Euro Strafe zahlen",
