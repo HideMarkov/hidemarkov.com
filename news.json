@@ -1,19 +1,40 @@
 {
- "updated": "2026-11-15T06:45+00:00",
+ "updated": "2026-11-15T16:26+00:00",
  "news": [
   {
-   "title": "Gesundheit ist das Wichtigste - und erstaunlich günstig",
-   "link": "https://www.nzz.ch/wirtschaft/gesundheit-ist-das-wichtigste-und-erstaunlich-guenstig-ld.10060602",
-   "summary": "Trotz allen Wehklagen: Die Ausgaben für das Gesundheitswesen explodieren in der Schweiz ebenso wenig wie die Prämienbelastung. Stattdessen leistet das System sehr viel.",
+   "title": "Quallenzucht: Ein Geschäftsmodell, das sich lohnt",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/quallenzucht-100.html",
+   "summary": "Für die einen ist es eine Plage am Badestrand, für andere ein Geschäftsmodell: In Osthessen steht Europas größte Quallenfarm. Warum sich die Zucht der Nesseltiere wirtschaftlich …",
+   "date": "2026-11-15",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+   "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+   "date": "2026-11-15",
+   "source": "BBC"
+  },
+  {
+   "title": "Milliarden mit Nvidia-Chips: Wie Singapur zum Drehkreuz für Schmuggler wurde",
+   "link": "https://www.nzz.ch/wirtschaft/milliarden-mit-nvidia-chips-wie-singapur-zum-drehkreuz-fuer-schmuggler-wurde-ld.10060850",
+   "summary": "Im Zentrum des Skandals, der den Nvidia-CEO Jensen Huang zu Fall brachte, steht die Firma Megaspeed in Singapur. Die Polizei ermittelt, Huangs chinesische Geliebte wurde bereits …",
    "date": "2026-11-15",
    "source": "NZZ"
   },
   {
-   "title": "Beauty advent calendars can cost hundreds - but are they value for money?",
-   "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
-   "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
-   "date": "2026-11-15",
-   "source": "BBC"
+   "title": "Export-banned Nvidia chips are behind China's most powerful AI models - uh-oh, Jensen!",
+   "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "summary": "",
+   "date": "2026-11-14",
+   "source": "techcrunch.com via Reddit r/technology"
+  },
+  {
+   "title": "Work to replace old copper wire led to the FAA’s ground stop | Issues with a new router related to a fiber optic upgrade grounded thousands of flights on Friday",
+   "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+   "summary": "",
+   "date": "2026-11-14",
+   "source": "theverge.com via Reddit r/technology"
   },
   {
    "title": "Zugriff ohne Einwilligung - Meta muss in Italien 805 Millionen Euro Strafe zahlen",
@@ -21,27 +42,6 @@
    "summary": "Der Konzern hat über eine Funktion der Facebook-App ohne gesonderte Zustimmung auf Nutzerfotos und -videos zugegriffen.",
    "date": "2026-11-14",
    "source": "SRF"
-  },
-  {
-   "title": "Die neue Gefahr durch Künstliche Intelligenz",
-   "link": "https://www.tagesschau.de/wirtschaft/digitales/ki-mehr-angriffe-banken-kunden-100.html",
-   "summary": "Cyberkriminelle nutzen KI, um Angriffe zu automatisieren. Banken setzen die Technologie zur Abwehr ein. Sicherheitsexperten sprechen von einem Wettlauf zwischen den KI-Systemen …",
-   "date": "2026-11-14",
-   "source": "tagesschau"
-  },
-  {
-   "title": "SpaceX not being honest about ‘political’ reasons for slowing Starshield, says Zelenskyy",
-   "link": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy",
-   "summary": "",
-   "date": "2026-11-14",
-   "source": "theguardian.com via Reddit r/technology"
-  },
-  {
-   "title": "Will we ever get the truth for the Microsoft outage?",
-   "link": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
-   "summary": "",
-   "date": "2026-11-14",
-   "source": "theverge.com via Reddit r/technology"
   }
  ],
  "cs": [
@@ -90,30 +90,30 @@
  ],
  "science": [
   {
-   "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
-   "summary": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions …",
+   "title": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
+   "summary": "Scientists have discovered that vitamin C may help prevent potentially cancer-causing chemicals from forming in the stomach after eating foods containing nitrates and nitrites. A …",
    "date": "2026-11-15",
    "source": "ScienceDaily"
   },
   {
-   "title": "Scientists discover a bizarre paradox among endangered penguins",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261112230458.htm",
-   "summary": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins. While one population has remained stable for decades, …",
+   "title": "A common osteoporosis drug blocked spinal damage in a surprising new study",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
+   "summary": "Scientists have uncovered a surprising genetic connection to spinal degeneration and found that an existing osteoporosis drug can prevent damaging mineral buildup in zebrafish …",
    "date": "2026-11-15",
    "source": "ScienceDaily"
+  },
+  {
+   "title": "How the world’s fires changed while humanity hit pause",
+   "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
+   "summary": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
+   "date": "2026-11-15",
+   "source": "Ars Technica"
   },
   {
    "title": "James Webb telescope finds ice older than the star it orbits",
    "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
    "summary": "Radiation and collisions reshape the planetary building materials.",
-   "date": "2026-11-14",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Winemakers are learning that conservation can be good for business",
-   "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
-   "summary": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
    "date": "2026-11-14",
    "source": "Ars Technica"
   },
