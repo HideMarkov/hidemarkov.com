@@ -1,12 +1,19 @@
 {
- "updated": "2026-11-14T22:35+00:00",
+ "updated": "2026-11-15T06:45+00:00",
  "news": [
   {
-   "title": "Im Visier von ausländischen Agenten: Wenn der chinesische Panda-Zug plötzlich aussieht wie die Kiss-Züge von Stadler",
-   "link": "https://www.nzz.ch/wirtschaft/im-visier-von-auslaendischen-agenten-wenn-der-chinesische-panda-zug-ploetzlich-aussieht-wie-die-kiss-zuege-von-stadler-ld.10063027",
-   "summary": "Der Fall Nvidia zeigt, wie verbreitet Wirtschaftsspionage ist. Mit ihren Hightech-Produkten sind auch Schweizer Firmen attraktive Ziele. Doch sie unterschätzten die Risiken, sagt …",
-   "date": "2026-11-14",
+   "title": "Gesundheit ist das Wichtigste - und erstaunlich günstig",
+   "link": "https://www.nzz.ch/wirtschaft/gesundheit-ist-das-wichtigste-und-erstaunlich-guenstig-ld.10060602",
+   "summary": "Trotz allen Wehklagen: Die Ausgaben für das Gesundheitswesen explodieren in der Schweiz ebenso wenig wie die Prämienbelastung. Stattdessen leistet das System sehr viel.",
+   "date": "2026-11-15",
    "source": "NZZ"
+  },
+  {
+   "title": "Beauty advent calendars can cost hundreds - but are they value for money?",
+   "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
+   "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
+   "date": "2026-11-15",
+   "source": "BBC"
   },
   {
    "title": "Zugriff ohne Einwilligung - Meta muss in Italien 805 Millionen Euro Strafe zahlen",
@@ -35,13 +42,6 @@
    "summary": "",
    "date": "2026-11-14",
    "source": "theverge.com via Reddit r/technology"
-  },
-  {
-   "title": "Football kit giveaway aims to boost participation",
-   "link": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss",
-   "summary": "Millie Bright helps hand out free kit to young girls to help them keep playing in spite of costs.",
-   "date": "2026-11-14",
-   "source": "BBC"
   }
  ],
  "cs": [
@@ -90,17 +90,17 @@
  ],
  "science": [
   {
-   "title": "Scientists find a simple daily routine linked to less pain and depression",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
-   "summary": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults …",
-   "date": "2026-11-14",
+   "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+   "summary": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions …",
+   "date": "2026-11-15",
    "source": "ScienceDaily"
   },
   {
-   "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
-   "summary": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier …",
-   "date": "2026-11-14",
+   "title": "Scientists discover a bizarre paradox among endangered penguins",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261112230458.htm",
+   "summary": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins. While one population has remained stable for decades, …",
+   "date": "2026-11-15",
    "source": "ScienceDaily"
   },
   {
