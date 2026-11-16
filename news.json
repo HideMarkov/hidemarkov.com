@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-16T06:43+00:00",
+ "updated": "2026-11-16T19:40+00:00",
  "news": [
   {
-   "title": "Marktbericht: Setzt der DAX die Rekordjagd fort?",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-rekordhoch-100.html",
-   "summary": "In der vergangenen Woche übersprang der DAX erstmals die 27.000er-Marke und schaffte ein starkes Wochenplus. Ob der deutsche Leitindex die Rekordjagd fortsetzt, könnte auch am …",
+   "title": "Sammelklage in Europa - 18'000 Hotels wehren sich gegen Booking.com",
+   "link": "https://www.srf.ch/news/wirtschaft/sammelklage-in-europa-18-000-hotels-wehren-sich-gegen-booking-com",
+   "summary": "Rund 800 Schweizer Hotels beteiligen sich an der Klage. Ein Überblick über Vorwürfe, Rechtslage und Reaktionen.",
    "date": "2026-11-16",
-   "source": "tagesschau"
+   "source": "SRF"
   },
   {
-   "title": "Thrift shop ask donors to nominate a charity",
-   "link": "https://www.bbc.co.uk/news/articles/c804wp1y2ky1o?at_medium=RSS&at_campaign=rss",
-   "summary": "The owners want customers and donors to decide what charities benefit each month.",
+   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "summary": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
    "date": "2026-11-16",
    "source": "BBC"
   },
   {
-   "title": "Weltweit steigen die Zinsen, nur die Schweiz verharrt bei null Prozent: Wie lange lässt sich die SNB noch Zeit?",
-   "link": "https://www.nzz.ch/wirtschaft/weltweit-steigen-die-zinsen-nur-die-schweiz-verharrt-bei-null-prozent-wie-lange-laesst-sich-die-snb-noch-zeit-ld.10061694",
-   "summary": "Die Zinswende in der Schweiz lässt auf sich warten, trotz höherer Inflation und besserer Konjunktur. Experten sind uneins, ob der expansive Kurs noch zu rechtfertigen ist.",
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Der Verwaltungsrat lehnt laut Berichten eine Rückkehr von Jensen Huang ab",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaisons publik wurden, trat er von seinem Posten zurück. Die …",
    "date": "2026-11-16",
    "source": "NZZ"
   },
   {
-   "title": "Initiative geplant - Nach Lehrabschluss: 5000 Franken Mindestlohn, 8 Wochen Ferien",
-   "link": "https://www.srf.ch/news/wirtschaft/initiative-geplant-nach-lehrabschluss-5000-franken-mindestlohn-8-wochen-ferien",
-   "summary": "Der Gewerkschaftsbund will junge Berufsleute unterstützen. Für die Arbeitgeber sind die Forderungen «enttäuschend».",
+   "title": "Tesla kündigt Milliarden-Investition in Werk in Brandenburg an",
+   "link": "https://www.tagesschau.de/inland/regional/brandenburg/tesla-investitionen-brandenburg-100.html",
+   "summary": "Tesla will drei Milliarden Euro für den Ausbau des Werks in Grünheide östlich von Berlin ausgeben. Der US-Elektroautobauer will damit ein neues Produktionsgebäude finanzieren. …",
    "date": "2026-11-16",
-   "source": "SRF"
+   "source": "tagesschau"
   },
   {
    "title": "Intel sued by shareholders following 29% stock plunge",
@@ -45,6 +45,20 @@
   }
  ],
  "cs": [
+  {
+   "title": "The open-source movement wants Jensen Huang back",
+   "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen …",
+   "date": "2026-11-16",
+   "source": "MIT Technology Review"
+  },
+  {
+   "title": "Building trustworthy AI by fencing it in, not predicting it",
+   "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+   "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an …",
+   "date": "2026-11-16",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Europe’s Digital Wallets May Be More Traceable Than Intended",
    "link": "https://spectrum.ieee.org/europe-digital-id-security-cryptography",
@@ -67,48 +81,41 @@
    "source": "MIT News"
   },
   {
-   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-   "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-   "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security …",
-   "date": "2026-11-12",
-   "source": "MIT Technology Review"
-  },
-  {
    "title": "NSF’s X-Labs Program Draws Support From Charities and Investors",
    "link": "https://spectrum.ieee.org/national-science-foundation-x-labs",
    "summary": "When the U.S. National Science Foundation began its X-Labs program in May, the agency said the higher-risk, higher-funded awards would create new kinds of partnerships that would …",
    "date": "2026-11-11",
    "source": "IEEE Spectrum"
-  },
-  {
-   "title": "MIT Schwarzman College of Computing welcomes seven new faculty for 2026",
-   "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-welcomes-new-faculty-1110",
-   "summary": "Faculty members serve in core computing and shared roles, bringing a wide range of experiences and areas of expertise to the MIT community.",
-   "date": "2026-11-10",
-   "source": "MIT News"
   }
  ],
  "science": [
+  {
+   "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
+   "link": "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
+   "summary": "An era-defining galaxy survey has released its final results. They don’t quite fit the leading theory of cosmology. The post What Makes Up the Cosmos? A 20-Year Survey Hints That …",
+   "date": "2026-11-16",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
+   "summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From …",
+   "date": "2026-11-16",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+   "summary": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact. …",
+   "date": "2026-11-16",
+   "source": "ScienceDaily"
+  },
   {
    "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
    "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
    "summary": "This was the first total mission failure in United Launch Alliance's 20-year history.",
    "date": "2026-11-15",
    "source": "Ars Technica"
-  },
-  {
-   "title": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
-   "summary": "Scientists have discovered that vitamin C may help prevent potentially cancer-causing chemicals from forming in the stomach after eating foods containing nitrates and nitrites. A …",
-   "date": "2026-11-15",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "A common osteoporosis drug blocked spinal damage in a surprising new study",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
-   "summary": "Scientists have uncovered a surprising genetic connection to spinal degeneration and found that an existing osteoporosis drug can prevent damaging mineral buildup in zebrafish …",
-   "date": "2026-11-15",
-   "source": "ScienceDaily"
   },
   {
    "title": "How the world’s fires changed while humanity hit pause",
@@ -121,13 +128,6 @@
    "title": "Can Network Science Transform Health and Nutrition?",
    "link": "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/",
    "summary": "Albert-László Barabási explains how the same organizing principles shape everything from the internet to the cell, and how mapping the networks inside our bodies could change how …",
-   "date": "2026-11-12",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "The Evolving Story of How Chemistry Became Biology",
-   "link": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
-   "summary": "After decades of bickering about which molecules came first, a new generation of scientists is rethinking what life was, is, and could be. The post The Evolving Story of How …",
    "date": "2026-11-12",
    "source": "Quanta Magazine"
   }
