@@ -1,47 +1,47 @@
 {
- "updated": "2026-11-15T22:56+00:00",
+ "updated": "2026-11-16T06:43+00:00",
  "news": [
   {
-   "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
-   "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-   "summary": "The report being launched this week will suggest gradually reducing employment costs over five years.",
-   "date": "2026-11-15",
-   "source": "BBC"
-  },
-  {
-   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Jensen Huang arbeitet offenbar auf Rückkehr als CEO hin",
-   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
-   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaisons publik wurden, trat er von seinem Posten zurück. Die …",
-   "date": "2026-11-15",
-   "source": "NZZ"
-  },
-  {
-   "title": "Quallenzucht: Ein Geschäftsmodell, das sich lohnt",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/quallenzucht-100.html",
-   "summary": "Für die einen ist es eine Plage am Badestrand, für andere ein Geschäftsmodell: In Osthessen steht Europas größte Quallenfarm. Warum sich die Zucht der Nesseltiere wirtschaftlich …",
-   "date": "2026-11-15",
+   "title": "Marktbericht: Setzt der DAX die Rekordjagd fort?",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-rekordhoch-100.html",
+   "summary": "In der vergangenen Woche übersprang der DAX erstmals die 27.000er-Marke und schaffte ein starkes Wochenplus. Ob der deutsche Leitindex die Rekordjagd fortsetzt, könnte auch am …",
+   "date": "2026-11-16",
    "source": "tagesschau"
   },
   {
-   "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
-   "link": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+   "title": "Thrift shop ask donors to nominate a charity",
+   "link": "https://www.bbc.co.uk/news/articles/c804wp1y2ky1o?at_medium=RSS&at_campaign=rss",
+   "summary": "The owners want customers and donors to decide what charities benefit each month.",
+   "date": "2026-11-16",
+   "source": "BBC"
+  },
+  {
+   "title": "Weltweit steigen die Zinsen, nur die Schweiz verharrt bei null Prozent: Wie lange lässt sich die SNB noch Zeit?",
+   "link": "https://www.nzz.ch/wirtschaft/weltweit-steigen-die-zinsen-nur-die-schweiz-verharrt-bei-null-prozent-wie-lange-laesst-sich-die-snb-noch-zeit-ld.10061694",
+   "summary": "Die Zinswende in der Schweiz lässt auf sich warten, trotz höherer Inflation und besserer Konjunktur. Experten sind uneins, ob der expansive Kurs noch zu rechtfertigen ist.",
+   "date": "2026-11-16",
+   "source": "NZZ"
+  },
+  {
+   "title": "Initiative geplant - Nach Lehrabschluss: 5000 Franken Mindestlohn, 8 Wochen Ferien",
+   "link": "https://www.srf.ch/news/wirtschaft/initiative-geplant-nach-lehrabschluss-5000-franken-mindestlohn-8-wochen-ferien",
+   "summary": "Der Gewerkschaftsbund will junge Berufsleute unterstützen. Für die Arbeitgeber sind die Forderungen «enttäuschend».",
+   "date": "2026-11-16",
+   "source": "SRF"
+  },
+  {
+   "title": "Intel sued by shareholders following 29% stock plunge",
+   "link": "https://www.reuters.com/business/intel-sued-by-shareholders-following-29-stock-plunge-2026-11-15/",
+   "summary": "",
+   "date": "2026-11-16",
+   "source": "reuters.com via Reddit r/technology"
+  },
+  {
+   "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+   "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
    "summary": "",
    "date": "2026-11-15",
-   "source": "wsj.com via Reddit r/technology"
-  },
-  {
-   "title": "Export-banned Nvidia chips are behind China's most powerful AI models - uh-oh, Jensen!",
-   "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-   "summary": "",
-   "date": "2026-11-14",
-   "source": "techcrunch.com via Reddit r/technology"
-  },
-  {
-   "title": "Zugriff ohne Einwilligung - Meta muss in Italien 805 Millionen Euro Strafe zahlen",
-   "link": "https://www.srf.ch/news/wirtschaft/zugriff-ohne-einwilligung-meta-muss-in-italien-805-millionen-euro-strafe-zahlen",
-   "summary": "Der Konzern hat über eine Funktion der Facebook-App ohne gesonderte Zustimmung auf Nutzerfotos und -videos zugegriffen.",
-   "date": "2026-11-14",
-   "source": "SRF"
+   "source": "theverge.com via Reddit r/technology"
   }
  ],
  "cs": [
@@ -90,6 +90,13 @@
  ],
  "science": [
   {
+   "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "summary": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+   "date": "2026-11-15",
+   "source": "Ars Technica"
+  },
+  {
    "title": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
    "link": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
    "summary": "Scientists have discovered that vitamin C may help prevent potentially cancer-causing chemicals from forming in the stomach after eating foods containing nitrates and nitrites. A …",
@@ -108,13 +115,6 @@
    "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
    "summary": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
    "date": "2026-11-15",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "James Webb telescope finds ice older than the star it orbits",
-   "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
-   "summary": "Radiation and collisions reshape the planetary building materials.",
-   "date": "2026-11-14",
    "source": "Ars Technica"
   },
   {
