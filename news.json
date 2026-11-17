@@ -1,19 +1,40 @@
 {
- "updated": "2026-11-17T03:58+00:00",
+ "updated": "2026-11-17T16:11+00:00",
  "news": [
   {
-   "title": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?",
-   "link": "https://www.tagesschau.de/wirtschaft/technologie/ki-chipindustrie-nvidia-100.html",
-   "summary": "Konkurrenten wie AMD oder Qualcomm reiben sich nach dem Abgang von Huang als CEO bei Nvidia schon die Hände. Was ist dran am möglichen Umbruch der Chip-Branche - und wie viel hat …",
+   "title": "Die deutsche Regierung will diesen Spitzenökonomen zum EZB-Chefvolkswirt berufen - und ermöglicht damit einem Spanier den Einzug ins Präsidium",
+   "link": "https://www.nzz.ch/wirtschaft/die-deutsche-regierung-will-diesen-spitzenoekonomen-zum-ezb-chefsvolkswirt-berufen-und-ermoeglicht-damit-einen-spanier-im-praesidium-ld.10066259",
+   "summary": "Markus Brunnermeier wollte eigentlich Zimmermann werden. Jetzt könnte er bald eine der wichtigsten Stellen bei der Europäischen Zentralbank besetzen - und in dieser Funktion …",
    "date": "2026-11-17",
-   "source": "tagesschau"
+   "source": "NZZ"
   },
   {
-   "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+   "title": "We can't afford to hire under-25s, say firms. Will Milburn plans help?",
+   "link": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
+   "summary": "The proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.",
    "date": "2026-11-17",
    "source": "BBC"
+  },
+  {
+   "title": "Bankenskandal - Was bedeutet der grosse Datenleak bei der Deutschen Bank?",
+   "link": "https://www.srf.ch/news/wirtschaft/bankenskandal-was-bedeutet-der-grosse-datenleak-bei-der-deutschen-bank",
+   "summary": "Die Deutsche Bank soll in heikle Geschäftsbeziehungen involviert gewesen sein. Was die Enthüllungen bedeuten.",
+   "date": "2026-11-17",
+   "source": "SRF"
+  },
+  {
+   "title": "Nvidia forms national security committee after Huang affair",
+   "link": "https://www.dw.com/en/nvidia-forms-national-security-committee-after-huang-affair/a-79970447?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "Nvidia has created a board-level committee for national security and export control. This follows the resignation of CEO Jensen Huang over extramarital affairs, allegedly …",
+   "date": "2026-11-17",
+   "source": "DW"
+  },
+  {
+   "title": "U.S. proposes blocking employers from sponsoring foreign workers for the same or similar jobs within 2 years of laying off American workers.",
+   "link": "https://www.washingtonpost.com/immigration/2026/11/16/trump-administration-proposes-restrictions-employer-sponsored-green-cards/",
+   "summary": "",
+   "date": "2026-11-17",
+   "source": "washingtonpost.com via Reddit r/technology"
   },
   {
    "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
@@ -21,74 +42,67 @@
    "summary": "",
    "date": "2026-11-16",
    "source": "apnews.com via Reddit r/technology"
-  },
-  {
-   "title": "MELDUNGEN WIRTSCHAFT - Kalifornien verklagt Open AI wegen Hacking-Attacken",
-   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
-   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
-   "date": "2026-11-16",
-   "source": "NZZ"
-  },
-  {
-   "title": "Sammelklage in Europa - 18'000 Hotels wehren sich gegen Booking.com",
-   "link": "https://www.srf.ch/news/wirtschaft/sammelklage-in-europa-18-000-hotels-wehren-sich-gegen-booking-com",
-   "summary": "Rund 800 Schweizer Hotels beteiligen sich an der Klage. Ein Überblick über Vorwürfe, Rechtslage und Reaktionen.",
-   "date": "2026-11-16",
-   "source": "SRF"
-  },
-  {
-   "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
-   "link": "https://www.nytimes.com/2026/11/15/us/politics/trump-lutnick-ai-chips-nvidia-cantor-fitzgerald.html",
-   "summary": "",
-   "date": "2026-11-16",
-   "source": "nytimes.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "These Engineers Are Cleaning Up Connected Cars’ Security Flaws",
+   "link": "https://spectrum.ieee.org/connected-cars-security",
+   "summary": "Today’s connected vehicles collect and transmit far more personal data from drivers and passengers than their predecessors, with costly consequences. The Center for Automotive …",
+   "date": "2026-11-17",
+   "source": "IEEE Spectrum"
+  },
+  {
+   "title": "Research Reports",
+   "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+   "summary": "To access a report, click on the corresponding image below.",
+   "date": "2026-11-17",
+   "source": "MIT Technology Review"
+  },
+  {
+   "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+   "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+   "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+   "date": "2026-11-17",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "AI Is Giving Optical Computing Another Shot",
+   "link": "https://spectrum.ieee.org/optical-computing-ai",
+   "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical …",
+   "date": "2026-11-17",
+   "source": "IEEE Spectrum"
+  },
+  {
+   "title": "Learning the language of machine learning",
+   "link": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+   "summary": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
+   "date": "2026-11-17",
+   "source": "MIT News"
+  },
   {
    "title": "MIT School of Engineering faculty and staff receive awards in summer 2026",
    "link": "https://news.mit.edu/2026/mit-engineering-faculty-staff-receive-awards-summer-2026-1116",
    "summary": "Faculty members and researchers were honored in recognition of their scholarship, service, and overall excellence.",
    "date": "2026-11-16",
    "source": "MIT News"
-  },
-  {
-   "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
-   "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
-   "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
-   "date": "2026-11-16",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "The open-source movement wants Jensen Huang back",
-   "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen …",
-   "date": "2026-11-16",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "Building trustworthy AI by fencing it in, not predicting it",
-   "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-   "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an …",
-   "date": "2026-11-16",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "Europe’s Digital Wallets May Be More Traceable Than Intended",
-   "link": "https://spectrum.ieee.org/europe-digital-id-security-cryptography",
-   "summary": "Millions of European Union citizens should soon have access to digital wallets , as member states roll out their implementations of the European Digital Identity Regulation ahead …",
-   "date": "2026-11-14",
-   "source": "IEEE Spectrum"
-  },
-  {
-   "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-   "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-   "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-   "date": "2026-11-13",
-   "source": "Ars Technica"
   }
  ],
  "science": [
+  {
+   "title": "A mysterious twist in the universe’s oldest light could reveal new physics",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+   "summary": "Scientists have spotted hints of a mysterious rotation in the universe’s oldest light that could reveal new physics and shed light on dark matter and dark energy. A new technique …",
+   "date": "2026-11-17",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
+   "summary": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that …",
+   "date": "2026-11-17",
+   "source": "ScienceDaily"
+  },
   {
    "title": "Hyperscale data centers use 2% of US electricity",
    "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
@@ -109,20 +123,6 @@
    "summary": "An era-defining galaxy survey has released its final results. They don’t quite fit the leading theory of cosmology. The post What Makes Up the Cosmos? A 20-Year Survey Hints That …",
    "date": "2026-11-16",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
-   "summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From …",
-   "date": "2026-11-16",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
-   "summary": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact. …",
-   "date": "2026-11-16",
-   "source": "ScienceDaily"
   },
   {
    "title": "Can Network Science Transform Health and Nutrition?",
