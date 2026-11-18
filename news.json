@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-18T01:00+00:00",
+ "updated": "2026-11-18T11:53+00:00",
  "news": [
   {
-   "title": "Nvidia im Umbruch - Nach den Skandalen beginnen bei Nvidia die Aufräumarbeiten",
-   "link": "https://www.srf.ch/news/wirtschaft/nvidia-im-umbruch-nach-den-skandalen-beginnen-bei-nvidia-die-aufraeumarbeiten",
-   "summary": "Nvidia übertrifft mit Geschäftszahlen die Erwartungen. Doch nun folgt die juristische Aufarbeitung der Skandale.",
+   "title": "Wie riskant ist Nvidias Kurssturz für ETF-Sparer?",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/nvidia-kurssturz-etf-sparer-risiken-100.html",
+   "summary": "Nach dem Rücktritt von Jensen Huang hat die Nvidia-Aktie massiv an Wert verloren. Weil sie im MSCI World gelistet ist, betrifft das viele ETF-Sparer. Wie schwer der Kursrutsch …",
    "date": "2026-11-18",
-   "source": "SRF"
+   "source": "tagesschau"
   },
   {
-   "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
-   "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-   "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
-   "date": "2026-11-18",
-   "source": "BBC"
-  },
-  {
-   "title": "Nvidia betont, dass Jensen Huang nicht zum Unternehmen zurückkehren wird",
-   "link": "https://www.nzz.ch/wirtschaft/nvidia-betont-dass-jensen-huang-nicht-zum-unternehmen-zurueckkehren-wird-ld.10065455",
-   "summary": "Das Geschäft des Chip-Entwicklers läuft trotz den Turbulenzen um seinen gefallenen CEO weiterhin hervorragend. Die Investoren hören das sehr gerne - die Nvidia-Aktie legt im …",
+   "title": "MELDUNGEN WIRTSCHAFT - Gold so günstig wie seit 14 Monaten nicht",
+   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
+   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
    "date": "2026-11-18",
    "source": "NZZ"
   },
   {
-   "title": "Jensen Huang kann sich Rückkehr an Nvidia-Spitze vorstellen",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
-   "summary": "Der wegen einer Affäre mit einer mutmaßlichen chinesischen Spionin zurückgetretene Chef des US-Chipkonzerns Nvidia hat gravierende Fehler eingeräumt. Doch sollte der Vorstand das …",
-   "date": "2026-11-17",
-   "source": "tagesschau"
+   "title": "Energy bills forecast to go up by £443 a year from January as UK inflation rises again",
+   "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+   "summary": "Inflation is likely to keep rising on fresh forecasts that household energy bills will jump by 26% in January.",
+   "date": "2026-11-18",
+   "source": "BBC"
+  },
+  {
+   "title": "Ursachenforschung Weinkonsum - Weinbranche verliert treuste Kunden - wie weiter?",
+   "link": "https://www.srf.ch/news/wirtschaft/ursachenforschung-weinkonsum-weinbranche-verliert-treuste-kunden-wie-weiter",
+   "summary": "Der Weinkonsum ist weltweit eingebrochen. Marktforschende rechnen mit weiteren Rückgängen. Die Suche nach den Gründen.",
+   "date": "2026-11-18",
+   "source": "SRF"
   },
   {
    "title": "Folgen aus der Affäre Huang: Die USA schränken den Handel mit Computerchips von Nvidia weiter ein",
@@ -45,6 +45,13 @@
   }
  ],
  "cs": [
+  {
+   "title": "This smell startup says its AI nose is as good as a human’s",
+   "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+   "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes-“nutty,” …",
+   "date": "2026-11-18",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
    "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
@@ -79,13 +86,6 @@
    "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical …",
    "date": "2026-11-17",
    "source": "IEEE Spectrum"
-  },
-  {
-   "title": "Learning the language of machine learning",
-   "link": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
-   "summary": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
-   "date": "2026-11-17",
-   "source": "MIT News"
   }
  ],
  "science": [
