@@ -1,26 +1,40 @@
 {
- "updated": "2026-11-17T16:11+00:00",
+ "updated": "2026-11-18T01:00+00:00",
  "news": [
   {
-   "title": "Die deutsche Regierung will diesen Spitzenökonomen zum EZB-Chefvolkswirt berufen - und ermöglicht damit einem Spanier den Einzug ins Präsidium",
-   "link": "https://www.nzz.ch/wirtschaft/die-deutsche-regierung-will-diesen-spitzenoekonomen-zum-ezb-chefsvolkswirt-berufen-und-ermoeglicht-damit-einen-spanier-im-praesidium-ld.10066259",
-   "summary": "Markus Brunnermeier wollte eigentlich Zimmermann werden. Jetzt könnte er bald eine der wichtigsten Stellen bei der Europäischen Zentralbank besetzen - und in dieser Funktion …",
-   "date": "2026-11-17",
-   "source": "NZZ"
+   "title": "Nvidia im Umbruch - Nach den Skandalen beginnen bei Nvidia die Aufräumarbeiten",
+   "link": "https://www.srf.ch/news/wirtschaft/nvidia-im-umbruch-nach-den-skandalen-beginnen-bei-nvidia-die-aufraeumarbeiten",
+   "summary": "Nvidia übertrifft mit Geschäftszahlen die Erwartungen. Doch nun folgt die juristische Aufarbeitung der Skandale.",
+   "date": "2026-11-18",
+   "source": "SRF"
   },
   {
-   "title": "We can't afford to hire under-25s, say firms. Will Milburn plans help?",
-   "link": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
-   "summary": "The proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.",
-   "date": "2026-11-17",
+   "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+   "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+   "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
+   "date": "2026-11-18",
    "source": "BBC"
   },
   {
-   "title": "Bankenskandal - Was bedeutet der grosse Datenleak bei der Deutschen Bank?",
-   "link": "https://www.srf.ch/news/wirtschaft/bankenskandal-was-bedeutet-der-grosse-datenleak-bei-der-deutschen-bank",
-   "summary": "Die Deutsche Bank soll in heikle Geschäftsbeziehungen involviert gewesen sein. Was die Enthüllungen bedeuten.",
+   "title": "Nvidia betont, dass Jensen Huang nicht zum Unternehmen zurückkehren wird",
+   "link": "https://www.nzz.ch/wirtschaft/nvidia-betont-dass-jensen-huang-nicht-zum-unternehmen-zurueckkehren-wird-ld.10065455",
+   "summary": "Das Geschäft des Chip-Entwicklers läuft trotz den Turbulenzen um seinen gefallenen CEO weiterhin hervorragend. Die Investoren hören das sehr gerne - die Nvidia-Aktie legt im …",
+   "date": "2026-11-18",
+   "source": "NZZ"
+  },
+  {
+   "title": "Jensen Huang kann sich Rückkehr an Nvidia-Spitze vorstellen",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
+   "summary": "Der wegen einer Affäre mit einer mutmaßlichen chinesischen Spionin zurückgetretene Chef des US-Chipkonzerns Nvidia hat gravierende Fehler eingeräumt. Doch sollte der Vorstand das …",
    "date": "2026-11-17",
-   "source": "SRF"
+   "source": "tagesschau"
+  },
+  {
+   "title": "Folgen aus der Affäre Huang: Die USA schränken den Handel mit Computerchips von Nvidia weiter ein",
+   "link": "https://www.nzz.ch/technologie/folgen-aus-der-affaere-huang-die-usa-schraenken-den-handel-mit-computerchips-von-nvidia-weiter-ein-ld.10062950",
+   "summary": "Seit Jahren versuchen die USA, chinesischen Firmen den Zugang zu Hochleistungschips zu verwehren. Doch mit einem Geflecht aus Tochterfirmen und diskreten Geschäftspartnern ist es …",
+   "date": "2026-11-17",
+   "source": "NZZ"
   },
   {
    "title": "Nvidia forms national security committee after Huang affair",
@@ -28,23 +42,16 @@
    "summary": "Nvidia has created a board-level committee for national security and export control. This follows the resignation of CEO Jensen Huang over extramarital affairs, allegedly …",
    "date": "2026-11-17",
    "source": "DW"
-  },
-  {
-   "title": "U.S. proposes blocking employers from sponsoring foreign workers for the same or similar jobs within 2 years of laying off American workers.",
-   "link": "https://www.washingtonpost.com/immigration/2026/11/16/trump-administration-proposes-restrictions-employer-sponsored-green-cards/",
-   "summary": "",
-   "date": "2026-11-17",
-   "source": "washingtonpost.com via Reddit r/technology"
-  },
-  {
-   "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
-   "link": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
-   "summary": "",
-   "date": "2026-11-16",
-   "source": "apnews.com via Reddit r/technology"
   }
  ],
  "cs": [
+  {
+   "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+   "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+   "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+   "date": "2026-11-17",
+   "source": "Ars Technica"
+  },
   {
    "title": "These Engineers Are Cleaning Up Connected Cars’ Security Flaws",
    "link": "https://spectrum.ieee.org/connected-cars-security",
@@ -78,13 +85,6 @@
    "link": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
    "summary": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
    "date": "2026-11-17",
-   "source": "MIT News"
-  },
-  {
-   "title": "MIT School of Engineering faculty and staff receive awards in summer 2026",
-   "link": "https://news.mit.edu/2026/mit-engineering-faculty-staff-receive-awards-summer-2026-1116",
-   "summary": "Faculty members and researchers were honored in recognition of their scholarship, service, and overall excellence.",
-   "date": "2026-11-16",
    "source": "MIT News"
   }
  ],
