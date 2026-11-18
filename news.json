@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-18T11:53+00:00",
+ "updated": "2026-11-18T20:39+00:00",
  "news": [
   {
-   "title": "Wie riskant ist Nvidias Kurssturz für ETF-Sparer?",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/nvidia-kurssturz-etf-sparer-risiken-100.html",
-   "summary": "Nach dem Rücktritt von Jensen Huang hat die Nvidia-Aktie massiv an Wert verloren. Weil sie im MSCI World gelistet ist, betrifft das viele ETF-Sparer. Wie schwer der Kursrutsch …",
-   "date": "2026-11-18",
-   "source": "tagesschau"
-  },
-  {
-   "title": "MELDUNGEN WIRTSCHAFT - Gold so günstig wie seit 14 Monaten nicht",
-   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
-   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
-   "date": "2026-11-18",
-   "source": "NZZ"
-  },
-  {
-   "title": "Energy bills forecast to go up by £443 a year from January as UK inflation rises again",
-   "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-   "summary": "Inflation is likely to keep rising on fresh forecasts that household energy bills will jump by 26% in January.",
+   "title": "How high is UK inflation and how will you be affected?",
+   "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
+   "summary": "Prices rose 3.6% in the year to October, mainly because of higher petrol and diesel prices, official figures show.",
    "date": "2026-11-18",
    "source": "BBC"
   },
   {
-   "title": "Ursachenforschung Weinkonsum - Weinbranche verliert treuste Kunden - wie weiter?",
-   "link": "https://www.srf.ch/news/wirtschaft/ursachenforschung-weinkonsum-weinbranche-verliert-treuste-kunden-wie-weiter",
-   "summary": "Der Weinkonsum ist weltweit eingebrochen. Marktforschende rechnen mit weiteren Rückgängen. Die Suche nach den Gründen.",
+   "title": "Deutliche Kursverluste: DAX rutscht unter 26.000er-Marke",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-nvidia-100.html",
+   "summary": "Das Rekordhoch der vergangenen Woche ist längst wieder passé. Der Leitindex DAX endet mit einem deutlichen Minus und fällt bis auf 25.736 Punkte. Da helfen auch gute Zahlen aus …",
+   "date": "2026-11-18",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Der Dollar notiert auf Jahreshoch - diese vier Gründe stecken dahinter",
+   "link": "https://www.nzz.ch/wirtschaft/der-dollar-notiert-auf-jahreshoch-diese-vier-gruende-stehen-dahinter-ld.10067302",
+   "summary": "Nach Donald Trumps Zollschock im April 2025 schrieben viele Investoren den Dollar bereits ab. Doch es kam alles ganz anders.",
+   "date": "2026-11-18",
+   "source": "NZZ"
+  },
+  {
+   "title": "Börsengang der KI-Firma - Die Köpfe hinter Anthropic: Wer sind die Geschwister Amodei?",
+   "link": "https://www.srf.ch/news/wirtschaft/boersengang-der-ki-firma-die-koepfe-hinter-anthropic-wer-sind-die-geschwister-amodei",
+   "summary": "Das KI-Unternehmen wird von den Geschwistern Dario und Daniela Amodei geführt. Schicksalsschläge treiben die beiden an.",
    "date": "2026-11-18",
    "source": "SRF"
   },
@@ -45,6 +45,13 @@
   }
  ],
  "cs": [
+  {
+   "title": "The AI Hype Index: AI is everywhere",
+   "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+   "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your …",
+   "date": "2026-11-18",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "This smell startup says its AI nose is as good as a human’s",
    "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
@@ -67,13 +74,6 @@
    "source": "IEEE Spectrum"
   },
   {
-   "title": "Research Reports",
-   "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-   "summary": "To access a report, click on the corresponding image below.",
-   "date": "2026-11-17",
-   "source": "MIT Technology Review"
-  },
-  {
    "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
    "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
    "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
@@ -90,17 +90,24 @@
  ],
  "science": [
   {
-   "title": "A mysterious twist in the universe’s oldest light could reveal new physics",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
-   "summary": "Scientists have spotted hints of a mysterious rotation in the universe’s oldest light that could reveal new physics and shed light on dark matter and dark energy. A new technique …",
-   "date": "2026-11-17",
+   "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
+   "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
+   "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians. The post How M.C. …",
+   "date": "2026-11-18",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "New discovery reveals what may be holding back room-temperature superconductors",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
+   "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. …",
+   "date": "2026-11-18",
    "source": "ScienceDaily"
   },
   {
-   "title": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
-   "summary": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that …",
-   "date": "2026-11-17",
+   "title": "MIT discovers that aging weakens the brain’s nighttime cleaning system",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
+   "summary": "MIT researchers have discovered that the brain’s natural waste-removal system becomes significantly less effective during sleep as people age. The decline is linked to weaker …",
+   "date": "2026-11-18",
    "source": "ScienceDaily"
   },
   {
@@ -122,13 +129,6 @@
    "link": "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
    "summary": "An era-defining galaxy survey has released its final results. They don’t quite fit the leading theory of cosmology. The post What Makes Up the Cosmos? A 20-Year Survey Hints That …",
    "date": "2026-11-16",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "Can Network Science Transform Health and Nutrition?",
-   "link": "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/",
-   "summary": "Albert-László Barabási explains how the same organizing principles shape everything from the internet to the cell, and how mapping the networks inside our bodies could change how …",
-   "date": "2026-11-12",
    "source": "Quanta Magazine"
   }
  ]
