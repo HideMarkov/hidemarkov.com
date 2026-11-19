@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-18T20:39+00:00",
+ "updated": "2026-11-19T02:38+00:00",
  "news": [
   {
-   "title": "How high is UK inflation and how will you be affected?",
-   "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
-   "summary": "Prices rose 3.6% in the year to October, mainly because of higher petrol and diesel prices, official figures show.",
-   "date": "2026-11-18",
+   "title": "Claude-maker Anthropic poised for stock market debut worth up to $1.5tn",
+   "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+   "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
+   "date": "2026-11-19",
    "source": "BBC"
   },
   {
-   "title": "Deutliche Kursverluste: DAX rutscht unter 26.000er-Marke",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-nvidia-100.html",
-   "summary": "Das Rekordhoch der vergangenen Woche ist längst wieder passé. Der Leitindex DAX endet mit einem deutlichen Minus und fällt bis auf 25.736 Punkte. Da helfen auch gute Zahlen aus …",
-   "date": "2026-11-18",
-   "source": "tagesschau"
+   "title": "Über 81 Milliarden US-Dollar - Anthropic gelingt Rekord-Börsengang",
+   "link": "https://www.srf.ch/news/wirtschaft/ueber-81-milliarden-us-dollar-anthropic-gelingt-rekord-boersengang",
+   "summary": "Anthropic startet am Donnerstag mit einer Bewertung von rund 1,5 Billionen US-Dollar an der Börse.",
+   "date": "2026-11-19",
+   "source": "SRF"
   },
   {
-   "title": "Der Dollar notiert auf Jahreshoch - diese vier Gründe stecken dahinter",
-   "link": "https://www.nzz.ch/wirtschaft/der-dollar-notiert-auf-jahreshoch-diese-vier-gruende-stehen-dahinter-ld.10067302",
-   "summary": "Nach Donald Trumps Zollschock im April 2025 schrieben viele Investoren den Dollar bereits ab. Doch es kam alles ganz anders.",
-   "date": "2026-11-18",
+   "title": "Noch grösser als erwartet: Anthropic nimmt bei seinem Börsengang 107 Milliarden Dollar ein",
+   "link": "https://www.nzz.ch/wirtschaft/noch-groesser-als-erwartet-anthropic-nimmt-bei-seinem-boersengang-107-milliarden-dollar-ein-ld.10065173",
+   "summary": "Mit einem Einstandspreis von 83 Dollar übertrifft das KI-Unternehmen die Prognosen deutlich. Anthropic verkauft zudem deutlich mehr Aktien als angekündigt. Neun wichtige Fragen …",
+   "date": "2026-11-19",
    "source": "NZZ"
   },
   {
-   "title": "Börsengang der KI-Firma - Die Köpfe hinter Anthropic: Wer sind die Geschwister Amodei?",
-   "link": "https://www.srf.ch/news/wirtschaft/boersengang-der-ki-firma-die-koepfe-hinter-anthropic-wer-sind-die-geschwister-amodei",
-   "summary": "Das KI-Unternehmen wird von den Geschwistern Dario und Daniela Amodei geführt. Schicksalsschläge treiben die beiden an.",
-   "date": "2026-11-18",
-   "source": "SRF"
+   "title": "Commerzbank-Übernahme: Bundesregierung und UniCredit einigen sich",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/unicredit-bundesregierung-100.html",
+   "summary": "Die italienische Bank und deren Chef Orcel sind bei der Übernahme der Commerzbank einen wichtigen Schritt weiter - die Bundesregierung einigte sich mit UniCredit.",
+   "date": "2026-11-19",
+   "source": "tagesschau"
   },
   {
    "title": "Folgen aus der Affäre Huang: Die USA schränken den Handel mit Computerchips von Nvidia weiter ein",
@@ -90,6 +90,13 @@
  ],
  "science": [
   {
+   "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
+   "link": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
+   "summary": "CEO Ted Sarandos discusses gaps in making hit shows that streamers can find.",
+   "date": "2026-11-18",
+   "source": "Ars Technica"
+  },
+  {
    "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
    "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
    "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians. The post How M.C. …",
@@ -114,13 +121,6 @@
    "title": "Hyperscale data centers use 2% of US electricity",
    "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
    "summary": "Study attempts to tally hyperscalers’ energy use and emissions.",
-   "date": "2026-11-16",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Supreme Court keeps injunction against DEI grant defunding in place",
-   "link": "https://arstechnica.com/science/2026/11/supreme-court-keeps-injunction-against-dei-grant-defunding-in-place/",
-   "summary": "Appeals court ruling rejected grant cancellations on First Amendment grounds.",
    "date": "2026-11-16",
    "source": "Ars Technica"
   },
