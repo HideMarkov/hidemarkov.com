@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-19T11:51+00:00",
+ "updated": "2026-11-19T20:45+00:00",
  "news": [
   {
-   "title": "Indian driver wins $1.3m in life-changing lottery prize",
-   "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
-   "summary": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
+   "title": "Die UBS lehnt wesentliche Teile des dritten Pakets der Grossbankenregulierung ab und fordert substanzielle Änderungen",
+   "link": "https://www.nzz.ch/wirtschaft/die-ubs-lehnt-wesentliche-teile-des-dritten-pakets-der-grossbankenregulierung-ab-und-fordert-substanzielle-aenderungen-ld.10068757",
+   "summary": "Die Vorschläge des Bundesrates für die Reform des Gesetzes zur Bankenstabilität stossen auf harsche Kritik. Der UBS fehlt die Verhältnismässigkeit, der Bankenverband hält sie für …",
    "date": "2026-11-19",
-   "source": "BBC"
+   "source": "NZZ"
   },
   {
-   "title": "Prognose des KOF-Instituts - Gesundheitskosten steigen laut KOF‑Institut bis 2028 weiter",
-   "link": "https://www.srf.ch/news/schweiz/prognose-des-kof-instituts-gesundheitskosten-steigen-laut-kof-institut-bis-2028-weiter",
-   "summary": "Grund für das jährliche Wachstum sind vor allem mehr ambulante Behandlungen sowie der steigende Pflegebedarf.",
+   "title": "Rekord an der Wallstreet - Anthropic an der Börse: Fünf Fragen zum Handelsstart",
+   "link": "https://www.srf.ch/news/wirtschaft/rekord-an-der-wallstreet-anthropic-an-der-boerse-fuenf-fragen-zum-handelsstart",
+   "summary": "Es ist der grösste Börsengang der Geschichte: Was man zum Handelsstart des KI-Riesen Anthropic in New York wissen muss.",
    "date": "2026-11-19",
    "source": "SRF"
   },
   {
-   "title": "Heizen wird wegen steigender Energiepreise immer teurer",
-   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/heizkosten-anstieg-100.html",
-   "summary": "Ein warmes Zuhause ist bei Weitem nicht für alle Menschen selbstverständlich. Nach Berechnungen des Statistischen Bundesamts konnten im vergangenen Jahr rund 4,7 Millionen …",
+   "title": "Marktbericht: Keine Erholung trotz Anthropic-Euphorie",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-anthropic-100.html",
+   "summary": "Trotz der guten Stimmung im Technologiesektor rund um den Rekord-Börsengang von Anthropic ist der DAX abgerutscht. Der deutsche Leitindex schloss auf dem tiefsten Stand seit mehr …",
    "date": "2026-11-19",
    "source": "tagesschau"
   },
   {
-   "title": "Iran balances ties with China and Russia as Trump ramps up pressure",
-   "link": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran …",
+   "title": "Anthropic raises $81bn in record-breaking stock market debut",
+   "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+   "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
    "date": "2026-11-19",
-   "source": "DW"
+   "source": "BBC"
   },
   {
-   "title": "MELDUNGEN WIRTSCHAFT - Deutsche Bundesregierung einigt sich mit Unicredit über Übernahme der Commerzbank",
-   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
-   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
+   "title": "Anthropic trading tests investors' appetite for AI",
+   "link": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "Anthropic was valued at $2 trillion after shares started trading on the Nasdaq following a record $81 billion IPO. Its performance will put investor confidence in AI to the test.",
    "date": "2026-11-19",
-   "source": "NZZ"
+   "source": "DW"
   },
   {
    "title": "Folgen aus der Affäre Huang: Die USA schränken den Handel mit Computerchips von Nvidia weiter ein",
@@ -45,6 +45,13 @@
   }
  ],
  "cs": [
+  {
+   "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+   "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+   "summary": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
+   "date": "2026-11-19",
+   "source": "Ars Technica"
+  },
   {
    "title": "How to tell a cyberattack from a plain old outage",
    "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
@@ -67,13 +74,6 @@
    "source": "MIT Technology Review"
   },
   {
-   "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
-   "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
-   "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
-   "date": "2026-11-17",
-   "source": "Ars Technica"
-  },
-  {
    "title": "These Engineers Are Cleaning Up Connected Cars’ Security Flaws",
    "link": "https://spectrum.ieee.org/connected-cars-security",
    "summary": "Today’s connected vehicles collect and transmit far more personal data from drivers and passengers than their predecessors, with costly consequences. The Center for Automotive …",
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "\"You’re right\"-LLMs will get climate info wrong if you ask",
+   "link": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
+   "summary": "Some models fare better, but all fail in similar ways.",
+   "date": "2026-11-19",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Mouse fight club might explain why we like to watch violent things",
+   "link": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
+   "summary": "Watching fights wasn't as good as practical experience, but it got the mice halfway there.",
+   "date": "2026-11-19",
+   "source": "Ars Technica"
+  },
+  {
    "title": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
    "link": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
    "summary": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks. Researchers tested 212 vegan and vegetarian products sold in the UK, including meat …",
@@ -104,25 +118,11 @@
    "source": "ScienceDaily"
   },
   {
-   "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
-   "link": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
-   "summary": "CEO Ted Sarandos discusses gaps in making hit shows that streamers can find.",
-   "date": "2026-11-18",
-   "source": "Ars Technica"
-  },
-  {
    "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
    "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
    "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians. The post How M.C. …",
    "date": "2026-11-18",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "Hyperscale data centers use 2% of US electricity",
-   "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
-   "summary": "Study attempts to tally hyperscalers’ energy use and emissions.",
-   "date": "2026-11-16",
-   "source": "Ars Technica"
   },
   {
    "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
