@@ -1,33 +1,40 @@
 {
- "updated": "2026-11-19T02:38+00:00",
+ "updated": "2026-11-19T11:51+00:00",
  "news": [
   {
-   "title": "Claude-maker Anthropic poised for stock market debut worth up to $1.5tn",
-   "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-   "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
+   "title": "Indian driver wins $1.3m in life-changing lottery prize",
+   "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+   "summary": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
    "date": "2026-11-19",
    "source": "BBC"
   },
   {
-   "title": "Über 81 Milliarden US-Dollar - Anthropic gelingt Rekord-Börsengang",
-   "link": "https://www.srf.ch/news/wirtschaft/ueber-81-milliarden-us-dollar-anthropic-gelingt-rekord-boersengang",
-   "summary": "Anthropic startet am Donnerstag mit einer Bewertung von rund 1,5 Billionen US-Dollar an der Börse.",
+   "title": "Prognose des KOF-Instituts - Gesundheitskosten steigen laut KOF‑Institut bis 2028 weiter",
+   "link": "https://www.srf.ch/news/schweiz/prognose-des-kof-instituts-gesundheitskosten-steigen-laut-kof-institut-bis-2028-weiter",
+   "summary": "Grund für das jährliche Wachstum sind vor allem mehr ambulante Behandlungen sowie der steigende Pflegebedarf.",
    "date": "2026-11-19",
    "source": "SRF"
   },
   {
-   "title": "Noch grösser als erwartet: Anthropic nimmt bei seinem Börsengang 107 Milliarden Dollar ein",
-   "link": "https://www.nzz.ch/wirtschaft/noch-groesser-als-erwartet-anthropic-nimmt-bei-seinem-boersengang-107-milliarden-dollar-ein-ld.10065173",
-   "summary": "Mit einem Einstandspreis von 83 Dollar übertrifft das KI-Unternehmen die Prognosen deutlich. Anthropic verkauft zudem deutlich mehr Aktien als angekündigt. Neun wichtige Fragen …",
-   "date": "2026-11-19",
-   "source": "NZZ"
-  },
-  {
-   "title": "Commerzbank-Übernahme: Bundesregierung und UniCredit einigen sich",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/unicredit-bundesregierung-100.html",
-   "summary": "Die italienische Bank und deren Chef Orcel sind bei der Übernahme der Commerzbank einen wichtigen Schritt weiter - die Bundesregierung einigte sich mit UniCredit.",
+   "title": "Heizen wird wegen steigender Energiepreise immer teurer",
+   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/heizkosten-anstieg-100.html",
+   "summary": "Ein warmes Zuhause ist bei Weitem nicht für alle Menschen selbstverständlich. Nach Berechnungen des Statistischen Bundesamts konnten im vergangenen Jahr rund 4,7 Millionen …",
    "date": "2026-11-19",
    "source": "tagesschau"
+  },
+  {
+   "title": "Iran balances ties with China and Russia as Trump ramps up pressure",
+   "link": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran …",
+   "date": "2026-11-19",
+   "source": "DW"
+  },
+  {
+   "title": "MELDUNGEN WIRTSCHAFT - Deutsche Bundesregierung einigt sich mit Unicredit über Übernahme der Commerzbank",
+   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
+   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
+   "date": "2026-11-19",
+   "source": "NZZ"
   },
   {
    "title": "Folgen aus der Affäre Huang: Die USA schränken den Handel mit Computerchips von Nvidia weiter ein",
@@ -35,16 +42,16 @@
    "summary": "Seit Jahren versuchen die USA, chinesischen Firmen den Zugang zu Hochleistungschips zu verwehren. Doch mit einem Geflecht aus Tochterfirmen und diskreten Geschäftspartnern ist es …",
    "date": "2026-11-17",
    "source": "NZZ"
-  },
-  {
-   "title": "Nvidia forms national security committee after Huang affair",
-   "link": "https://www.dw.com/en/nvidia-forms-national-security-committee-after-huang-affair/a-79970447?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "Nvidia has created a board-level committee for national security and export control. This follows the resignation of CEO Jensen Huang over extramarital affairs, allegedly …",
-   "date": "2026-11-17",
-   "source": "DW"
   }
  ],
  "cs": [
+  {
+   "title": "How to tell a cyberattack from a plain old outage",
+   "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+   "summary": "When everything goes down, don’t assume it’s a cyberattack.",
+   "date": "2026-11-19",
+   "source": "Ars Technica"
+  },
   {
    "title": "The AI Hype Index: AI is everywhere",
    "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
@@ -74,13 +81,6 @@
    "source": "IEEE Spectrum"
   },
   {
-   "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-   "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-   "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-   "date": "2026-11-17",
-   "source": "Ars Technica"
-  },
-  {
    "title": "AI Is Giving Optical Computing Another Shot",
    "link": "https://spectrum.ieee.org/optical-computing-ai",
    "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical …",
@@ -89,6 +89,20 @@
   }
  ],
  "science": [
+  {
+   "title": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
+   "summary": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks. Researchers tested 212 vegan and vegetarian products sold in the UK, including meat …",
+   "date": "2026-11-19",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "This 6-million-year-old whale may have had the most crooked face in mammal history",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
+   "summary": "A bizarre whale that lived roughly 6 million years ago had a face so dramatically crooked that scientists believe it may have been the most asymmetrical of any mammal. Discovered …",
+   "date": "2026-11-19",
+   "source": "ScienceDaily"
+  },
   {
    "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
    "link": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
@@ -102,20 +116,6 @@
    "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians. The post How M.C. …",
    "date": "2026-11-18",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "New discovery reveals what may be holding back room-temperature superconductors",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
-   "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. …",
-   "date": "2026-11-18",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "MIT discovers that aging weakens the brain’s nighttime cleaning system",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
-   "summary": "MIT researchers have discovered that the brain’s natural waste-removal system becomes significantly less effective during sleep as people age. The decline is linked to weaker …",
-   "date": "2026-11-18",
-   "source": "ScienceDaily"
   },
   {
    "title": "Hyperscale data centers use 2% of US electricity",
