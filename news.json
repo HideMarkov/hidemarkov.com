@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-20T11:52+00:00",
+ "updated": "2026-11-20T20:29+00:00",
  "news": [
+  {
+   "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+   "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+   "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+   "date": "2026-11-20",
+   "source": "BBC"
+  },
+  {
+   "title": "Mehr als 100 Betriebe beteiligt: IG Metall setzt weiter auf ganztätige Warnstreiks",
+   "link": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ig-metall-streik-112.html",
+   "summary": "BMW und Audi in Bayern, Werften im Norden: Mehr als Hunderttausend Beschäftigte haben für 24 Stunden die Arbeit niedergelegt. Ein neues Gesprächsangebot hat die Streikwelle …",
+   "date": "2026-11-20",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Neue Angriffswelle: Russland nimmt Kiews Brücken ins Visier",
+   "link": "https://www.nzz.ch/visuals/angriffe-auf-ein-nadeloehr-russland-nimmt-kiews-bruecken-ins-visier-ld.10034659",
+   "summary": "Seit einigen Wochen greift Russland gezielt die Dnipro-Übergänge in der Hauptstadt an, in der vergangenen Nacht erneut. Bis jetzt halten die Brücken stand, doch die Gefahr ist …",
+   "date": "2026-11-20",
+   "source": "NZZ"
+  },
+  {
+   "title": "Gender Pay Gap - Was bremst die Schweiz bei der Lohngleichheit aus?",
+   "link": "https://www.srf.ch/news/wirtschaft/gender-pay-gap-was-bremst-die-schweiz-bei-der-lohngleichheit-aus",
+   "summary": "In der EU beträgt der Gender Pay Gap 11 Prozent. In der Schweiz ist die Zahl höher - und es geht nur langsam voran.",
+   "date": "2026-11-20",
+   "source": "SRF"
+  },
   {
    "title": "Can German auto manufacturing recover after Mercedes and VW cuts?",
    "link": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-bus-2091-xml-mrss",
@@ -9,42 +37,35 @@
    "source": "DW"
   },
   {
-   "title": "Gender Pay Gap: Frauen arbeiten den Rest des Jahres kostenlos",
-   "link": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/gender-pay-gap-140.html",
-   "summary": "Von heute bis zum Jahresende arbeiten Frauen in der EU quasi unbezahlt - so groß ist die rechnerische Lohnlücke im Schnitt. Neue Transparenzregeln sollen Veränderung bringen, doch …",
-   "date": "2026-11-20",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Airbnb's divisive new house rules come into force",
-   "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
-   "summary": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
-   "date": "2026-11-20",
-   "source": "BBC"
-  },
-  {
-   "title": "Jugendliche informieren sich immer öfter mit KI - und sind zugleich besonders durch sie verunsichert",
-   "link": "https://www.nzz.ch/wirtschaft/jugendliche-informieren-sich-immer-oefter-mit-ki-und-sind-zugleich-besonders-durch-sie-verunsichert-ld.10068637",
-   "summary": "Künstliche Intelligenz gehört laut einer Studie neu zu den drei wichtigsten Informationsquellen von 12- bis 19-Jährigen. Nun sind Schulen und Eltern gefragt.",
-   "date": "2026-11-20",
-   "source": "NZZ"
-  },
-  {
    "title": "PODCAST «NZZ QUANTENSPRUNG» - Lieferdrohnen: Fliegende Paketboten liefern Abendessen und Einkäufe. In Texas ist das Alltag - und bald in den ganzen USA",
    "link": "https://www.nzz.ch/podcast/lieferdrohnen-fliegende-paketboten-liefern-abendessen-und-einkaeufe-in-texas-ist-das-alltag-und-bald-in-den-ganzen-usa-ld.10061719",
    "summary": "Drohnen von Amazon und Google überfliegen Staus und stellen Bestellungen direkt in den eigenen Garten zu. Mit lautlosen Propellern und KI fliegen sie in Zukunft noch leiser und …",
    "date": "2026-11-20",
    "source": "NZZ"
-  },
-  {
-   "title": "Rekord an der Wallstreet - Anthropic an der Börse: Fünf Fragen zum Handelsstart",
-   "link": "https://www.srf.ch/news/wirtschaft/rekord-an-der-wallstreet-anthropic-an-der-boerse-fuenf-fragen-zum-handelsstart",
-   "summary": "Es ist der grösste Börsengang der Geschichte: Was man zum Handelsstart des KI-Riesen Anthropic in New York wissen muss.",
-   "date": "2026-11-19",
-   "source": "SRF"
   }
  ],
  "cs": [
+  {
+   "title": "The most misunderstood graph in AI just got a major update",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory-but it also indicates that models …",
+   "date": "2026-11-20",
+   "source": "MIT Technology Review"
+  },
+  {
+   "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
+   "link": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
+   "summary": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame. The post Network …",
+   "date": "2026-11-20",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "I Don’t Trust Visual Recordings Anymore. But One Day I Will Again",
+   "link": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
+   "summary": "In March of this year, a flurry of emails and text messages from a half dozen reporters around the world disrupted my quiet Saturday morning. An Iranian news agency had aired a …",
+   "date": "2026-11-20",
+   "source": "IEEE Spectrum"
+  },
   {
    "title": "Systems and Software Outages Explained: Who or What Is Responsible?",
    "link": "https://spectrum.ieee.org/it-outage",
@@ -65,56 +86,35 @@
    "summary": "When everything goes down, don’t assume it’s a cyberattack.",
    "date": "2026-11-19",
    "source": "Ars Technica"
-  },
-  {
-   "title": "The AI Hype Index: AI is everywhere",
-   "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-   "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your …",
-   "date": "2026-11-18",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "This smell startup says its AI nose is as good as a human’s",
-   "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-   "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes-“nutty,” …",
-   "date": "2026-11-18",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "These Engineers Are Cleaning Up Connected Cars’ Security Flaws",
-   "link": "https://spectrum.ieee.org/connected-cars-security",
-   "summary": "Today’s connected vehicles collect and transmit far more personal data from drivers and passengers than their predecessors, with costly consequences. The Center for Automotive …",
-   "date": "2026-11-17",
-   "source": "IEEE Spectrum"
   }
  ],
  "science": [
   {
-   "title": "Experimental compound burns fat without sacrificing muscle",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm",
-   "summary": "Researchers at UC Berkeley have identified a compound that could transform weight-loss treatment by helping the body burn more energy instead of suppressing appetite like Ozempic …",
+   "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
+   "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
+   "summary": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
+   "date": "2026-11-20",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+   "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+   "summary": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.",
+   "date": "2026-11-20",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
+   "summary": "Scientists have found a way to 3D-print Moon dust into LEGO-like bricks, raising the possibility of building lunar bases using materials already on the Moon. The experimental …",
    "date": "2026-11-20",
    "source": "ScienceDaily"
   },
   {
-   "title": "\"You’re right\"-LLMs will get climate info wrong if you ask",
-   "link": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
-   "summary": "Some models fare better, but all fail in similar ways.",
-   "date": "2026-11-19",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Mouse fight club might explain why we like to watch violent things",
-   "link": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
-   "summary": "Watching fights wasn't as good as practical experience, but it got the mice halfway there.",
-   "date": "2026-11-19",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
-   "summary": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks. Researchers tested 212 vegan and vegetarian products sold in the UK, including meat …",
-   "date": "2026-11-19",
+   "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
+   "summary": "Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in …",
+   "date": "2026-11-20",
    "source": "ScienceDaily"
   },
   {
