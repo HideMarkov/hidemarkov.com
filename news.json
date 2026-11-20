@@ -1,32 +1,39 @@
 {
- "updated": "2026-11-20T02:23+00:00",
+ "updated": "2026-11-20T11:52+00:00",
  "news": [
   {
-   "title": "GTA 6 breaks records as sales top $2bn - industry estimate",
-   "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-   "summary": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever.",
+   "title": "Can German auto manufacturing recover after Mercedes and VW cuts?",
+   "link": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "German automakers are pulling back on investments at home, sparking fresh anxiety about the auto sector's future. Some industry watchers think there is still a narrow window to …",
    "date": "2026-11-20",
-   "source": "BBC"
+   "source": "DW"
   },
   {
-   "title": "Medienberichte: Lufthansa will 1.000 Stellen streichen",
-   "link": "https://www.tagesschau.de/wirtschaft/lufthansa-1000-stellen-100.html",
-   "summary": "Insgesamt 1.000 Stellen in München und Frankfurt will man bei der Lufthansa Airlines streichen, das geht aus einem Brief an Mitarbeiter hervor. Auf Anfrage wollte die Airline dem …",
+   "title": "Gender Pay Gap: Frauen arbeiten den Rest des Jahres kostenlos",
+   "link": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/gender-pay-gap-140.html",
+   "summary": "Von heute bis zum Jahresende arbeiten Frauen in der EU quasi unbezahlt - so groß ist die rechnerische Lohnlücke im Schnitt. Neue Transparenzregeln sollen Veränderung bringen, doch …",
    "date": "2026-11-20",
    "source": "tagesschau"
   },
   {
-   "title": "Was sind KI-Agenten? Was können sie? Und soll ich einem vertrauen?",
-   "link": "https://www.nzz.ch/technologie/was-sind-ki-agenten-was-koennen-sie-und-soll-ich-einem-vertrauen-ld.10056257",
-   "summary": "Antworten auf die drängenden Fragen zum neuesten KI-Hype.",
-   "date": "2026-11-19",
+   "title": "Airbnb's divisive new house rules come into force",
+   "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+   "summary": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
+   "date": "2026-11-20",
+   "source": "BBC"
+  },
+  {
+   "title": "Jugendliche informieren sich immer öfter mit KI - und sind zugleich besonders durch sie verunsichert",
+   "link": "https://www.nzz.ch/wirtschaft/jugendliche-informieren-sich-immer-oefter-mit-ki-und-sind-zugleich-besonders-durch-sie-verunsichert-ld.10068637",
+   "summary": "Künstliche Intelligenz gehört laut einer Studie neu zu den drei wichtigsten Informationsquellen von 12- bis 19-Jährigen. Nun sind Schulen und Eltern gefragt.",
+   "date": "2026-11-20",
    "source": "NZZ"
   },
   {
-   "title": "MELDUNGEN WIRTSCHAFT - Lufthansa will 1000 Stellen an Drehkreuzen streichen +++ BASF gibt Übernahmepläne für Evonik auf",
-   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
-   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
-   "date": "2026-11-19",
+   "title": "PODCAST «NZZ QUANTENSPRUNG» - Lieferdrohnen: Fliegende Paketboten liefern Abendessen und Einkäufe. In Texas ist das Alltag - und bald in den ganzen USA",
+   "link": "https://www.nzz.ch/podcast/lieferdrohnen-fliegende-paketboten-liefern-abendessen-und-einkaeufe-in-texas-ist-das-alltag-und-bald-in-den-ganzen-usa-ld.10061719",
+   "summary": "Drohnen von Amazon und Google überfliegen Staus und stellen Bestellungen direkt in den eigenen Garten zu. Mit lautlosen Propellern und KI fliegen sie in Zukunft noch leiser und …",
+   "date": "2026-11-20",
    "source": "NZZ"
   },
   {
@@ -35,16 +42,16 @@
    "summary": "Es ist der grösste Börsengang der Geschichte: Was man zum Handelsstart des KI-Riesen Anthropic in New York wissen muss.",
    "date": "2026-11-19",
    "source": "SRF"
-  },
-  {
-   "title": "Anthropic trading tests investors' appetite for AI",
-   "link": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "Anthropic was valued at $2 trillion after shares started trading on the Nasdaq following a record $81 billion IPO. Its performance will put investor confidence in AI to the test.",
-   "date": "2026-11-19",
-   "source": "DW"
   }
  ],
  "cs": [
+  {
+   "title": "Systems and Software Outages Explained: Who or What Is Responsible?",
+   "link": "https://spectrum.ieee.org/it-outage",
+   "summary": "Last Thursday, Microsoft 365 Exchange Online and related apps like Outlook and Teams went down in at least 74 countries. The next day the U.S. Federal Aviation Administration …",
+   "date": "2026-11-19",
+   "source": "IEEE Spectrum"
+  },
   {
    "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
    "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
@@ -77,13 +84,6 @@
    "title": "These Engineers Are Cleaning Up Connected Cars’ Security Flaws",
    "link": "https://spectrum.ieee.org/connected-cars-security",
    "summary": "Today’s connected vehicles collect and transmit far more personal data from drivers and passengers than their predecessors, with costly consequences. The Center for Automotive …",
-   "date": "2026-11-17",
-   "source": "IEEE Spectrum"
-  },
-  {
-   "title": "AI Is Giving Optical Computing Another Shot",
-   "link": "https://spectrum.ieee.org/optical-computing-ai",
-   "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical …",
    "date": "2026-11-17",
    "source": "IEEE Spectrum"
   }
