@@ -1,10 +1,31 @@
 {
- "updated": "2026-11-19T20:45+00:00",
+ "updated": "2026-11-20T02:23+00:00",
  "news": [
   {
-   "title": "Die UBS lehnt wesentliche Teile des dritten Pakets der Grossbankenregulierung ab und fordert substanzielle Änderungen",
-   "link": "https://www.nzz.ch/wirtschaft/die-ubs-lehnt-wesentliche-teile-des-dritten-pakets-der-grossbankenregulierung-ab-und-fordert-substanzielle-aenderungen-ld.10068757",
-   "summary": "Die Vorschläge des Bundesrates für die Reform des Gesetzes zur Bankenstabilität stossen auf harsche Kritik. Der UBS fehlt die Verhältnismässigkeit, der Bankenverband hält sie für …",
+   "title": "GTA 6 breaks records as sales top $2bn - industry estimate",
+   "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+   "summary": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever.",
+   "date": "2026-11-20",
+   "source": "BBC"
+  },
+  {
+   "title": "Medienberichte: Lufthansa will 1.000 Stellen streichen",
+   "link": "https://www.tagesschau.de/wirtschaft/lufthansa-1000-stellen-100.html",
+   "summary": "Insgesamt 1.000 Stellen in München und Frankfurt will man bei der Lufthansa Airlines streichen, das geht aus einem Brief an Mitarbeiter hervor. Auf Anfrage wollte die Airline dem …",
+   "date": "2026-11-20",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Was sind KI-Agenten? Was können sie? Und soll ich einem vertrauen?",
+   "link": "https://www.nzz.ch/technologie/was-sind-ki-agenten-was-koennen-sie-und-soll-ich-einem-vertrauen-ld.10056257",
+   "summary": "Antworten auf die drängenden Fragen zum neuesten KI-Hype.",
+   "date": "2026-11-19",
+   "source": "NZZ"
+  },
+  {
+   "title": "MELDUNGEN WIRTSCHAFT - Lufthansa will 1000 Stellen an Drehkreuzen streichen +++ BASF gibt Übernahmepläne für Evonik auf",
+   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
+   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
    "date": "2026-11-19",
    "source": "NZZ"
   },
@@ -16,32 +37,11 @@
    "source": "SRF"
   },
   {
-   "title": "Marktbericht: Keine Erholung trotz Anthropic-Euphorie",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-anthropic-100.html",
-   "summary": "Trotz der guten Stimmung im Technologiesektor rund um den Rekord-Börsengang von Anthropic ist der DAX abgerutscht. Der deutsche Leitindex schloss auf dem tiefsten Stand seit mehr …",
-   "date": "2026-11-19",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Anthropic raises $81bn in record-breaking stock market debut",
-   "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-   "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
-   "date": "2026-11-19",
-   "source": "BBC"
-  },
-  {
    "title": "Anthropic trading tests investors' appetite for AI",
    "link": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-bus-2091-xml-mrss",
    "summary": "Anthropic was valued at $2 trillion after shares started trading on the Nasdaq following a record $81 billion IPO. Its performance will put investor confidence in AI to the test.",
    "date": "2026-11-19",
    "source": "DW"
-  },
-  {
-   "title": "Folgen aus der Affäre Huang: Die USA schränken den Handel mit Computerchips von Nvidia weiter ein",
-   "link": "https://www.nzz.ch/technologie/folgen-aus-der-affaere-huang-die-usa-schraenken-den-handel-mit-computerchips-von-nvidia-weiter-ein-ld.10062950",
-   "summary": "Seit Jahren versuchen die USA, chinesischen Firmen den Zugang zu Hochleistungschips zu verwehren. Doch mit einem Geflecht aus Tochterfirmen und diskreten Geschäftspartnern ist es …",
-   "date": "2026-11-17",
-   "source": "NZZ"
   }
  ],
  "cs": [
@@ -90,6 +90,13 @@
  ],
  "science": [
   {
+   "title": "Experimental compound burns fat without sacrificing muscle",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm",
+   "summary": "Researchers at UC Berkeley have identified a compound that could transform weight-loss treatment by helping the body burn more energy instead of suppressing appetite like Ozempic …",
+   "date": "2026-11-20",
+   "source": "ScienceDaily"
+  },
+  {
    "title": "\"You’re right\"-LLMs will get climate info wrong if you ask",
    "link": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
    "summary": "Some models fare better, but all fail in similar ways.",
@@ -107,13 +114,6 @@
    "title": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
    "link": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
    "summary": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks. Researchers tested 212 vegan and vegetarian products sold in the UK, including meat …",
-   "date": "2026-11-19",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "This 6-million-year-old whale may have had the most crooked face in mammal history",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
-   "summary": "A bizarre whale that lived roughly 6 million years ago had a face so dramatically crooked that scientists believe it may have been the most asymmetrical of any mammal. Discovered …",
    "date": "2026-11-19",
    "source": "ScienceDaily"
   },
