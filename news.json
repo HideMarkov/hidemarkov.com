@@ -1,10 +1,31 @@
 {
- "updated": "2026-11-21T02:26+00:00",
+ "updated": "2026-11-21T11:20+00:00",
  "news": [
   {
-   "title": "Die KI-Branche zieht einen weiteren rabenschwarzen Börsentag ein: Nvidia verliert 14 Prozent an Marktwert",
-   "link": "https://www.nzz.ch/wirtschaft/die-ki-branche-zieht-einen-weiteren-rabenschwarzen-boersentag-ein-nvidia-verliert-14-prozent-an-marktwert-ld.10070689",
-   "summary": "Auch Anthropic wird am zweiten Tag nach seinem erfolgreichen IPO abgestraft. Die Sorgen an der Börse wiegen schwer, dass die KI-Unternehmen niemals so profitabel werden könnten, …",
+   "title": "Tabakfabrik in Dagmersellen - Wo 32 Millionen Zigaretten am Tag vom Band rollen",
+   "link": "https://www.srf.ch/news/wirtschaft/tabakfabrik-in-dagmersellen-wo-32-millionen-zigaretten-am-tag-vom-band-rollen",
+   "summary": "Die Tabakfirma Japan Tobacco International (JTI) produziert unter anderem im Kanton Luzern - aus guten Gründen.",
+   "date": "2026-11-21",
+   "source": "SRF"
+  },
+  {
+   "title": "\"Altersvorsorgedepot für nahezu alle Riester-Sparer interessant\"",
+   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-tipps-riester-100.html",
+   "summary": "Die Bundesregierung stellt die Altersvorsorge ab dem kommenden Jahr neu auf. Die staatliche Förderung könnte beim neuen Altersvorsorgedepot für viele lukrativer sein als beim …",
+   "date": "2026-11-21",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Kaum ein Zuwanderer will die Schweiz wieder verlassen - doch nicht alle finden gleich schnell eine Arbeitsstelle",
+   "link": "https://www.nzz.ch/wirtschaft/kaum-ein-zuwanderer-will-die-schweiz-wieder-verlassen-doch-nicht-alle-finden-gleich-schnell-eine-arbeitsstelle-ld.10069861",
+   "summary": "42 Prozent der Bevölkerung haben einen Migrationshintergrund. Neue Zahlen zeigen, wie gut die Integration in den Arbeitsmarkt funktioniert und wo es noch Hürden gibt.",
+   "date": "2026-11-21",
+   "source": "NZZ"
+  },
+  {
+   "title": "KOMMENTAR - Schweizer Abstimmungen: Chat-GPT taugt nicht für die Meinungsbildung",
+   "link": "https://www.nzz.ch/meinung/schweizer-abstimmungen-chat-gpt-taugt-nicht-fuer-die-meinungsbildung-ld.10069897",
+   "summary": "Befragt man KI-Chatbots zu Abstimmungsvorlagen, würden sie idealerweise alle Optionen neutral darstellen. Beim meistgenutzten Dienst passiert das noch nicht zuverlässig. Wer …",
    "date": "2026-11-21",
    "source": "NZZ"
   },
@@ -16,32 +37,11 @@
    "source": "BBC"
   },
   {
-   "title": "Mehr als 100 Betriebe beteiligt: IG Metall setzt weiter auf ganztätige Warnstreiks",
-   "link": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ig-metall-streik-112.html",
-   "summary": "BMW und Audi in Bayern, Werften im Norden: Mehr als Hunderttausend Beschäftigte haben für 24 Stunden die Arbeit niedergelegt. Ein neues Gesprächsangebot hat die Streikwelle …",
-   "date": "2026-11-20",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Gender Pay Gap - Was bremst die Schweiz bei der Lohngleichheit aus?",
-   "link": "https://www.srf.ch/news/wirtschaft/gender-pay-gap-was-bremst-die-schweiz-bei-der-lohngleichheit-aus",
-   "summary": "In der EU beträgt der Gender Pay Gap 11 Prozent. In der Schweiz ist die Zahl höher - und es geht nur langsam voran.",
-   "date": "2026-11-20",
-   "source": "SRF"
-  },
-  {
    "title": "Can German auto manufacturing recover after Mercedes and VW cuts?",
    "link": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-bus-2091-xml-mrss",
    "summary": "German automakers are pulling back on investments at home, sparking fresh anxiety about the auto sector's future. Some industry watchers think there is still a narrow window to …",
    "date": "2026-11-20",
    "source": "DW"
-  },
-  {
-   "title": "PODCAST «NZZ QUANTENSPRUNG» - Lieferdrohnen: Fliegende Paketboten liefern Abendessen und Einkäufe. In Texas ist das Alltag - und bald in den ganzen USA",
-   "link": "https://www.nzz.ch/podcast/lieferdrohnen-fliegende-paketboten-liefern-abendessen-und-einkaeufe-in-texas-ist-das-alltag-und-bald-in-den-ganzen-usa-ld.10061719",
-   "summary": "Drohnen von Amazon und Google überfliegen Staus und stellen Bestellungen direkt in den eigenen Garten zu. Mit lautlosen Propellern und KI fliegen sie in Zukunft noch leiser und …",
-   "date": "2026-11-20",
-   "source": "NZZ"
   }
  ],
  "cs": [
@@ -90,6 +90,20 @@
  ],
  "science": [
   {
+   "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
+   "summary": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to …",
+   "date": "2026-11-21",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+   "summary": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better …",
+   "date": "2026-11-21",
+   "source": "ScienceDaily"
+  },
+  {
    "title": "Watching as a giant star swallowed its neighbor and exploded",
    "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
    "summary": "A recent brightening turned out to be from a star orbiting inside another.",
@@ -102,20 +116,6 @@
    "summary": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
    "date": "2026-11-20",
    "source": "Ars Technica"
-  },
-  {
-   "title": "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
-   "summary": "Scientists have found a way to 3D-print Moon dust into LEGO-like bricks, raising the possibility of building lunar bases using materials already on the Moon. The experimental …",
-   "date": "2026-11-20",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
-   "summary": "Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in …",
-   "date": "2026-11-20",
-   "source": "ScienceDaily"
   },
   {
    "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
