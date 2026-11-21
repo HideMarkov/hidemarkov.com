@@ -1,10 +1,17 @@
 {
- "updated": "2026-11-20T20:29+00:00",
+ "updated": "2026-11-21T02:26+00:00",
  "news": [
   {
-   "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-   "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-   "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+   "title": "Die KI-Branche zieht einen weiteren rabenschwarzen Börsentag ein: Nvidia verliert 14 Prozent an Marktwert",
+   "link": "https://www.nzz.ch/wirtschaft/die-ki-branche-zieht-einen-weiteren-rabenschwarzen-boersentag-ein-nvidia-verliert-14-prozent-an-marktwert-ld.10070689",
+   "summary": "Auch Anthropic wird am zweiten Tag nach seinem erfolgreichen IPO abgestraft. Die Sorgen an der Börse wiegen schwer, dass die KI-Unternehmen niemals so profitabel werden könnten, …",
+   "date": "2026-11-21",
+   "source": "NZZ"
+  },
+  {
+   "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+   "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+   "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
    "date": "2026-11-20",
    "source": "BBC"
   },
@@ -14,13 +21,6 @@
    "summary": "BMW und Audi in Bayern, Werften im Norden: Mehr als Hunderttausend Beschäftigte haben für 24 Stunden die Arbeit niedergelegt. Ein neues Gesprächsangebot hat die Streikwelle …",
    "date": "2026-11-20",
    "source": "tagesschau"
-  },
-  {
-   "title": "Neue Angriffswelle: Russland nimmt Kiews Brücken ins Visier",
-   "link": "https://www.nzz.ch/visuals/angriffe-auf-ein-nadeloehr-russland-nimmt-kiews-bruecken-ins-visier-ld.10034659",
-   "summary": "Seit einigen Wochen greift Russland gezielt die Dnipro-Übergänge in der Hauptstadt an, in der vergangenen Nacht erneut. Bis jetzt halten die Brücken stand, doch die Gefahr ist …",
-   "date": "2026-11-20",
-   "source": "NZZ"
   },
   {
    "title": "Gender Pay Gap - Was bremst die Schweiz bei der Lohngleichheit aus?",
@@ -45,6 +45,20 @@
   }
  ],
  "cs": [
+  {
+   "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
+   "link": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
+   "summary": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current …",
+   "date": "2026-11-20",
+   "source": "MIT News"
+  },
+  {
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+   "date": "2026-11-20",
+   "source": "Ars Technica"
+  },
   {
    "title": "The most misunderstood graph in AI just got a major update",
    "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
@@ -72,34 +86,20 @@
    "summary": "Last Thursday, Microsoft 365 Exchange Online and related apps like Outlook and Teams went down in at least 74 countries. The next day the U.S. Federal Aviation Administration …",
    "date": "2026-11-19",
    "source": "IEEE Spectrum"
-  },
-  {
-   "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
-   "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
-   "summary": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
-   "date": "2026-11-19",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "How to tell a cyberattack from a plain old outage",
-   "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
-   "summary": "When everything goes down, don’t assume it’s a cyberattack.",
-   "date": "2026-11-19",
-   "source": "Ars Technica"
   }
  ],
  "science": [
   {
-   "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
-   "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
-   "summary": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
+   "title": "Watching as a giant star swallowed its neighbor and exploded",
+   "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+   "summary": "A recent brightening turned out to be from a star orbiting inside another.",
    "date": "2026-11-20",
    "source": "Ars Technica"
   },
   {
-   "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
-   "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
-   "summary": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.",
+   "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
+   "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
+   "summary": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
    "date": "2026-11-20",
    "source": "Ars Technica"
   },
