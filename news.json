@@ -1,26 +1,33 @@
 {
- "updated": "2026-11-21T11:20+00:00",
+ "updated": "2026-11-21T19:25+00:00",
  "news": [
   {
-   "title": "Tabakfabrik in Dagmersellen - Wo 32 Millionen Zigaretten am Tag vom Band rollen",
-   "link": "https://www.srf.ch/news/wirtschaft/tabakfabrik-in-dagmersellen-wo-32-millionen-zigaretten-am-tag-vom-band-rollen",
-   "summary": "Die Tabakfirma Japan Tobacco International (JTI) produziert unter anderem im Kanton Luzern - aus guten Gründen.",
-   "date": "2026-11-21",
-   "source": "SRF"
-  },
-  {
-   "title": "\"Altersvorsorgedepot für nahezu alle Riester-Sparer interessant\"",
-   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-tipps-riester-100.html",
-   "summary": "Die Bundesregierung stellt die Altersvorsorge ab dem kommenden Jahr neu auf. Die staatliche Förderung könnte beim neuen Altersvorsorgedepot für viele lukrativer sein als beim …",
+   "title": "Scheitert die UN-Klimakonferenz in Antalya?",
+   "link": "https://www.tagesschau.de/wissen/klima/klimakonferenz/cop31-haengepartie-abschlusserklaerung-100.html",
+   "summary": "Dass eine Weltklimakonferenz pünktlich endet, passiert praktisch nie. Auch die COP31 in Antalya ist schon seit mehr als 24 Stunden in der Verlängerung. Droht ein Rückfall bei den …",
    "date": "2026-11-21",
    "source": "tagesschau"
   },
   {
-   "title": "Kaum ein Zuwanderer will die Schweiz wieder verlassen - doch nicht alle finden gleich schnell eine Arbeitsstelle",
-   "link": "https://www.nzz.ch/wirtschaft/kaum-ein-zuwanderer-will-die-schweiz-wieder-verlassen-doch-nicht-alle-finden-gleich-schnell-eine-arbeitsstelle-ld.10069861",
-   "summary": "42 Prozent der Bevölkerung haben einen Migrationshintergrund. Neue Zahlen zeigen, wie gut die Integration in den Arbeitsmarkt funktioniert und wo es noch Hürden gibt.",
+   "title": "MELDUNGEN WIRTSCHAFT - EU und Indonesien unterzeichnen weitreichenden Handelsdeal",
+   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
+   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
    "date": "2026-11-21",
    "source": "NZZ"
+  },
+  {
+   "title": "Sessions offer advice on rising energy costs",
+   "link": "https://www.bbc.co.uk/news/articles/cmy49l3x893jo?at_medium=RSS&at_campaign=rss",
+   "summary": "A council is urging people to seek support with rising energy costs on heating this winter.",
+   "date": "2026-11-21",
+   "source": "BBC"
+  },
+  {
+   "title": "Cyberversicherungen - Mobiliar-Chefin: «Die Welt ist nicht sicherer geworden»",
+   "link": "https://www.srf.ch/news/wirtschaft/cyberversicherungen-mobiliar-chefin-die-welt-ist-nicht-sicherer-geworden",
+   "summary": "Bei der Mobiliar-Versicherung sind Cyberattacken ein grosses Thema. Chefin Michèle Rodoni appelliert an die Kundschaft.",
+   "date": "2026-11-21",
+   "source": "SRF"
   },
   {
    "title": "KOMMENTAR - Schweizer Abstimmungen: Chat-GPT taugt nicht für die Meinungsbildung",
@@ -28,13 +35,6 @@
    "summary": "Befragt man KI-Chatbots zu Abstimmungsvorlagen, würden sie idealerweise alle Optionen neutral darstellen. Beim meistgenutzten Dienst passiert das noch nicht zuverlässig. Wer …",
    "date": "2026-11-21",
    "source": "NZZ"
-  },
-  {
-   "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-   "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-   "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
-   "date": "2026-11-20",
-   "source": "BBC"
   },
   {
    "title": "Can German auto manufacturing recover after Mercedes and VW cuts?",
@@ -90,30 +90,30 @@
  ],
  "science": [
   {
-   "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
-   "summary": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to …",
+   "title": "Time may be far stranger than we realize. Scientists have a way to test it",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
+   "summary": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with …",
    "date": "2026-11-21",
    "source": "ScienceDaily"
   },
   {
-   "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
-   "summary": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better …",
+   "title": "A giant star swallowed another star. James Webb reveals the aftermath",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+   "summary": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a …",
    "date": "2026-11-21",
    "source": "ScienceDaily"
+  },
+  {
+   "title": "“Race realism” isn’t realistic-and it isn’t good science",
+   "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+   "summary": "Modern genetics does not support claims of innate racial differences in intelligence.",
+   "date": "2026-11-21",
+   "source": "Ars Technica"
   },
   {
    "title": "Watching as a giant star swallowed its neighbor and exploded",
    "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
    "summary": "A recent brightening turned out to be from a star orbiting inside another.",
-   "date": "2026-11-20",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
-   "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
-   "summary": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
    "date": "2026-11-20",
    "source": "Ars Technica"
   },
