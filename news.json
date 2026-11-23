@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-22T19:48+00:00",
+ "updated": "2026-11-23T01:48+00:00",
  "news": [
+  {
+   "title": "Energy bills will soar - here's how you can ease the pain",
+   "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+   "summary": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
+   "date": "2026-11-23",
+   "source": "BBC"
+  },
   {
    "title": "KI-Aktien im Sinkflug - KI-Börsenkorrektur: Hype vorbei oder gesunde Bereinigung?",
    "link": "https://www.srf.ch/news/wirtschaft/ki-aktien-im-sinkflug-ki-boersenkorrektur-hype-vorbei-oder-gesunde-bereinigung",
@@ -21,13 +28,6 @@
    "summary": "Elektroautos sind gefragter denn je - auch angesichts steigender Kraftstoffpreise. Mit Verzögerung zeigt sich der Boom nun bei Gebrauchtwagenhändlern, allerdings mit …",
    "date": "2026-11-22",
    "source": "tagesschau"
-  },
-  {
-   "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
-   "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
-   "summary": "Chris O'Shea says the number of people unable or unwilling to pay their energy bills will increase when prices jump in the new year.",
-   "date": "2026-11-22",
-   "source": "BBC"
   },
   {
    "title": "Die Grossmächte USA und Russland zögern ein Verbot von Killerrobotern hinaus",
@@ -90,17 +90,17 @@
  ],
  "science": [
   {
-   "title": "Time may be far stranger than we realize. Scientists have a way to test it",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
-   "summary": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with …",
-   "date": "2026-11-21",
+   "title": "Common medications may secretly rewire your gut, with effects lasting for years",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261120071501.htm",
+   "summary": "Medications taken years or even long ago may leave lasting changes in your gut microbiome, according to a study of more than 2,500 people. Researchers discovered that common …",
+   "date": "2026-11-22",
    "source": "ScienceDaily"
   },
   {
-   "title": "A giant star swallowed another star. James Webb reveals the aftermath",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
-   "summary": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a …",
-   "date": "2026-11-21",
+   "title": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm",
+   "summary": "Scientists have discovered a surprising obstacle to interstellar travel: at extreme speeds, the light propelling futuristic solar sails could actually begin slowing them down. …",
+   "date": "2026-11-22",
    "source": "ScienceDaily"
   },
   {
