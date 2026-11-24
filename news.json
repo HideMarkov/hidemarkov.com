@@ -1,26 +1,33 @@
 {
- "updated": "2026-11-24T13:54+00:00",
+ "updated": "2026-11-24T23:56+00:00",
  "news": [
   {
-   "title": "\"GTA VI\": Arbeitskampf hinter dem größten Videospiel der Welt",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/gta-6-104.html",
-   "summary": "Elf Jahre arbeitete Jordan Garland für das \"GTA\"-Studio Rockstar Games, dann wurde er plötzlich entlassen. Als Grund vermutet er seine Mitgliedschaft in einer Gewerkschaft. Das …",
+   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+   "summary": "The verdict follows a months-long trial in New York.",
    "date": "2026-11-24",
-   "source": "tagesschau"
+   "source": "BBC"
   },
   {
-   "title": "UBS: Auch die Wirtschaftskommission des Nationalrates fordert Kapitalunterlegung von 90 Prozent für die Auslandtöchter",
-   "link": "https://www.nzz.ch/wirtschaft/ubs-auch-die-wirtschaftskommission-des-nationalrates-fordert-kapitalunterlegung-von-90-prozent-fuer-die-auslandtoechter-ld.10072716",
-   "summary": "In der Frage der künftigen Eigenkapitalvorschriften für die UBS, der letzten Schweizer Grossbank, folgt auch die zuständige Kommission des Nationalrats dem Vorschlag des …",
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Huang entschuldigt sich bei Mitarbeitenden",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaisons publik wurden, trat er von seinem Posten zurück. Die …",
    "date": "2026-11-24",
    "source": "NZZ"
   },
   {
-   "title": "World Cup drove profits surge, says Marston's",
-   "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
-   "summary": "The company says an \"excellent World Cup\" helped drive strong trading as annual profits rose by 18%.",
+   "title": "Nvidia-Chef Huang ist zurück, doch wie hoch ist der Preis?",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/huang-folgen-nvidia-rueckkehr-100.html",
+   "summary": "Huang ist zurück als Chef von Nvidia. Doch die Krise ist nicht ausgestanden. Der US-Kongress fordert Antworten. Und auch für Trump könnte der Fall Konsequenzen haben. Von A. …",
    "date": "2026-11-24",
-   "source": "BBC"
+   "source": "tagesschau"
+  },
+  {
+   "title": "PODCAST «NZZ AKZENT» - Jensen Huangs zweite Chance: Wird sie zum Problem für Nvidia und die KI-Branche?",
+   "link": "https://www.nzz.ch/podcast/akzent/jensen-huangs-zweite-chance-wird-sie-zum-problem-fuer-nvidia-und-die-ki-branche-ld.10072800",
+   "summary": "Bei vielen ist die Freude über die Rückkehr des Nvidia-Chefs gross. Doch die Affären und Probleme sind damit nicht ausgestanden. Rechtfertigt Huangs Stellung das Risiko?",
+   "date": "2026-11-24",
+   "source": "NZZ"
   },
   {
    "title": "How cautious investors are struggling to avoid the AI bubble",
@@ -35,16 +42,23 @@
    "summary": "Peking baut Solaranlagen im Rekordtempo, setzt aber weiter auf Kohlekraftwerke. Dahinter steckt ein heikler Balanceakt.",
    "date": "2026-11-24",
    "source": "SRF"
-  },
-  {
-   "title": "Die Grossmächte USA und Russland zögern ein Verbot von Killerrobotern hinaus",
-   "link": "https://www.nzz.ch/technologie/die-grossmaechte-usa-und-russland-zoegern-ein-verbot-von-killerrobotern-hinaus-ld.10070079",
-   "summary": "Eine fünftägige Konferenz der Uno-Waffenkonvention endet in Genf mit einem vagen Kompromiss. Sind die Vereinten Nationen erneut gescheitert? Und wie geht es jetzt weiter?",
-   "date": "2026-11-22",
-   "source": "NZZ"
   }
  ],
  "cs": [
+  {
+   "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+   "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+   "summary": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+   "date": "2026-11-24",
+   "source": "MIT News"
+  },
+  {
+   "title": "Raising the stakes for enterprise networks with AI modernization",
+   "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+   "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. …",
+   "date": "2026-11-24",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
    "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
@@ -72,36 +86,36 @@
    "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
    "date": "2026-11-20",
    "source": "Ars Technica"
-  },
-  {
-   "title": "The most misunderstood graph in AI just got a major update",
-   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory-but it also indicates that models …",
-   "date": "2026-11-20",
-   "source": "MIT Technology Review"
-  },
-  {
-   "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
-   "link": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
-   "summary": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame. The post Network …",
-   "date": "2026-11-20",
-   "source": "Quanta Magazine"
   }
  ],
  "science": [
   {
-   "title": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm",
-   "summary": "A 2,200-year-old Roman shipwreck has revealed sophisticated waterproofing techniques involving pine tar and beeswax. Microscopic pollen grains trapped in the ancient coatings are …",
+   "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+   "summary": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like …",
    "date": "2026-11-24",
    "source": "ScienceDaily"
   },
   {
-   "title": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm",
-   "summary": "Scientists studying ancient rocks from the Moon’s far side have uncovered surprising evidence that challenges decades of thinking about the Solar System’s violent past. Instead of …",
+   "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+   "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+   "summary": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
+   "date": "2026-11-24",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "A black hole the size of an atom could destroy an entire star",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
+   "summary": "MIT scientists have discovered that tiny black holes left over from the Big Bang could slowly devour stars from within, eventually triggering spectacular explosions visible across …",
    "date": "2026-11-24",
    "source": "ScienceDaily"
+  },
+  {
+   "title": "How brewers can protect beers from smoke-tainted hops",
+   "link": "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops/",
+   "summary": "Study: Brewers can still use up to 50% of smoke-tainted hops without affecting beer taste and aroma.",
+   "date": "2026-11-24",
+   "source": "Ars Technica"
   },
   {
    "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
@@ -109,20 +123,6 @@
    "summary": "Genetic information is sturdy, but its physical structure is sensitive. Natural tools for repairing a cell’s thousands of daily injuries are fundamental to gene-editing …",
    "date": "2026-11-23",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
-   "link": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
-   "summary": "COP31 ended without a consensus deal for the first time since 2009.",
-   "date": "2026-11-23",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "“Race realism” isn’t realistic-and it isn’t good science",
-   "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
-   "summary": "Modern genetics does not support claims of innate racial differences in intelligence.",
-   "date": "2026-11-21",
-   "source": "Ars Technica"
   },
   {
    "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
