@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-24T02:18+00:00",
+ "updated": "2026-11-24T13:54+00:00",
  "news": [
   {
-   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Trump verteidigt die Rückkehr von Huang +++ Demokraten wollen Wiederernennung von Huang untersuchen +++ Megaspeed steht in den USA neu auf schwarzer Liste",
-   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
-   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaisons publik wurden, trat er von seinem Posten zurück. Die …",
+   "title": "\"GTA VI\": Arbeitskampf hinter dem größten Videospiel der Welt",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/gta-6-104.html",
+   "summary": "Elf Jahre arbeitete Jordan Garland für das \"GTA\"-Studio Rockstar Games, dann wurde er plötzlich entlassen. Als Grund vermutet er seine Mitgliedschaft in einer Gewerkschaft. Das …",
+   "date": "2026-11-24",
+   "source": "tagesschau"
+  },
+  {
+   "title": "UBS: Auch die Wirtschaftskommission des Nationalrates fordert Kapitalunterlegung von 90 Prozent für die Auslandtöchter",
+   "link": "https://www.nzz.ch/wirtschaft/ubs-auch-die-wirtschaftskommission-des-nationalrates-fordert-kapitalunterlegung-von-90-prozent-fuer-die-auslandtoechter-ld.10072716",
+   "summary": "In der Frage der künftigen Eigenkapitalvorschriften für die UBS, der letzten Schweizer Grossbank, folgt auch die zuständige Kommission des Nationalrats dem Vorschlag des …",
    "date": "2026-11-24",
    "source": "NZZ"
   },
   {
-   "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
-   "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-   "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
+   "title": "World Cup drove profits surge, says Marston's",
+   "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
+   "summary": "The company says an \"excellent World Cup\" helped drive strong trading as annual profits rose by 18%.",
    "date": "2026-11-24",
    "source": "BBC"
   },
   {
-   "title": "Mehr Stromspar-Checks für Haushalte mit wenig Geld geplant",
-   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/stromspar-checks-kostenlose-energieberatung-bundesumweltministerium-100.html",
-   "summary": "Die Finanzierung des Stromspar-Checks ist für weitere drei Jahre gesichert. Damit können sich Haushalte mit geringem Einkommen kostenlos beraten lassen und Zuschüsse bekommen. Die …",
-   "date": "2026-11-23",
-   "source": "tagesschau"
-  },
-  {
-   "title": "Trotz Affären - Nvidia holt Huang an die Spitze zurück - das müssen Sie wissen",
-   "link": "https://www.srf.ch/news/wirtschaft/trotz-affaeren-nvidia-holt-huang-an-die-spitze-zurueck-das-muessen-sie-wissen",
-   "summary": "Nach einer Untersuchung kehrt Jensen Huang als CEO und Verwaltungsrat zu Nvidia zurück.",
-   "date": "2026-11-23",
-   "source": "SRF"
-  },
-  {
-   "title": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
-   "link": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "Nvidia's board voted unanimously to bring back the disgraced CEO, who resigned this month amid news of his affairs. He's suspected of having had a relationship with a Chinese …",
-   "date": "2026-11-23",
+   "title": "How cautious investors are struggling to avoid the AI bubble",
+   "link": "https://www.dw.com/en/how-cautious-investors-are-struggling-to-avoid-the-ai-bubble/a-80016412?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "From Nvidia to Coreweave, AI and tech stocks have swung sharply in recent months. Some investors still see plenty of room to run, while others are trying to diversify - and …",
+   "date": "2026-11-24",
    "source": "DW"
+  },
+  {
+   "title": "Energiewende in China - Neben gigantischen Solarparks rauchen Kohlemeiler",
+   "link": "https://www.srf.ch/news/international/energiewende-in-china-neben-gigantischen-solarparks-rauchen-kohlemeiler",
+   "summary": "Peking baut Solaranlagen im Rekordtempo, setzt aber weiter auf Kohlekraftwerke. Dahinter steckt ein heikler Balanceakt.",
+   "date": "2026-11-24",
+   "source": "SRF"
   },
   {
    "title": "Die Grossmächte USA und Russland zögern ein Verbot von Killerrobotern hinaus",
@@ -45,6 +45,13 @@
   }
  ],
  "cs": [
+  {
+   "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+   "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+   "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+   "date": "2026-11-24",
+   "source": "Ars Technica"
+  },
   {
    "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
    "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
@@ -79,16 +86,23 @@
    "summary": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame. The post Network …",
    "date": "2026-11-20",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "I Don’t Trust Visual Recordings Anymore. But One Day I Will Again",
-   "link": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
-   "summary": "In March of this year, a flurry of emails and text messages from a half dozen reporters around the world disrupted my quiet Saturday morning. An Iranian news agency had aired a …",
-   "date": "2026-11-20",
-   "source": "IEEE Spectrum"
   }
  ],
  "science": [
+  {
+   "title": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm",
+   "summary": "A 2,200-year-old Roman shipwreck has revealed sophisticated waterproofing techniques involving pine tar and beeswax. Microscopic pollen grains trapped in the ancient coatings are …",
+   "date": "2026-11-24",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm",
+   "summary": "Scientists studying ancient rocks from the Moon’s far side have uncovered surprising evidence that challenges decades of thinking about the Solar System’s violent past. Instead of …",
+   "date": "2026-11-24",
+   "source": "ScienceDaily"
+  },
   {
    "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
    "link": "https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123/",
@@ -102,20 +116,6 @@
    "summary": "COP31 ended without a consensus deal for the first time since 2009.",
    "date": "2026-11-23",
    "source": "Ars Technica"
-  },
-  {
-   "title": "A galactic shock wave could rewrite the map of the Milky Way",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
-   "summary": "A surprising discovery suggests the Milky Way may be making stars in places where most galaxies cannot. Scientists found evidence that a massive rotating structure near the …",
-   "date": "2026-11-23",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Two monster black holes from the dawn of time defy explanation",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
-   "summary": "Astronomers have discovered the oldest known compact pair of quasars, powered by two enormous black holes that existed just 900 million years after the Big Bang. Weighing an …",
-   "date": "2026-11-23",
-   "source": "ScienceDaily"
   },
   {
    "title": "“Race realism” isn’t realistic-and it isn’t good science",
