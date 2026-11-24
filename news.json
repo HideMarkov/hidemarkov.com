@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-23T13:06+00:00",
+ "updated": "2026-11-24T02:18+00:00",
  "news": [
   {
-   "title": "Der Machtvorsprung der USA in Asien schrumpft - das ist zu einem grossen Teil selbstverschuldet",
-   "link": "https://www.nzz.ch/international/der-machtvorsprung-der-usa-in-asien-schrumpft-das-ist-zu-einem-grossen-teil-selbstverschuldet-ld.10072032",
-   "summary": "Ein australisches Forschungsinstitut misst jährlich, welche Länder in Asien wie viel Macht haben. Noch nie war China so nah an den USA dran.",
-   "date": "2026-11-23",
+   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Trump verteidigt die Rückkehr von Huang +++ Demokraten wollen Wiederernennung von Huang untersuchen +++ Megaspeed steht in den USA neu auf schwarzer Liste",
+   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
+   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaisons publik wurden, trat er von seinem Posten zurück. Die …",
+   "date": "2026-11-24",
    "source": "NZZ"
   },
   {
-   "title": "Flights and train services cancelled in Belgium due to strike",
-   "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
-   "summary": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
-   "date": "2026-11-23",
+   "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+   "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+   "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
+   "date": "2026-11-24",
    "source": "BBC"
   },
   {
-   "title": "Marktbericht: Dem DAX gelingt eine Erholung - vorerst",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/dax-erholung-wacklig-nach-kursrutsch-100.html",
-   "summary": "Nach dem Kursrutsch beim DAX von 2.000 Punkten in gut einer Woche setzt eine Erholung ein. Doch sie steht auf wackligen Beinen. Viele Negativ-Faktoren begleiten Investoren weiter. …",
+   "title": "Mehr Stromspar-Checks für Haushalte mit wenig Geld geplant",
+   "link": "https://www.tagesschau.de/wirtschaft/verbraucher/stromspar-checks-kostenlose-energieberatung-bundesumweltministerium-100.html",
+   "summary": "Die Finanzierung des Stromspar-Checks ist für weitere drei Jahre gesichert. Damit können sich Haushalte mit geringem Einkommen kostenlos beraten lassen und Zuschüsse bekommen. Die …",
    "date": "2026-11-23",
    "source": "tagesschau"
   },
   {
-   "title": "'I've Lost Her Forever' - Why German voice actors are refusing to sign Netflix's AI contract",
-   "link": "https://www.dw.com/en/i-ve-lost-her-forever-why-german-voice-actors-are-refusing-to-sign-netflix-s-ai-contract/a-80004381?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "For decades, Germans have known Hollywood's biggest stars through the same familiar voices. Now an AI clause in Netflix contracts is splitting the industry over whether it …",
-   "date": "2026-11-23",
-   "source": "DW"
-  },
-  {
-   "title": "Landesweiter Streiktag - Streik in Belgien: Alle Flüge von Zürich nach Brüssel gestrichen",
-   "link": "https://www.srf.ch/news/international/landesweiter-streiktag-streik-in-belgien-alle-fluege-von-zuerich-nach-bruessel-gestrichen",
-   "summary": "Ausser im Flugverkehr werden erhebliche Einschränkungen im öffentlichen Nahverkehr erwartet.",
+   "title": "Trotz Affären - Nvidia holt Huang an die Spitze zurück - das müssen Sie wissen",
+   "link": "https://www.srf.ch/news/wirtschaft/trotz-affaeren-nvidia-holt-huang-an-die-spitze-zurueck-das-muessen-sie-wissen",
+   "summary": "Nach einer Untersuchung kehrt Jensen Huang als CEO und Verwaltungsrat zu Nvidia zurück.",
    "date": "2026-11-23",
    "source": "SRF"
+  },
+  {
+   "title": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
+   "link": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "Nvidia's board voted unanimously to bring back the disgraced CEO, who resigned this month amid news of his affairs. He's suspected of having had a relationship with a Chinese …",
+   "date": "2026-11-23",
+   "source": "DW"
   },
   {
    "title": "Die Grossmächte USA und Russland zögern ein Verbot von Killerrobotern hinaus",
@@ -45,6 +45,13 @@
   }
  ],
  "cs": [
+  {
+   "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+   "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic …",
+   "date": "2026-11-23",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
    "link": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
@@ -79,16 +86,23 @@
    "summary": "In March of this year, a flurry of emails and text messages from a half dozen reporters around the world disrupted my quiet Saturday morning. An Iranian news agency had aired a …",
    "date": "2026-11-20",
    "source": "IEEE Spectrum"
-  },
-  {
-   "title": "Systems and Software Outages Explained: Who or What Is Responsible?",
-   "link": "https://spectrum.ieee.org/it-outage",
-   "summary": "Last Thursday, Microsoft 365 Exchange Online and related apps like Outlook and Teams went down in at least 74 countries. The next day the U.S. Federal Aviation Administration …",
-   "date": "2026-11-19",
-   "source": "IEEE Spectrum"
   }
  ],
  "science": [
+  {
+   "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
+   "link": "https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123/",
+   "summary": "Genetic information is sturdy, but its physical structure is sensitive. Natural tools for repairing a cell’s thousands of daily injuries are fundamental to gene-editing …",
+   "date": "2026-11-23",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+   "link": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+   "summary": "COP31 ended without a consensus deal for the first time since 2009.",
+   "date": "2026-11-23",
+   "source": "Ars Technica"
+  },
   {
    "title": "A galactic shock wave could rewrite the map of the Milky Way",
    "link": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
@@ -111,24 +125,10 @@
    "source": "Ars Technica"
   },
   {
-   "title": "Watching as a giant star swallowed its neighbor and exploded",
-   "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
-   "summary": "A recent brightening turned out to be from a star orbiting inside another.",
-   "date": "2026-11-20",
-   "source": "Ars Technica"
-  },
-  {
    "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
    "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
    "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians. The post How M.C. …",
    "date": "2026-11-18",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
-   "link": "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
-   "summary": "An era-defining galaxy survey has released its final results. They don’t quite fit the leading theory of cosmology. The post What Makes Up the Cosmos? A 20-Year Survey Hints That …",
-   "date": "2026-11-16",
    "source": "Quanta Magazine"
   }
  ]
