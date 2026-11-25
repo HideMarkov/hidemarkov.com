@@ -1,33 +1,40 @@
 {
- "updated": "2026-11-25T08:46+00:00",
+ "updated": "2026-11-25T19:23+00:00",
  "news": [
   {
-   "title": "Energy bills to rise by 26% from January",
-   "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
-   "summary": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
+   "title": "Gegenvorschlag zu Initiative - Wie weit will der Bundesrat bei der Konzernverantwortung gehen?",
+   "link": "https://www.srf.ch/news/wirtschaft/gegenvorschlag-zu-initiative-wie-weit-will-der-bundesrat-bei-der-konzernverantwortung-gehen",
+   "summary": "Die Landesregierung orientiert sich eng an der EU und kommt bei der Haftung und Aufsicht teils den Unternehmen entgegen.",
+   "date": "2026-11-25",
+   "source": "SRF"
+  },
+  {
+   "title": "Poundland collapses putting 11,000 jobs at risk",
+   "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
+   "summary": "The discount chain has fallen into administration after its owners failed to find a buyer.",
    "date": "2026-11-25",
    "source": "BBC"
   },
   {
-   "title": "Russland und die Ukraine dehnen ihren Krieg aus: von der Ostsee bis nach Nordafrika",
-   "link": "https://www.nzz.ch/pro/russland-und-die-ukraine-dehnen-ihren-krieg-aus-von-der-ostsee-bis-nach-nordafrika-ld.10072071",
-   "summary": "Die Nato und auch Russland haben kein Interesse an einer direkten Konfrontation. Dennoch steigt das Risiko einer unkontrollierten Eskalation. Es gibt auch ein deutlich besseres …",
+   "title": "MELDUNGEN WIRTSCHAFT - Erneute Kursverluste an den US-Börsen",
+   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
+   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
    "date": "2026-11-25",
    "source": "NZZ"
   },
   {
-   "title": "US-Gericht spricht Huawei wegen Betrugs schuldig",
-   "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/huawei-geldwaesche-us-gericht-urteil-100.html",
-   "summary": "Der chinesische Technologiekonzern Huawei ist in den USA in einem jahrelangen Strafverfahren schuldig gesprochen worden. Eine Jury in Brooklyn befand das Unternehmen in zehn von …",
+   "title": "TK-Gesundheitsreport Weiblich, mittelalt, leistungsstark - öfter krank?",
+   "link": "https://www.tagesschau.de/wirtschaft/gesundheit-frauen-wechseljahre-arbeitsplatz-100.html",
+   "summary": "Im neuen Gesundheitsreport blickt die Techniker Krankenkasse auf die Situation von Frauen zwischen 35 und 55. Sie sind eine wichtige Gruppe von Arbeitnehmerinnen - und häufiger …",
    "date": "2026-11-25",
    "source": "tagesschau"
   },
   {
-   "title": "Rücktritt bei Syna - Machtkampf und Eklat bei Gewerkschaft Syna - schon wieder",
-   "link": "https://www.srf.ch/news/wirtschaft/ruecktritt-bei-syna-machtkampf-und-eklat-bei-gewerkschaft-syna-schon-wieder",
-   "summary": "Erneut ist Feuer unterm Dach der zweitgrössten Schweizer Gewerkschaft: Präsidentin und Geschäftsleiterin sind weg.",
+   "title": "German firms eye Africa as global trade shocks hit traditional markets",
+   "link": "https://www.dw.com/en/german-firms-eye-africa-as-global-trade-shocks-hit-traditional-markets/a-80047671?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "German businesses are optimistic about Africa, but Berlin's cautious approach to risk is holding them back from cashing in on the opportunities that their competitors from …",
    "date": "2026-11-25",
-   "source": "SRF"
+   "source": "DW"
   },
   {
    "title": "PODCAST «NZZ GEOPOLITIK» - Von Nvidia bis zur ETH: Wie China uns seit Jahrzehnten systematisch ausspioniert",
@@ -35,16 +42,23 @@
    "summary": "Die Affäre um den Nvidia-Chef Jensen Huang zeige eindrücklich, mit welcher Konsequenz China zur technologischen Weltmacht aufsteigen wolle, sagt die China-Expertin Ariane Knüsel …",
    "date": "2026-11-25",
    "source": "NZZ"
-  },
-  {
-   "title": "How cautious investors are struggling to avoid the AI bubble",
-   "link": "https://www.dw.com/en/how-cautious-investors-are-struggling-to-avoid-the-ai-bubble/a-80016412?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "From Nvidia to Coreweave, AI and tech stocks have swung sharply in recent months. Some investors still see plenty of room to run, while others are trying to diversify - and …",
-   "date": "2026-11-24",
-   "source": "DW"
   }
  ],
  "cs": [
+  {
+   "title": "Backblaze explains why it's sharing customer information with advertisers",
+   "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+   "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
+   "date": "2026-11-25",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "AI is straining America’s open records systems",
+   "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+   "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor …",
+   "date": "2026-11-25",
+   "source": "MIT Technology Review"
+  },
   {
    "title": "Agentic system personalizes physical controls to help users “DJ their art”",
    "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
@@ -72,28 +86,35 @@
    "summary": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current …",
    "date": "2026-11-20",
    "source": "MIT News"
-  },
-  {
-   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
-   "date": "2026-11-20",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "The most misunderstood graph in AI just got a major update",
-   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory-but it also indicates that models …",
-   "date": "2026-11-20",
-   "source": "MIT Technology Review"
   }
  ],
  "science": [
   {
-   "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
-   "summary": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like …",
-   "date": "2026-11-24",
+   "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
+   "link": "https://www.quantamagazine.org/novel-experiments-expand-the-hunt-for-ultralight-dark-matter-20261125/",
+   "summary": "Scientists are inventing new ways to search for the missing mass of the universe. The post Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter first appeared on Quanta …",
+   "date": "2026-11-25",
+   "source": "Quanta Magazine"
+  },
+  {
+   "title": "AI may soon change what it means to be a theoretical physicist",
+   "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+   "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+   "date": "2026-11-25",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "A space telescope hunting for dark matter just discovered something unexpected",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm",
+   "summary": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy …",
+   "date": "2026-11-25",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm",
+   "summary": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, …",
+   "date": "2026-11-25",
    "source": "ScienceDaily"
   },
   {
@@ -104,31 +125,10 @@
    "source": "Ars Technica"
   },
   {
-   "title": "A black hole the size of an atom could destroy an entire star",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
-   "summary": "MIT scientists have discovered that tiny black holes left over from the Big Bang could slowly devour stars from within, eventually triggering spectacular explosions visible across …",
-   "date": "2026-11-24",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "How brewers can protect beers from smoke-tainted hops",
-   "link": "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops/",
-   "summary": "Study: Brewers can still use up to 50% of smoke-tainted hops without affecting beer taste and aroma.",
-   "date": "2026-11-24",
-   "source": "Ars Technica"
-  },
-  {
    "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
    "link": "https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123/",
    "summary": "Genetic information is sturdy, but its physical structure is sensitive. Natural tools for repairing a cell’s thousands of daily injuries are fundamental to gene-editing …",
    "date": "2026-11-23",
-   "source": "Quanta Magazine"
-  },
-  {
-   "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
-   "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
-   "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians. The post How M.C. …",
-   "date": "2026-11-18",
    "source": "Quanta Magazine"
   }
  ]
