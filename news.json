@@ -1,32 +1,39 @@
 {
- "updated": "2026-11-24T23:56+00:00",
+ "updated": "2026-11-25T08:46+00:00",
  "news": [
   {
-   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-   "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-   "summary": "The verdict follows a months-long trial in New York.",
-   "date": "2026-11-24",
+   "title": "Energy bills to rise by 26% from January",
+   "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+   "summary": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
+   "date": "2026-11-25",
    "source": "BBC"
   },
   {
-   "title": "DIE NEUESTEN ENTWICKLUNGEN - Spionageaffäre bei Nvidia: Huang entschuldigt sich bei Mitarbeitenden",
-   "link": "https://www.nzz.ch/wirtschaft/spionageaffaere-bei-nvidia-der-kurs-des-chip-unternehmens-bricht-ein-ld.10058640",
-   "summary": "Der Nvidia-Chef Jensen Huang hatte mutmasslich eine Affäre mit einer chinesischen Spionin. Als Berichte über weitere Liaisons publik wurden, trat er von seinem Posten zurück. Die …",
-   "date": "2026-11-24",
+   "title": "Russland und die Ukraine dehnen ihren Krieg aus: von der Ostsee bis nach Nordafrika",
+   "link": "https://www.nzz.ch/pro/russland-und-die-ukraine-dehnen-ihren-krieg-aus-von-der-ostsee-bis-nach-nordafrika-ld.10072071",
+   "summary": "Die Nato und auch Russland haben kein Interesse an einer direkten Konfrontation. Dennoch steigt das Risiko einer unkontrollierten Eskalation. Es gibt auch ein deutlich besseres …",
+   "date": "2026-11-25",
    "source": "NZZ"
   },
   {
-   "title": "Nvidia-Chef Huang ist zurück, doch wie hoch ist der Preis?",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/huang-folgen-nvidia-rueckkehr-100.html",
-   "summary": "Huang ist zurück als Chef von Nvidia. Doch die Krise ist nicht ausgestanden. Der US-Kongress fordert Antworten. Und auch für Trump könnte der Fall Konsequenzen haben. Von A. …",
-   "date": "2026-11-24",
+   "title": "US-Gericht spricht Huawei wegen Betrugs schuldig",
+   "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/huawei-geldwaesche-us-gericht-urteil-100.html",
+   "summary": "Der chinesische Technologiekonzern Huawei ist in den USA in einem jahrelangen Strafverfahren schuldig gesprochen worden. Eine Jury in Brooklyn befand das Unternehmen in zehn von …",
+   "date": "2026-11-25",
    "source": "tagesschau"
   },
   {
-   "title": "PODCAST «NZZ AKZENT» - Jensen Huangs zweite Chance: Wird sie zum Problem für Nvidia und die KI-Branche?",
-   "link": "https://www.nzz.ch/podcast/akzent/jensen-huangs-zweite-chance-wird-sie-zum-problem-fuer-nvidia-und-die-ki-branche-ld.10072800",
-   "summary": "Bei vielen ist die Freude über die Rückkehr des Nvidia-Chefs gross. Doch die Affären und Probleme sind damit nicht ausgestanden. Rechtfertigt Huangs Stellung das Risiko?",
-   "date": "2026-11-24",
+   "title": "Rücktritt bei Syna - Machtkampf und Eklat bei Gewerkschaft Syna - schon wieder",
+   "link": "https://www.srf.ch/news/wirtschaft/ruecktritt-bei-syna-machtkampf-und-eklat-bei-gewerkschaft-syna-schon-wieder",
+   "summary": "Erneut ist Feuer unterm Dach der zweitgrössten Schweizer Gewerkschaft: Präsidentin und Geschäftsleiterin sind weg.",
+   "date": "2026-11-25",
+   "source": "SRF"
+  },
+  {
+   "title": "PODCAST «NZZ GEOPOLITIK» - Von Nvidia bis zur ETH: Wie China uns seit Jahrzehnten systematisch ausspioniert",
+   "link": "https://www.nzz.ch/podcast/von-nvidia-bis-zur-eth-wie-china-uns-seit-jahrzehnten-systematisch-ausspioniert-ld.10073560",
+   "summary": "Die Affäre um den Nvidia-Chef Jensen Huang zeige eindrücklich, mit welcher Konsequenz China zur technologischen Weltmacht aufsteigen wolle, sagt die China-Expertin Ariane Knüsel …",
+   "date": "2026-11-25",
    "source": "NZZ"
   },
   {
@@ -35,13 +42,6 @@
    "summary": "From Nvidia to Coreweave, AI and tech stocks have swung sharply in recent months. Some investors still see plenty of room to run, while others are trying to diversify - and …",
    "date": "2026-11-24",
    "source": "DW"
-  },
-  {
-   "title": "Energiewende in China - Neben gigantischen Solarparks rauchen Kohlemeiler",
-   "link": "https://www.srf.ch/news/international/energiewende-in-china-neben-gigantischen-solarparks-rauchen-kohlemeiler",
-   "summary": "Peking baut Solaranlagen im Rekordtempo, setzt aber weiter auf Kohlekraftwerke. Dahinter steckt ein heikler Balanceakt.",
-   "date": "2026-11-24",
-   "source": "SRF"
   }
  ],
  "cs": [
@@ -51,13 +51,6 @@
    "summary": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
    "date": "2026-11-24",
    "source": "MIT News"
-  },
-  {
-   "title": "Raising the stakes for enterprise networks with AI modernization",
-   "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-   "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. …",
-   "date": "2026-11-24",
-   "source": "MIT Technology Review"
   },
   {
    "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
@@ -86,6 +79,13 @@
    "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
    "date": "2026-11-20",
    "source": "Ars Technica"
+  },
+  {
+   "title": "The most misunderstood graph in AI just got a major update",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory-but it also indicates that models …",
+   "date": "2026-11-20",
+   "source": "MIT Technology Review"
   }
  ],
  "science": [
