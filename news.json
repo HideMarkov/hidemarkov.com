@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-25T19:23+00:00",
+ "updated": "2026-11-26T03:38+00:00",
  "news": [
+  {
+   "title": "US announces new tariffs on host of countries including China",
+   "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+   "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+   "date": "2026-11-26",
+   "source": "BBC"
+  },
+  {
+   "title": "SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All schicken",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html",
+   "summary": "SpaceX plant im All ein Netz aus Satelliten, die als Rechenzentren dienen sollen. Die US-Behörden haben das Vorhaben nun erlaubt. Ziel ist es, die enorme Nachfrage nach …",
+   "date": "2026-11-26",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Die US-Börse setzt ihre Achterbahnfahrt fort - und weder Donald Trump noch Jensen Huang können etwas daran ändern",
+   "link": "https://www.nzz.ch/wirtschaft/die-us-boerse-setzt-ihre-achterbahnfahrt-fort-und-weder-donald-trump-noch-jensen-huang-koennen-etwas-daran-aendern-ld.10074837",
+   "summary": "Die Wall Street wird auch am Mittwoch von grosser Unsicherheit geprägt, ob gerade die KI-Blase platzt. Die Reaktion auf die Wiedereinsetzung von Nvidia-Chef Huang verpufft. Zum …",
+   "date": "2026-11-25",
+   "source": "NZZ"
+  },
   {
    "title": "Gegenvorschlag zu Initiative - Wie weit will der Bundesrat bei der Konzernverantwortung gehen?",
    "link": "https://www.srf.ch/news/wirtschaft/gegenvorschlag-zu-initiative-wie-weit-will-der-bundesrat-bei-der-konzernverantwortung-gehen",
    "summary": "Die Landesregierung orientiert sich eng an der EU und kommt bei der Haftung und Aufsicht teils den Unternehmen entgegen.",
    "date": "2026-11-25",
    "source": "SRF"
-  },
-  {
-   "title": "Poundland collapses putting 11,000 jobs at risk",
-   "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
-   "summary": "The discount chain has fallen into administration after its owners failed to find a buyer.",
-   "date": "2026-11-25",
-   "source": "BBC"
-  },
-  {
-   "title": "MELDUNGEN WIRTSCHAFT - Erneute Kursverluste an den US-Börsen",
-   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10053841",
-   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
-   "date": "2026-11-25",
-   "source": "NZZ"
-  },
-  {
-   "title": "TK-Gesundheitsreport Weiblich, mittelalt, leistungsstark - öfter krank?",
-   "link": "https://www.tagesschau.de/wirtschaft/gesundheit-frauen-wechseljahre-arbeitsplatz-100.html",
-   "summary": "Im neuen Gesundheitsreport blickt die Techniker Krankenkasse auf die Situation von Frauen zwischen 35 und 55. Sie sind eine wichtige Gruppe von Arbeitnehmerinnen - und häufiger …",
-   "date": "2026-11-25",
-   "source": "tagesschau"
   },
   {
    "title": "German firms eye Africa as global trade shocks hit traditional markets",
@@ -90,6 +90,27 @@
  ],
  "science": [
   {
+   "title": "Scientists discover mysterious lakes more than a mile beneath the Red Sea",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm",
+   "summary": "More than a mile beneath the surface of the Red Sea, scientists have discovered rare underwater lakes that could reveal secrets about Earth's ancient oceans and the possibility of …",
+   "date": "2026-11-26",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Astronomers may have discovered a black hole born before the first stars",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+   "summary": "A mysterious object named Phoebe, detected when it briefly magnified a distant star, could be a primordial black hole formed just after the Big Bang. With an estimated mass only …",
+   "date": "2026-11-26",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+   "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+   "summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
+   "date": "2026-11-25",
+   "source": "Ars Technica"
+  },
+  {
    "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
    "link": "https://www.quantamagazine.org/novel-experiments-expand-the-hunt-for-ultralight-dark-matter-20261125/",
    "summary": "Scientists are inventing new ways to search for the missing mass of the universe. The post Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter first appeared on Quanta …",
@@ -101,27 +122,6 @@
    "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
    "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
    "date": "2026-11-25",
-   "source": "Ars Technica"
-  },
-  {
-   "title": "A space telescope hunting for dark matter just discovered something unexpected",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm",
-   "summary": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy …",
-   "date": "2026-11-25",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm",
-   "summary": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, …",
-   "date": "2026-11-25",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
-   "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
-   "summary": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
-   "date": "2026-11-24",
    "source": "Ars Technica"
   },
   {
