@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-26T03:38+00:00",
+ "updated": "2026-11-26T17:02+00:00",
  "news": [
   {
-   "title": "US announces new tariffs on host of countries including China",
-   "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-   "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-   "date": "2026-11-26",
-   "source": "BBC"
-  },
-  {
-   "title": "SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All schicken",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html",
-   "summary": "SpaceX plant im All ein Netz aus Satelliten, die als Rechenzentren dienen sollen. Die US-Behörden haben das Vorhaben nun erlaubt. Ziel ist es, die enorme Nachfrage nach …",
+   "title": "Spanier Hernández de Cos soll Nachfolger von EZB-Chefin Lagarde werden",
+   "link": "https://www.tagesschau.de/wirtschaft/ezb-chef-de-cos-100.html",
+   "summary": "EZB-Chefin Lagarde hatte angekündigt, ihren Posten im Februar aufzugeben. Nun ist die Nachfolge geklärt: Die EU-Spitzen einigten sich auf den Spanier Hernández de Cos. Ein …",
    "date": "2026-11-26",
    "source": "tagesschau"
   },
   {
-   "title": "Die US-Börse setzt ihre Achterbahnfahrt fort - und weder Donald Trump noch Jensen Huang können etwas daran ändern",
-   "link": "https://www.nzz.ch/wirtschaft/die-us-boerse-setzt-ihre-achterbahnfahrt-fort-und-weder-donald-trump-noch-jensen-huang-koennen-etwas-daran-aendern-ld.10074837",
-   "summary": "Die Wall Street wird auch am Mittwoch von grosser Unsicherheit geprägt, ob gerade die KI-Blase platzt. Die Reaktion auf die Wiedereinsetzung von Nvidia-Chef Huang verpufft. Zum …",
-   "date": "2026-11-25",
+   "title": "Ein Spanier wird neuer Chef der EZB. Er muss den Weg zwischen Inflation und Schuldenkrise finden.",
+   "link": "https://www.nzz.ch/wirtschaft/pablo-hernandez-de-cos-soll-neuer-ezb-praesident-werden-ld.10075651",
+   "summary": "Pablo Hernández de Cos soll im Februar die Nachfolge von Christine Lagarde übernehmen. Der angesehene Ökonom ist ein ausgewiesener Experte für Staatsfinanzen - und Anhänger der …",
+   "date": "2026-11-26",
    "source": "NZZ"
   },
   {
-   "title": "Gegenvorschlag zu Initiative - Wie weit will der Bundesrat bei der Konzernverantwortung gehen?",
-   "link": "https://www.srf.ch/news/wirtschaft/gegenvorschlag-zu-initiative-wie-weit-will-der-bundesrat-bei-der-konzernverantwortung-gehen",
-   "summary": "Die Landesregierung orientiert sich eng an der EU und kommt bei der Haftung und Aufsicht teils den Unternehmen entgegen.",
-   "date": "2026-11-25",
+   "title": "EU-Gipfel - Berichte: Spanier Hernández de Cos soll EZB-Chef werden",
+   "link": "https://www.srf.ch/news/wirtschaft/eu-gipfel-berichte-spanier-hernandez-de-cos-soll-ezb-chef-werden",
+   "summary": "Die Niederlande haben laut «Financial Times» ihren Kandidaten zurückzogen. Die formelle Ernennung steht noch aus.",
+   "date": "2026-11-26",
    "source": "SRF"
   },
   {
-   "title": "German firms eye Africa as global trade shocks hit traditional markets",
-   "link": "https://www.dw.com/en/german-firms-eye-africa-as-global-trade-shocks-hit-traditional-markets/a-80047671?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "German businesses are optimistic about Africa, but Berlin's cautious approach to risk is holding them back from cashing in on the opportunities that their competitors from …",
-   "date": "2026-11-25",
+   "title": "When will Poundland shops close? Five key questions answered",
+   "link": "https://www.bbc.co.uk/news/articles/c6z9d3pv93glo?at_medium=RSS&at_campaign=rss",
+   "summary": "Why is Poundland closing down, and what will happen to staff and suppliers?",
+   "date": "2026-11-26",
+   "source": "BBC"
+  },
+  {
+   "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
+   "link": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "The agreement offers new export and investment opportunities for Jakarta and Brussels. But can Indonesia turn Europe's growing interest in its markets and critical minerals into …",
+   "date": "2026-11-26",
    "source": "DW"
   },
   {
-   "title": "PODCAST «NZZ GEOPOLITIK» - Von Nvidia bis zur ETH: Wie China uns seit Jahrzehnten systematisch ausspioniert",
-   "link": "https://www.nzz.ch/podcast/von-nvidia-bis-zur-eth-wie-china-uns-seit-jahrzehnten-systematisch-ausspioniert-ld.10073560",
-   "summary": "Die Affäre um den Nvidia-Chef Jensen Huang zeige eindrücklich, mit welcher Konsequenz China zur technologischen Weltmacht aufsteigen wolle, sagt die China-Expertin Ariane Knüsel …",
-   "date": "2026-11-25",
+   "title": "Europas Infrastrukturen sind schlecht vor Cyberattacken geschützt. Wenn Russland oder Iran angreifen, kann das zu gefährlichen Ausfällen führen",
+   "link": "https://www.nzz.ch/pro/europas-infrastrukturen-sind-schlecht-vor-cyberattacken-geschuetzt-wenn-russland-oder-iran-angreifen-kann-das-zu-gefaehrlichen-ausfaellen-fuehren-ld.10068484",
+   "summary": "Der Unterbruch bei Microsoft oder die Sabotageaktionen gegen Kühlregale zeigen, welche gravierenden Folgen technische Störungen im Alltag haben können. Das können Angreifer wie …",
+   "date": "2026-11-26",
    "source": "NZZ"
   }
  ],
@@ -90,16 +90,23 @@
  ],
  "science": [
   {
-   "title": "Scientists discover mysterious lakes more than a mile beneath the Red Sea",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm",
-   "summary": "More than a mile beneath the surface of the Red Sea, scientists have discovered rare underwater lakes that could reveal secrets about Earth's ancient oceans and the possibility of …",
+   "title": "Draining peatlands is responsible for a few percent of our global warming",
+   "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+   "summary": "Detailed estimate going back to 1800 shows how much carbon is being liberated.",
+   "date": "2026-11-26",
+   "source": "Ars Technica"
+  },
+  {
+   "title": "The surprising reason women seem better at multitasking than men",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261125045306.htm",
+   "summary": "Men and women appear to be similarly capable of multitasking, but men are more than twice as likely to ignore conversation while juggling multiple activities. Researchers believe …",
    "date": "2026-11-26",
    "source": "ScienceDaily"
   },
   {
-   "title": "Astronomers may have discovered a black hole born before the first stars",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
-   "summary": "A mysterious object named Phoebe, detected when it briefly magnified a distant star, could be a primordial black hole formed just after the Big Bang. With an estimated mass only …",
+   "title": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm",
+   "summary": "Scientists have solved the mystery of strange trenches scattered across Australia’s vast Nullarbor Plain, revealing an extensive hidden world beneath the surface. These subtle …",
    "date": "2026-11-26",
    "source": "ScienceDaily"
   },
@@ -116,13 +123,6 @@
    "summary": "Scientists are inventing new ways to search for the missing mass of the universe. The post Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter first appeared on Quanta …",
    "date": "2026-11-25",
    "source": "Quanta Magazine"
-  },
-  {
-   "title": "AI may soon change what it means to be a theoretical physicist",
-   "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-   "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
-   "date": "2026-11-25",
-   "source": "Ars Technica"
   },
   {
    "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
