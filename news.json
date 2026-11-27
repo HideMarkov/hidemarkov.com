@@ -1,40 +1,33 @@
 {
- "updated": "2026-11-27T12:41+00:00",
+ "updated": "2026-11-27T23:31+00:00",
  "news": [
   {
-   "title": "MELDUNGEN WIRTSCHAFT - EU-Kommission stimmt Zusammenschluss der Deutschen Börse mit der Fondsplattform Allfunds zu",
+   "title": "MELDUNGEN WIRTSCHAFT - Kriselnde Micasa hofft auf Zahlung «in substanzieller Höhe»",
    "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10075772",
    "summary": "Die neuesten Meldungen aus der Wirtschaft.",
    "date": "2026-11-27",
    "source": "NZZ"
   },
   {
-   "title": "«Bilanz»-Ranking - Sie gehören zu den Top Ten der reichsten Schweizer",
-   "link": "https://www.srf.ch/news/wirtschaft/bilanz-ranking-sie-gehoeren-zu-den-top-ten-der-reichsten-schweizer",
-   "summary": "Zum dritten Mal in Folge hat das Vermögen der 300 Reichsten in der Schweiz einen Rekord aufgestellt. Ein Überblick.",
-   "date": "2026-11-27",
-   "source": "SRF"
-  },
-  {
-   "title": "SAP erwägt offenbar Abbau von Tausenden Stellen",
-   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/sap-stellenabbau-geplant-100.html",
-   "summary": "Der Software-Konzern SAP will Medienberichten zufolge Tausende Stellen streichen. Hintergrund soll auch die Automatisierung durch Künstliche Intelligenz sein.",
+   "title": "Marktbericht: Schnäppchenjagd an der Börse",
+   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-176.html",
+   "summary": "Dank starker US-Börsen am Black Friday kann auch der DAX seine Erholung fortsetzen. Nach einer tiefroten Vorwoche geht er am Ende versöhnlich ins Wochenende. Vor allem …",
    "date": "2026-11-27",
    "source": "tagesschau"
   },
   {
-   "title": "Indian workers fill Germany's labor gaps but face hurdles and risks",
-   "link": "https://www.dw.com/en/indian-workers-fill-germany-s-labor-gaps-but-face-hurdles-and-risks/a-80072882?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "The number of Indians working in Germany has grown rapidly in recent years. But many continue to face challenges in the labor market. Some also fall victim to recruitment scams, …",
-   "date": "2026-11-27",
-   "source": "DW"
-  },
-  {
-   "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
-   "link": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
-   "summary": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
+   "title": "Will new energy fixes cost more in January?",
+   "link": "https://www.bbc.co.uk/news/videos/cwjd7y4jk581o?at_medium=RSS&at_campaign=rss",
+   "summary": "Energy bills will soar by 26% for millions of households in January after a surge in gas prices sparked by the Iran war.",
    "date": "2026-11-27",
    "source": "BBC"
+  },
+  {
+   "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+   "link": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's …",
+   "date": "2026-11-27",
+   "source": "DW"
   },
   {
    "title": "Das Jahrhundertgenie, das die Riemannsche Vermutung mit KI gelöst haben will",
