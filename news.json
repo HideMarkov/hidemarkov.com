@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-27T01:47+00:00",
+ "updated": "2026-11-27T12:41+00:00",
  "news": [
   {
-   "title": "EU-Sondergipfel zum Haushalt wird vorzeitig beendet",
-   "link": "https://www.nzz.ch/wirtschaft/eu-sondergipfel-zum-haushalt-wird-vorzeitig-abgebrochen-ld.10076004",
-   "summary": "Verhärtete Fronten: In Brüssel gibt es kaum Fortschritte im Streit um den nächsten EU-Haushalt. Wie geht es nun weiter?",
+   "title": "MELDUNGEN WIRTSCHAFT - EU-Kommission stimmt Zusammenschluss der Deutschen Börse mit der Fondsplattform Allfunds zu",
+   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10075772",
+   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
    "date": "2026-11-27",
    "source": "NZZ"
   },
   {
-   "title": "I spend £200 a month on fancy meals by myself - would you dine solo?",
+   "title": "«Bilanz»-Ranking - Sie gehören zu den Top Ten der reichsten Schweizer",
+   "link": "https://www.srf.ch/news/wirtschaft/bilanz-ranking-sie-gehoeren-zu-den-top-ten-der-reichsten-schweizer",
+   "summary": "Zum dritten Mal in Folge hat das Vermögen der 300 Reichsten in der Schweiz einen Rekord aufgestellt. Ein Überblick.",
+   "date": "2026-11-27",
+   "source": "SRF"
+  },
+  {
+   "title": "SAP erwägt offenbar Abbau von Tausenden Stellen",
+   "link": "https://www.tagesschau.de/wirtschaft/unternehmen/sap-stellenabbau-geplant-100.html",
+   "summary": "Der Software-Konzern SAP will Medienberichten zufolge Tausende Stellen streichen. Hintergrund soll auch die Automatisierung durch Künstliche Intelligenz sein.",
+   "date": "2026-11-27",
+   "source": "tagesschau"
+  },
+  {
+   "title": "Indian workers fill Germany's labor gaps but face hurdles and risks",
+   "link": "https://www.dw.com/en/indian-workers-fill-germany-s-labor-gaps-but-face-hurdles-and-risks/a-80072882?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "The number of Indians working in Germany has grown rapidly in recent years. But many continue to face challenges in the labor market. Some also fall victim to recruitment scams, …",
+   "date": "2026-11-27",
+   "source": "DW"
+  },
+  {
+   "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
    "link": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
    "summary": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
    "date": "2026-11-27",
    "source": "BBC"
   },
   {
-   "title": "«Bilanz»-Ranking - Das sind die 300 reichsten Menschen in der Schweiz",
-   "link": "https://www.srf.ch/news/wirtschaft/bilanz-ranking-das-sind-die-300-reichsten-menschen-in-der-schweiz",
-   "summary": "Zum dritten Mal in Folge hat das Vermögen der 300 Reichsten in der Schweiz einen Rekord aufgestellt. Ein Überblick.",
-   "date": "2026-11-26",
-   "source": "SRF"
-  },
-  {
-   "title": "Spanier Hernández de Cos soll Nachfolger von EZB-Chefin Lagarde werden",
-   "link": "https://www.tagesschau.de/wirtschaft/ezb-chef-de-cos-100.html",
-   "summary": "EZB-Chefin Lagarde hatte angekündigt, ihren Posten im Februar aufzugeben. Nun ist die Nachfolge geklärt: Die EU-Spitzen einigten sich auf den Spanier Hernández de Cos. Ein …",
-   "date": "2026-11-26",
-   "source": "tagesschau"
-  },
-  {
-   "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
-   "link": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "The agreement offers new export and investment opportunities for Jakarta and Brussels. But can Indonesia turn Europe's growing interest in its markets and critical minerals into …",
-   "date": "2026-11-26",
-   "source": "DW"
-  },
-  {
-   "title": "Europas Infrastrukturen sind schlecht vor Cyberattacken geschützt. Wenn Russland oder Iran angreifen, kann das zu gefährlichen Ausfällen führen",
-   "link": "https://www.nzz.ch/pro/europas-infrastrukturen-sind-schlecht-vor-cyberattacken-geschuetzt-wenn-russland-oder-iran-angreifen-kann-das-zu-gefaehrlichen-ausfaellen-fuehren-ld.10068484",
-   "summary": "Der Unterbruch bei Microsoft oder die Sabotageaktionen gegen Kühlregale zeigen, welche gravierenden Folgen technische Störungen im Alltag haben können. Das können Angreifer wie …",
-   "date": "2026-11-26",
+   "title": "Das Jahrhundertgenie, das die Riemannsche Vermutung mit KI gelöst haben will",
+   "link": "https://www.nzz.ch/wissenschaft/jahrhundertgenie-wer-ist-der-anthropic-mathematiker-der-die-riemannsche-vermutung-mit-ki-geloest-haben-will-ld.10072159",
+   "summary": "Der 34-jährige Levent Alpöge war schon ein aussergewöhnlicher Mathematiker, bevor er mithilfe der besten KI der Welt das grösste Rätsel seines Faches bezwang. Ein Porträt eines …",
+   "date": "2026-11-27",
    "source": "NZZ"
   }
  ],
@@ -90,25 +90,25 @@
  ],
  "science": [
   {
+   "title": "The narwhal’s legendary “unicorn horn” holds a remarkable engineering secret",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+   "summary": "The narwhal’s iconic spiral tusk, once prized in Europe as the horn of a mythical unicorn, conceals an extraordinary feat of natural engineering. Using advanced X-ray technology, …",
+   "date": "2026-11-27",
+   "source": "ScienceDaily"
+  },
+  {
+   "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm",
+   "summary": "Virginia Tech scientists have discovered how to transform one of the world's hardest-to-recycle plastics into a valuable ingredient for high-performance engine oil. Their …",
+   "date": "2026-11-27",
+   "source": "ScienceDaily"
+  },
+  {
    "title": "Draining peatlands is responsible for a few percent of our global warming",
    "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
    "summary": "Detailed estimate going back to 1800 shows how much carbon is being liberated.",
    "date": "2026-11-26",
    "source": "Ars Technica"
-  },
-  {
-   "title": "The surprising reason women seem better at multitasking than men",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261125045306.htm",
-   "summary": "Men and women appear to be similarly capable of multitasking, but men are more than twice as likely to ignore conversation while juggling multiple activities. Researchers believe …",
-   "date": "2026-11-26",
-   "source": "ScienceDaily"
-  },
-  {
-   "title": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm",
-   "summary": "Scientists have solved the mystery of strange trenches scattered across Australia’s vast Nullarbor Plain, revealing an extensive hidden world beneath the surface. These subtle …",
-   "date": "2026-11-26",
-   "source": "ScienceDaily"
   },
   {
    "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
