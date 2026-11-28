@@ -1,39 +1,46 @@
 {
- "updated": "2026-11-27T23:31+00:00",
+ "updated": "2026-11-28T07:59+00:00",
  "news": [
   {
-   "title": "MELDUNGEN WIRTSCHAFT - Kriselnde Micasa hofft auf Zahlung «in substanzieller Höhe»",
-   "link": "https://www.nzz.ch/wirtschaft/wirtschaft-die-neuesten-meldungen-ld.10075772",
-   "summary": "Die neuesten Meldungen aus der Wirtschaft.",
-   "date": "2026-11-27",
-   "source": "NZZ"
-  },
-  {
-   "title": "Marktbericht: Schnäppchenjagd an der Börse",
-   "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-176.html",
-   "summary": "Dank starker US-Börsen am Black Friday kann auch der DAX seine Erholung fortsetzen. Nach einer tiefroten Vorwoche geht er am Ende versöhnlich ins Wochenende. Vor allem …",
-   "date": "2026-11-27",
+   "title": "So einfach kann man schlüssellose Autos mit Keyless Go knacken",
+   "link": "https://www.tagesschau.de/wirtschaft/digitales/keyless-cars-sicherheitsluecke-100.html",
+   "summary": "Autos, die ohne Schlüssel starten, haben eine Sicherheitslücke. Für Halter stellt sich die Frage: Wenn das Auto geklaut wird, zahlt jemand für den Schaden? Von H. Beckmann und …",
+   "date": "2026-11-28",
    "source": "tagesschau"
   },
   {
-   "title": "Will new energy fixes cost more in January?",
-   "link": "https://www.bbc.co.uk/news/videos/cwjd7y4jk581o?at_medium=RSS&at_campaign=rss",
-   "summary": "Energy bills will soar by 26% for millions of households in January after a surge in gas prices sparked by the Iran war.",
-   "date": "2026-11-27",
+   "title": "Butcher blames costs for closure after 127 years",
+   "link": "https://www.bbc.co.uk/news/articles/cqe9k3m9mvexo?at_medium=RSS&at_campaign=rss",
+   "summary": "Bennett Butchers in Spalding says rises in National Insurance and energy have made it \"unviable\".",
+   "date": "2026-11-28",
    "source": "BBC"
   },
   {
-   "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
-   "link": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-bus-2091-xml-mrss",
-   "summary": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's …",
-   "date": "2026-11-27",
+   "title": "Indian workers fill Germany's labor gaps but face hurdles and risks",
+   "link": "https://www.dw.com/en/indian-workers-fill-germany-s-labor-gaps-but-face-hurdles-and-risks/a-80072882?maca=en-rss-en-bus-2091-xml-mrss",
+   "summary": "The number of Indians working in Germany has grown rapidly in recent years. But many continue to face challenges in the labor market. Some also fall victim to recruitment scams, …",
+   "date": "2026-11-28",
    "source": "DW"
   },
   {
-   "title": "Das Jahrhundertgenie, das die Riemannsche Vermutung mit KI gelöst haben will",
-   "link": "https://www.nzz.ch/wissenschaft/jahrhundertgenie-wer-ist-der-anthropic-mathematiker-der-die-riemannsche-vermutung-mit-ki-geloest-haben-will-ld.10072159",
-   "summary": "Der 34-jährige Levent Alpöge war schon ein aussergewöhnlicher Mathematiker, bevor er mithilfe der besten KI der Welt das grösste Rätsel seines Faches bezwang. Ein Porträt eines …",
-   "date": "2026-11-27",
+   "title": "Rund ein Drittel weniger Rüben - «Katastrophales» Jahr für Zuckerbauern könnte Folgen haben",
+   "link": "https://www.srf.ch/news/dialog/rund-ein-drittel-weniger-rueben-katastrophales-jahr-fuer-zuckerbauern-koennte-folgen-haben",
+   "summary": "Wegen der Trockenheit ernten die Bauern weniger Zuckerrüben - mit möglichen Folgen für die gesamte Wertschöpfungskette.",
+   "date": "2026-11-28",
+   "source": "SRF"
+  },
+  {
+   "title": "Globaler Krieg oder eine friedliche Neuordnung der Welt: worauf sich die Schweiz vorbereiten muss",
+   "link": "https://www.nzz.ch/pro/globaler-krieg-oder-eine-friedliche-neuordnung-der-welt-worauf-sich-die-schweiz-vorbereiten-muss-ld.10055142",
+   "summary": "In der Debatte um die Armeefinanzen fehlt der Blick auf den geopolitischen Kontext. Zwei Szenarien, wie sich die Lage entwickeln könnte. Es geht um deutlich mehr als um Waffen.",
+   "date": "2026-11-28",
+   "source": "NZZ"
+  },
+  {
+   "title": "«Wir haben heute schon Technologien, die weltweit einmalig sind», sagt der Entwickler von Pseudosatelliten",
+   "link": "https://www.nzz.ch/wissenschaft/wir-haben-heute-schon-technologien-die-weltweit-einmalig-sind-sagt-der-entwickler-von-pseudosatelliten-ld.10041505",
+   "summary": "High-Altitude Platforms (HAP) sollen Satelliten konkurrenzieren. Im Gespräch erklärt ein Ingenieur des Deutschen Zentrums für Luft- und Raumfahrt, welche Fähigkeiten sie …",
+   "date": "2026-11-28",
    "source": "NZZ"
   }
  ],
